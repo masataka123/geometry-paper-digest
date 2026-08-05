@@ -10,7 +10,7 @@ summary: "これはレイアウト確認用のサンプル記事です。実際�
 license_name: "サンプル"
 license_url: ""
 article_mode: "レイアウト確認用"
-published: false
+published: true
 ---
 
 ## 一文要約
