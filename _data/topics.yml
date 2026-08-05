@@ -1,0 +1,14 @@
+- slug: algebraic-geometry
+  title: 代数幾何学
+  english: Algebraic geometry
+  description: 双有理幾何、Fano多様体、K安定性、モジュライ、特性類など。
+
+- slug: complex-geometry
+  title: 複素幾何学
+  english: Complex geometry
+  description: Kähler幾何、複素微分幾何、Monge–Ampère方程式、Hodge理論など。
+
+- slug: several-complex-variables
+  title: 多変数複素解析
+  english: Several complex variables
+  description: 擬凸性、Stein空間、Oka理論、\(L^2\)評価、複素解析空間など。

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<header class="site-header landing-header">
+  <p class="eyebrow">ALGEBRAIC GEOMETRY · COMPLEX GEOMETRY · SCV</p>
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</header>
+
+<section class="topic-grid" aria-label="論文分野">
+  {% for topic in site.data.topics %}
+    {% assign topic_posts = site.posts | where: "topic", topic.slug %}
+    <a class="topic-card" href="{{ '/topics/' | append: topic.slug | append: '.html' | relative_url }}">
+      <span class="topic-count">{{ topic_posts | size }} ARTICLES</span>
+      <h2>{{ topic.title }}</h2>
+      <p class="topic-english">{{ topic.english }}</p>
+      <p>{{ topic.description }}</p>
+      <span class="topic-open">記事を見る <span aria-hidden="true">→</span></span>
+    </a>
+  {% endfor %}
+</section>
+
+<section class="notice-card" aria-label="このサイトについて">
+  <h2>このサイトについて</h2>
+  <p>arXivの新着論文から関心分野に近いものを選び、背景、イントロダクション、主結果、証明の見取り図を日本語で紹介します。</p>
+</section>

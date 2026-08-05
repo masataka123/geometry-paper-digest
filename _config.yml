@@ -1,0 +1,18 @@
+title: Geometry Paper Digest
+description: 代数幾何学・複素幾何学・多変数複素解析の新着論文を日本語で紹介します。
+lang: ja
+timezone: Asia/Tokyo
+url: ""
+baseurl: "/geometry-paper-digest"
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+permalink: /papers/:year/:month/:day/:title/
+future: false
+show_excerpts: false
+exclude:
+  - README.md
+  - AGENTS.md
+  - DAILY_PROMPT.md
+  - selection-profile.yml
+  - LICENSE

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% assign topic = site.data.topics | where: "slug", page.topic_slug | first %}
+{% assign topic_posts = site.posts | where: "topic", page.topic_slug %}
+
+<nav class="topic-nav" aria-label="論文分野">
+  <a href="{{ '/' | relative_url }}">全分野</a>
+  {% for item in site.data.topics %}
+    <a href="{{ '/topics/' | append: item.slug | append: '.html' | relative_url }}"{% if item.slug == page.topic_slug %} aria-current="page"{% endif %}>{{ item.title }}</a>
+  {% endfor %}
+</nav>
+
+<header class="site-header">
+  <p class="eyebrow">{{ site.title }}</p>
+  <h1>{{ topic.title }}</h1>
+  <p class="topic-english heading-subtitle">{{ topic.english }}</p>
+  <p>{{ topic.description }}</p>
+</header>
+
+<section class="digest-list" aria-label="{{ topic.title }}の記事一覧">
+  {% if topic_posts.size == 0 %}
+    <p class="empty">まだ記事はありません。</p>
+  {% endif %}
+
+  {% for post in topic_posts %}
+    <article class="digest">
+      <dl class="dates">
+        <div><dt>公開日</dt><dd>{{ post.date | date: "%Y-%m-%d" }}</dd></div>
+        {% if post.arxiv_submitted %}<div><dt>arXiv初回投稿日</dt><dd>{{ post.arxiv_submitted }}</dd></div>{% endif %}
+      </dl>
+      <h2><a class="title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="authors">{{ post.authors }}</p>
+      <p>{{ post.summary }}</p>
+      <p class="links">
+        <a href="{{ post.url | relative_url }}">日本語記事</a>
+        <a href="{{ post.arxiv_url }}" rel="noopener">原論文</a>
+        {% if post.digest_pdf %}<a href="{{ post.digest_pdf | relative_url }}">PDF版</a>{% endif %}
+      </p>
+    </article>
+  {% endfor %}
+</section>

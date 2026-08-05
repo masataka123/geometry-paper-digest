@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{% assign topic = site.data.topics | where: "slug", page.topic | first %}
+
+<nav class="topic-nav" aria-label="パンくず">
+  <a href="{{ '/' | relative_url }}">全分野</a>
+  <a href="{{ '/topics/' | append: page.topic | append: '.html' | relative_url }}">{{ topic.title }}</a>
+</nav>
+
+<article class="paper-page">
+  <header class="paper-header">
+    <p class="eyebrow">{{ topic.title }} · {{ page.date | date: "%Y-%m-%d" }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="authors">{{ page.authors }}</p>
+    <p class="paper-summary">{{ page.summary }}</p>
+    <dl class="paper-meta">
+      <div><dt>arXiv</dt><dd><a href="{{ page.arxiv_url }}">{{ page.arxiv_id }}</a></dd></div>
+      {% if page.arxiv_submitted %}<div><dt>初回投稿日</dt><dd>{{ page.arxiv_submitted }}</dd></div>{% endif %}
+      {% if page.license_name %}<div><dt>原論文のライセンス</dt><dd>{% if page.license_url %}<a href="{{ page.license_url }}">{{ page.license_name }}</a>{% else %}{{ page.license_name }}{% endif %}</dd></div>{% endif %}
+      {% if page.article_mode %}<div><dt>掲載形式</dt><dd>{{ page.article_mode }}</dd></div>{% endif %}
+    </dl>
+    <p class="links paper-links">
+      <a href="{{ page.arxiv_url }}">原論文を開く</a>
+      {% if page.digest_pdf %}<a href="{{ page.digest_pdf | relative_url }}">PDF版</a>{% endif %}
+    </p>
+  </header>
+
+  <div class="paper-content">
+    {{ content }}
+  </div>
+</article>

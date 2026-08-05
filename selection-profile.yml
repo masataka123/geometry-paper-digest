@@ -1,0 +1,83 @@
+version: 1
+language: ja
+lookback_hours: 36
+maximum_recommendations: 5
+auto_select_top_paper: true
+
+arxiv_categories:
+  - math.AG
+  - math.CV
+  - math.DG
+
+high_priority_keywords:
+  - Miyaoka-Yau
+  - Miyaoka--Yau
+  - Chern class
+  - Chern classes
+  - Chern number
+  - Fano variety
+  - Fano varieties
+  - K-stability
+  - K-semistability
+  - delta invariant
+  - weighted delta invariant
+  - Kahler-Ricci soliton
+  - Kähler-Ricci soliton
+  - Kahler-Einstein
+  - Kähler-Einstein
+  - Bogomolov-Gieseker
+  - klt singularities
+  - orbifold Chern class
+  - weighted projective space
+
+medium_priority_keywords:
+  - complex Monge-Ampere equation
+  - complex Monge–Ampère equation
+  - pluripotential theory
+  - Fujiki class
+  - Higgs sheaf
+  - Higgs bundle
+  - nonabelian Hodge theory
+  - Oka theory
+  - Oka manifold
+  - Stein manifold
+  - several complex variables
+  - pseudoconvexity
+  - L2 estimate
+  - vanishing theorem
+  - moduli space
+  - birational geometry
+
+preferred_authors: []
+excluded_keywords: []
+
+ranking_rules:
+  title_match_weight: 5
+  abstract_match_weight: 2
+  multiple_category_bonus: 2
+  survey_penalty: 1
+  replacement_only_penalty: 1
+
+publication:
+  default_topic: algebraic-geometry
+  include_one_sentence_summary: true
+  include_background: true
+  include_introduction: true
+  include_main_results: true
+  include_proof_outline: true
+  include_research_context: true
+  include_source_locations: true
+  human_review_required: false
+
+license_policy:
+  mode: license-aware
+  permissive_translation_licenses:
+    - CC0
+    - CC BY
+    - CC BY-SA
+    - CC BY-NC
+    - CC BY-NC-SA
+  no_derivatives_licenses:
+    - CC BY-ND
+    - CC BY-NC-ND
+  fallback_for_nonpermissive_license: original-japanese-summary
