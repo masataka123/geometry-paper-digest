@@ -184,24 +184,34 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2606.13569"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-kahler-hyperbolicity-modulus.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.12878"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-curvature-kahler-toric-manifolds.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.08224"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-kahler-thresholds.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.08185"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-holomorphic-one-forms-geometry.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.06778"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-orbifold-uniformization-parabolic-higgs.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.03424"
     requested_version: "v1"
     status: pending
