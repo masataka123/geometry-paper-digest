@@ -63,6 +63,12 @@ critical_title_keywords:
   - Tian's canonical extension
   - Hermite-Einstein metric
   - weighted Hermite-Einstein metric
+  - constant scalar curvature Kähler metric
+  - cscK metric
+  - third Chern class
+  - parabolic Bogomolov-Gieseker inequality
+  - complex ball uniformization
+  
 
 high_priority_keywords:
   - klt singularities
@@ -117,6 +123,12 @@ high_priority_keywords:
   - orbifold Bogomolov-Gieseker inequality
   - orbifold Miyaoka-Yau inequality
   - stability of tangent sheaf
+  - Kähler-Ricci flow
+  - holomorphic sectional curvature
+  - Kähler current
+  - parabolic Higgs bundle
+  - Kähler MMP
+  - ball quotient
 
 medium_priority_keywords:
   - birational geometry
