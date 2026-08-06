@@ -9,7 +9,7 @@
   arxiv_category: math.DG
   title: 複素微分幾何学
   english: Complex Differential Geometry
-  description: Kahler-Einstein計量などの標準計量, ベクトル束の安定性とHermite-Einstein計量など
+  description: Kahler-Einstein計量などの標準計量, ベクトル束の安定性, Hermite-Einstein計量など
 
 - slug: several-complex-variables
   arxiv_category: math.CV
