@@ -1,7 +1,8 @@
-version: 2
+version: 3
 language: ja
-lookback_hours: 24
-no_suitable_paper_message: "直近24時間には基準を満たす新着論文がありません"
+lookback_hours: 96
+maximum_articles_per_run: 5
+no_suitable_paper_message: "直近96時間には基準を満たす新着論文がありません"
 
 arxiv_categories:
   - math.AG
@@ -281,7 +282,46 @@ selection_rules:
     - intersection theory
     - stability
     - conditions on subvarieties
-  duplicate_arxiv_policy: reject_unless_main_theorem_materially_changed_in_new_version
+  candidate_pool_limit: none
+  select_only_sufficient_matches: true
+  do_not_fill_article_quota_with_weak_matches: true
+  initial_screening_fields:
+    - title
+    - authors
+    - primary category
+    - secondary categories
+    - abstract
+    - arXiv identifier
+    - first-submission date
+    - last-updated date
+  initial_screening_primary_evidence:
+    - title
+    - categories
+    - abstract
+  initial_screening_does_not_require:
+    - PDF full-text review
+    - proof review
+    - TeX source review
+  duplicate_arxiv_policy: reject_normalized_base_identifier_including_new_versions_and_cross_lists
+  duplicate_sources:
+    - front matter arxiv_id
+    - front matter arxiv_url
+    - arXiv URLs in article body when needed
+  duplicate_checks:
+    - before candidate selection
+    - after article creation and before pull request
+
+article_source_policy:
+  primary_scope: Abstract and Introduction
+  inspect:
+    - arXiv abstract page and exact metadata
+    - displayed license
+    - PDF Abstract
+    - PDF Introduction
+  full_paper_review_required: false
+  proof_review_required: false
+  tex_source_required: false
+  tex_source_exception: minimum necessary when PDF structure, notation, or an Introduction theorem number is unclear
 
 license_policy:
   mode: license-aware
@@ -294,4 +334,7 @@ license_policy:
   no_derivatives_licenses:
     - CC BY-ND
     - CC BY-NC-ND
-  fallback_for_nonpermissive_license: link-short-quote-if-needed-and-original-japanese-summary
+  fallback_for_nonpermissive_license: original-english-summary-and-original-japanese-summary-with-source-link
+  require_exactly_one_english_field:
+    - abstract_en
+    - summary_en

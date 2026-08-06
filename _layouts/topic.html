@@ -31,19 +31,38 @@ layout: default
       </dl>
       <h2><a class="title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       <p class="authors">{{ post.authors }}</p>
-      {% if post.abstract_en or post.abstract_ja %}
+      {% if post.abstract_en != nil and post.abstract_en != empty %}
         <div class="abstracts">
           <section class="abstract abstract-en">
             <h3>Abstract</h3>
-            {% if post.abstract_en != nil and post.abstract_en != empty %}
-              <p lang="en">{{ post.abstract_en }}</p>
-            {% else %}
-              <p lang="en"><a href="{{ post.arxiv_url }}" rel="noopener">Abstract on arXiv</a></p>
-            {% endif %}
+            <p lang="en">{{ post.abstract_en }}</p>
           </section>
           <section class="abstract abstract-ja">
             <h3>日本語要約</h3>
             {% if post.abstract_ja != nil and post.abstract_ja != empty %}<p>{{ post.abstract_ja }}</p>{% endif %}
+          </section>
+        </div>
+      {% elsif post.summary_en != nil and post.summary_en != empty %}
+        <div class="abstracts">
+          <section class="abstract abstract-en english-summary">
+            <h3>English summary</h3>
+            <p lang="en">{{ post.summary_en }}</p>
+            <p class="abstract-source"><a href="{{ post.abstract_source_url | default: post.arxiv_url }}" rel="noopener">Original abstract on arXiv</a></p>
+          </section>
+          <section class="abstract abstract-ja">
+            <h3>日本語要約</h3>
+            {% if post.abstract_ja != nil and post.abstract_ja != empty %}<p>{{ post.abstract_ja }}</p>{% endif %}
+          </section>
+        </div>
+      {% elsif post.abstract_ja != nil and post.abstract_ja != empty %}
+        <div class="abstracts">
+          <section class="abstract abstract-en">
+            <h3>Abstract</h3>
+            <p lang="en"><a href="{{ post.arxiv_url }}" rel="noopener">Abstract on arXiv</a></p>
+          </section>
+          <section class="abstract abstract-ja">
+            <h3>日本語要約</h3>
+            <p>{{ post.abstract_ja }}</p>
           </section>
         </div>
       {% else %}
