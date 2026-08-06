@@ -5,24 +5,34 @@ paper_count: 103
 papers:
   - arxiv_id: "2608.03572"
     requested_version: "v1"
-    status: pending
-    note: ""
+    status: already-published
+    note: "基本arXiv番号が既存記事と重複"
+    article_path: "_posts/2026-08-06-csck-birational-models.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2608.03434"
     requested_version: "v1"
-    status: pending
-    note: ""
+    status: already-published
+    note: "基本arXiv番号が既存記事と重複"
+    article_path: "_posts/2026-08-06-fano-indices-weighted-projective-spaces.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2608.02875"
     requested_version: "v1"
-    status: pending
-    note: ""
+    status: already-published
+    note: "基本arXiv番号が既存記事と重複"
+    article_path: "_posts/2026-08-06-murphys-law-nonabelian-hodge.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2608.02413"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-oka-complements-cubic-hypersurfaces.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2608.01859"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-secondary-characteristic-classes-cr.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2608.01519"
     requested_version: ""
     status: pending
