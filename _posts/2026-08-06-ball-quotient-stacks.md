@@ -8,7 +8,9 @@ arxiv_id: "2608.04688v1"
 arxiv_url: "https://arxiv.org/abs/2608.04688"
 arxiv_submitted: "2026-08-05"
 arxiv_updated: "2026-08-05"
-arxiv_categories: "math.AG"
+arxiv_primary_category: "math.AG"
+arxiv_categories:
+  - math.AG
 summary: >-
   対数 Higgs 束の多重安定性と Chern 類等式から、滑らかで固有な Deligne--Mumford スタックの開部分が複素単位球の商になることを特徴づける。逆に任意の球商スタックについて、境界が有限群による Abel 多様体の商の非交和となる滑らかな固有コンパクト化を構成する。
 abstract_en: >-

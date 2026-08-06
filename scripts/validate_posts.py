@@ -19,6 +19,7 @@ REQUIRED_FIELDS = (
     "layout",
     "title",
     "authors",
+    "arxiv_primary_category",
     "topic",
     "arxiv_id",
     "arxiv_url",
@@ -44,6 +45,11 @@ POST_FILENAME_RE = re.compile(
     r"^(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>[a-z0-9]+(?:-[a-z0-9]+)*)\.md$"
 )
 ARXIV_HOSTS = {"arxiv.org", "export.arxiv.org"}
+PRIMARY_CATEGORY_TOPIC = {
+    "math.AG": "algebraic-geometry",
+    "math.DG": "differential-geometry",
+    "math.CV": "several-complex-variables",
+}
 
 PLACEHOLDERS = (
     (re.compile(r"Exact official English arXiv title", re.IGNORECASE), "英語タイトルのプレースホルダー"),
@@ -229,8 +235,33 @@ def validate_post(path: Path, topics: set[str]) -> tuple[list[ValidationError], 
         )
     if "published" in metadata and (type(metadata["published"]) is not bool or metadata["published"] is not True):
         errors.append(ValidationError(path, "published", "YAMLの真偽値 `true` である必要があります"))
-    if "topic" in metadata and metadata["topic"] not in topics:
-        errors.append(ValidationError(path, "topic", f"未定義のトピック `{metadata['topic']}` が指定されています"))
+    topic = metadata.get("topic")
+    if "topic" in metadata and not nonempty_text(topic):
+        errors.append(ValidationError(path, "topic", "一つのtopicを文字列で指定する必要があります"))
+    elif "topic" in metadata and topic not in topics:
+        errors.append(ValidationError(path, "topic", f"未定義のトピック `{topic}` が指定されています"))
+
+    primary = metadata.get("arxiv_primary_category")
+    if "arxiv_primary_category" in metadata:
+        if not nonempty_text(primary):
+            errors.append(ValidationError(path, "primary category", "`arxiv_primary_category` は空でない文字列である必要があります"))
+        elif primary not in PRIMARY_CATEGORY_TOPIC:
+            errors.append(ValidationError(path, "primary category", f"対象外のprimary category `{primary}` です"))
+        elif topic != PRIMARY_CATEGORY_TOPIC[primary]:
+            errors.append(ValidationError(path, "primary categoryとtopic", f"`{primary}` のtopicは `{PRIMARY_CATEGORY_TOPIC[primary]}` である必要があります"))
+
+    categories = metadata.get("arxiv_categories")
+    if "arxiv_categories" in metadata:
+        if not isinstance(categories, list):
+            errors.append(ValidationError(path, "arxiv_categories", "YAMLリストである必要があります"))
+        else:
+            if any(not nonempty_text(category) for category in categories):
+                errors.append(ValidationError(path, "arxiv_categories", "各要素は空でない文字列である必要があります"))
+            hashable_categories = [category for category in categories if isinstance(category, str)]
+            if len(hashable_categories) != len(set(hashable_categories)):
+                errors.append(ValidationError(path, "arxiv_categories", "カテゴリーが重複しています"))
+            if nonempty_text(primary) and primary not in categories:
+                errors.append(ValidationError(path, "arxiv_categories", "primary categoryが含まれていません"))
 
     forbidden_math = ((r"\(", r"\(...\)"), (r"\[", r"\[...\]"))
     for marker, description in forbidden_math:

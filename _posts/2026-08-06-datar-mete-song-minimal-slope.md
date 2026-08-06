@@ -3,12 +3,16 @@ layout: paper
 title: "On the Datar-Mete-Song minimal slope conjecture"
 title_ja: "Datar--Mete--Song の最小 slope 予想について"
 authors: "Xin Fu"
-topic: complex-geometry
+topic: algebraic-geometry
 arxiv_id: "2608.01198v2"
 arxiv_url: "https://arxiv.org/abs/2608.01198"
 arxiv_submitted: "2026-08-02"
 arxiv_updated: "2026-08-05"
-arxiv_categories: "math.AG, math.AP, math.CV"
+arxiv_primary_category: "math.AG"
+arxiv_categories:
+  - math.AG
+  - math.AP
+  - math.CV
 summary: >-
   コンパクト Kähler 多様体上の二つの Kähler 類について、$J$-slope 半安定性が双有理テスト類で定義される最小 $J$-slope と位相的 slope の一致と同値であるという Datar--Mete--Song 予想を証明する。さらに半安定なトーリック Kähler 多様体では最適不安定化部分多様体の集合が解析的であり、不変な場合の弱解が大トーラス上で滑らかになることを示す。
 abstract_en: ""

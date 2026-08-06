@@ -3,12 +3,14 @@ layout: paper
 title: "On the extension of Kähler currents on compact complex manifolds"
 title_ja: "コンパクト複素多様体上の Kähler current の延長について"
 authors: "Jiafu Ning, Kai Pang, Haoyuan Sun, Zhiwei Wang, Xiangyu Zhou"
-topic: complex-geometry
+topic: several-complex-variables
 arxiv_id: "2608.01330v1"
 arxiv_url: "https://arxiv.org/abs/2608.01330"
 arxiv_submitted: "2026-08-02"
 arxiv_updated: "2026-08-02"
-arxiv_categories: "math.CV"
+arxiv_primary_category: "math.CV"
+arxiv_categories:
+  - math.CV
 summary: >-
   コンパクト Hermitian 多様体の閉複素部分多様体上の任意の $\omega|_V$-plurisubharmonic 関数が、全空間の $\omega$-plurisubharmonic 関数へ延長できることを証明する。狭義版も成り立つため、Kähler 類の current は同じ ambient class の Kähler current の制限として実現される。
 abstract_en: ""

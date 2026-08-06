@@ -3,12 +3,15 @@ layout: paper
 title: "Murphy's law in non-abelian Hodge theory"
 title_ja: "非可換 Hodge 理論における Murphy の法則"
 authors: "Gregorio Baldi, Yeuk Hay Joshua Lam"
-topic: complex-geometry
+topic: algebraic-geometry
 arxiv_id: "2608.02875v1"
 arxiv_url: "https://arxiv.org/abs/2608.02875"
 arxiv_submitted: "2026-08-03"
 arxiv_updated: "2026-08-03"
-arxiv_categories: "math.AG, math.NT"
+arxiv_primary_category: "math.AG"
+arxiv_categories:
+  - math.AG
+  - math.NT
 summary: >-
   整数係数をもたない有理 Hodge 構造の変動を明示的に構成し、非可換 Hodge 理論で整合性を外すと生じる病理を調べる論文である。曲線上の稠密モノドロミーをもつ例、指標多様体の $S$-整点、非整係数 Hodge locus の振る舞いを結びつける。
 abstract_en: >-

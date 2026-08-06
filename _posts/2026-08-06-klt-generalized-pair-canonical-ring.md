@@ -8,7 +8,9 @@ arxiv_id: "2608.03258v1"
 arxiv_url: "https://arxiv.org/abs/2608.03258"
 arxiv_submitted: "2026-08-04"
 arxiv_updated: "2026-08-04"
-arxiv_categories: "math.AG"
+arxiv_primary_category: "math.AG"
+arxiv_categories:
+  - math.AG
 summary: >-
   通常の klt pair に対する標準環の有限生成が generalized pair にも成り立つかという問題に、反例を与える論文である。著者らは滑らかな射影多様体上で nef な generalized canonical class をもちながら、その環が有限生成でない 19 次元の例を構成する。
 abstract_en: ""

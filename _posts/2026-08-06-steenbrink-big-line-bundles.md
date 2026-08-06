@@ -3,12 +3,14 @@ layout: paper
 title: "Steenbrink vanishing theorem for big line bundles"
 title_ja: "big 線束に対する Steenbrink 消滅定理"
 authors: "Yuta Watanabe"
-topic: complex-geometry
+topic: several-complex-variables
 arxiv_id: "2608.01519v1"
 arxiv_url: "https://arxiv.org/abs/2608.01519"
 arxiv_submitted: "2026-08-02"
 arxiv_updated: "2026-08-02"
-arxiv_categories: "math.CV"
+arxiv_primary_category: "math.CV"
+arxiv_categories:
+  - math.CV
 summary: >-
   ample 線束に対する Steenbrink 消滅定理を、乗数イデアル層を組み込むことでコンパクト複素空間上の big 線束へ拡張する。特異 Hermitian 計量を適切に選び、対数的微分形式のコホモロジーが $p+q>n$ で消滅することを示し、nef and big の場合には乗数イデアルを式から除ける。
 abstract_en: ""

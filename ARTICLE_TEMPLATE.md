@@ -3,12 +3,16 @@ layout: paper
 title: "Exact official English arXiv title"
 title_ja: "任意の日本語タイトル"
 authors: "著者名"
+
+arxiv_primary_category: "math.AG"
+arxiv_categories:
+  - math.AG
+  - math.DG
 topic: algebraic-geometry
 arxiv_id: "2608.00000v1"
 arxiv_url: "https://arxiv.org/abs/2608.00000"
 arxiv_submitted: "2026-08-01"
 arxiv_updated: "2026-08-01"
-arxiv_categories: "math.AG, math.DG"
 summary: >-
   一覧ページ用の日本語紹介を2〜4文で記載する。
 abstract_en: >-
@@ -29,6 +33,10 @@ published: true
 
 <!--
 検査規則:
+- topicは論文内容、タイトル、著者、既存topicから推測せず、arXiv公式メタデータのprimary categoryだけで決定する。
+- secondary categoryはtopic決定に使用せず、一つの記事にtopicは一つだけ設定する。
+- arxiv_primary_categoryを必ず保存し、primary categoryと全secondary categoryをarxiv_categoriesの重複のないYAMLリストとして保存する。
+- arxiv_primary_categoryがarxiv_categoriesに含まれ、math.AG → algebraic-geometry、math.DG → differential-geometry、math.CV → several-complex-variablesの対応になっていることを公開前に検査する。
 - titleにはarXivの正確な英語原題を使用する。
 - abstract_enとsummary_enを同時に埋めず、両方を空にもしない。
 - abstract_enは原文全文を掲載できるライセンスの場合だけ使用する。

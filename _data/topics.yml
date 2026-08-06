@@ -1,14 +1,17 @@
 - slug: algebraic-geometry
+  arxiv_category: math.AG
   title: 代数幾何学
-  english: Algebraic geometry
-  description: 双有理幾何、Fano多様体、K安定性、モジュライ、特性類など。
+  english: Algebraic Geometry
+  description: arXivのprimary categoryがmath.AGである論文。
 
-- slug: complex-geometry
-  title: 複素幾何学
-  english: Complex geometry
-  description: Kähler幾何、複素微分幾何、Monge–Ampère方程式、Hodge理論など。
+- slug: differential-geometry
+  arxiv_category: math.DG
+  title: 微分幾何学
+  english: Differential Geometry
+  description: arXivのprimary categoryがmath.DGである論文。
 
 - slug: several-complex-variables
+  arxiv_category: math.CV
   title: 多変数複素解析
-  english: Several complex variables
-  description: 擬凸性、Stein空間、Oka理論、\(L^2\)評価、複素解析空間など。
+  english: Complex Variables
+  description: arXivのprimary categoryがmath.CVである論文。

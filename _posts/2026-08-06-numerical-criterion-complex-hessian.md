@@ -3,18 +3,26 @@ layout: paper
 title: "A numerical criterion for complex Hessian type equations on projective manifolds"
 title_ja: "射影多様体上の複素 Hessian 型方程式に対する数値的判定法"
 authors: "Gao Chen, Sijie Nie, Yulun Xu"
-topic: complex-geometry
+topic: differential-geometry
+arxiv_primary_category: "math.DG"
+arxiv_categories:
+  - math.DG
 arxiv_id: "2608.03815v1"
 arxiv_url: "https://arxiv.org/abs/2608.03815"
 arxiv_submitted: "2026-08-04"
+arxiv_updated: "2026-08-04"
 summary: >-
   射影多様体上の複素 Hessian 型方程式について、解の存在を部分多様体上の交点数で判定する Nakai--Moishezon 型の基準を与える。強い狭義 right-Noetherian 条件の下での存在・一意性と、一般次数の狭義 right-Noetherian 多項式に対する一様判定を確立し、複素 Hessian 方程式と Hessian 商方程式に適用する。
 abstract_en: ""
+summary_en: >-
+  The paper studies solvability criteria for complex Hessian-type equations on projective manifolds. It relates analytic cone conditions to uniform intersection inequalities over proper subvarieties under right-Noetherian hypotheses. The resulting framework gives existence criteria for complex Hessian and Hessian quotient equations while distinguishing the general lower-degree case, where full solvability remains open.
+abstract_source_url: "https://arxiv.org/abs/2608.03815"
 abstract_ja: >-
   著者らは、付随する次数 $n$ の多項式が各点で強い狭義 right-Noetherian 条件を満たす複素 Hessian 型方程式に対し、射影多様体のすべての真部分多様体上の交点数による Nakai--Moishezon 型判定法を証明する。さらに任意次数の狭義 right-Noetherian 多項式について、一様な数値的不等式と摂動後の錐条件との同値を示す。この枠組みは複素 Hessian 方程式および Hessian 商方程式を含む。
 license_name: "arXiv non-exclusive distribution license 1.0"
 license_url: "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
-article_mode: "Abstractへのリンク＋独自日本語要約"
+article_mode: "Abstract・Introductionに基づく日本語要約"
+source_scope: "Abstract and Introduction"
 published: true
 ---
 
