@@ -2,17 +2,17 @@
   arxiv_category: math.AG
   title: 代数幾何学
   english: Algebraic Geometry
-  description: 
+  description: 極小モデル理論(MMP), KLT多様体, Chern類, K-安定性, Fano多様体など
   
 
 - slug: differential-geometry
   arxiv_category: math.DG
   title: 複素微分幾何学
   english: Complex Differential Geometry
-  description: 
+  description: Kahler-Einstein計量などの標準計量, ベクトル束の安定性とHermite-Einstein計量など
 
 - slug: several-complex-variables
   arxiv_category: math.CV
   title: 多変数複素解析
   english: Several Complex Variables
-  description: 
+  description: L2理論, Oka多様体, 解析空間など
