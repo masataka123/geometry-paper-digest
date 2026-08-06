@@ -1,73 +1,287 @@
-version: 1
+version: 2
 language: ja
-lookback_hours: 36
-maximum_recommendations: 5
-auto_select_top_paper: true
+lookback_hours: 24
+no_suitable_paper_message: "直近24時間には基準を満たす新着論文がありません"
 
 arxiv_categories:
   - math.AG
   - math.CV
   - math.DG
 
-high_priority_keywords:
-  - Miyaoka-Yau
-  - Miyaoka--Yau
+# Match spelling, accents, hyphen/dash styles, and singular/plural variants equivalently.
+critical_title_keywords:
+  - Miyaoka-Yau inequality
+  - Miyaoka--Yau inequality
+  - Miyaoka inequality
   - Chern class
   - Chern classes
   - Chern number
+  - Chern numbers
+  - second Chern class
+  - Bogomolov-Gieseker inequality
+  - orbifold Chern class
+  - Q-Chern class
   - Fano variety
   - Fano varieties
-  - K-stability
-  - K-semistability
+  - Fano manifold
+  - Fano manifolds
   - delta invariant
   - weighted delta invariant
-  - Kahler-Ricci soliton
+  - reduced delta invariant
+  - K-stability
+  - K-semistability
+  - K-polystability
+  - weighted K-stability
+  - greatest Ricci lower bound
+  - Kähler-Einstein metric
+  - Kahler-Einstein metric
   - Kähler-Ricci soliton
-  - Kahler-Einstein
-  - Kähler-Einstein
-  - Bogomolov-Gieseker
-  - klt singularities
-  - orbifold Chern class
-  - weighted projective space
+  - Kahler-Ricci soliton
+  - weighted Kähler-Ricci soliton
+  - twisted Kähler-Ricci soliton
+  - equivariant Chern class
+  - equivariant cohomology
+  - equivariant intersection theory
+  - canonical extension
+  - canonical extension sheaf
+  - Tian's canonical extension
+  - Hermite-Einstein metric
+  - weighted Hermite-Einstein metric
 
-medium_priority_keywords:
-  - complex Monge-Ampere equation
-  - complex Monge–Ampère equation
-  - pluripotential theory
-  - Fujiki class
+high_priority_keywords:
+  - klt singularities
+  - klt variety
+  - klt varieties
+  - log canonical singularities
+  - singular Fano variety
+  - singular Fano varieties
+  - reflexive sheaf
+  - torsion-free sheaf
+  - slope stability
+  - slope semistability
+  - generic nefness
+  - generically nef
+  - semistable sheaf
   - Higgs sheaf
   - Higgs bundle
   - nonabelian Hodge theory
-  - Oka theory
-  - Oka manifold
-  - Stein manifold
-  - several complex variables
-  - pseudoconvexity
-  - L2 estimate
-  - vanishing theorem
-  - moduli space
+  - Simpson correspondence
+  - Hodge index theorem
+  - mixed Hodge index theorem
+  - Kähler geometry
+  - compact Kähler manifold
+  - compact Kähler manifolds
+  - Fujiki class
+  - minimal compact Kähler manifold
+  - abundance theorem
+  - vanishing second Chern class
+  - nef canonical bundle
+  - nef anticanonical bundle
+  - big canonical bundle
+  - big anticanonical bundle
+  - singular Hermitian metric
+  - semipositivity
+  - direct image sheaf
+  - multiplier ideal sheaf
+  - pseudo-effective tangent bundle
+  - pseudoeffective tangent bundle
+  - nef tangent bundle
+  - positive tangent bundle
+  - tangent sheaf
+  - regular foliation
+  - algebraic foliation
+  - rationally connected variety
+  - Albanese map
+  - base locus
+  - asymptotic base locus
+  - log smooth pair
+  - orbifold
+  - weighted projective space
+  - projective klt variety
+  - orbifold Bogomolov-Gieseker inequality
+  - orbifold Miyaoka-Yau inequality
+  - stability of tangent sheaf
+
+medium_priority_keywords:
   - birational geometry
+  - minimal model program
+  - Mori theory
+  - projective manifold
+  - projective variety
+  - moduli space
+  - deformation theory
+  - Kähler cone
+  - ample cone
+  - nef cone
+  - pseudoeffective cone
+  - complex Monge-Ampère equation
+  - complex Monge–Ampère equation
+  - fully nonlinear equation
+  - complex Hessian equation
+  - J-equation
+  - Ricci curvature
+  - Kähler metric
+  - pluripotential theory
+  - plurisubharmonic function
+  - L2 estimate
+  - Hörmander estimate
+  - vanishing theorem
+  - Kodaira vanishing
+  - extension theorem
+  - holomorphic vector field
+  - moment map
+  - Futaki invariant
+  - Ding functional
+  - Mabuchi functional
+  - K-energy
+  - geodesic ray
+  - test configuration
+  - valuation
+  - normalized volume
+  - stability threshold
 
-preferred_authors: []
-excluded_keywords: []
+several_complex_variables_and_oka_topics:
+  - Oka manifold
+  - Oka manifolds
+  - Oka map
+  - Oka principle
+  - Oka-Grauert principle
+  - Stein manifold
+  - Stein manifolds
+  - Stein space
+  - pseudoconvexity
+  - holomorphic convexity
+  - holomorphic flexibility
+  - elliptic manifold
+  - subelliptic manifold
+  - dominating spray
+  - holomorphic dominability
+  - Kobayashi hyperbolicity
+  - Brody hyperbolicity
+  - several complex variables
+  - d-bar equation
+  - bar partial equation
+  - complex analytic space
+  - coherent analytic sheaf
+  - Levi problem
+  - Runge approximation
+  - holomorphic approximation
+  - Cousin problem
+  - Cartan theorem A
+  - Cartan theorem B
 
-ranking_rules:
-  title_match_weight: 5
-  abstract_match_weight: 2
-  multiple_category_bonus: 2
-  survey_penalty: 1
-  replacement_only_penalty: 1
+foundational_complex_algebraic_geometry_topics:
+  - algebraic curve
+  - Riemann surface
+  - elliptic curve
+  - holomorphic differential
+  - ramification
+  - Riemann-Roch theorem
+  - Serre duality
+  - sheaf cohomology
+  - Hodge theory
+  - Kodaira dimension
+  - Kodaira embedding theorem
+  - Calabi-Yau manifold
+  - hyperkähler manifold
+  - K3 surface
+  - complex torus
+  - abelian variety
+  - surface classification
+  - geography of Chern numbers
+  - algebraic surface
+  - complex surface
+  - canonical model
+  - minimal surface
 
-publication:
-  default_topic: algebraic-geometry
-  include_one_sentence_summary: true
-  include_background: true
-  include_introduction: true
-  include_main_results: true
-  include_proof_outline: true
-  include_research_context: true
-  include_source_locations: true
-  human_review_required: false
+preferred_authors:
+  - Masataka Iwai
+  - Tomoyuki Hisamoto
+  - Shin-ichi Matsumura
+  - Satoshi Jinnouchi
+  - Shiyu Zhang
+  - Sho Ejiri
+  - Niklas Müller
+  - Henri Guenancia
+  - Daniel Greb
+  - Stefan Kebekus
+  - Thomas Peternell
+  - Thibaut Delcroix
+  - Simon Jubert
+  - Jean-Pierre Demailly
+  - Mihai Păun
+  - Robert Berman
+  - Sébastien Boucksom
+  - Vincent Guedj
+  - Chinh Lu
+  - Valentino Tosatti
+  - Jian Song
+  - Gang Tian
+  - Chi Li
+  - Yuchen Liu
+  - Chenyang Xu
+  - János Kollár
+  - Yujiro Kawamata
+  - Yoichi Miyaoka
+  - Shing-Tung Yau
+  - Franc Forstnerič
+
+deprioritize_or_exclude_when_only_topic:
+  - pure numerical analysis
+  - finite element method
+  - numerical simulation
+  - numerical approximation
+  - machine learning
+  - neural network
+  - image processing
+  - fluid mechanics
+  - general relativity
+  - mathematical physics
+  - quantum field theory
+  - control theory
+  - optimization algorithm
+  - computational physics
+  - engineering application
+
+allowed_algebraic_numerical_terms:
+  - numerical criterion
+  - numerical equivalence
+  - numerical dimension
+  - numerical class
+  - numerical positivity
+  - numerical characterization
+
+ranking_priorities:
+  - critical keyword in title
+  - multiple critical keywords in abstract
+  - direct relevance to Masataka Iwai's current research
+  - new general theorem, structure theorem, or inequality
+  - main theorem can be stated accurately from PDF or TeX source
+  - overlap among math.AG, math.CV, and math.DG
+  - preferred author, provided the content is relevant
+  - connection among Chern classes, Fano varieties, K-stability, and Kähler geometry
+  - connection between singular varieties and differential geometry or analysis
+
+ranking_penalties:
+  - minor revision of an existing paper
+  - novelty unclear from abstract
+  - peripheral relevance to Masataka Iwai's research
+  - survey or lecture notes without new results
+  - numerical computation only
+  - applications or experiments outweigh the mathematical result
+
+selection_rules:
+  require_critical_or_high_priority_match: true
+  do_not_select_weak_foundational_match: true
+  preferred_author_is_not_automatic_top_rank: true
+  monge_ampere_and_hessian_contexts:
+    - Kähler geometry
+    - algebraic geometry
+    - cohomology
+    - intersection theory
+    - stability
+    - conditions on subvarieties
+  duplicate_arxiv_policy: reject_unless_main_theorem_materially_changed_in_new_version
 
 license_policy:
   mode: license-aware
@@ -80,4 +294,4 @@ license_policy:
   no_derivatives_licenses:
     - CC BY-ND
     - CC BY-NC-ND
-  fallback_for_nonpermissive_license: original-japanese-summary
+  fallback_for_nonpermissive_license: link-short-quote-if-needed-and-original-japanese-summary
