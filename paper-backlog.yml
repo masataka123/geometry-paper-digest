@@ -214,24 +214,34 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2606.03424"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-bondal-conjecture-dimension-five.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.03039"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-linearisation-finite-etale-cover.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.02816"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-noncollapsed-csck-surfaces.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.02401"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-stable-degeneration-kaledin.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2605.30063"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-special-fujita-ytd.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2605.29258"
     requested_version: "v1"
     status: pending
