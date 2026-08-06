@@ -35,11 +35,13 @@ published: true
 - **主分類・副分類:** Algebraic Geometry (math.AG)
 - **ライセンス:** [arXiv non-exclusive distribution license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
 代数多様体の最小モデルは、概念的にはFano、Calabi--Yau、標準偏極型のファイブレーションから組み立てられる。FanoにはK-moduli、標準偏極型にはKSBAモジュライが発展している一方、Calabi--Yau多様体には自然に選ばれる偏極がないため、一般的な射影的モジュライの構成は難しい。
 
 本論文は、曲線を底とするlog Calabi--Yauファイブレーションをコンパクト化する。滑らかな対象だけでなく、一パラメータ退化の極限として何を境界に加えればpropernessとモジュラーな解釈を同時に保てるかが中心問題である。
+
+## 背景と問題設定
 
 非退化な基本対象は、正常射影多様体から滑らかな射影曲線への射 $f:(X,cD)\to C$ である。$D$ は水平かつ相対的にampleで、$(X,cD)$ はklt、さらにあるnefな $\mathbb Q$-線束 $L$ に対して $K_X+cD\sim_{\mathbb Q}f^*L$ を満たす。この枠組みは楕円曲面の高次元版、Calabi--Yau多様体の曲線上のファイブレーション、Fano fibrationを含む。
 
@@ -49,11 +51,15 @@ Definition 1.1のstable log Calabi--Yau fibrationでは、底をtwisted nodal cu
 
 （Qmap）は節点の近傍でKSBA安定族と平坦性を保証するため、底の節点にstack構造を許す。このstackinessはpropernessのために一般には避けられないが、粗空間から必要なroot stackとして一意に決まるという意味で制御されている。
 
-主結果Theorem 1.2は、固定した数値的不変量 $\Phi$ ごとに、non-degenerate typeのstable log Calabi--Yau fibrationsをパラメータ化する有限型proper Deligne--Mumfordスタック $\mathcal M_\Phi$ が存在し、その粗モジュライ空間 $M_\Phi$ が射影的であると述べる。境界にも平坦なファイブレーションが残る点が、このコンパクト化の幾何学的内容である。
+## 主結果
+
+### モジュライの properness と射影性（Theorem 1.2）
+
+Theorem 1.2は、固定した数値的不変量 $\Phi$ ごとに、non-degenerate typeのstable log Calabi--Yau fibrationsをパラメータ化する有限型proper Deligne--Mumfordスタック $\mathcal M_\Phi$ が存在し、その粗モジュライ空間 $M_\Phi$ が射影的であると述べる。境界にも平坦なファイブレーションが残る点が、このコンパクト化の幾何学的内容である。
 
 Introductionは、K-stable Calabi--Yau fibrationのモジュライなどとの比較や、高次元の底への拡張を将来課題として挙げる。後者には高次元多様体からモジュライスタックへの写像の理論が不足しており、本論文の結論は曲線上に限定される。
 
-## 論文の主要ポイント
+### 主結果の意味と射程
 
 - 曲線上のstable log Calabi--Yau fibrationを四つの幾何的条件で定義する（Definition 1.1）。
 - 固定数値的不変量に対してproperな有限型Deligne--Mumfordスタックを構成する（Theorem 1.2）。
@@ -61,7 +67,7 @@ Introductionは、K-stable Calabi--Yau fibrationのモジュライなどとの�
 - 境界でも平坦なファイブレーションを保ち、退化にモジュラーな解釈を与える。
 - 特異点条件をseparatednessに、Chow線束の正値性をpropernessとprojectivityに結びつける。
 
-## 論文の構成
+## 証明の見取り図
 
 Section 2で準備を行い、Section 3で安定なlog Calabi--Yau fibrationを定義する。Section 4でproperness、Section 5でboundedness、Section 6でDeligne--Mumfordスタックによる表現可能性、Section 7でprojectivityを証明する。
 
