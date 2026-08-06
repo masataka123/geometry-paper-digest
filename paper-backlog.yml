@@ -94,24 +94,34 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2606.27851"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-ulrich-exterior-powers-tangent-bundle.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.27724"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-ricci-virtual-abelianness.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.25110"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-rank-two-point-bubbling.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.24508"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-nonembeddable-torus-paneitz.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.23333"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-positive-hsc-rational-surfaces.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.23203"
     requested_version: "v1"
     status: pending
