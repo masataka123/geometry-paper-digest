@@ -154,24 +154,34 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2606.17505"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-hitchin-morphism-classical-groups.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.17402"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-scalar-curvature-kahler-ricci-flow.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.16275"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-singular-positivity-nakano-nadel.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.15533"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-intermediate-pseudoconvexity.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.15102"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-twisted-hermitian-einstein.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.13569"
     requested_version: "v1"
     status: pending
