@@ -1,0 +1,422 @@
+version: 1
+sort_order: "newest-arxiv-id-first"
+paper_count: 103
+
+papers:
+  - arxiv_id: "2608.03572"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2608.03434"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2608.02875"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2608.02413"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2608.01859"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2608.01519"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2607.25230"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2607.24986"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2607.23878"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2607.15102"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2607.09622"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2607.09021"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2607.07054"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2607.05341"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2607.01402"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.27851"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.27724"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.25110"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.24508"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.23333"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2606.23203"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.21073"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.21062"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.20307"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.19806"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.17505"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.17402"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.16275"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.15533"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.15102"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.13569"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.12878"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.08224"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.08185"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.06778"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.03424"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.03039"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.02816"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2606.02401"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.30063"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.29258"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.29147"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.28140"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.27961"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.26443"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.25776"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2605.25213"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2605.24323"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2605.24303"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.22402"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.21137"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.20754"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.19923"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.18089"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.18065"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.13157"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.11731"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.09898"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.09847"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.08796"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.05582"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.04160"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2605.03115"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.28085"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.27423"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.27229"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.26425"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.24400"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.24106"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.23180"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.22419"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.22246"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.19225"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.16215"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.11220"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.09027"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.05981"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.05369"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.04682"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2604.02679"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2603.27964"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2603.23467"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2603.23033"
+    requested_version: "v2"
+    status: pending
+    note: ""
+  - arxiv_id: "2603.22194"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2603.19052"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2603.10312"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2602.11002"
+    requested_version: "v2"
+    status: pending
+    note: ""
+  - arxiv_id: "2602.07420"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2602.05509"
+    requested_version: "v3"
+    status: pending
+    note: ""
+  - arxiv_id: "2602.01112"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2601.18526"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2601.13127"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2510.13679"
+    requested_version: "v2"
+    status: pending
+    note: ""
+  - arxiv_id: "2510.04663"
+    requested_version: "v2"
+    status: pending
+    note: ""
+  - arxiv_id: "2509.07508"
+    requested_version: "v1"
+    status: pending
+    note: ""
+  - arxiv_id: "2505.01773"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2504.15195"
+    requested_version: "v2"
+    status: pending
+    note: ""
+  - arxiv_id: "2503.07548"
+    requested_version: "v3"
+    status: pending
+    note: ""
+  - arxiv_id: "2408.15153"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2405.06883"
+    requested_version: "v2"
+    status: pending
+    note: ""
+  - arxiv_id: "2403.08620"
+    requested_version: "v2"
+    status: pending
+    note: ""
+  - arxiv_id: "2205.12305"
+    requested_version: "v4"
+    status: pending
+    note: ""
+  - arxiv_id: "2108.10041"
+    requested_version: "v1"
+    status: pending
+    note: ""
+
+unresolved_items:
+  - "arXiv-2606...Hneyangxu（番号が画像内で省略）"
+  - "arXiv-2606... sun survey（番号が画像内で省略）"
+  - "25m1805813.pdf（標準的なarXiv番号形式ではない）"
