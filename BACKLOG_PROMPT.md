@@ -62,6 +62,8 @@ note: "基本arXiv番号が既存記事と重複"
 
 `ARTICLE_TEMPLATE.md` と `AGENTS.md` の現在の規則に従い、AbstractとIntroductionを中心とする独自の日本語記事を新しい `_posts/YYYY-MM-DD-short-slug.md` として作成してください。正式な英語原題、front matter、`published: true`、`source_scope: "Abstract and Introduction"`、ライセンスに応じた `abstract_en` または `summary_en`、英語欄を日本語欄より先に表示する規則、数式区切りなど、現在のリポジトリの規則をそのまま適用します。
 
+本文は論文に応じて「要約」「背景と問題設定」「主結果」「証明の見取り図」を構成し、内容のない節は置きません。Introductionに番号付きの主定理が明記されていれば、定理ごとの独立した小見出しで結論、主要な仮定、中心式、意味、新規性を説明し、主要ポイントの箇条書きだけで代用してはいけません。Introductionにある中心方程式、不等式、Chern類条件、数値条件、等号条件、一意化・同型など、省略すると主定理の具体的内容が分からない数式を掲載し、係数、添字、仮定、定理番号をAbstractまたはIntroductionと照合します。主結果と証明方法は別節にし、Introductionに証明方針がある場合だけ各理論の役割と論理的な流れをまとめます。Introductionにない厳密化を推測せず、情報が不足する場合は「Introductionでは概略として次のように述べられている」と明記してください。
+
 ## 6. primary categoryによる分類
 
 arXiv公式メタデータのprimary categoryだけでtopicを決めます。
