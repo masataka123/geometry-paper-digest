@@ -65,24 +65,33 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2607.09622"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-correspondences-hyperkahler-large-picard.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.09021"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-asymptotic-cohomological-functions.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.07054"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-quantitative-hyperbolicity-indices.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.05341"
     requested_version: "v1"
-    status: pending
-    note: ""
+    status: skipped
+    note: "対象外のprimary category: math.DS"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.01402"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-local-third-chern-classes.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.27851"
     requested_version: "v1"
     status: pending
