@@ -3,12 +3,15 @@ layout: paper
 title: "CscK metrics on birational models of projective varieties"
 title_ja: "射影多様体の双有理モデル上の cscK 計量"
 authors: "Zakarias Sjöström Dyrefelt"
-topic: complex-geometry
+topic: differential-geometry
 arxiv_id: "2608.03572v1"
 arxiv_url: "https://arxiv.org/abs/2608.03572"
 arxiv_submitted: "2026-08-04"
 arxiv_updated: "2026-08-04"
-arxiv_categories: "math.DG, math.AG"
+arxiv_primary_category: "math.DG"
+arxiv_categories:
+  - math.DG
+  - math.AG
 summary: >-
   任意の複素射影多様体が定スカラー曲率 Kähler 計量をもつ滑らかな射影多様体と双有理であることを証明する。滑らかな場合には十分正な Lefschetz pencil の余次元 2 基点を一度 blowup し、明示的な断熱的 Kähler 類に cscK 計量を構成する。
 abstract_en: ""

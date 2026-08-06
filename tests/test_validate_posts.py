@@ -14,12 +14,14 @@ VALID_METADATA = """\
 layout: paper
 title: "A valid paper"
 authors: "Alice Author"
+arxiv_primary_category: "math.AG"
 topic: algebraic-geometry
 arxiv_id: "2608.01234v1"
 arxiv_url: "https://arxiv.org/abs/2608.01234"
 arxiv_submitted: "2026-08-01"
 arxiv_updated: "2026-08-02"
-arxiv_categories: "math.AG"
+arxiv_categories:
+  - math.AG
 summary: "問題と結果を説明する日本語要約です。"
 abstract_en: "An English abstract."
 summary_en: ""
@@ -40,7 +42,10 @@ class RepositoryFixture:
         (self.root / "_posts").mkdir()
         (self.root / "_data").mkdir()
         (self.root / "_data" / "topics.yml").write_text(
-            "- slug: algebraic-geometry\n  title: 代数幾何学\n", encoding="utf-8"
+            "- slug: algebraic-geometry\n  title: 代数幾何学\n"
+            "- slug: differential-geometry\n  title: 微分幾何学\n"
+            "- slug: several-complex-variables\n  title: 多変数複素解析\n",
+            encoding="utf-8",
         )
 
     def close(self) -> None:
@@ -119,6 +124,40 @@ class ValidatePostsTests(unittest.TestCase):
     def test_unknown_topic_fails(self) -> None:
         self.repo.add_post(metadata=self.replace("topic: algebraic-geometry", "topic: unknown-topic"))
         self.assertTrue(any("未定義のトピック" in message for message in self.messages()))
+
+    def test_valid_primary_category_topic_mappings_pass(self) -> None:
+        cases = (("math.AG", "algebraic-geometry"), ("math.DG", "differential-geometry"), ("math.CV", "several-complex-variables"))
+        for index, (primary, topic) in enumerate(cases):
+            metadata = VALID_METADATA.replace('arxiv_primary_category: "math.AG"', f'arxiv_primary_category: "{primary}"')
+            metadata = metadata.replace("topic: algebraic-geometry", f"topic: {topic}")
+            metadata = metadata.replace("  - math.AG", f"  - {primary}")
+            metadata = metadata.replace("2608.01234", f"2608.0123{index}")
+            self.repo.add_post(f"2026-08-06-valid-paper-{index}.md", metadata)
+        self.assertTrue(validate_repository(self.repo.root).ok)
+
+    def test_primary_category_topic_mismatch_fails(self) -> None:
+        self.repo.add_post(metadata=self.replace("topic: algebraic-geometry", "topic: differential-geometry"))
+        self.assertTrue(any("primary categoryとtopic" in message for message in self.messages()))
+
+    def test_missing_primary_category_fails(self) -> None:
+        self.repo.add_post(metadata=self.replace('arxiv_primary_category: "math.AG"\n', ""))
+        self.assertTrue(any("`arxiv_primary_category` がありません" in message for message in self.messages()))
+
+    def test_disallowed_primary_category_fails(self) -> None:
+        self.repo.add_post(metadata=self.replace('arxiv_primary_category: "math.AG"', 'arxiv_primary_category: "math.NT"'))
+        self.assertTrue(any("対象外のprimary category" in message for message in self.messages()))
+
+    def test_categories_string_fails(self) -> None:
+        self.repo.add_post(metadata=self.replace("arxiv_categories:\n  - math.AG", 'arxiv_categories: "math.AG"'))
+        self.assertTrue(any("YAMLリスト" in message for message in self.messages()))
+
+    def test_primary_category_missing_from_categories_fails(self) -> None:
+        self.repo.add_post(metadata=self.replace("  - math.AG", "  - math.DG"))
+        self.assertTrue(any("primary categoryが含まれていません" in message for message in self.messages()))
+
+    def test_duplicate_categories_fail(self) -> None:
+        self.repo.add_post(metadata=self.replace("  - math.AG", "  - math.AG\n  - math.AG"))
+        self.assertTrue(any("カテゴリーが重複" in message for message in self.messages()))
 
     def test_published_false_fails(self) -> None:
         self.repo.add_post(metadata=self.replace("published: true", "published: false"))

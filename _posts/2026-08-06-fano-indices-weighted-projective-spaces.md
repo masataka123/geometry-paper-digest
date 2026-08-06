@@ -8,7 +8,9 @@ arxiv_id: "2608.03434v1"
 arxiv_url: "https://arxiv.org/abs/2608.03434"
 arxiv_submitted: "2026-08-04"
 arxiv_updated: "2026-08-04"
-arxiv_categories: "math.AG"
+arxiv_primary_category: "math.AG"
+arxiv_categories:
+  - math.AG
 summary: >-
   標準的な特異 Fano 多様体である well-formed 重み付き射影空間について、標準特異点を仮定した Fano 指数の鋭い上界を与える論文である。得られた上界は Picard 数 1 の $\mathbb{Q}$-factorial トーリック Fano 多様体にも及び、4 次元での指数の分布も制約する。
 abstract_en: >-

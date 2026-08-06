@@ -1,4 +1,4 @@
-version: 3
+version: 4
 language: ja
 lookback_hours: 96
 maximum_articles_per_run: 5
@@ -8,6 +8,21 @@ arxiv_categories:
   - math.AG
   - math.CV
   - math.DG
+
+topic_mapping:
+  math.AG: algebraic-geometry
+  math.DG: differential-geometry
+  math.CV: several-complex-variables
+
+classification_policy:
+  source: arxiv_primary_category
+  use_secondary_categories_for_topic: false
+  allow_multiple_topics: false
+  allowed_primary_categories:
+    - math.AG
+    - math.DG
+    - math.CV
+  reject_other_primary_categories: true
 
 # Match spelling, accents, hyphen/dash styles, and singular/plural variants equivalently.
 critical_title_keywords:
