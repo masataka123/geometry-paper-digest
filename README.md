@@ -1,6 +1,7 @@
 # Geometry Paper Digest starter
 
-参考サイトの落ち着いたカード型デザインを基礎に、代数幾何学・複素幾何学・多変数複素解析向けにしたGitHub Pages/Jekyllサイトです。
+松澤陽介さんの[参考サイト](https://yoaskay.github.io/daily-math-paper-digest-pages/index.html)を完全に真似して、代数幾何学・複素幾何学・多変数複素解析向けにしたGitHub Pages/Jekyllサイトです。
+日本語要約はchatGPTによるものなので, 鵜呑みにしないでください. 
 
 ## 最初の公開手順
 
