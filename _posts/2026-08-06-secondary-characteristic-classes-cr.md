@@ -37,43 +37,94 @@ published: true
 - **主分類・副分類:** Differential Geometry (math.DG), Complex Variables (math.CV)
 - **ライセンス:** [arXiv non-exclusive distribution license 1.0](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
-強擬凸 CR 多様体の二次特性不変量の出発点は、Burns と Epstein が三次元で導入した不変量である。CR 正則接束が自明なら Cartan bundle の大域切断を選び、normal Cartan connection の Chern--Simons form を積分できる。この不変量の変分は CR 構造が spherical であることとも関係する。
+コンパクト強擬凸 CR 多様体に対し、normal Cartan connection から $\mathbb R/\mathbb Z$ 値の二次特性不変量を構成する。通常の Chern--Simons form では standard tractor bundle の大域的存在や自明性が障害になるため、pseudo-Einstein 接触形式と Cheeger--Simons differential character を用いる。
 
-領域の境界の場合、Burns--Epstein は完備 Kähler--Einstein 計量の Chern connection から発散部分を除いた renormalized connection を用い、領域内部の characteristic number と境界不変量を結ぶ公式を得た。Marugame は pseudo-Einstein 構造を使う相対 Chern--Simons form により、より大域的な設定へこの考えを拡張した。
+局所的な standard tractor bundle を density line bundle でねじって大域的な束を作り、pseudo-Einstein 接触形式が与える平坦接続と tractor connection の tensor product に differential character を適用する。得られる character は接触形式の選択に依存しない CR 不変量であり、partial frame がある場合には実数値 lift をもつ。
 
-しかし一般のコンパクト強擬凸 CR 多様体では、standard tractor bundle が大域的に存在しない場合や、自明でない場合があるため、通常の Chern--Simons form を直接使う構成は機能しない。本論文はこの障害を、pseudo-Einstein 接触形式と Cheeger--Simons differential character の組合せによって回避する。
+CR 正則接束が自明な場合、その自然な lift は generalized Burns--Epstein invariant と一致し、三次元では元来の Burns--Epstein invariant を回収する。強擬凸領域の境界では renormalized connection と結びつき、bulk--boundary 公式と CR 埋め込み障害を与える。
 
-具体的には、局所的な standard tractor bundle を canonical bundle の根に由来する線束で tensor し、大域的なベクトル束を作る。pseudo-Einstein 接触形式がこの線束上に平坦接続を与え、それと tractor connection の tensor product に differential character を適用する。値を整数で割った $\mathbb R/\mathbb Z$ に取ることが、cycle の lift の選択に伴う整数の曖昧さを吸収する。
+## 背景と問題設定
 
-Introduction で述べられる中心的主張は、こうして得た character が pseudo-Einstein 接触形式の選択に依存しない CR 不変量になるというものである。適切な partial frame があれば実数値 lift をもち、CR 正則接束が自明な場合には一般化 Burns--Epstein 不変量と一致する。三次元では元来の Burns--Epstein 不変量が再現される。
+Burns--Epstein invariant は、三次元強擬凸 CR 多様体で CR 正則接束が自明なとき、normal Cartan connection $\omega$ の第2 Chern polynomial に対する Chern--Simons form を積分して定義される：
 
-領域境界との対応は二段階で示される。Theorem 1.1では接続を rank $n+1$ の部分束へ内在的に reduce しても differential character が一致することを示す。Theorem 1.2では、CR 多様体が強擬凸領域の境界なら、領域上の rank $n+2$ の束と metric connection を構成し、その接束への射影が renormalized connection になり、境界上では先の接続の対と同一視できることを述べる。
+$$
+\widetilde\mu^{\mathrm{BE}}_{c_2}(M)=\int_M s^*T_{c_2}(\omega).
+$$
 
-これらの同定と differential character の Stokes 公式、Chern 類の residue 公式から、renormalized characteristic number と境界不変量を結ぶ bulk--boundary 公式が得られる。Introduction によれば、これは Burns--Epstein と Marugame の公式を回収し拡張する。また $c_1\Phi$ 型の Chern monomial に対応する不変量の非消滅は必要な partial frame の存在を妨げ、複素 Euclid 空間への CR 埋め込み障害を与える。
+領域境界の場合には、完備 Kähler--Einstein 計量の renormalized connection $\overline{\nabla}^{\mathrm g}$ が内部の characteristic number と境界不変量を結ぶ。Introduction に掲げられた Burns--Epstein の公式は
 
-最後に、Reinhardt 領域の境界と正則 Sasakian $\eta$-Einstein 多様体で不変量を計算する。Introduction は、三次元で $c_1c_1$ と $c_2$ に対応する不変量が普遍的には比例しないことを挙げ、既存の renormalized characteristic form 由来の大域 CR 不変量だけでは捉えられない情報を示している。
+$$
+\int_\Omega c_{n+1}(\overline{\nabla}^{\mathrm g})
+=\chi(\Omega)+\widetilde\mu_{c_{n+1}}(\partial\Omega),
+$$
 
-## 論文の主要ポイント
+および $q_1+\cdots+q_m=n+1$, $m\geq2$ に対する
 
-- pseudo-Einstein 接触形式をもつ強擬凸 CR 多様体に、$\mathbb R/\mathbb Z$ 値の二次特性 CR 不変量を構成する。
-- 大域的に修正した tractor connection と Cheeger--Simons differential character により、束の非自明性に伴う問題を回避する。
-- 適切な実数値 lift は一般化 Burns--Epstein 不変量を回収する。
-- 領域境界では renormalized connection と同定し、Chern 類の residue を含む bulk--boundary 公式を得る。
-- 不変量の非消滅から複素 Euclid 空間への CR 埋め込み障害を導く。
-- 具体例の計算により、異なる Chern monomial からの不変量が新しい独立な情報をもちうることを示す。
+$$
+\int_\Omega (c_{q_1}\cdots c_{q_m})(\overline{\nabla}^{\mathrm g})
+=\widetilde\mu_{c_{q_1}\cdots c_{q_m}}(\partial\Omega)
+$$
 
-## 論文の構成
+である。本論文は、tractor bundle が大域的に存在しない、または自明でない一般の CR 多様体でも意味をもつ構成を目指す。
 
-Section 2で CR 幾何と接続を準備し、Section 3で Cartan connection の二次不変量を定義する。Section 4で reduction、ambient construction、bulk--boundary 公式を扱い、Section 5で Reinhardt 領域境界と Sasakian $\eta$-Einstein 多様体の例を計算する。
+局所的な standard tractor bundle $\mathcal T^\#$ と density line bundle $\mathcal E(1,0)$ から
+
+$$
+\mathcal T=\mathcal E(1,0)\otimes\mathcal T^\#,
+\qquad
+\nabla^{\mathcal T}=D^\theta\otimes\nabla^{\mathcal T^\#}
+$$
+
+を作る。ここで $D^\theta$ は pseudo-Einstein 接触形式 $\theta$ が定める平坦接続である。cycle の lift の違いによる整数の曖昧さを $\mathbb R/\mathbb Z$ に移すことが、differential character を使う理由である。
+
+## 主結果
+
+### CR 不変量の構成（Introduction の main claim）
+
+Introductionでは概略として次のように述べられている。$\nabla^{\mathcal T}=D^\theta\otimes\nabla^{\mathcal T^\#}$ に付随する Cheeger--Simons differential characters は、pseudo-Einstein 接触形式 $\theta$ の選択に依存しない $\mathbb R/\mathbb Z$ 値 CR 不変量を定める。適切な partial frame があれば canonical または frame-dependent な実数値 lift をもち、Burns--Epstein と Marugame の不変量はそのような lift として現れる。
+
+### 接続の reduction（Theorem 1.1 = Theorem 4.1）
+
+rank $n+2$ の $\mathcal T$ には、接続 $\nabla^{\underline{\mathcal T}}$ を備えた rank $n+1$ の部分束 $\underline{\mathcal T}\subset\mathcal T$ が存在する。$\nabla^{\underline{\mathcal T}}$ に付随する Cheeger--Simons differential characters は、$\nabla^{\mathcal T}$ に付随するものと一致する。したがって boundary case との比較に必要な rank の reduction は二次特性情報を変えない。
+
+### ambient construction と renormalized connection（Theorem 1.2 = Theorem 4.6）
+
+$M=\partial\Omega$ が強擬凸領域の境界であるとする。このとき $\Omega$ 上に metric connection $\nabla^{\widetilde h}$ を備えた rank $n+2$ の束 $\widetilde{\mathcal T}$ が存在し、次を満たす。
+
+1. $T^{1,0}\overline{\Omega}$ は $\widetilde{\mathcal T}$ の部分束である。
+2. $\nabla^{\widetilde h}$ を $T^{1,0}\overline{\Omega}$ へ射影して得る接続は renormalized connection $\overline{\nabla}^{\mathrm g}$ と一致する。
+3. 境界上で束の対と接続の対は
+
+$$
+(\widetilde{\mathcal T}|_{\partial\Omega},T^{1,0}\overline{\Omega}|_{\partial\Omega})
+\simeq(\mathcal T,\underline{\mathcal T}),
+$$
+
+$$
+(\nabla^{\widetilde h},\overline{\nabla}^{\mathrm g})
+\longleftrightarrow
+(\nabla^{\mathcal T},\nabla^{\underline{\mathcal T}})
+$$
+
+と対応する。
+
+Theorems 1.1 と 1.2 を differential character の Stokes 公式および Chern-class residue 公式と組み合わせることで、renormalized characteristic number と境界不変量を結ぶ bulk--boundary 公式が得られる。さらに $c_1\Phi$ 型 Chern monomial の不変量の非消滅は必要な partial frame、したがって $\mathbb C^{n+1}$ への CR embedding を妨げる。
+
+## 証明の見取り図
+
+まず pseudo-Einstein structure を使って局所 tractor connection を大域的な $\mathcal T$ 上の接続へ修正し、Cheeger--Simons 理論により cycle 上の積分を整数を法として定義する。flat な $D^\theta$ を使うため曲率は元の tractor connection の曲率と自然に同一視され、接触形式を変えたときの character の不変性を示せる。
+
+次に $\nabla^{\mathcal T}$ を rank $n+1$ の部分束へ内在的に reduce する。boundary case では ambient construction で領域上の $\widetilde{\mathcal T}$ と metric connection を作り、その射影が renormalized connection になることを確認する。境界上の接続の対を reduction で得た対と同一視した後、Stokes 公式と residue 公式が内部と境界の特性数を結ぶ。
 
 ## 原論文との対応
 
 - **Abstractページ:** [arXiv:2608.01859v1](https://arxiv.org/abs/2608.01859v1)
-- **Introduction:** Section 1, pp. 2--5
+- **Introduction:** Section 1, pp. 2–5
 - **Introduction中で言及された主要定理番号:** Theorems 1.1 and 1.2
-- **論文構成の説明:** pp. 4--5
+- **中心数式:** pp. 2–5（Burns--Epstein invariant、bulk--boundary formulas、tractor connections）
+- **論文構成の説明:** pp. 4–5
 - **確認したarXivバージョン:** v1
 - **確認したライセンス:** arXiv non-exclusive distribution license 1.0
 - **source_scope:** Abstract and Introduction

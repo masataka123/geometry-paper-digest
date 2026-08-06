@@ -35,39 +35,70 @@ published: true
 - **主分類・副分類:** Algebraic Geometry (math.AG)
 - **ライセンス:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
-射影代数多様体では、BCHMの成果がklt対の最小モデル・プログラム（MMP）の基盤を与える。本論文の目的は、その枠組みをコンパクトKähler多様体上のgeneralized klt（gklt）対へ拡張することである。ここではnefなb-divisorに由来する超越的な $(1,1)$-類も境界データに含まれる。
+射影代数多様体に対する BCHM の最小モデル・プログラム（MMP）を、nef な b-divisor に由来する超越的 $(1,1)$-類も境界データに含むコンパクト Kähler generalized klt（gklt）対へ拡張する論文である。
 
-Theorem 1.1は、コンパクトKähler gklt対 $(X,B+\beta)$ を扱う。$K_X+B+\beta_X$ が擬有効でなければMori fiber spaceが存在し、擬有効で $B+\beta_X$ がbigな場合、または随伴類自身がbigな場合にはgood log terminal modelが存在すると主張する。
+非擬有効な場合には Mori fiber space を、擬有効かつ境界が big（または随伴類が big）な場合には good log terminal model を得る。既知の flip の存在と cone theorem に加え、本論文の新しい入力は超越的 base-point-free 定理と scaling 付き MMP の停止である。
 
-既知のflipの存在とcone theoremを踏まえ、本論文の主要な新規入力は超越的base-point-free定理と、scalingを伴うflipの停止である。Theorem 1.4では、$\alpha=K_X+B+\beta_X$ がnefで境界がmodified bigなら、Moishezon contraction $f:X\to Y$ と $Y$ 上のKähler類 $\gamma$ が存在して $\alpha\equiv f^*\gamma$ となる。さらに $X$ がstrongly $\mathbb Q$-factorialなら $f$ は射影的である。
+中心となる base-point-free 定理は、nef な Bott--Chern 類 $\alpha=K_X+B+\beta_X$ を、Moishezon contraction による Kähler 類の引き戻しとして実現する。これは Tosatti の超越的 base-point-free 予想を解決する。
 
-Theorem 1.5はmodified Kähler formによるscalingを伴うMMPが停止し、good log terminal modelかMori fiber spaceに到達することを述べる。Kähler条件がflipやdivisorial contractionの後にも保たれることが必要であり、Theorem 1.7とCorollary 1.8がその点を支える。
+ただし modified big 仮定を外した gklt 対の log terminal model、一般の flip の停止、Kähler klt 対の abundance は Introduction で予想として残されており、本論文の証明済み範囲には含まれない。
 
-証明は次元に関する連動した帰納法として設計される。随伴類がbigでない場合には、Ouの非擬有効性と非有理曲線性の判定から最大有理連結ファイブレーションとMori fiber spaceを用い、標準束公式によって低次元へ帰着する。
+## 背景と問題設定
 
-bigな場合には、nefかつbigな類のnon-Kähler locusとnull locusの一致を使う。弱解析的特異点をもつKähler current、log canonical threshold、乗数イデアルのjumping numberを通じて非Kähler locus上に収縮写像を構成し、それを全体へ延長するという見取り図がIntroductionに示される。
+射影的 klt 対では BCHM が MMP の基本的帰結を確立した。Kähler 設定では divisor だけでなく Bott--Chern コホモロジーの超越的類を扱う必要があり、収縮後にも Kähler 性が保たれるか、nef 類が実際の収縮写像を定めるか、scaling 付き flip が停止するかが障害になる。
 
-一方、modified big仮定を外したgklt対のlog terminal model、flipの停止、Kähler klt対のabundanceは未解決問題として明確に残されている（Conjectures 1.14--1.16）。本論文はこれらを主張せず、big領域におけるMMPとTosattiの予想を解決する。
+論文でいう semiample な類とは、コンパクト解析空間への正則写像 $f:X\to Y$ と $Y$ 上の Kähler 類 $\gamma$ が存在して、もとの類が $f^*\gamma$ と数値同値になることをいう。
 
-## 論文の主要ポイント
+## 主結果
 
-- bigなコンパクトKähler gklt対についてMMPの主要帰結を確立する（Theorem 1.1）。
-- nefな随伴類をKähler類の引き戻しとして半豊富化する超越的base-point-free定理を証明する（Theorem 1.4）。
-- scalingを伴うMMPの停止を示す（Theorem 1.5）。
-- MMPの各段階でKähler性が保たれるための判定を与える（Theorem 1.7, Corollary 1.8）。
-- modified big仮定のない場合と一般のabundanceは予想として区別している。
+### Kähler MMP（Theorem 1.1）
 
-## 論文の構成
+コンパクト Kähler gklt 対 $(X,B+\beta)$ に対し、次を結論する。
 
-Section 2でKähler MMPの準備を行い、Sections 3--6で収縮定理、base-point-free定理、scaling付きMMPを相互に帰納して証明する。Introductionではこの帰納構造と主要な二場合の証明方針が説明されている。
+1. $K_X+B+\beta_X$ が擬有効でなければ、$(X,B+\beta)$ の Mori fiber space が存在する。
+2. $K_X+B+\beta_X$ が擬有効で $B+\beta_X$ が big であるか、または $K_X+B+\beta_X$ 自身が big なら、good log terminal model が存在する。
+
+これは projective かつ $\beta_X=0$ の BCHM の結論を、超越的 nef part を許す Kähler gklt 対へ移すものである。
+
+### 超越的 base-point-free 定理（Theorem 1.4）
+
+$n$ 次元コンパクト Kähler gklt 対 $(X,B+\beta)$ で
+
+$$
+\alpha=K_X+B+\beta_X
+$$
+
+が nef、かつ $B+\beta_X$ が modified big であるとする。このとき $\alpha$ は semiample であり、Moishezon contraction $f:X\to Y$ と $Y$ 上の Kähler 類 $\gamma$ が存在して
+
+$$
+\alpha\equiv f^*\gamma
+$$
+
+となる。さらに $X$ が strongly $\mathbb Q$-factorial なら $f$ は projective である。結論を単なる「半豊富性」とせず、収縮と引き戻しの式まで与える点が定理の具体的内容である。
+
+### scaling 付き MMP（Theorem 1.5）
+
+$B+\beta_X$ が big である strongly $\mathbb Q$-factorial な $n$ 次元コンパクト Kähler gklt 対をとり、$K_X+B+\beta_X+\omega$ が nef となる modified Kähler form $\omega$ を選ぶ。このとき $K_X+B+\beta_X$-MMP を $\omega$ の scaling 付きで実行でき、good log terminal model または Mori fiber space に到達して停止する。
+
+### Kähler 性の保持（Theorem 1.7 and Corollary 1.8）
+
+Fujiki class $\mathcal C$ の多様体上で nef and big な類 $\alpha=[K_X+B+\beta_X]$ が全ての有理曲線 $C$ に対して $\alpha\cdot C>0$ を満たせば、$\alpha$ は Kähler である。これにより、上の big 境界をもつ strongly $\mathbb Q$-factorial 対では flipping contraction または divisorial contraction の標的も Kähler になる。
+
+## 証明の見取り図
+
+証明は次元について、収縮定理、base-point-free 定理、scaling 付き MMP を相互に用いる連動帰納法で組み立てられる。
+
+随伴類が big でない場合、Ou の判定から $X$ の uniruled 性を得て最大有理連結ファイブレーションを考える。相対 MMP で Mori fiber space を作り、標準束公式によって低次元の gklt 対へ移して帰納法を適用する。
+
+big の場合は nef and big 類の non-Kähler locus と null locus の一致を使う。弱解析的特異点をもつ Kähler current と multiplier ideal の jumping number から非 Kähler locus 上の収縮を段階的に構成し、低次元の非 gklt 版収縮定理で貼り合わせた後、Artin と Fujiki の着想により全体へ延長する。scaling の停止には、境界がコンパクト集合内を動くときの weak log canonical model の有界性を用いる。
 
 ## 原論文との対応
 
 - **Abstractページ:** [arXiv:2607.24986v1](https://arxiv.org/abs/2607.24986v1)
 - **Introduction:** Section 1, pp. 2–5
-- **Introduction中で言及された主要定理番号:** Theorems 1.1--1.7, Corollary 1.8, Theorems 1.9--1.10, Conjectures 1.14--1.16
+- **Introduction中で言及された主要定理番号:** Theorems 1.1–1.7, Corollary 1.8, Theorems 1.9–1.13, Conjectures 1.14–1.16
 - **論文構成の説明:** Sections 1.1–1.3, pp. 2–5
 - **確認したarXivバージョン:** v1
 - **確認したライセンス:** CC BY 4.0（arXiv Abstractページの表示）

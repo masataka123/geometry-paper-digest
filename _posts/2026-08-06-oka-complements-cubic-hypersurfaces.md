@@ -37,13 +37,23 @@ published: true
 - **主分類・副分類:** Algebraic Geometry (math.AG), Complex Variables (math.CV)
 - **ライセンス:** [arXiv non-exclusive distribution license 1.0](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
 Oka 理論は、Stein 空間からの正則写像に対する柔軟性を扱い、Gromov の holomorphic spray と $h$-principle によって幾何学的な枠組みを得た。しかし定義から具体的な多様体が Oka かを見抜くことは一般に難しく、超曲面補集合は Oka 的柔軟性と Kobayashi 双曲性の境界を調べる試験例になっている。
 
+## 背景と問題設定
+
 三次曲線については、既知の結果が既約特異曲線やいくつかの配置を扱っていた一方、滑らかな平面三次曲線の補集合が Oka かどうかは長く未解決だった。$\mathbb C^2$ からの dominating map が存在することだけでは完全な Oka 性は従わず、分岐する有限写像を通じた降下も一般には使えないためである。
 
-主定理（Theorem 1.1）は、$n\geq2$ とし、重複成分を許す三次超曲面 $D\subset\mathbb P^n$ に対して、$\mathbb P^n\setminus D$ が Oka であるための必要十分条件を与える。唯一の非 Oka の場合は、$D$ の被約台が、同じ pencil に属する相異なる三超平面の和となる場合である。したがって滑らかな三次超曲面 $C$ の補集合はすべて Oka となる（Theorem 1.2）。
+## 主結果
+
+### 三次超曲面補集合の分類（Theorem 1.1）
+
+主定理（Theorem 1.1）は、$n\geq2$ とし、重複成分を許す三次超曲面 $D\subset\mathbb P^n$ に対して、$\mathbb P^n\setminus D$ が Oka であるための必要十分条件を与える。唯一の非 Oka の場合は、$D$ の被約台が、同じ pencil に属する相異なる三超平面の和となる場合である。
+
+### 滑らかな三次超曲面（Theorem 1.2）
+
+したがって滑らかな三次超曲面 $C$ の補集合はすべて Oka となる（Theorem 1.2）。
 
 滑らかな場合の着想は巡回三重被覆である。滑らかな平面三次曲線 $C=\{F=0\}$ から、$F(x_0,x_1,x_2)=w^3$ で定まる三次曲面を作ると、その境界を除いた部分は $\mathbb P^2\setminus C$ の非分岐被覆になる。三次曲面上の27本の直線から residual conic の族を取り、境界を除いた affine conic 上の完全ベクトル場を用いて spray を構成する。直線の incidence により、その接方向が各点で接空間を張ることが domination を与える。
 
@@ -53,7 +63,7 @@ Oka 理論は、Stein 空間からの正則写像に対する柔軟性を扱い�
 
 Introduction は、この結果を低次数超曲面に対するより広い Oka 問題の一例として位置づける。三次の場合にはコンパクトな滑らか三次超曲面も既知の結果から Oka であり、本論文によりその補集合側も全ての $n\geq2$ で肯定された。一方、一般次数で次元を大きくしたときの最適な閾値は、今後の問いとして提示されている。
 
-## 論文の主要ポイント
+### 主結果の意味と射程
 
 - 三次超曲面の補集合が Oka でない唯一の被約配置を、同一 pencil 内の相異なる三超平面として特徴づける。
 - 滑らかな平面三次曲線の補集合が Oka かという既存の未解決問題を肯定的に解決する。
@@ -62,7 +72,7 @@ Introduction は、この結果を低次数超曲面に対するより広い Oka
 - 既約特異の場合と可約・非被約の場合を、それぞれ射影・局所化と affine 二次以下の分類へ帰着する。
 - 一般次数の滑らかな超曲面とその補集合が高次元で Oka になるかは、Introduction で将来の問題として残される。
 
-## 論文の構成
+## 証明の見取り図
 
 Section 2で Oka 判定法と局所化を準備し、Section 3で blowup 上の共通の Hamiltonian spray を構成する。Sections 4--6が滑らかな場合を扱い、Sections 7--9が affine 二次補集合、特異点からの射影、全分類を順に扱う。
 

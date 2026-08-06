@@ -28,44 +28,70 @@ published: true
 
 ## 書誌情報
 
-- **arXiv:** [arXiv:2608.03258](https://arxiv.org/abs/2608.03258)
+- **arXiv:** [arXiv:2608.03258v1](https://arxiv.org/abs/2608.03258v1)
 - **著者:** Jihao Liu, Yanze Wang
 - **初回投稿日:** 2026年8月4日
 - **最終更新日:** 2026年8月4日（v1）
 - **主分類・副分類:** Algebraic Geometry (math.AG)
 - **ライセンス:** [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
-BCHM の有限生成定理により、複素数体上の射影 klt pair $(X,B)$ の log canonical ring は有限生成である。Birkar--Zhang が導入した generalized pair は、通常の境界に補助的な nef part $M$ を加えてこの枠組みを拡張し、現代の双有理幾何で重要な道具となっている。本論文は、対応する generalized log canonical ring の有限生成がこの広い設定でも保たれるかを問う。
+通常の射影 klt pair では BCHM により log canonical ring は有限生成である。本論文は、nef part $M$ を加えた generalized pair では対応する有限生成が一般には成立しないことを、滑らかな射影多様体上の具体例で示す。
 
-反例がありそうだという見通しだけでは、構成は容易でなかったと Introduction は説明する。たとえば non-vanishing が失敗する既知例では環が自明になり、かえって有限生成である。また、big かつ nef な generalized canonical class は klt の場合には semi-ample になり、小さい Kodaira 次元をもつ因子の環にも有限生成が自動的に生じる。このため、求める反例は高次元で、既知の正値性の仕組みを慎重に避ける必要がある。
+例の generalized canonical class は nef だが big でも abundant でもない。したがって、big and nef の場合の semi-ampleness や小さい Kodaira 次元での既知の有限生成を避ける反例になっている。
 
-主結果 Theorem 1.1 は、滑らかな射影多様体 $X$、境界 $B=0$、$X$ 上に降下する nef part $M$ からなる generalized klt pair を構成する。$X$ 上には nef Cartier 因子 $\xi$ があり、$K_X\sim-16\xi$ および $M_X\sim17\xi$ となるため、generalized canonical class は $\xi$ に線形同値である。しかし、その切断環 $R(X,\xi)$ は有限生成でない。
+構成は 4 次元 abelian variety の universal vector extension と、Hilbert 第14問題に由来する Totaro の有限生成でない不変式環を結びつける。得られる射影束は 19 次元であり、最小の可能次元は未解決である。
 
-同じ例では $\kappa(X,\xi)=11$ に対して数値次元は $\nu(X,\xi)=15$ であり、$\xi$ は nef だが big でも abundant でもない。さらに $-K_X$ も nef で、その反標準環も有限生成でない。Introduction は、big の場合や低次元、あるいは nef part が Lelong 数ゼロの半正値特異 Hermitian 計量をもつ場合に知られていた肯定的結果との境界を、この例が示すと述べる。
+Introduction は、主結果の着想に複数の生成 AI システムを利用し、その後に人間が検証と調整を行ったことも明記する。本記事は主張を独立に検証するものではなく、v1 の Abstract と Introduction の記述を整理する。
 
-構成の核は、Hilbert の第 14 問題に由来する Totaro の表現と、abelian variety の universal vector extension がもつ anti-affine 性質を組み合わせることである。4 次元 abelian variety $A$ の universal vector extension を加法群 $U=(\mathbb{G}_a)^4$ の torsor とみなし、有限生成でない不変式環をもつ 16 次元表現から階数 16 のベクトル束 $E$ を作る。anti-affine 性と降下により、$E$ の対称冪の大域切断環が Totaro の不変式環に同定される。
+## 背景と問題設定
 
-そこで $X=\mathbb{P}_A(E)$ とし、tautological class を $\xi$ とする。$E$ は自明線束の反復拡大で行列式が自明となるため、射影束の標準因子公式から $K_X\sim-16\xi$ が得られる。$M=17\xi$ と選ぶと generalized canonical class が $\xi$ になり、その環の非有限生成が不変式環から従う、というのが Introduction に示された着想である。
+generalized pair $(X,B+M)$ は通常の境界 $B$ に補助的な nef part $M$ を加える。既知の non-vanishing の反例では section ring が自明となって有限生成であり、big and nef な generalized canonical class は klt の場合 semiample になる。そのため、非有限生成を得るには中間的な Kodaira 次元と数値次元をもつ nef 非 abundant 因子が必要になる。
 
-既知の低次元有限生成定理から、この型の例は少なくとも 4 次元でなければならない一方、本論文の $X$ は 19 次元である。したがって最小次元の決定は未解決問題として残される。また Introduction は、主結果が複数の生成 AI システムによって得られ、人間による確認と文章の調整が後から行われたこと、関連文献を見落としている可能性があることを著者自身の限定として明記している。本記事も主張の独立検証ではなく、v1 の Abstract と Introduction における著者らの説明を要約したものである。
+## 主結果
 
-## 論文の主要ポイント
+### 非有限生成の generalized canonical ring（Theorem 1.1）
 
-- 滑らかな $X$ と $B=0$ をもつ射影 klt generalized pair で、generalized log canonical ring が有限生成でない例を構成する（Theorem 1.1）。
-- 例の generalized canonical class $\xi$ は nef だが、$\kappa(X,\xi)=11<15=\nu(X,\xi)$ であり abundant ではない。
-- $-K_X$ も nef である一方、反標準環 $R(X,-K_X)$ は有限生成でないと主張される。
-- Totaro の非有限生成不変式環を、abelian variety の anti-affine universal vector extension から作るベクトル束の切断環として実現する。
-- Introduction では、構成される 19 次元の例に対し、可能な最小次元の決定が今後の問題として挙げられる。
+滑らかな 19 次元射影多様体 $X$、境界 $B=0$、$X$ 上に降下する nef part $M$ をもつ generalized klt pair が存在し、その generalized log canonical ring は有限生成でない。
 
-## 論文の構成
+より具体的には、$X$ 上の nef Cartier 因子 $\xi$ に対して
 
-Introduction の後、Section 2 で generalized pair、射影束、Totaro の表現、anti-affine 群を準備する。Section 3 で associated bundle と切断環を不変式環へ同定する降下補題を扱い、その後の節で主構成と数値的性質を確立する。
+$$
+K_X\sim -16\xi,\qquad M_X\sim 17\xi,
+$$
+
+したがって
+
+$$
+K_X+B+M_X\sim \xi
+$$
+
+となるが、section ring $R(X,\xi)$ は有限生成でない。また
+
+$$
+\kappa(X,\xi)=11<15=\nu(X,\xi)
+$$
+
+なので $\xi$ は abundant でない。同じ公式から $-K_X=16\xi$ は nef であり、その anticanonical ring も有限生成でないという帰結を得る。
+
+この結果は generalized pair の有限生成問題への否定的回答である一方、big な場合や Introduction に列挙された追加の正値性仮定のもとでの肯定的結果を否定するものではない。
+
+## 証明の見取り図
+
+4 次元 abelian variety $A$ の universal vector extension を加法群 $U=(\mathbb G_a)^4$ の torsor とみなし、有限生成でない不変式環をもつ Totaro の 16 次元表現から階数 16 のベクトル束 $E$ を作る。universal vector extension の anti-affine 性と降下により、$E$ の対称冪の大域切断環をその不変式環と同定する。
+
+次に
+
+$$
+X=\mathbb P_A(E)
+$$
+
+とし、tautological class を $\xi$ とする。$E$ は自明線束の反復拡大で $\det E\simeq\mathcal O_A$ だから、射影束の標準因子公式が $K_X\sim-16\xi$ を与える。$M=17\xi$ と選べば generalized canonical class は $\xi$ となり、環の非有限生成は不変式環との同定から従う、という流れが Introduction に示されている。
 
 ## 原論文との対応
 
-- **Abstractページ:** [arXiv:2608.03258](https://arxiv.org/abs/2608.03258)
+- **Abstractページ:** [arXiv:2608.03258v1](https://arxiv.org/abs/2608.03258v1)
 - **Introduction:** Section 1, pp. 1–3
 - **Introduction中で言及された主要定理番号:** Theorem 1.1, Remarks 1.2–1.5
 - **論文構成の説明:** Introduction, pp. 2–3（構成の概略）

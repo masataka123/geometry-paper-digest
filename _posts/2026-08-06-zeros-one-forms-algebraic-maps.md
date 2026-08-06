@@ -36,42 +36,84 @@ published: true
 - **主分類・副分類:** Algebraic Geometry (math.AG); Complex Variables (math.CV)
 - **ライセンス:** [arXiv non-exclusive distribution license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
-コンパクトKähler多様体 $X$ に零点をもたない正則1形式が存在すれば、その実部などから零点をもたない実閉1形式が得られる。Kotschick予想は逆も成り立つか、すなわち円周 $S^1$ 上の滑らかなファイバー束であるという位相的条件が零点のない正則1形式を強制するかを問うていた。
+零点のない正則1形式をもつことと、零点のない実閉1形式をもつことは、コンパクト Kähler 多様体で同値かという Kotschick 予想に反例を与える。構成される7次元滑らかな複素射影多様体は円周上に滑らかにファイバー化するが、全ての正則1形式が零点をもつ。
 
-この予想は複素次元2と3では知られており、Hodge数やChern数への制約も両条件で一致する。また、滑らかな写像 $X\to S^1$ をharmonic heat flowで調和写像へ変形する発想も予想を支持していた。しかし本論文は、高次元ではこの対応が破れることを示す。
+同じ例の Albanese morphism は homotopy fiber bundle だが submersion ではなく、Bobadilla--Kollár 予想の残っていた含意も反証する。さらに任意の非零実1次 cohomology class は零点のない閉1形式で表せる一方、その harmonic representative は常に零点をもつ。
 
-Theorem 1.1は7次元の滑らかな複素射影多様体 $X$ を構成する。そのAlbanese写像はhomotopy fiber bundleであり、$X$ は $S^1$ 上に滑らかにファイバー化する。さらに任意の非零実1次コホモロジー類は零点のない閉1形式で表せるが、Albanese写像はsubmersionではなく、すべての正則1形式は零点をもつ。
+別の5次元構成は、全ての connected finite étale cover 上で所定の Aomoto complex が完全になる正則1形式をもつにもかかわらず、零点のない実閉1形式を一つももたない。したがって正則1形式の零点、Albanese morphism の位相、実閉1形式、Aomoto complex の間に予想されていた複数の含意が高次元では分離する。
 
-したがって、Bobadilla--Kollár予想に残っていた「homotopy fiber bundleならsubmersion」という含意が反証され（Corollary 1.2）、Kotschick予想の逆向きも反証される（Corollary 1.3）。著者らは、調和代表が常に零点をもつ一方で各非零実クラスには零点のない別の代表がある、という強い形で差を示す。
+## 背景と問題設定
 
-構成はCorrêa--Kollárによるhomology fiber bundleの局所的反例を大域化し、blow-up trickを組み合わせる。Whiteheadの定理でhomotopy fiber bundle性を確認し、LatourおよびFarrellの結果を使って閉1形式と円周上のファイバー化を制御する、という方針がIntroductionに説明される。
+コンパクト Kähler 多様体 $X$ について、Introduction は次の条件を比較する。
 
-もう一つの問題は、有限étale被覆上で正則1形式との外積からなるAomoto複体がすべての次数で完全なら、零点のない正則1形式が存在するかというものだった。Theorem 1.4は5次元の滑らかな複素射影多様体で、このAomoto条件を満たすにもかかわらず、すべての実閉1形式が零点をもつ例を与える。
+- (A) $X$ は零点のない正則1形式をもつ。
+- (B) $X$ は零点のない実閉1形式をもつ。
+- (B') $X$ は $S^1$ 上の smooth fiber bundle である。
 
-後者はDebarre--Jiang--Lahozの「複素トーラスではない有理コホモロジートーラス」とblow-up trickに基づく。無限巡回被覆の $\mathbb F_2$-コホモロジーが無限次元になることから、円周上に滑らかにファイバー化できないことを示す。
+(A) は (B) を導き、Tischler の定理により (B) と (B') は同値である。Kotschick 予想は逆向き (B) $\Rightarrow$ (A) を問う。複素次元2、3では知られているが、本論文は高次元で失敗することを示す。
 
-以上は、正則1形式の零点、Albanese写像の微分位相、実閉1形式、Aomoto複体の間に期待されていた含意を複数切り離す。論文はこれらの反例を主張しており、低次元で成立する既知結果そのものを否定するものではない。
+Bobadilla--Kollár 予想は、円板への projective morphism について submersion、homotopy fiber bundle、$\mathbb Z$-homology fiber bundle の同値性を予想した。既知の容易な含意は submersion $\Rightarrow$ homotopy fiber bundle $\Rightarrow$ $\mathbb Z$-homology fiber bundle であり、本論文は最初の逆向きに反例を与える。
 
-## 論文の主要ポイント
+## 主結果
 
-- 円周上に滑らかにファイバー化するが、零点のない正則1形式をもたない射影多様体を構成する（Theorem 1.1）。
-- Kotschick予想を反証する（Corollary 1.3）。
-- homotopy fiber bundleであるAlbanese写像がsubmersionでない例を与え、Bobadilla--Kollár予想の残る含意を反証する（Corollary 1.2）。
-- すべての有限étale被覆上でAomoto複体が完全でも、零点のない実閉1形式が存在しない例を構成する（Theorem 1.4）。
-- 二つの構成でblow-up trickを使い、基本群とファイバー化の位相を制御する。
+### Albanese morphism と1形式の反例（Theorem 1.1）
 
-## 論文の構成
+7次元滑らかな複素射影多様体 $X$ が存在し、その Albanese morphism
 
-Introduction後、Section 2でblow-upの下でsubmersion性とhomology fiber bundle性を比較する。Section 3でTheorem 1.1、後続部分でAomoto複体に関するTheorem 1.4の構成を扱う。
+$$
+f:X\longrightarrow\operatorname{Alb}(X)
+$$
+
+は次の5性質を同時に満たす。
+
+1. $f$ は homotopy fiber bundle である。
+2. smooth fibration $X\to S^1$ が存在する。
+3. 任意の非零 $u\in H^1(X,\mathbb R)$ は零点のない実閉1形式で表せる。
+4. $f$ は submersion ではない。
+5. $X$ 上の全ての正則1形式は零点をもつ。
+
+同一の例で「位相的には fiber bundle に近い」性質と正則1形式の非消滅性が分離する点が新規性である。
+
+### Bobadilla--Kollár 予想への反例（Corollary 1.2）
+
+homotopy fiber bundle であることは submersion であることを導かない。これは Bobadilla--Kollár 予想に残っていた (ii) $\Rightarrow$ (i) を反証する。
+
+### Kotschick 予想への強い反例（Corollary 1.3）
+
+(B) は (A) を導かない。より強く、$b_1(X)>0$ の7次元滑らかな複素射影多様体で、任意の非零 $u\in H^1(X,\mathbb R)$ は零点のない閉実1形式で表せるが、$u$ の harmonic representative は常に零点をもつ例が存在する。
+
+### Aomoto 条件の限界（Theorem 1.4）
+
+Introduction の Property (C) は、ある $\omega\in H^0(X,\Omega_X^1)$ が存在し、任意の connected finite étale cover $\pi:X'\to X$ に対して Aomoto complex
+
+$$
+H^0(X',\mathbb C)
+\xrightarrow{\wedge\pi^*\omega}
+H^1(X',\mathbb C)
+\xrightarrow{\wedge\pi^*\omega}
+H^2(X',\mathbb C)
+\xrightarrow{\wedge\pi^*\omega}\cdots
+$$
+
+の全次数の cohomology が消える、という条件である。
+
+Theorem 1.4 は Property (C) を満たす5次元滑らかな複素射影多様体 $X$ で、全ての実閉1形式が零点をもつ例を構成する。したがって (C) は (A) も (B) も導かない。
+
+## 証明の見取り図
+
+Theorem 1.1 の構成は、Corrêa--Kollár の局所的な $\mathbb Z$-homology fiber bundle の反例を大域化し、blow-up trick と組み合わせる。Whitehead の定理は Albanese morphism が homotopy fiber bundle であることを担う。Latour の判定を使って各非零 cohomology class に零点のない実閉1形式を作り、Tischler の定理から $S^1$ 上の smooth fibration を得る。Introduction は Farrell の定理による直接的確認も挙げる。
+
+Theorem 1.4 では、Debarre--Jiang--Lahoz の「複素 torus ではない rational cohomology torus」と同じ blow-up trick を使い、基本群と finite étale cover の cohomology を制御する。Aomoto complex の完全性は $X$ と各被覆の cohomology の解析から得る。一方、非零 $u\in H^1(X,\mathbb Z)$ が定める infinite cyclic cover の $\mathbb F_2$-cohomologyが無限次元であることを示し、$X$ が $S^1$ 上に滑らかにファイバー化しないこと、従って全ての実閉1形式が零点をもつことを導く。
 
 ## 原論文との対応
 
 - **Abstractページ:** [arXiv:2607.15102v1](https://arxiv.org/abs/2607.15102v1)
 - **Introduction:** Section 1, pp. 1–4
 - **Introduction中で言及された主要定理番号:** Theorem 1.1, Corollaries 1.2–1.3, Theorem 1.4
-- **論文構成の説明:** Introduction, pp. 2–4
+- **中心数式:** pp. 1–3（条件 (A), (B), (B')、Theorem 1.1 の写像、Property (C) の Aomoto complex）
+- **論文構成の説明:** Introduction, pp. 2–4（各構成の概略）
 - **確認したarXivバージョン:** v1
 - **確認したライセンス:** arXiv non-exclusive distribution license（arXiv Abstractページの表示）
 - **source_scope:** Abstract and Introduction
