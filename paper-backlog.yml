@@ -94,104 +94,154 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2606.27851"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-ulrich-exterior-powers-tangent-bundle.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.27724"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-ricci-virtual-abelianness.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.25110"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-rank-two-point-bubbling.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.24508"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-nonembeddable-torus-paneitz.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.23333"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-positive-hsc-rational-surfaces.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.23203"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-frobenius-positivity-hodge-bundles.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.21073"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-prescribed-hym-flow-ii.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.21062"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-prescribed-hym-flow-i.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.20307"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-hym-iteration-stable-bundles.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.19806"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-top-yau-yang-conjecture.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.17505"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-hitchin-morphism-classical-groups.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.17402"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-scalar-curvature-kahler-ricci-flow.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.16275"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-singular-positivity-nakano-nadel.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.15533"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-intermediate-pseudoconvexity.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.15102"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-twisted-hermitian-einstein.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.13569"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-kahler-hyperbolicity-modulus.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.12878"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-curvature-kahler-toric-manifolds.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.08224"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-kahler-thresholds.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.08185"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-holomorphic-one-forms-geometry.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.06778"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-orbifold-uniformization-parabolic-higgs.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.03424"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-bondal-conjecture-dimension-five.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.03039"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-linearisation-finite-etale-cover.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.02816"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-noncollapsed-csck-surfaces.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2606.02401"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-stable-degeneration-kaledin.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2605.30063"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-special-fujita-ytd.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2605.29258"
     requested_version: "v1"
     status: pending
