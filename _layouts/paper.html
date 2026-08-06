@@ -13,19 +13,38 @@ layout: default
     <p class="eyebrow">{{ topic.title }} · {{ page.date | date: "%Y-%m-%d" }}</p>
     <h1>{{ page.title }}</h1>
     <p class="authors">{{ page.authors }}</p>
-    {% if page.abstract_en or page.abstract_ja %}
+    {% if page.abstract_en != nil and page.abstract_en != empty %}
       <div class="abstracts">
         <section class="abstract abstract-en">
           <h2>Abstract</h2>
-          {% if page.abstract_en != nil and page.abstract_en != empty %}
-            <p lang="en">{{ page.abstract_en }}</p>
-          {% else %}
-            <p lang="en"><a href="{{ page.arxiv_url }}" rel="noopener">Abstract on arXiv</a></p>
-          {% endif %}
+          <p lang="en">{{ page.abstract_en }}</p>
         </section>
         <section class="abstract abstract-ja">
           <h2>日本語要約</h2>
           {% if page.abstract_ja != nil and page.abstract_ja != empty %}<p>{{ page.abstract_ja }}</p>{% endif %}
+        </section>
+      </div>
+    {% elsif page.summary_en != nil and page.summary_en != empty %}
+      <div class="abstracts">
+        <section class="abstract abstract-en english-summary">
+          <h2>English summary</h2>
+          <p lang="en">{{ page.summary_en }}</p>
+          <p class="abstract-source"><a href="{{ page.abstract_source_url | default: page.arxiv_url }}" rel="noopener">Original abstract on arXiv</a></p>
+        </section>
+        <section class="abstract abstract-ja">
+          <h2>日本語要約</h2>
+          {% if page.abstract_ja != nil and page.abstract_ja != empty %}<p>{{ page.abstract_ja }}</p>{% endif %}
+        </section>
+      </div>
+    {% elsif page.abstract_ja != nil and page.abstract_ja != empty %}
+      <div class="abstracts">
+        <section class="abstract abstract-en">
+          <h2>Abstract</h2>
+          <p lang="en"><a href="{{ page.arxiv_url }}" rel="noopener">Abstract on arXiv</a></p>
+        </section>
+        <section class="abstract abstract-ja">
+          <h2>日本語要約</h2>
+          <p>{{ page.abstract_ja }}</p>
         </section>
       </div>
     {% else %}

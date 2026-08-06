@@ -81,10 +81,13 @@ p { line-height: 1.75; }
 .title-link { color: var(--ink); text-decoration: none; }
 .title-link:hover { color: var(--link); }
 .authors { color: var(--muted); font-style: italic; }
-.abstracts { overflow-wrap: anywhere; word-break: normal; }
+.abstracts { max-width: 100%; overflow-wrap: anywhere; word-break: normal; }
 .abstract h3, .paper-header .abstract h2 { font-size: 1rem; margin: 1.25rem 0 .35rem; }
 .abstract p { margin: 0; }
 .abstract-en { line-height: 1.8; }
+.abstract-en p[lang="en"] { line-height: 1.8; overflow-wrap: anywhere; }
+.abstract-source { font-size: .86rem; margin-top: .65rem !important; }
+.abstract-source a { color: var(--muted); }
 .abstract-ja { margin-top: 1.75rem; }
 .links { display: flex; flex-wrap: wrap; gap: 16px; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; font-weight: 650; }
 .empty { background: var(--card); border: 1px dashed var(--soft-line); border-radius: 6px; color: var(--muted); padding: 22px; }
