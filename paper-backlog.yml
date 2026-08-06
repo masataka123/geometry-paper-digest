@@ -35,24 +35,34 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2608.01519"
     requested_version: ""
-    status: pending
-    note: ""
+    status: already-published
+    note: "基本arXiv番号が既存記事と重複"
+    article_path: "_posts/2026-08-06-steenbrink-big-line-bundles.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.25230"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-analytic-bertini-local.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.24986"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-kahler-mmp-base-point-free.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.23878"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-log-calabi-yau-fibration-moduli.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.15102"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-06-zeros-one-forms-algebraic-maps.md"
+    processed_at: "2026-08-06"
   - arxiv_id: "2607.09622"
     requested_version: "v1"
     status: pending
