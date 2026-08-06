@@ -8,7 +8,12 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <script>
     window.MathJax = {
-      tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]'], ['$$', '$$']] },
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        tags: 'ams'
+      },
       svg: { fontCache: 'global' }
     };
   </script>
