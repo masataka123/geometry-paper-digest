@@ -2,16 +2,17 @@
   arxiv_category: math.AG
   title: 代数幾何学
   english: Algebraic Geometry
-  description: arXivのprimary categoryがmath.AGである論文。
+  description: 
+  
 
 - slug: differential-geometry
   arxiv_category: math.DG
   title: 微分幾何学
   english: Differential Geometry
-  description: arXivのprimary categoryがmath.DGである論文。
+  description: 
 
 - slug: several-complex-variables
   arxiv_category: math.CV
   title: 多変数複素解析
   english: Complex Variables
-  description: arXivのprimary categoryがmath.CVである論文。
+  description: 
