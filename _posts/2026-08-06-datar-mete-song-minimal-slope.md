@@ -30,47 +30,113 @@ published: true
 
 ## 書誌情報
 
-- **arXiv:** [arXiv:2608.01198](https://arxiv.org/abs/2608.01198)
+- **arXiv:** [arXiv:2608.01198v2](https://arxiv.org/abs/2608.01198)
 - **著者:** Xin Fu
 - **初回投稿日:** 2026年8月2日
 - **最終更新日:** 2026年8月5日（v2）
 - **主分類・副分類:** Algebraic Geometry (math.AG), Analysis of PDEs (math.AP), Complex Variables (math.CV)
 - **ライセンス:** [arXiv non-exclusive distribution license 1.0](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
-$J$ 方程式は Donaldson の $J$-flow の臨界点方程式であり、コンパクト Kähler 多様体 $X$ 上の Kähler 類 $\alpha,\beta$ に対して、代表 $\chi\in\alpha$ が交点数で定まる定数をもつ非線形方程式を満たすことを求める。可解性は部分多様体上の数値的 slope 条件と結びつき、射影の場合と一般の Kähler の場合に安定領域での予想が解決されてきた。
+$J$ 方程式は Donaldson の moment map の枠組みから生じる $J$-flow の臨界点方程式であり、その可解性は Kähler 類の交点数と部分多様体上の slope 条件に結び付く。安定な場合には射影・Kähler の双方で数値条件と滑らかな解の存在の関係が確立されているが、等号を許す半安定領域や不安定領域をどう測るかが次の問題となる。
 
-Datar--Mete--Song は滑らかな解が存在する安定領域を越え、半安定・不安定領域を測る最小 $J$-slope $\zeta_{\min}(\alpha,\beta)$ を導入した。これは双有理修正 $\pi:Y\to X$ と有効実因子 $D$ により $L=\pi^*\alpha-[D]$ が big and nef となる全テストの slope の下限である。
+Datar--Mete--Song は、双有理修正上の big and nef テスト類を走る「最小 $J$-slope」を導入し、Kähler 類の対の半安定性が、この最小値と位相的 $J$-slope の一致で特徴づけられると予想した。次元 $2$ では既知だったが、任意次元では双有理モデル全体の slope と、元の多様体の全ての部分多様体に対する条件を比較する必要があった。
 
-彼らの予想は、対 $(\alpha,\beta)$ が半安定であることと、最小 slope が位相的 $J$-slope $\mu(\alpha,\beta)$ に等しいことが同値だというものだった。次元 2 では既知だったが、本論文の Theorem 1 は任意次元でこれを証明する。
+本論文はこの予想を任意次元で証明する。半安定なら全ての許容される big and nef テストの slope が位相的 slope 以上になり、自明なテストと合わせて最小 slope は位相的 slope に一致する。不安定なら真に小さい slope のテストが存在する。
 
-より具体的には、半安定なら任意の双有理 big and nef テスト類の slope は $\mu$ 以上であり、恒等写像による自明なテストと合わせて $\zeta_{\min}=\mu$ となる。逆に不安定なら、$\mu$ より真に小さい slope をもつテストが存在する。これは孤立した部分多様体の条件と、双有理モデル全体を走る変分的な量とを一致させる結果である。
+さらに、半安定対で等号を達成する部分多様体からなる最適不安定化 locus を調べる。コンパクト toric Kähler 多様体ではこれが解析的部分集合となり、類が torus 不変なら既知の弱解が稠密な大 torus 上で滑らかかつ Kähler になる。一方、locus の外全体での高階正則性、および不安定な場合の弱解は未解決として残る。
 
-一方、任意の対に対して最小 slope を右辺に用いる $J$ 方程式の一意な Kähler current 解が存在するという、Datar--Mete--Song のさらに強い予想は未解決のままである。半安定の場合の弱解は Murakami により構成されており、本論文はその退化集合の理解も進める。
+## 背景と問題設定
 
-半安定対について等号を達成する部分多様体の集合を最適不安定化 locus とみなす。著者はコンパクトなトーリック Kähler 多様体ではこの集合が解析的部分集合であることを示し、さらに類がトーラス不変なら Murakami の弱解が稠密な大トーラス $(\mathbb C^*)^n$ 上で滑らかかつ Kähler になることを証明する（Theorem 3）。ただし locus の外全体での高階正則性は得られていない。
+$X$ を複素次元 $n$ のコンパクト Kähler 多様体、$\alpha,\beta$ を Kähler 類とする。$\omega\in\beta$ に対し、$J$ 方程式は $\chi\in\alpha$ を
 
-Introduction に示された証明の要点は、半安定対を安定対で摂動し、big and nef 類の相対 envelope から因子的特異点をもつ current を構成して、非 pluripolar 積と $C^{1,1}$ 正則性から核心的な積分不等式を導くことである。
+$$
+n\,\chi^{n-1}\wedge\omega
+=\mu(\alpha,\beta)\chi^n,
+\qquad
+\mu(\alpha,\beta)=n\frac{\alpha^{n-1}\cdot\beta}{\alpha^n}
+$$
 
-## 論文の主要ポイント
+となるよう求める。$d$ 次元既約解析的部分多様体 $Z\subset X$ に対して
 
-- Datar--Mete--Song の最小 slope 予想を任意次元のコンパクト Kähler 多様体で証明する（Theorem 1）。
-- 半安定対では全ての big and nef 双有理テスト slope が位相的 $J$-slope 以上になる。
-- 不安定対では位相的 slope より真に小さいテスト slope が存在する。
-- トーリック Kähler 多様体で最適不安定化 locus が解析的であることを示す（Theorem 3）。
-- トーラス不変な半安定対では、弱解が大トーラス上で滑らかかつ Kähler になるが、より広い正則性は未解決である。
+$$
+\mu_Z(\alpha,\beta)
+=d\frac{\alpha^{d-1}\cdot\beta\cdot Z}{\alpha^d\cdot Z}
+$$
 
-## 論文の構成
+と置くと、半安定性は全ての $1\leq d<n$ と $Z$ について
 
-Section 2 で Theorem 1 を証明し、その後の節でトーリックの場合の最適不安定化 locus と弱解の正則性を扱う。
+$$
+d\,\alpha^{d-1}\cdot\beta\cdot Z
+\leq \mu(\alpha,\beta)\,\alpha^d\cdot Z
+$$
+
+が成り立つこととして定義される。
+
+双有理修正 $\pi:Y\to X$ と有効 $\mathbb R$-因子 $D$ を取り、$L=\pi^*\alpha-[D]$ が big and nef のとき、テスト slope と最小 slope は
+
+$$
+\mu_L(\alpha,\beta)
+=n\frac{L^{n-1}\cdot\pi^*\beta}{L^n},
+\qquad
+\zeta_{\min}(\alpha,\beta)=\inf_{\pi,D}\mu_L(\alpha,\beta)
+$$
+
+である。恒等写像と $D=0$ は許容されるので、常に $\zeta_{\min}\leq\mu$ である。
+
+## 主結果
+
+### 最小 slope による半安定性の特徴づけ（Theorem 1）
+
+結論は、$(\alpha,\beta)$ が半安定であることと
+
+$$
+\zeta_{\min}(\alpha,\beta)=\mu(\alpha,\beta)
+$$
+
+が同値だという Datar--Mete--Song 予想の肯定である。より具体的に、半安定なら全ての許容される $\pi:Y\to X$, $D$, $L$ に対して
+
+$$
+nL^{n-1}\cdot\pi^*\beta\geq\mu L^n
+$$
+
+が成立する。逆に半安定でなければ
+
+$$
+\zeta_{\min}(\alpha,\beta)<\mu
+$$
+
+となる。後者は projective かつ polarized な場合には Datar--Mete--Song により既知であり、本論文は Kähler の一般設定で特徴づけを完成する。
+
+### 最適不安定化 locus と toric の場合（Theorem 3）
+
+半安定対について、等号を達成する既約部分多様体の合併を
+
+$$
+\operatorname{Dest}_{\mathrm{opt}}(\alpha,\beta)
+=
+\bigcup_{\substack{Z\subsetneq X\ \mathrm{irreducible}\\1\leq\dim Z\leq n-1,\ \mu_Z=\mu}} Z
+$$
+
+とする。$X$ が toric Kähler 多様体なら、この集合は解析的部分集合である。さらに $\alpha,\beta$ が torus 不変なら、$J$ 方程式の弱解 $T$ を稠密な大 torus $(\mathbb C^*)^n$ 上で滑らかかつ Kähler に選べる。
+
+ただし Introduction は、$\operatorname{Dest}_{\mathrm{opt}}$ の外全体における $T$ の高階正則性は torus 不変の場合でも証明できていないと明記する。また、最小 slope を右辺とする弱 $J$ 方程式の不安定な場合は未解決である。
+
+## 証明の見取り図
+
+Introduction は、安定領域の $J$ 方程式について Chen、Datar--Pingali、Song による数値判定と存在結果を背景として挙げ、Datar--Mete--Song が半安定・不安定領域へ問題を拡張したことを説明する。ただし Theorem 1 の具体的な証明手順は Introduction 内では示されておらず、直後の Section 2 が Theorem 1 の証明を担う。
+
+したがって、Abstract と Introduction に限定するこの記事では、既知の安定理論と最小 slope の双有理テストを比較して半安定性の数値的特徴づけへ至る、という位置づけまでを確認範囲とする。relative envelope や非 pluripolar 積を用いる後続節の技術的手順は、ここでは証明の見取り図として再構成しない。
 
 ## 原論文との対応
 
-- **Abstractページ:** [arXiv:2608.01198](https://arxiv.org/abs/2608.01198)
-- **Introduction:** Section 1, pp. 1–4
-- **Introduction中で言及された主要定理番号:** Theorems 1–3, Conjectures 1–2
-- **論文構成の説明:** Introduction, p. 4（Theorem 1 の証明概略）
+- **Abstractページ:** [arXiv:2608.01198v2](https://arxiv.org/abs/2608.01198v2)
+- **Introduction:** Section 1, pp. 1--4
+- **主要定理:** Theorem 1, Theorem 3
+- **既知結果として引用:** Theorem 2 (Murakami)
+- **予想:** Conjecture 1, Conjecture 2
+- **証明方針:** Introduction には詳細な sketch なし。Theorem 1 の証明は Section 2 と案内される
 - **確認したarXivバージョン:** v2
-- **確認したライセンス:** arXiv non-exclusive distribution license 1.0（arXiv Abstractページの表示）
+- **確認したライセンス:** arXiv non-exclusive distribution license 1.0
 - **source_scope:** Abstract and Introduction
