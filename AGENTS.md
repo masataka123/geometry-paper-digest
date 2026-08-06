@@ -3,6 +3,11 @@
 ## Purpose
 Maintain a Japanese research-paper digest site for algebraic geometry, complex geometry, and several complex variables. New articles let readers understand what a paper studies, why it matters, and what it claims before reading its Introduction.
 
+## Operation modes
+- `DAILY_PROMPT.md` is the regular workflow that searches for papers submitted or updated within the last 96 hours.
+- `BACKLOG_PROMPT.md` is a separate workflow that processes only the papers specified in `paper-backlog.yml`, without a 96-hour limit or a search for new candidates. In each run, process at most the first five `pending` items in their existing order.
+- In both workflows, prevent duplicates by comparing the normalized base arXiv identifiers found in all Markdown files under `_posts/`.
+
 ## Daily selection
 1. Always read `selection-profile.yml` first.
 2. Before selecting candidates, read every Markdown file in `_posts/`. Extract arXiv identifiers from front matter `arxiv_id`, `arxiv_url`, and, when needed, arXiv URLs in the body. Normalize each to its base identifier by removing `arXiv:`, URL prefixes (`arxiv.org` or `export.arxiv.org`, `/abs/` or `/pdf/`), a PDF suffix, and a trailing version such as `v2`.
