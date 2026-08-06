@@ -28,47 +28,101 @@ published: true
 
 ## 書誌情報
 
-- **arXiv:** [arXiv:2608.01330](https://arxiv.org/abs/2608.01330)
+- **arXiv:** [arXiv:2608.01330v1](https://arxiv.org/abs/2608.01330)
 - **著者:** Jiafu Ning, Kai Pang, Haoyuan Sun, Zhiwei Wang, Xiangyu Zhou
 - **初回投稿日:** 2026年8月2日
 - **最終更新日:** 2026年8月2日（v1）
 - **主分類・副分類:** Complex Variables (math.CV)
 - **ライセンス:** [arXiv non-exclusive distribution license 1.0](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
-コンパクト Kähler 多様体 $(X,\omega)$ の閉複素部分多様体 $V$ 上にある $\omega|_V$-plurisubharmonic（psh）関数は、$X$ 上の $\omega$-psh 関数の制限として得られるだろうか。これは Coman--Guedj--Zeriahi が提示した延長問題であり、current の言葉では、$V$ 上の正値性を ambient space 上へ保って延長できるかを問う。
+本論文は、コンパクト複素多様体の閉複素部分多様体上にある plurisubharmonic potential を、正値性を保ちながら全空間へ延長できるかという Coman--Guedj--Zeriahi の問題を扱う。current の言葉では、部分多様体上の Kähler current を ambient Kähler 類の current の制限として実現できるかという問題である。
 
-従来は $\omega$ が Hodge class の場合、実 Néron--Severi class の場合、解析的特異点をもつ strict current の場合などが知られていた。任意の特異点を扱う strict 版も、$V$ の近傍から $V$ への正則 retract が存在する場合には解かれていたが、一般の場合にはこの補助仮定が残っていた。
+従来、Hodge class、実 Néron--Severi class、解析的特異点をもつ strict current などの場合が知られていた。任意の特異点を許す strict 版も、部分多様体の近傍からの正則 retraction が存在する場合には解かれていたが、一般の場合にはこの補助仮定が障害として残っていた。
 
-Theorem 1.1 はこの問題に完全な肯定解を与える。実際には Kähler を越えて、任意のコンパクト Hermitian 多様体 $(X,\omega)$ と閉複素部分多様体 $V$ に対し、全ての $\varphi\in\operatorname{PSH}(V,\omega|_V)$ は $\Phi\in\operatorname{PSH}(X,\omega)$ へ延長できる。
+著者らは問題を完全な一般性で肯定的に解決し、実際には ambient space を Kähler から compact Hermitian へ広げる。全ての $\omega|_V$-psh 関数は $X$ 上の $\omega$-psh 関数に延長でき、strict positivity があれば定数を取り直した strict positivity も保存できる。
 
-さらに $\omega|_V+dd^c\varphi\geq\varepsilon\omega|_V$ という狭義の下界があれば、ある $\varepsilon'>0$ に対して $\omega+dd^c\Phi\geq\varepsilon'\omega$ となる延長が存在する（Theorem 1.2）。したがって $\omega$ が Kähler なら、$[\omega|_V]$ 内の任意の Kähler current は $[\omega]$ 内の Kähler current の制限になる。
+新しい点は、部分多様体上の滑らかな近似を共通近傍へ一様評価付きで同時に延長することを要求しないことである。延長データの一様性を緩めながら単調性を保つ方法により、retraction などの従来仮定を除く。非滑らかな部分空間への拡張可能性は将来研究として挙げられ、今回の証明済み範囲には含まれない。
 
-方法上の新しさは、$V$ 上の滑らかな近似を共通の近傍へ一様評価付きで同時に延長することを要求しない点にある。代わりに、延長データの一様性を緩めながら単調性を維持し、極限で所望の特異 psh 関数を回収する。
+## 背景と問題設定
 
-Introduction 以降の構成の概略では、まず滑らかな strict psh 関数を $V$ の近傍へ延長し、対数極をもつ補助関数を使った dominated global patching によって全空間へ貼り合わせる。次に gap をもつ単調な滑らか近似を組み合わせ、貼り合わせ列の減少極限を取る。
+$(X,\omega)$ を compact Hermitian manifold、$V\subsetneq X$ を閉複素部分多様体とし、$\omega_V=\omega|_V$ と置く。qpsh 関数の集合を $\operatorname{QPSH}(X)$ とし、Introduction の定義に従って
 
-著者らは、この方法が $V$ が非滑らかな解析的部分空間の場合にも応用できる可能性を指摘するが、それは本論文の証明済み範囲ではなく後続研究の課題である。
+$$
+\operatorname{PSH}(X,\omega)
+=
+\{u\in\operatorname{QPSH}(X):\omega+dd^cu\geq0\}
+$$
 
-## 論文の主要ポイント
+および
 
-- 任意の $\omega|_V$-psh 関数が ambient の $\omega$-psh 関数へ延長する（Theorem 1.1）。
-- strict positivity も正の定数を取り直して保存できる（Theorem 1.2）。
-- Kähler の場合、部分多様体上の Kähler current を ambient Kähler current へ延長できる。
-- Hodge class、Néron--Severi class、解析的特異点、近傍 retract といった従来の補助仮定を不要にする。
-- gap をもつ単調近似と dominated global patching が新しい技術的要点である。
+$$
+\operatorname{PSH}(X,\omega,\delta)
+=
+\{u\in\operatorname{QPSH}(X):\omega+dd^cu\geq\delta\omega\}
+$$
 
-## 論文の構成
+とする。問題は制限写像が
 
-Section 2 で psh 関数と近似を準備し、Section 3 で局所的な滑らかな延長、Section 4 で大域的貼り合わせ補題、Section 5 で gap をもつ単調近似を示し、Section 6 で主定理を証明する。
+$$
+\operatorname{PSH}(V,\omega_V)
+=
+\operatorname{PSH}(X,\omega)|_V
+$$
+
+を満たすか、さらに strict positivity を保てるかである。
+
+## 主結果
+
+### 任意の特異性をもつ psh potential の延長（Theorem 1.1）
+
+全ての $\varphi\in\operatorname{PSH}(V,\omega_V)$ に対して、
+
+$$
+\Phi\in\operatorname{PSH}(X,\omega),
+\qquad
+\Phi|_V=\varphi
+$$
+
+を満たす延長が存在する。したがって
+
+$$
+\operatorname{PSH}(X,\omega)|_V
+=
+\operatorname{PSH}(V,\omega_V)
+$$
+
+である。$X$ が Kähler であることを必要とせず、compact Hermitian で十分であり、特異性にも追加条件を課さない点が従来結果からの前進である。
+
+### strict positivity と Kähler current の延長（Theorem 1.2）
+
+ある $\varepsilon>0$ に対して $\varphi\in\operatorname{PSH}(V,\omega_V,\varepsilon)$ なら、ある $\varepsilon'>0$ と
+
+$$
+\Phi\in\operatorname{PSH}(X,\omega,\varepsilon'),
+\qquad
+\Phi|_V=\varphi
+$$
+
+が存在する。特に $\omega$ が Kähler metric なら、$[\omega_V]$ に属する全ての Kähler current は、$[\omega]$ に属する Kähler current の制限となる。
+
+Theorem 1.1 と Theorem 1.2 はどちらも compact Kähler を仮定せず compact Hermitian で成立する。一方、Introduction が示唆する非滑らかな $V$ への応用は後続研究の課題であり、この定理の結論ではない。
+
+## 証明の見取り図
+
+Introduction が明示する方法上の要点は、先行研究の戦略を踏まえつつ、$V$ 上の滑らかな近似 $\varphi_j$ を共通近傍へ一様評価付きで同時に延長する要求を捨てることである。代わりに延長データの一様性を緩め、単調性を保存して極限を制御する。
+
+Contents によれば、Section 3 の局所的な滑らかな延長、Section 4 の dominated global patching、Section 5 の gap をもつ strict monotone smooth approximation を準備し、Section 6 で主定理を証明する。Introduction はこれ以上の技術的流れを詳述していないため、ここでは各段階の名称と新しい単調性の方針に限定する。
 
 ## 原論文との対応
 
-- **Abstractページ:** [arXiv:2608.01330](https://arxiv.org/abs/2608.01330)
-- **Introduction:** Section 1, pp. 1–2
-- **Introduction中で言及された主要定理番号:** Theorems 1.1–1.2, Remark 1.1
-- **論文構成の説明:** Contents, p. 1 および Introduction, p. 2（方法の概略）
+- **Abstractページ:** [arXiv:2608.01330v1](https://arxiv.org/abs/2608.01330v1)
+- **Introduction:** Section 1, pp. 1--2
+- **問題:** Problem 1.1
+- **主要定理:** Theorem 1.1, Theorem 1.2
+- **補足:** Remark 1.1
+- **論文構成:** Contents, p. 1
 - **確認したarXivバージョン:** v1
-- **確認したライセンス:** arXiv non-exclusive distribution license 1.0（arXiv Abstractページの表示）
+- **確認したライセンス:** arXiv non-exclusive distribution license 1.0
 - **source_scope:** Abstract and Introduction

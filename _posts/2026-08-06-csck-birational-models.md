@@ -29,47 +29,83 @@ published: true
 
 ## 書誌情報
 
-- **arXiv:** [arXiv:2608.03572](https://arxiv.org/abs/2608.03572)
+- **arXiv:** [arXiv:2608.03572v1](https://arxiv.org/abs/2608.03572)
 - **著者:** Zakarias Sjöström Dyrefelt
 - **初回投稿日:** 2026年8月4日
 - **最終更新日:** 2026年8月4日（v1）
 - **主分類・副分類:** Differential Geometry (math.DG), Algebraic Geometry (math.AG)
 - **ライセンス:** [arXiv non-exclusive distribution license 1.0](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)
 
-## イントロダクションの日本語要約
+## 要約
 
-複素多様体上の標準計量の存在は Kähler 幾何の中心問題であり、定スカラー曲率 Kähler（cscK）計量は Yau--Tian--Donaldson 対応を通じて安定性と結びつく。本論文は、元の多様体に計量や安定性を仮定せず、双有理修正そのものによって cscK 計量の存在を保証できるかを問う。
+定スカラー曲率 Kähler（cscK）計量の存在は、標準計量と代数幾何的安定性を結ぶ Kähler 幾何の中心問題である。従来、blowup 後の cscK 計量は、すでに標準計量をもつ多様体から gluing で構成する摂動的結果が中心だった。本論文は、元の射影多様体に計量や安定性を仮定せず、双有理修正によって cscK 計量の存在そのものを保証できるかを問う。
 
-第一の主結果は非常に包括的で、任意の複素射影多様体 $X$ に対し、cscK 計量をもつ滑らかな射影多様体 $\widetilde X$ からの射影双有理射 $\widetilde X\to X$ が存在すると述べる（Theorem 1.1）。特異な $X$ についてはまず特異点解消を行うため、本質的な構成は滑らかな場合にある。
+第一の結論は、任意の複素射影多様体が cscK 計量をもつ滑らかな射影多様体と双有理になるという包括的な存在定理である。特異な出発点には特異点解消を用い、本質的な構成は滑らかな射影多様体上の十分正な Lefschetz pencil から得られる。
 
-滑らかな $n$ 次元射影多様体 $X$ と、$K_X+H$ も ample となる very ample 線束 $H$ を取る。$|H|$ の一般 Lefschetz pencil の滑らかな余次元 2 基点 $Z$ を blowup すると、Lefschetz fibration $f:\widetilde X\to\mathbb P^1$ が得られる。fiber class を $F$、相対標準類を $\Theta=c_1(K_{\widetilde X/\mathbb P^1})$ とすると、$\Theta$ は Kähler 類であり、十分小さい正の有理数 $\varepsilon$ に対して $F+\varepsilon\Theta$ に cscK 計量が存在する（Theorem 1.2）。
+滑らかな場合には、一般 Lefschetz pencil の滑らかな余次元 $2$ 基点を一度 blowup する。その結果得られる fibration の fiber class と相対標準類を組み合わせた明示的な断熱 Kähler 類に、十分小さい正の有理パラメータについて cscK 計量が存在する。元の多様体が不安定でも構成できる点が、既存計量を変形する従来法との違いである。
 
-任意の ample 線束の十分大きい冪を $H$ に選べるので、この操作は広く適用できる。曲面では $Z$ は有限個の点となり、「任意の複素射影曲面を十分多くの点で blowup すれば cscK 計量をもつ」という folklore 予想を具体的に解く。
+曲面では blowup 中心が有限個の点となり、任意の複素射影曲面を適切な十分多くの点で blowup すれば cscK 計量を得るという folklore 予想を解く。一方、許される断熱パラメータの有効な大きさは与えられず、Hattori の delta invariant に関する断熱定理の有効化が将来課題として残る。
 
-Fano 多様体では $|-mK_X|$ の一般 pencil を選べ、固定次元なら boundedness により $m$ と中心の数値的規模を一様にできる。また射影的な Fano K-moduli 空間の各既約成分にも、cscK 計量をもつ滑らかな射影双有理モデルが得られる。ただし $\varepsilon$ をどこまで大きくできるかの有効評価は、delta invariant に対する断熱定理の有効化に依存する将来課題である。
+## 背景と問題設定
 
-従来の blowup 上の cscK 計量構成は、すでに標準計量をもつ多様体からの gluing による摂動的手法が中心だった。本論文は gluing を使わず、Mabuchi K-energy の coercivity を直接証明して Chen--Cheng の存在定理を適用する。
+$X$ を滑らかな複素射影多様体、$H$ を very ample 線束とし、$K_X+H$ も ample と仮定する。$|H|$ の一般 Lefschetz pencil $|W|$ は滑らかな余次元 $2$ 基点 $Z\subset X$ をもち、その blowup
 
-鍵は Lefschetz pencil が blowup 中心、fibration、polarization を同時に選ぶ点にある。Hattori の断熱的 entropy 評価と、curve 上の fibration に対する slope stability threshold の明示計算を組み合わせ、energy 項と entropy 項を同時に制御する。
+$$
+\pi:\widetilde X=\operatorname{Bl}_Z X\longrightarrow X
+$$
 
-## 論文の主要ポイント
+には Lefschetz fibration $f:\widetilde X\to\mathbb P^1$ が付随する。Introduction の記法に従い、fiber の共通因子類と相対標準類を
 
-- 任意の複素射影多様体に cscK 計量をもつ滑らかな射影双有理モデルが存在する（Theorem 1.1）。
-- 滑らかな場合、十分正な Lefschetz pencil の余次元 2 基点の一回の blowup でモデルを得る（Theorem 1.2）。
-- cscK 類は $F+\varepsilon\Theta$ と明示され、$0<\varepsilon\ll1$ の有理数で存在する。
-- 曲面の point-blowup 予想を解き、Fano 多様体や Fano K-moduli 空間への帰結を与える。
-- gluing ではなく Mabuchi 汎関数の coercivity、slope 計算、断熱 entropy 極限を用いる。
+$$
+F=f^*c_1\!\left(\mathcal O_{\mathbb P^1}(1)\right),
+\qquad
+\Theta=c_1\!\left(K_{\widetilde X/\mathbb P^1}\right)
+$$
 
-## 論文の構成
+と置く。この幾何的選択が blowup 中心、fibration、polarization を一つの組として結び付ける。
 
-Section 2 で coercivity、energy・entropy threshold、Lefschetz pencil、断熱定理を準備する。Section 3 で slope threshold の最適不安定化部分多様体を求め、Section 4 で主定理を証明し、Section 5 で曲面、Fano 多様体、K-moduli、射影空間の例を扱う。
+## 主結果
+
+### cscK 双有理モデルの存在（Theorem 1.1）
+
+任意の複素射影多様体 $X$ に対して、滑らかな射影多様体 $\widetilde X$ と射影双有理射
+
+$$
+\mu:\widetilde X\longrightarrow X
+$$
+
+が存在し、$\widetilde X$ は有理 Kähler 類に cscK 計量をもつ。元の $X$ に cscK 計量や安定性を仮定しないことが、この定理の主要な強さである。
+
+### Lefschetz pencil による具体化（Theorem 1.2）
+
+$X$ を滑らかな $n\geq2$ 次元複素射影多様体とし、上記の $H$, $Z$, $\pi$, $f$, $F$, $\Theta$ を取る。このとき $\Theta$ は Kähler 類であり、十分小さいすべての正の有理数 $\varepsilon$ に対して
+
+$$
+\Omega_\varepsilon=F+\varepsilon\Theta
+$$
+
+は cscK 計量を含む。したがって滑らかな場合、Theorem 1.1 の双有理射は十分正な一般 Lefschetz pencil の余次元 $2$ 基点の一回の blowup として選べる。
+
+任意の ample 線束 $A$ に対して $H=kA$ を十分大きく取れば仮定を満たせるため、構成は任意の滑らかな射影多様体に適用できる。ただし「十分小さい」$\varepsilon$ の有効範囲は Introduction では未解決とされている。
+
+### 曲面およびその他の帰結
+
+曲面では $Z$ は相異なる有限個の点である。Introduction は、very ample な $A$ に対して一般 pencil $|4A|$ の $16A^2$ 個の基点を同時に blowup すれば、$0<\varepsilon\ll1$ の $\Omega_\varepsilon$ に cscK 計量が存在すると述べる。Fano 多様体では十分正な $|-mK_X|$ を使え、射影的 Fano K-moduli 空間の既約成分にも滑らかな cscK 双有理モデルが得られる。
+
+## 証明の見取り図
+
+本論文は gluing を用いず、指定した $\Omega_\varepsilon$ に対する Mabuchi K-energy の coercivity を証明し、Chen--Cheng の存在定理から cscK 計量を得る。Lefschetz pencil の選択により、energy 項と entropy 項を同時に制御できる幾何が作られる。
+
+Introduction によれば、entropy 側は Hattori の断熱定理で評価し、energy 側は Gao Chen の結果に基づく slope stability threshold を、曲線上の fibration、特にこの Lefschetz fibration について明示計算する。中心・fibration・断熱偏極を一体として選んだ結果、最後は正確な slope 計算と断熱 entropy 極限へ還元される。特異な $X$ に対する Theorem 1.1 は、特異点解消後に Theorem 1.2 を適用して得られる。
 
 ## 原論文との対応
 
-- **Abstractページ:** [arXiv:2608.03572](https://arxiv.org/abs/2608.03572)
-- **Introduction:** Section 1, pp. 1–5
-- **Introduction中で言及された主要定理番号:** Theorems 1.1–1.2
-- **論文構成の説明:** Introduction, p. 5
+- **Abstractページ:** [arXiv:2608.03572v1](https://arxiv.org/abs/2608.03572v1)
+- **Introduction:** Section 1, pp. 1--5
+- **主要定理:** Theorem 1.1, Theorem 1.2
+- **応用:** Section 1.1, pp. 3--4
+- **証明方針:** Section 1.2, pp. 4--5
+- **論文構成:** “Outline of the paper”, p. 5
 - **確認したarXivバージョン:** v1
-- **確認したライセンス:** arXiv non-exclusive distribution license 1.0（arXiv Abstractページの表示）
+- **確認したライセンス:** arXiv non-exclusive distribution license 1.0
 - **source_scope:** Abstract and Introduction
