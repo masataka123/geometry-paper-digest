@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign topic = site.data.topics | where: "slug", page.topic_slug | first %}
-{% assign topic_posts = site.posts | where: "topic", page.topic_slug %}
+{% assign topic_posts = site.posts | where: "topic", page.topic_slug | sort: "arxiv_submitted" | reverse %}
 
 <nav class="topic-nav" aria-label="論文分野">
   <a href="{{ '/' | relative_url }}">全分野</a>
