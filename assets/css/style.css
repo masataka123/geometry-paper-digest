@@ -81,6 +81,11 @@ p { line-height: 1.75; }
 .title-link { color: var(--ink); text-decoration: none; }
 .title-link:hover { color: var(--link); }
 .authors { color: var(--muted); font-style: italic; }
+.abstracts { overflow-wrap: anywhere; word-break: normal; }
+.abstract h3, .paper-header .abstract h2 { font-size: 1rem; margin: 1.25rem 0 .35rem; }
+.abstract p { margin: 0; }
+.abstract-en { line-height: 1.8; }
+.abstract-ja { margin-top: 1.75rem; }
 .links { display: flex; flex-wrap: wrap; gap: 16px; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; font-weight: 650; }
 .empty { background: var(--card); border: 1px dashed var(--soft-line); border-radius: 6px; color: var(--muted); padding: 22px; }
 
@@ -99,7 +104,8 @@ p { line-height: 1.75; }
 .paper-content h3 { font-size: 1.2rem; margin-top: 1.7em; }
 .paper-content blockquote { border-left: 4px solid var(--accent); color: #35434e; margin: 1.5em 0; padding: .15em 0 .15em 1.2em; }
 .paper-content code { background: #eee9df; border-radius: 3px; padding: .1em .3em; }
-.paper-content .MathJax { overflow-x: auto; overflow-y: hidden; }
+.paper-content mjx-container[display="true"],
+.paper-content .MathJax { max-width: 100%; overflow-x: auto; overflow-y: hidden; }
 
 .site-footer { border-top: 1px solid var(--line); color: var(--muted); font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; font-size: .82rem; margin-top: 42px; padding-top: 18px; }
 .site-footer p { line-height: 1.6; }
@@ -109,4 +115,5 @@ p { line-height: 1.75; }
   .topic-card { min-height: 0; }
   .digest { padding: 17px; }
   .paper-meta div { grid-template-columns: 1fr; gap: 2px; }
+  .abstract-ja { margin-top: 1.4rem; }
 }

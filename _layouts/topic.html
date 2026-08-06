@@ -31,7 +31,24 @@ layout: default
       </dl>
       <h2><a class="title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       <p class="authors">{{ post.authors }}</p>
-      <p>{{ post.summary }}</p>
+      {% if post.abstract_en or post.abstract_ja %}
+        <div class="abstracts">
+          <section class="abstract abstract-en">
+            <h3>Abstract</h3>
+            {% if post.abstract_en != nil and post.abstract_en != empty %}
+              <p lang="en">{{ post.abstract_en }}</p>
+            {% else %}
+              <p lang="en"><a href="{{ post.arxiv_url }}" rel="noopener">Abstract on arXiv</a></p>
+            {% endif %}
+          </section>
+          <section class="abstract abstract-ja">
+            <h3>日本語要約</h3>
+            {% if post.abstract_ja != nil and post.abstract_ja != empty %}<p>{{ post.abstract_ja }}</p>{% endif %}
+          </section>
+        </div>
+      {% else %}
+        <p>{{ post.summary }}</p>
+      {% endif %}
       <p class="links">
         <a href="{{ post.url | relative_url }}">日本語記事</a>
         <a href="{{ post.arxiv_url }}" rel="noopener">原論文</a>

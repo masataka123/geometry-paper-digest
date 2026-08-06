@@ -13,7 +13,24 @@ layout: default
     <p class="eyebrow">{{ topic.title }} · {{ page.date | date: "%Y-%m-%d" }}</p>
     <h1>{{ page.title }}</h1>
     <p class="authors">{{ page.authors }}</p>
-    <p class="paper-summary">{{ page.summary }}</p>
+    {% if page.abstract_en or page.abstract_ja %}
+      <div class="abstracts">
+        <section class="abstract abstract-en">
+          <h2>Abstract</h2>
+          {% if page.abstract_en != nil and page.abstract_en != empty %}
+            <p lang="en">{{ page.abstract_en }}</p>
+          {% else %}
+            <p lang="en"><a href="{{ page.arxiv_url }}" rel="noopener">Abstract on arXiv</a></p>
+          {% endif %}
+        </section>
+        <section class="abstract abstract-ja">
+          <h2>日本語要約</h2>
+          {% if page.abstract_ja != nil and page.abstract_ja != empty %}<p>{{ page.abstract_ja }}</p>{% endif %}
+        </section>
+      </div>
+    {% else %}
+      <p class="paper-summary">{{ page.summary }}</p>
+    {% endif %}
     <dl class="paper-meta">
       <div><dt>arXiv</dt><dd><a href="{{ page.arxiv_url }}">{{ page.arxiv_id }}</a></dd></div>
       {% if page.arxiv_submitted %}<div><dt>初回投稿日</dt><dd>{{ page.arxiv_submitted }}</dd></div>{% endif %}
