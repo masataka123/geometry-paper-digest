@@ -5,8 +5,8 @@
 
 
 ## 作った方法
-
-「https://yoaskay.github.io/daily-math-paper-digest-pages/index.htmlのようなホームページを代数幾何学・複素幾何学・多変数複素解析系で作っていきたいです. 」とchatGPTに行ったら, そっくりそのまま全部作ってくれました.
+"https://yoaskay.github.io/daily-math-paper-digest-pages/index.html"
+のようなホームページを代数幾何学・複素幾何学・多変数複素解析系で作っていきたいです. とchatGPTに行ったら, そっくりそのまま全部作ってくれました.
 
 あとは自分がやりたいことをchatGPTに行って, codexのプロンプトをchatGPTが作って, それをcodexに入れて出てきたことをchatGPT送り直しての作業で作っております. このシステムがなぜ動いているのかは私にはわかりません. なんか魔法みたいですね. 
 
