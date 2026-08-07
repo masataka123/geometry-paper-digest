@@ -244,24 +244,34 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2605.29258"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-gma-dhym-boundary-weak-solutions.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.29147"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-higgs-grassmannians.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.28140"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-adjoint-foliated-k-stability.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.27961"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-ind-banach-analytification.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.26443"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-foliations-dm-stack-positivity.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.25776"
     requested_version: ""
     status: pending
