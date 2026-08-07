@@ -274,24 +274,34 @@ papers:
     processed_at: "2026-08-07"
   - arxiv_id: "2605.25776"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-higgs-seshadri-constants.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.25213"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-singular-kahler-ricci-shrinkers.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.24323"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-arakelov-inequality-pairs.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.24303"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-minimal-rational-curve-neighborhoods.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.22402"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-07-positivity-higgs-vector-bundles.md"
+    processed_at: "2026-08-07"
   - arxiv_id: "2605.21137"
     requested_version: "v1"
     status: pending
