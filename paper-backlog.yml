@@ -304,24 +304,34 @@ papers:
     processed_at: "2026-08-07"
   - arxiv_id: "2605.21137"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-10-holomorphic-maps-riemann-surfaces.md"
+    processed_at: "2026-08-10"
   - arxiv_id: "2605.20754"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-10-optimal-bend-break-foliations.md"
+    processed_at: "2026-08-10"
   - arxiv_id: "2605.19923"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-10-enumerative-geometry-ksba.md"
+    processed_at: "2026-08-10"
   - arxiv_id: "2605.18089"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-10-chern-classes-laughlin-bundles.md"
+    processed_at: "2026-08-10"
   - arxiv_id: "2605.18065"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-10-kahler-stability-calabi-yau.md"
+    processed_at: "2026-08-10"
   - arxiv_id: "2605.13157"
     requested_version: "v1"
     status: pending
