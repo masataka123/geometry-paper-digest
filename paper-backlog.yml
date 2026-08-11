@@ -364,24 +364,33 @@ papers:
     processed_at: "2026-08-11"
   - arxiv_id: "2605.05582"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-11-grauert-tubes-affineness.md"
+    processed_at: "2026-08-11"
   - arxiv_id: "2605.04160"
     requested_version: "v1"
-    status: pending
-    note: ""
+    status: skipped
+    note: "対象外のprimary category: math.DS"
+    processed_at: "2026-08-11"
   - arxiv_id: "2605.03115"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-11-bertini-chevalley.md"
+    processed_at: "2026-08-11"
   - arxiv_id: "2604.28085"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-11-kahler-slc-abundance.md"
+    processed_at: "2026-08-11"
   - arxiv_id: "2604.27423"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-11-almost-kahler-chi-y-genus.md"
+    processed_at: "2026-08-11"
   - arxiv_id: "2604.27229"
     requested_version: "v1"
     status: pending
