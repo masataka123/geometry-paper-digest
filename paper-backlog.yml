@@ -393,24 +393,34 @@ papers:
     processed_at: "2026-08-11"
   - arxiv_id: "2604.27229"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-12-hodge-k-stability-symmetric-hypersurfaces.md"
+    processed_at: "2026-08-12"
   - arxiv_id: "2604.26425"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-12-compact-kahler-contact-manifolds.md"
+    processed_at: "2026-08-12"
   - arxiv_id: "2604.24400"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-12-moduli-higgs-pairs.md"
+    processed_at: "2026-08-12"
   - arxiv_id: "2604.24106"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-12-birational-boundedness-stable-families.md"
+    processed_at: "2026-08-12"
   - arxiv_id: "2604.23180"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-12-diffeomorphism-mori-fibre-spaces.md"
+    processed_at: "2026-08-12"
   - arxiv_id: "2604.22419"
     requested_version: "v1"
     status: pending
