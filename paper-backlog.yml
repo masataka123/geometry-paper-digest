@@ -453,24 +453,34 @@ papers:
     processed_at: "2026-08-14"
   - arxiv_id: "2604.09027"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-foliated-mmp-survey.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.05981"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-uniform-weak-rc-positivity.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.05369"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-anticanonical-mmp-pklt.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.04682"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-entropy-achirality-automorphisms.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.02679"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-prescribed-hym-higgs-ii.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2603.27964"
     requested_version: "v1"
     status: pending
