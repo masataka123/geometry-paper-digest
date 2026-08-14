@@ -423,24 +423,34 @@ papers:
     processed_at: "2026-08-12"
   - arxiv_id: "2604.22419"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-harder-narasimhan-direct-images.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.22246"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-dhym-large-scaling.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.19225"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-ricci-forms-noncompact.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.16215"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-log-conformal-projective-manifolds.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.11220"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-14-uniformisation-positive-sectional-curvature.md"
+    processed_at: "2026-08-14"
   - arxiv_id: "2604.09027"
     requested_version: "v1"
     status: pending
