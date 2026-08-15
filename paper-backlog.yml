@@ -513,24 +513,34 @@ papers:
     processed_at: "2026-08-15"
   - arxiv_id: "2603.10312"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-kobayashi-hitchin-nef-big.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2602.11002"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-spectral-simply-connectedness.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2602.07420"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-fundamental-groups-nef-anticanonical.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2602.05509"
     requested_version: "v3"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-ball-quotients-higher-chern.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2602.01112"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-valuative-tangent-cones.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2601.18526"
     requested_version: ""
     status: pending
