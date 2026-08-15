@@ -483,24 +483,34 @@ papers:
     processed_at: "2026-08-14"
   - arxiv_id: "2603.27964"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-chi-y-chern-signature.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2603.23467"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-nonproper-hodge-shafarevich.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2603.23033"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-hyperkahler-fibrations-sheaves-categories.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2603.22194"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-kodaira-iitaka-multiplicity.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2603.19052"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-15-simplicity-hodge-bundle.md"
+    processed_at: "2026-08-15"
   - arxiv_id: "2603.10312"
     requested_version: "v1"
     status: pending
