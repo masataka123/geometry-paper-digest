@@ -5,14 +5,16 @@ import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
 import { getPapers, type Paper } from "../../../../../../lib/posts";
 import { getTopics, type Topic } from "../../../../../../lib/topics";
 import { withBase } from "../../../../../../lib/urls";
+import { getAuthorIndex, type PaperAuthor } from "../../../../../../lib/authors";
 
 interface Props {
   paper: Paper;
   topics: Topic[];
+  authors: PaperAuthor[];
 }
 
 export async function getStaticPaths() {
-  const [papers, topics] = await Promise.all([getPapers(), getTopics()]);
+  const [papers, topics, authorIndex] = await Promise.all([getPapers(), getTopics(), getAuthorIndex()]);
   return papers.map((paper) => ({
     params: {
       year: paper.route.year,
@@ -20,11 +22,11 @@ export async function getStaticPaths() {
       day: paper.route.day,
       slug: paper.route.slug,
     },
-    props: { paper, topics },
+    props: { paper, topics, authors: authorIndex.byPaper.get(paper.filename) ?? [] },
   }));
 }
 
-const { paper, topics } = Astro.props;
+const { paper, topics, authors } = Astro.props;
 const topic = topics.find((candidate) => candidate.slug === paper.metadata.topic);
 if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.filename}`);
 ---
@@ -36,7 +38,9 @@ if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.fi
       <p class="eyebrow">{topic.title} · {paper.date}</p>
       <h1 data-pagefind-meta="title">{paper.metadata.title}</h1>
       {paper.metadata.titleJa && <p class="paper-title-ja" data-pagefind-meta="title_ja">{paper.metadata.titleJa}</p>}
-      <p class="authors" data-pagefind-meta="authors">{paper.metadata.authors}</p>
+      <p class="authors" data-pagefind-meta="authors">{authors.map((author, index) => <>{index > 0 && ", "}<a href={withBase(`/authors/${author.id}/`)}>{author.displayName}</a></>)}</p>
+      <span hidden>{paper.metadata.authors}</span>
+      <span class="pagefind-only" data-pagefind-meta="author_ids">{authors.map(({id}) => id).join(" ")}</span>
       <Abstracts metadata={paper.metadata} />
       <p class="pagefind-only">{paper.metadata.summary}</p>
       <dl class="paper-meta">

@@ -4,11 +4,12 @@ import FilterBar from "../../components/FilterBar.astro";
 import PaperList from "../../components/PaperList.astro";
 import { getPapers } from "../../lib/posts";
 import { getTopics } from "../../lib/topics";
-const [papers, topics] = await Promise.all([getPapers(), getTopics()]);
+import { getAuthorIndex } from "../../lib/authors";
+const [papers, topics, authorIndex] = await Promise.all([getPapers(), getTopics(), getAuthorIndex()]);
 const years = [...new Set(papers.map((paper) => paper.metadata.arxivSubmitted.slice(0, 4)).filter(Boolean))].sort().reverse();
 ---
 <BaseLayout title="論文一覧">
   <header class="site-header"><p class="eyebrow">PAPERS</p><h1>論文一覧</h1><p>AbstractとIntroductionを中心に紹介した論文を一覧できます。</p></header>
-  <FilterBar topics={topics} years={years} />
-  <PaperList papers={papers} topics={topics} />
+  <FilterBar topics={topics} years={years} authors={authorIndex.authors} />
+  <PaperList papers={papers} topics={topics} authorsByPaper={authorIndex.byPaper} />
 </BaseLayout>

@@ -2,11 +2,12 @@
 import type { Paper } from "../lib/posts";
 import type { Topic } from "../lib/topics";
 import { withBase } from "../lib/urls";
+import type { PaperAuthor } from "../lib/authors";
 
-interface Props { paper: Paper; topic?: Topic; }
-const { paper, topic } = Astro.props;
+interface Props { paper: Paper; topic?: Topic; authors: PaperAuthor[]; }
+const { paper, topic, authors } = Astro.props;
 ---
-<article class="paper-card" data-paper data-pathname={paper.route.pathname} data-topic={paper.metadata.topic} data-arxiv-submitted={paper.metadata.arxivSubmitted} data-site-date={paper.date}>
+<article class="paper-card" data-paper data-pathname={paper.route.pathname} data-author-ids={authors.map(({id}) => id).join(" ")} data-topic={paper.metadata.topic} data-arxiv-submitted={paper.metadata.arxivSubmitted} data-site-date={paper.date}>
   <div class="paper-card__meta">
     <span>{paper.metadata.arxivSubmitted}</span>
     <span>{topic?.title ?? paper.metadata.topic}</span>
@@ -14,7 +15,7 @@ const { paper, topic } = Astro.props;
   </div>
   <h2><a href={withBase(paper.route.pathname)}>{paper.metadata.title}</a></h2>
   {paper.metadata.titleJa && <p class="paper-card__title-ja">{paper.metadata.titleJa}</p>}
-  <p class="paper-card__authors">{paper.metadata.authors}</p>
+  <p class="paper-card__authors">{authors.map((author, index) => <>{index > 0 && ", "}<a href={withBase(`/authors/${author.id}/`)}>{author.displayName}</a></>)}</p>
   <p class="paper-card__summary">{paper.metadata.summary}</p>
   <p class="paper-card__links">
     <a href={withBase(paper.route.pathname)}>日本語記事</a>

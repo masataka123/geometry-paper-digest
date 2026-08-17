@@ -57,5 +57,8 @@ jobs:
       - name: Validate Astro legacy URLs and content
         run: npm run test:build
 
+      - name: Validate author index and links
+        run: npm run test:authors
+
       - name: Validate Pagefind search index
         run: npm run test:search

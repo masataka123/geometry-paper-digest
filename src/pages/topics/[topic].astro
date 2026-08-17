@@ -6,16 +6,19 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getPapers, type Paper } from "../../lib/posts";
 import { getTopics, type Topic } from "../../lib/topics";
 import { withBase } from "../../lib/urls";
+import { getAuthorIndex, type Author, type PaperAuthor } from "../../lib/authors";
 
 interface Props {
   topic?: Topic;
   topics: Topic[];
   papers?: Paper[];
   legacyNotice?: boolean;
+  authors?: Author[];
+  authorsByPaper?: Map<string, PaperAuthor[]>;
 }
 
 export async function getStaticPaths() {
-  const [allPapers, topics] = await Promise.all([getPapers(), getTopics()]);
+  const [allPapers, topics, authorIndex] = await Promise.all([getPapers(), getTopics(), getAuthorIndex()]);
   const topicPages = topics.map((topic) => ({
     params: { topic: `${topic.slug}.html` },
     props: {
@@ -23,7 +26,7 @@ export async function getStaticPaths() {
       topics,
       papers: allPapers
         .filter((paper) => paper.metadata.topic === topic.slug)
-        .sort((left, right) => right.metadata.arxivSubmitted.localeCompare(left.metadata.arxivSubmitted)),
+        .sort((left, right) => right.metadata.arxivSubmitted.localeCompare(left.metadata.arxivSubmitted)), authors: authorIndex.authors, authorsByPaper: authorIndex.byPaper,
     },
   }));
   return [
@@ -32,7 +35,7 @@ export async function getStaticPaths() {
   ];
 }
 
-const { topic, topics, papers = [], legacyNotice = false } = Astro.props;
+const { topic, topics, papers = [], authors = [], authorsByPaper = new Map(), legacyNotice = false } = Astro.props;
 ---
 
 {legacyNotice ? (
@@ -50,7 +53,7 @@ const { topic, topics, papers = [], legacyNotice = false } = Astro.props;
       <p class="topic-english heading-subtitle">{topic.english}</p>
       <p>{topic.description}</p>
     </header>
-    <FilterBar topics={topics} years={[...new Set(papers.map((paper) => paper.metadata.arxivSubmitted.slice(0, 4)).filter(Boolean))].sort().reverse()} showTopic={false} />
-    <PaperList papers={papers} topics={topics} fixedTopic={topic.slug} />
+    <FilterBar topics={topics} authors={authors} years={[...new Set(papers.map((paper) => paper.metadata.arxivSubmitted.slice(0, 4)).filter(Boolean))].sort().reverse()} showTopic={false} />
+    <PaperList papers={papers} topics={topics} authorsByPaper={authorsByPaper} fixedTopic={topic.slug} />
   </BaseLayout>
 ) : null}
