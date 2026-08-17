@@ -13,6 +13,7 @@ const paperTopicData = topics.find((topic) => topic.slug === paperTopic);
 ---
 
 <nav class="topic-nav" aria-label={paperTopic ? "パンくず" : "論文分野"}>
+  <a href={withBase("/")}>ホーム</a>
   <a href={withBase("/")}>全分野</a>
   {paperTopicData ? (
     <a href={withBase(topicPath(paperTopicData.slug))}>{paperTopicData.title}</a>
