@@ -139,6 +139,24 @@ def validate_build(root: Path, dist: Path) -> list[str]:
             expected = f"{BASE_PATH}{url}"
             if expected not in home.hrefs:
                 errors.append(f"home page is missing base-aware link {expected}")
+        if f"{BASE_PATH}/papers/" not in home.hrefs:
+            errors.append("home page is missing base-aware papers index link")
+
+    papers_index_path = output_path(dist, "/papers/")
+    if not papers_index_path.is_file():
+        errors.append("missing compact papers index /papers/")
+    else:
+        papers_source, papers_page = inspect_page(papers_index_path)
+        for article in baseline["articles"]:
+            expected = f"{BASE_PATH}{article['legacy_url']}"
+            if expected not in papers_page.hrefs:
+                errors.append(f"papers index is missing base-aware paper link {expected}")
+        for marker in ('name="topic"', 'name="year"', 'name="sort"', 'data-paper-list'):
+            if marker not in papers_source:
+                errors.append(f"papers index is missing Phase 2 control {marker!r}")
+        for forbidden in ("abstract_en", "summary_en", "abstract_ja", "paper-content"):
+            if forbidden in papers_source:
+                errors.append(f"papers index exposes non-compact content marker {forbidden!r}")
 
     legacy_notice = output_path(dist, LEGACY_TOPIC_URL)
     if legacy_notice.is_file():

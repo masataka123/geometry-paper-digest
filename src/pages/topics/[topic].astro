@@ -1,5 +1,6 @@
 ---
-import Abstracts from "../../components/Abstracts.astro";
+import FilterBar from "../../components/FilterBar.astro";
+import PaperList from "../../components/PaperList.astro";
 import TopicNav from "../../components/TopicNav.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getPapers, type Paper } from "../../lib/posts";
@@ -49,24 +50,7 @@ const { topic, topics, papers = [], legacyNotice = false } = Astro.props;
       <p class="topic-english heading-subtitle">{topic.english}</p>
       <p>{topic.description}</p>
     </header>
-    <section class="digest-list" aria-label={`${topic.title}の記事一覧`}>
-      {papers.length === 0 && <p class="empty">まだ記事はありません。</p>}
-      {papers.map((paper) => (
-        <article class="digest">
-          <dl class="dates">
-            <div><dt>公開日</dt><dd>{paper.date}</dd></div>
-            {paper.metadata.arxivSubmitted && <div><dt>arXiv初回投稿日</dt><dd>{paper.metadata.arxivSubmitted}</dd></div>}
-          </dl>
-          <h2><a class="title-link" href={withBase(paper.route.pathname)}>{paper.metadata.title}</a></h2>
-          <p class="authors">{paper.metadata.authors}</p>
-          <Abstracts metadata={paper.metadata} headingLevel="h3" />
-          <p class="links">
-            <a href={withBase(paper.route.pathname)}>日本語記事</a>
-            <a href={paper.metadata.arxivUrl} rel="noopener">原論文</a>
-            {paper.metadata.digestPdf && <a href={withBase(paper.metadata.digestPdf)}>PDF版</a>}
-          </p>
-        </article>
-      ))}
-    </section>
+    <FilterBar topics={topics} years={[...new Set(papers.map((paper) => paper.metadata.arxivSubmitted.slice(0, 4)).filter(Boolean))].sort().reverse()} showTopic={false} />
+    <PaperList papers={papers} topics={topics} fixedTopic={topic.slug} />
   </BaseLayout>
 ) : null}

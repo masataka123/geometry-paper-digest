@@ -1,0 +1,13 @@
+---
+import PaperCard from "./PaperCard.astro";
+import type { Paper } from "../lib/posts";
+import type { Topic } from "../lib/topics";
+interface Props { papers: Paper[]; topics: Topic[]; fixedTopic?: string; }
+const { papers, topics, fixedTopic = "" } = Astro.props;
+const topicBySlug = new Map(topics.map((topic) => [topic.slug, topic]));
+---
+<div class="paper-list" data-paper-list data-fixed-topic={fixedTopic}>
+  <p class="paper-count"><span data-paper-count>{papers.length}</span> 件</p>
+  <p class="empty" data-paper-empty hidden>条件に一致する論文はありません。</p>
+  <div data-paper-items>{papers.map((paper) => <PaperCard paper={paper} topic={topicBySlug.get(paper.metadata.topic)} />)}</div>
+</div>
