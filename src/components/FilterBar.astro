@@ -1,0 +1,38 @@
+---
+import type { Topic } from "../lib/topics";
+
+interface Props {
+  topics: Topic[];
+  years: string[];
+  paperCount: number;
+}
+
+const { topics, years, paperCount } = Astro.props;
+---
+
+<form class="filter-bar" data-paper-filters aria-label="論文一覧の絞り込み">
+  <label>
+    <span>Topic</span>
+    <select name="topic" data-topic-filter>
+      <option value="">All</option>
+      {topics.map((topic) => <option value={topic.slug}>{topic.english}</option>)}
+    </select>
+  </label>
+  <label>
+    <span>Year</span>
+    <select name="year" data-year-filter>
+      <option value="">All</option>
+      {years.map((year) => <option value={year}>{year}</option>)}
+    </select>
+  </label>
+  <label>
+    <span>Sort</span>
+    <select name="sort" data-sort-filter>
+      <option value="newest">arXiv初回投稿日：新しい順</option>
+      <option value="oldest">arXiv初回投稿日：古い順</option>
+      <option value="added">サイト追加日：新しい順</option>
+    </select>
+  </label>
+  <p class="filter-count" aria-live="polite"><strong data-result-count>{paperCount}</strong> papers</p>
+</form>
+<noscript><p class="filter-note">絞り込みにはJavaScriptが必要です。全論文は以下の一覧から閲覧できます。</p></noscript>

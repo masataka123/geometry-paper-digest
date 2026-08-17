@@ -1,0 +1,36 @@
+---
+import type { Paper } from "../lib/posts";
+import type { Topic } from "../lib/topics";
+import { withBase } from "../lib/urls";
+
+interface Props {
+  paper: Paper;
+  topic: Topic;
+}
+
+const { paper, topic } = Astro.props;
+---
+
+<article
+  class="compact-paper"
+  data-paper-card
+  data-topic={paper.metadata.topic}
+  data-year={paper.metadata.arxivSubmitted.slice(0, 4)}
+  data-arxiv-submitted={paper.metadata.arxivSubmitted}
+  data-site-date={paper.date}
+  data-title={paper.metadata.title}
+>
+  <div class="compact-paper-meta">
+    <span class="compact-topic">{topic.english}</span>
+    <time datetime={paper.metadata.arxivSubmitted}>{paper.metadata.arxivSubmitted}</time>
+    <span>{paper.metadata.arxivId}</span>
+  </div>
+  <h2><a class="title-link" href={withBase(paper.route.pathname)}>{paper.metadata.title}</a></h2>
+  {paper.metadata.titleJa && <p class="compact-title-ja">{paper.metadata.titleJa}</p>}
+  <p class="authors">{paper.metadata.authors}</p>
+  <p class="compact-summary">{paper.metadata.summary}</p>
+  <p class="links compact-links">
+    <a href={withBase(paper.route.pathname)}>日本語記事</a>
+    <a href={paper.metadata.arxivUrl} rel="noopener">原論文</a>
+  </p>
+</article>

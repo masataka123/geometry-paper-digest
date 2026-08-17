@@ -1,0 +1,45 @@
+---
+import "../../assets/css/style.css";
+import "../styles/phase2.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "",
+  description = "代数幾何学・複素幾何学・多変数複素解析の新着論文を日本語で紹介します。",
+} = Astro.props;
+const siteTitle = "Geometry Paper Digest";
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title ? `${title} | ${siteTitle}` : siteTitle}</title>
+    <script is:inline>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          tags: 'ams'
+        },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script is:inline defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  </head>
+  <body>
+    <main>
+      <slot />
+      <footer class="site-footer">
+        <p>本サイトは岩井が楽をしたいという非営利目的で作られました。原論文、Abstract、図表等の著作権は各著者・権利者に帰属します。Github リポジトリは<a href="https://github.com/masataka123/geometry-paper-digest">こちら</a>です。</p>
+      </footer>
+    </main>
+  </body>
+</html>

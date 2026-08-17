@@ -1,0 +1,30 @@
+---
+import FilterBar from "../../components/FilterBar.astro";
+import PaperList from "../../components/PaperList.astro";
+import TopicNav from "../../components/TopicNav.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPapers } from "../../lib/posts";
+import { getTopics } from "../../lib/topics";
+
+const [allPapers, topics] = await Promise.all([getPapers(), getTopics()]);
+const papers = allPapers.sort((left, right) =>
+  right.metadata.arxivSubmitted.localeCompare(left.metadata.arxivSubmitted)
+  || left.metadata.title.localeCompare(right.metadata.title, "en")
+);
+const years = [...new Set(papers.map((paper) => paper.metadata.arxivSubmitted.slice(0, 4)))].sort().reverse();
+---
+
+<BaseLayout title="全論文">
+  <TopicNav topics={topics} />
+  <header class="site-header compact-list-header">
+    <p class="eyebrow">ALL PAPERS</p>
+    <h1>全論文</h1>
+    <p>AbstractとIntroductionを中心に紹介した論文の一覧です。</p>
+  </header>
+  <FilterBar topics={topics} years={years} paperCount={papers.length} />
+  <PaperList papers={papers} topics={topics} filterable />
+  <script>
+    import { initPaperFilters } from "../../lib/paper-filters.mjs";
+    initPaperFilters();
+  </script>
+</BaseLayout>

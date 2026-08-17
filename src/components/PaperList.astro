@@ -1,0 +1,29 @@
+---
+import PaperCard from "./PaperCard.astro";
+import type { Paper } from "../lib/posts";
+import type { Topic } from "../lib/topics";
+
+interface Props {
+  papers: Paper[];
+  topics: Topic[];
+  filterable?: boolean;
+  emptyMessage?: string;
+}
+
+const {
+  papers,
+  topics,
+  filterable = false,
+  emptyMessage = "該当する論文はありません。",
+} = Astro.props;
+const topicsBySlug = new Map(topics.map((topic) => [topic.slug, topic]));
+---
+
+<section class="compact-paper-list" data-paper-list={filterable ? "filterable" : undefined} aria-label="論文一覧">
+  {papers.map((paper) => {
+    const topic = topicsBySlug.get(paper.metadata.topic);
+    if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.filename}`);
+    return <PaperCard paper={paper} topic={topic} />;
+  })}
+</section>
+<p class="empty compact-empty" data-filter-empty hidden={filterable || papers.length > 0}>{emptyMessage}</p>

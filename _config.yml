@@ -16,3 +16,14 @@ exclude:
   - DAILY_PROMPT.md
   - selection-profile.yml
   - LICENSE
+  - src
+  - docs
+  - tests
+  - scripts
+  - package.json
+  - package-lock.json
+  - astro.config.mjs
+  - tsconfig.json
+  - node_modules
+  - .astro
+  - dist

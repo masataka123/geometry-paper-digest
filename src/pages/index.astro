@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getPapers } from "../lib/posts";
+import { getTopics } from "../lib/topics";
+import { topicPath, withBase } from "../lib/urls";
+
+const siteTitle = "Geometry Paper Digest";
+const description = "代数幾何学・複素幾何学・多変数複素解析の新着論文を日本語で紹介します。";
+const [papers, topics] = await Promise.all([getPapers(), getTopics()]);
+---
+
+<BaseLayout>
+  <header class="site-header landing-header">
+    <p class="eyebrow">ALGEBRAIC GEOMETRY · DIFFERENTIAL GEOMETRY · SEVERAL COMPLEX VARIABLES</p>
+    <h1>{siteTitle}</h1>
+    <p>{description}</p>
+  </header>
+
+  <section class="topic-grid" aria-label="論文分野">
+    {topics.map((topic) => {
+      const topicCount = papers.filter((paper) => paper.metadata.topic === topic.slug).length;
+      return (
+        <a class="topic-card" href={withBase(topicPath(topic.slug))}>
+          <span class="topic-count">{topicCount} ARTICLES</span>
+          <p class="topic-english">{topic.arxivCategory}</p>
+          <h2>{topic.title}</h2>
+          <p class="topic-english">{topic.english}</p>
+          <p>{topic.description}</p>
+          <span class="topic-open">記事を見る <span aria-hidden="true">→</span></span>
+        </a>
+      );
+    })}
+  </section>
+
+  <p class="all-papers-link"><a href={withBase("/papers/")}>すべての論文を見る →</a></p>
+
+  <section class="notice-card" aria-label="このサイトについて">
+    <h2>このサイトについて</h2>
+    <p>arXivの新着論文から岩井の関心分野に近いものを選び、AbstractとIntroductionを中心に、研究背景、問題設定、主要結果を日本語で紹介します。<a href="https://yoaskay.github.io/daily-math-paper-digest-pages/index.html">松澤陽介さんのページ</a>を完全に真似して作りました。記事はAI支援により作成されているため、正確な内容は必ず原論文をご確認ください。</p>
+  </section>
+</BaseLayout>
