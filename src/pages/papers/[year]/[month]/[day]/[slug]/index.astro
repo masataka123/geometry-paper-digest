@@ -39,7 +39,7 @@ if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.fi
     <header class="paper-header">
       <p class="eyebrow">{topic.title} · {paper.date}</p>
       <h1 data-pagefind-meta="title">{paper.metadata.title}</h1>
-      {paper.metadata.titleJa && <p class="paper-title-ja" data-pagefind-meta="title_ja">{paper.metadata.titleJa}</p>}
+      {paper.metadata.titleJa && <span class="pagefind-only" data-pagefind-meta="title_ja">{paper.metadata.titleJa}</span>}
       <p class="authors" data-pagefind-meta="authors">{authors.map((author, index) => <>{index > 0 && ", "}<a href={withBase(`/authors/${author.id}/`)}>{author.displayName}</a></>)}</p>
       <span hidden>{paper.metadata.authors}</span>
       <span class="pagefind-only" data-pagefind-meta="author_ids">{authors.map(({id}) => id).join(" ")}</span>

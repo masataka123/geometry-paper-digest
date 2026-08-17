@@ -154,9 +154,30 @@ def validate_build(root: Path, dist: Path) -> list[str]:
         for marker in ('name="q"', 'name="author"', 'name="tag"', 'name="topic"', 'name="year"', 'name="sort"', 'data-paper-list'):
             if marker not in papers_source:
                 errors.append(f"papers index is missing Phase 2 control {marker!r}")
-        for forbidden in ("abstract_en", "summary_en", "abstract_ja", "paper-content"):
+        for forbidden in ("abstract_en", "summary_en", "abstract_ja", "paper-content", "paper-card__title-ja"):
             if forbidden in papers_source:
                 errors.append(f"papers index exposes non-compact content marker {forbidden!r}")
+        if "English Abstract" not in papers_source:
+            errors.append("papers index is missing English Abstract cards")
+        if "English Summary" not in papers_source:
+            errors.append("papers index is missing English Summary cards")
+        if "paper-card__english" not in papers_source:
+            errors.append("papers index is missing full English card content")
+        card_heading_checks = {
+            "/papers/2026/08/06/analytic-bertini-local/": ("English Abstract", "English Summary"),
+            "/papers/2026/08/17/alpha-spectrum-toric-fano/": ("English Summary", "English Abstract"),
+        }
+        for pathname, (expected_heading, wrong_heading) in card_heading_checks.items():
+            card_start = papers_source.find(f'data-pathname="{pathname}"')
+            card_end = papers_source.find("</article>", card_start)
+            if card_start < 0 or card_end < 0:
+                errors.append(f"papers index is missing representative card {pathname}")
+                continue
+            card_source = papers_source[card_start:card_end]
+            if expected_heading not in card_source:
+                errors.append(f"representative card {pathname} is missing {expected_heading}")
+            if wrong_heading in card_source:
+                errors.append(f"representative card {pathname} is incorrectly labeled {wrong_heading}")
 
     legacy_notice = output_path(dist, LEGACY_TOPIC_URL)
     if legacy_notice.is_file():
@@ -182,6 +203,20 @@ def validate_build(root: Path, dist: Path) -> list[str]:
         for needle in needles:
             if needle not in source:
                 errors.append(f"representative page {url} is missing {needle!r}")
+
+    visible_title_checks = {
+        "/papers/2026/08/06/analytic-bertini-local/": "解析的Bertini定理",
+        "/papers/2026/08/17/alpha-spectrum-toric-fano/": "トーリックQ-Fano多様体",
+    }
+    for url, title_ja_fragment in visible_title_checks.items():
+        path = output_path(dist, url)
+        if not path.is_file():
+            continue
+        source = html.unescape(path.read_text(encoding="utf-8"))
+        if 'class="paper-title-ja"' in source:
+            errors.append(f"representative page {url} visibly renders title_ja")
+        if f'data-pagefind-meta="title_ja">' not in source or title_ja_fragment not in source:
+            errors.append(f"representative page {url} does not retain indexed title_ja metadata")
 
     return errors
 
