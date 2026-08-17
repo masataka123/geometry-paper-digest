@@ -45,6 +45,7 @@ if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.fi
       <span class="pagefind-only" data-pagefind-meta="author_ids">{authors.map(({id}) => id).join(" ")}</span>
       <span class="pagefind-only" data-pagefind-meta="tag_ids">{paper.metadata.tags.join(" ")}</span>
       <span class="pagefind-only">{tags.flatMap((tag) => [tag.name, tag.nameJa]).join(" ")}</span>
+      <span class="pagefind-only">{tags.flatMap((tag) => tag.searchAliases).join(" ")}</span>
       <Abstracts metadata={paper.metadata} />
       <p class="pagefind-only">{paper.metadata.summary}</p>
       <dl class="paper-meta">

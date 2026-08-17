@@ -41,11 +41,13 @@
 - id: hermite-einstein-metrics
   name: Hermite–Einstein metrics
   name_ja: Hermite–Einstein計量
+  search_aliases: [Hermite Einstein, Hermite-Einstein, Hermitian Einstein, Hermitian-Einstein]
   description: Hermite–Einstein/Hermitian–Einstein metrics, HYM equations/flows, or the Kobayashi–Hitchin correspondence are
     central objects or conclusions.
 - id: kahler-einstein-metrics
   name: Kähler–Einstein metrics
   name_ja: ケーラー・アインシュタイン計量
+  search_aliases: [Kähler Einstein, Kahler Einstein, Kähler-Einstein, Kahler-Einstein]
   description: Existence, uniqueness, degeneration, deformation, or geometry of Kähler–Einstein metrics is central.
 - id: csck-extremal-kahler-metrics
   name: cscK and extremal Kähler metrics
@@ -104,6 +106,7 @@
 - id: monge-ampere-equations
   name: Complex Monge–Ampère equations
   name_ja: 複素Monge–Ampère方程式
+  search_aliases: [Monge Ampère, Monge Ampere, Monge-Ampère, Monge-Ampere]
   description: Existence, uniqueness, regularity, degeneracy, or Monge–Ampère measures for complex Monge–Ampère equations—or
     genuinely allied complex Hessian equations—is central, including when solving the equation drives a geometric construction.
 - id: l2-methods
@@ -148,6 +151,7 @@
 - id: chern-classes
   name: Chern classes and Chern numbers
   name_ja: Chern類・Chern数
+  search_aliases: [Chern class, Chern classes, Chern number, Chern numbers]
   description: Chern classes/numbers, first or second Chern classes, Miyaoka–Yau-type Chern-number inequalities, orbifold/Q-Chern
     classes, or a geometric characterization by Chern classes are central invariants or conclusions.
 - id: algebraic-cycles-enumerative

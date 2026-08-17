@@ -46,14 +46,14 @@ const siteTitle = "Geometry Paper Digest";
 </html>
 
 <script>
-  import { filterAndSortPapers, readFilterState, stateToSearch } from "../lib/paper-filters.mjs";
+  import { filterAndSortPapers, normalizeSearchQuery, readFilterState, stateToSearch } from "../lib/paper-filters.mjs";
 
   let matchedPathnames: Set<string> | null = null;
   let searchSequence = 0;
 
   function controls(form: HTMLFormElement) {
     const data = new FormData(form);
-    return { q: String(data.get("q") ?? ""), author: String(data.get("author") ?? "all"), tag: String(data.get("tag") ?? "all"), topic: String(data.get("topic") ?? "all"), year: String(data.get("year") ?? "all"), sort: String(data.get("sort") ?? "arxiv-newest") };
+    return { q: String(data.get("q") ?? ""), author: String(data.get("author") ?? "all"), tag: String(data.get("tag") ?? "all"), topic: String(data.get("topic") ?? "all"), year: String(data.get("year") ?? "all"), month: String(data.get("month") ?? "all"), sort: String(data.get("sort") ?? "arxiv-newest") };
   }
 
   function updatePaperList() {
@@ -105,7 +105,7 @@ const siteTitle = "Geometry Paper Digest";
       const pagefind = await import(/* @vite-ignore */ `${base}pagefind/pagefind.js`);
       await pagefind.options({ baseUrl: base });
       await pagefind.init();
-      const response = await pagefind.search(query.trim());
+      const response = await pagefind.search(normalizeSearchQuery(query));
       const results = await Promise.all(response.results.map((result: { data: () => Promise<{ meta?: Record<string, string> }> }) => result.data()));
       if (sequence !== searchSequence) return;
       matchedPathnames = new Set(results.map((result) => result.meta?.pathname).filter((value): value is string => Boolean(value)));
@@ -119,6 +119,15 @@ const siteTitle = "Geometry Paper Digest";
     updatePaperList();
   }
   let debounceTimer: number | undefined;
+  document.addEventListener("submit", (event) => {
+    const form = event.target;
+    if (!(form instanceof HTMLFormElement) || !form.matches("[data-filter-bar]")) return;
+    event.preventDefault();
+    clearTimeout(debounceTimer);
+    const state = controls(form);
+    history.pushState({}, "", `${location.pathname}${stateToSearch(state)}`);
+    void search(state.q);
+  });
   document.addEventListener("change", (event) => {
     const form = (event.target instanceof Element) ? event.target.closest("[data-filter-bar]") : null;
     if (!(form instanceof HTMLFormElement)) return;
