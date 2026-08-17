@@ -1,0 +1,1061 @@
+{
+  "version": 1,
+  "summary": {
+    "article_count": 131,
+    "topic_counts": {
+      "algebraic-geometry": 75,
+      "differential-geometry": 37,
+      "several-complex-variables": 19
+    }
+  },
+  "articles": [
+    {
+      "filename": "2026-08-06-analytic-bertini-local.md",
+      "title": "Analytic Bertini theorem II --- The local case",
+      "authors": "Mingchen Xia",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2607.25230",
+      "legacy_url": "/papers/2026/08/06/analytic-bertini-local/"
+    },
+    {
+      "filename": "2026-08-06-asymptotic-cohomological-functions.md",
+      "title": "Asymptotic Cohomological Functions and Volumes on Proper Schemes",
+      "authors": "Wenqi Li",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2607.09021",
+      "legacy_url": "/papers/2026/08/06/asymptotic-cohomological-functions/"
+    },
+    {
+      "filename": "2026-08-06-ball-quotient-stacks.md",
+      "title": "A characterization of ball quotient stacks",
+      "authors": "Chirantan Chowdhury, Matteo Costantini, Aryaman Patel",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.04688",
+      "legacy_url": "/papers/2026/08/06/ball-quotient-stacks/"
+    },
+    {
+      "filename": "2026-08-06-bondal-conjecture-dimension-five.md",
+      "title": "Bondal's conjecture in dimension five",
+      "authors": "Stéphane Druel, Jorge Vitório Pereira, Brent Pym, Frédéric Touzet",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2606.03424",
+      "legacy_url": "/papers/2026/08/06/bondal-conjecture-dimension-five/"
+    },
+    {
+      "filename": "2026-08-06-correspondences-hyperkahler-large-picard.md",
+      "title": "Correspondences for hyperkähler varieties with large Picard numbers",
+      "authors": "Ljudmila Kamenova, Abhinav Kumar",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2607.09622",
+      "legacy_url": "/papers/2026/08/06/correspondences-hyperkahler-large-picard/"
+    },
+    {
+      "filename": "2026-08-06-csck-birational-models.md",
+      "title": "CscK metrics on birational models of projective varieties",
+      "authors": "Zakarias Sjöström Dyrefelt",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.03572",
+      "legacy_url": "/papers/2026/08/06/csck-birational-models/"
+    },
+    {
+      "filename": "2026-08-06-curvature-kahler-toric-manifolds.md",
+      "title": "Curvature on some Kähler toric manifolds",
+      "authors": "Xingluan Wang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.12878",
+      "legacy_url": "/papers/2026/08/06/curvature-kahler-toric-manifolds/"
+    },
+    {
+      "filename": "2026-08-06-datar-mete-song-minimal-slope.md",
+      "title": "On the Datar-Mete-Song minimal slope conjecture",
+      "authors": "Xin Fu",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.01198",
+      "legacy_url": "/papers/2026/08/06/datar-mete-song-minimal-slope/"
+    },
+    {
+      "filename": "2026-08-06-extension-kahler-currents.md",
+      "title": "On the extension of Kähler currents on compact complex manifolds",
+      "authors": "Jiafu Ning, Kai Pang, Haoyuan Sun, Zhiwei Wang, Xiangyu Zhou",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2608.01330",
+      "legacy_url": "/papers/2026/08/06/extension-kahler-currents/"
+    },
+    {
+      "filename": "2026-08-06-fano-indices-weighted-projective-spaces.md",
+      "title": "On Fano indices of weighted projective spaces",
+      "authors": "Haidong Liu",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.03434",
+      "legacy_url": "/papers/2026/08/06/fano-indices-weighted-projective-spaces/"
+    },
+    {
+      "filename": "2026-08-06-first-integrals-complex-analytic-germs.md",
+      "title": "Holomorphic and Formal First Integrals for Foliations of Codimension One on Complex Analytic Space Germs",
+      "authors": "Victor León, Bruno Scárdua",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2608.06491",
+      "legacy_url": "/papers/2026/08/06/first-integrals-complex-analytic-germs/"
+    },
+    {
+      "filename": "2026-08-06-frobenius-positivity-hodge-bundles.md",
+      "title": "Frobenius type positivity of Hodge bundles and applications",
+      "authors": "Hao Max Sun",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2606.23203",
+      "legacy_url": "/papers/2026/08/06/frobenius-positivity-hodge-bundles/"
+    },
+    {
+      "filename": "2026-08-06-hitchin-morphism-classical-groups.md",
+      "title": "On the image of Hitchin morphism for some classical groups on algebraic suefaces",
+      "authors": "Artan Sheshmani, Jianping Wang, Xiaopeng Xia",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2606.17505",
+      "legacy_url": "/papers/2026/08/06/hitchin-morphism-classical-groups/"
+    },
+    {
+      "filename": "2026-08-06-holomorphic-one-forms-geometry.md",
+      "title": "Geometry of Holomorphic One-forms on Smooth Projective Varieties",
+      "authors": "Jiabin Du, Feng Hao, Haoyuan Li, Zichang Wang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2606.08185",
+      "legacy_url": "/papers/2026/08/06/holomorphic-one-forms-geometry/"
+    },
+    {
+      "filename": "2026-08-06-hym-iteration-stable-bundles.md",
+      "title": "The Hermitian-Yang-Mills Iteration on Stable Bundles",
+      "authors": "Huai-Dong Cao, Xiaofeng Sun, Shing-Tung Yau, Yingying Zhang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.20307",
+      "legacy_url": "/papers/2026/08/06/hym-iteration-stable-bundles/"
+    },
+    {
+      "filename": "2026-08-06-intermediate-pseudoconvexity.md",
+      "title": "Intermediate Pseudoconvexity of Fiber Bundles",
+      "authors": "Masanori Adachi, Seungjae Lee, Aeryeong Seo",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2606.15533",
+      "legacy_url": "/papers/2026/08/06/intermediate-pseudoconvexity/"
+    },
+    {
+      "filename": "2026-08-06-kahler-hyperbolicity-modulus.md",
+      "title": "Kähler Hyperbolicity Modulus for Simply-connected Kähler Hyperbolic manifolds",
+      "authors": "Young-Jun Choi, Kang-Hyurk Lee",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2606.13569",
+      "legacy_url": "/papers/2026/08/06/kahler-hyperbolicity-modulus/"
+    },
+    {
+      "filename": "2026-08-06-kahler-mmp-base-point-free.md",
+      "title": "On the Kähler MMP and the transcendental base-point-free theorem",
+      "authors": "Christopher Hacon, Lingyao Xie",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2607.24986",
+      "legacy_url": "/papers/2026/08/06/kahler-mmp-base-point-free/"
+    },
+    {
+      "filename": "2026-08-06-kahler-thresholds.md",
+      "title": "Kähler thresholds",
+      "authors": "Gabriella Clemente, Carlos Simpson",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2606.08224",
+      "legacy_url": "/papers/2026/08/06/kahler-thresholds/"
+    },
+    {
+      "filename": "2026-08-06-klt-generalized-pair-canonical-ring.md",
+      "title": "A klt generalized pair with infinitely generated canonical ring",
+      "authors": "Jihao Liu, Yanze Wang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.03258",
+      "legacy_url": "/papers/2026/08/06/klt-generalized-pair-canonical-ring/"
+    },
+    {
+      "filename": "2026-08-06-linearisation-finite-etale-cover.md",
+      "title": "Linearisation problem under finite étale cover",
+      "authors": "Xiaojun Wu",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2606.03039",
+      "legacy_url": "/papers/2026/08/06/linearisation-finite-etale-cover/"
+    },
+    {
+      "filename": "2026-08-06-local-third-chern-classes.md",
+      "title": "Point Singularities and Local Third Chern Classes for Rank-Two Torsion-free Sheaves on Threefolds",
+      "authors": "Xuemiao Chen",
+      "topic": "differential-geometry",
+      "arxiv_id": "2607.01402",
+      "legacy_url": "/papers/2026/08/06/local-third-chern-classes/"
+    },
+    {
+      "filename": "2026-08-06-log-calabi-yau-fibration-moduli.md",
+      "title": "Projective moduli of log Calabi--Yau fibrations over curves",
+      "authors": "Giovanni Inchiostro, Junyan Zhao",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2607.23878",
+      "legacy_url": "/papers/2026/08/06/log-calabi-yau-fibration-moduli/"
+    },
+    {
+      "filename": "2026-08-06-murphys-law-nonabelian-hodge.md",
+      "title": "Murphy's law in non-abelian Hodge theory",
+      "authors": "Gregorio Baldi, Yeuk Hay Joshua Lam",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.02875",
+      "legacy_url": "/papers/2026/08/06/murphys-law-nonabelian-hodge/"
+    },
+    {
+      "filename": "2026-08-06-noncollapsed-csck-surfaces.md",
+      "title": "On the geometry of non-collapsed polarized cscK surfaces",
+      "authors": "Junsheng Zhang, Keshu Zhou",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.02816",
+      "legacy_url": "/papers/2026/08/06/noncollapsed-csck-surfaces/"
+    },
+    {
+      "filename": "2026-08-06-nonembeddable-torus-paneitz.md",
+      "title": "Non-embeddable torus and CR Paneitz operator",
+      "authors": "Pak Tung Ho, Yuya Takeuchi",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.24508",
+      "legacy_url": "/papers/2026/08/06/nonembeddable-torus-paneitz/"
+    },
+    {
+      "filename": "2026-08-06-numerical-criterion-complex-hessian.md",
+      "title": "A numerical criterion for complex Hessian type equations on projective manifolds",
+      "authors": "Gao Chen, Sijie Nie, Yulun Xu",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.03815",
+      "legacy_url": "/papers/2026/08/06/numerical-criterion-complex-hessian/"
+    },
+    {
+      "filename": "2026-08-06-oka-complements-cubic-hypersurfaces.md",
+      "title": "Oka complements of cubic hypersurfaces",
+      "authors": "Song-Yan Xie",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.02413",
+      "legacy_url": "/papers/2026/08/06/oka-complements-cubic-hypersurfaces/"
+    },
+    {
+      "filename": "2026-08-06-orbifold-uniformization-parabolic-higgs.md",
+      "title": "Orbifold Uniformization of Complex Algebraic Variety by Stable Parabolic Higgs Bundle",
+      "authors": "Tianshu Jiang, Jiayu Li",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2606.06778",
+      "legacy_url": "/papers/2026/08/06/orbifold-uniformization-parabolic-higgs/"
+    },
+    {
+      "filename": "2026-08-06-positive-hsc-rational-surfaces.md",
+      "title": "Positive holomorphic sectional curvature on rational surfaces",
+      "authors": "Shiyu Zhang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.23333",
+      "legacy_url": "/papers/2026/08/06/positive-hsc-rational-surfaces/"
+    },
+    {
+      "filename": "2026-08-06-prescribed-hym-flow-i.md",
+      "title": "The prescribed Hermitian-Yang-Mills flow I",
+      "authors": "Zhiyao Xiong, Xaokui Yang, Shing-Tung Yau",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.21062",
+      "legacy_url": "/papers/2026/08/06/prescribed-hym-flow-i/"
+    },
+    {
+      "filename": "2026-08-06-prescribed-hym-flow-ii.md",
+      "title": "The prescribed Hermitian-Yang-Mills flow II",
+      "authors": "Zhiyao Xiong, Xiaokui Yang, Shing-Tung Yau",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.21073",
+      "legacy_url": "/papers/2026/08/06/prescribed-hym-flow-ii/"
+    },
+    {
+      "filename": "2026-08-06-projective-foliations-unique-singular-point.md",
+      "title": "Projective Foliations with a Unique Singular Point and Maximum Algebraic Multiplicity",
+      "authors": "Jorge Mozo-Fernández, P. Rubí Pantaleón-Mondragón",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.06588",
+      "legacy_url": "/papers/2026/08/06/projective-foliations-unique-singular-point/"
+    },
+    {
+      "filename": "2026-08-06-quantitative-hyperbolicity-indices.md",
+      "title": "Quantitative hyperbolicity for complex manifolds via numerical invariants",
+      "authors": "Tien-Cuong Dinh, Duc-Bao Nguyen, Duc-Viet Vu",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2607.07054",
+      "legacy_url": "/papers/2026/08/06/quantitative-hyperbolicity-indices/"
+    },
+    {
+      "filename": "2026-08-06-rank-two-point-bubbling.md",
+      "title": "Point Singularities and Bubbling in Degenerations of Rank-Two Bundles on Threefolds",
+      "authors": "Xuemiao Chen",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.25110",
+      "legacy_url": "/papers/2026/08/06/rank-two-point-bubbling/"
+    },
+    {
+      "filename": "2026-08-06-ricci-virtual-abelianness.md",
+      "title": "Nonnegative Ricci curvature and virtual abelianness in dimensions less than 12",
+      "authors": "Dimitri Navarro, Jiayin Pan, Xingyu Zhu",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.27724",
+      "legacy_url": "/papers/2026/08/06/ricci-virtual-abelianness/"
+    },
+    {
+      "filename": "2026-08-06-scalar-curvature-kahler-ricci-flow.md",
+      "title": "Convergence of Scalar Curvature of Long Time Kähler-Ricci Flow on Kähler Manifold",
+      "authors": "Lei Zhang, Zhenlei Zhang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.17402",
+      "legacy_url": "/papers/2026/08/06/scalar-curvature-kahler-ricci-flow/"
+    },
+    {
+      "filename": "2026-08-06-secondary-characteristic-classes-cr.md",
+      "title": "Secondary Characteristic Classes in CR Geometry",
+      "authors": "Shuya Matsumoto",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.01859",
+      "legacy_url": "/papers/2026/08/06/secondary-characteristic-classes-cr/"
+    },
+    {
+      "filename": "2026-08-06-singular-positivity-nakano-nadel.md",
+      "title": "Griffiths and Nakano positivity and Nakano-Nadel vanishing theorems for singular Hermitian metrics on complex spaces",
+      "authors": "Yuta Watanabe",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2606.16275",
+      "legacy_url": "/papers/2026/08/06/singular-positivity-nakano-nadel/"
+    },
+    {
+      "filename": "2026-08-06-special-fujita-ytd.md",
+      "title": "A solution to the Yau-Tian-Donaldson Conjecture through Special Fujita Approximations",
+      "authors": "Antonio Trusiani",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.30063",
+      "legacy_url": "/papers/2026/08/06/special-fujita-ytd/"
+    },
+    {
+      "filename": "2026-08-06-stable-degeneration-kaledin.md",
+      "title": "Stable Degeneration, Non-degenerate Forms, and Kaledin's Conjecture",
+      "authors": "Chenyang Xu, Ziquan Zhuang, Henri Guenancia",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2606.02401",
+      "legacy_url": "/papers/2026/08/06/stable-degeneration-kaledin/"
+    },
+    {
+      "filename": "2026-08-06-steenbrink-big-line-bundles.md",
+      "title": "Steenbrink vanishing theorem for big line bundles",
+      "authors": "Yuta Watanabe",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2608.01519",
+      "legacy_url": "/papers/2026/08/06/steenbrink-big-line-bundles/"
+    },
+    {
+      "filename": "2026-08-06-top-yau-yang-conjecture.md",
+      "title": "The top Yau--Yang conjecture for K\"ahler manifolds with positive sectional curvature",
+      "authors": "Ved V. Datar, Vamsi P. Pingali, Harish Seshadri",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.19806",
+      "legacy_url": "/papers/2026/08/06/top-yau-yang-conjecture/"
+    },
+    {
+      "filename": "2026-08-06-twisted-hermitian-einstein.md",
+      "title": "Existence of twisted Hermitian-Einstein metrics on unstable vector bundles",
+      "authors": "Mingwei Wang, Xiaokui Yang, Shing-Tung Yau",
+      "topic": "differential-geometry",
+      "arxiv_id": "2606.15102",
+      "legacy_url": "/papers/2026/08/06/twisted-hermitian-einstein/"
+    },
+    {
+      "filename": "2026-08-06-ulrich-exterior-powers-tangent-bundle.md",
+      "title": "Varieties with Ulrich exterior powers of the tangent bundle",
+      "authors": "Yuta Takahashi, Kiwamu Watanabe",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2606.27851",
+      "legacy_url": "/papers/2026/08/06/ulrich-exterior-powers-tangent-bundle/"
+    },
+    {
+      "filename": "2026-08-06-zeros-one-forms-algebraic-maps.md",
+      "title": "Zeros of one-forms and the topology of algebraic maps",
+      "authors": "Stefan Schreieder, Botong Wang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2607.15102",
+      "legacy_url": "/papers/2026/08/06/zeros-one-forms-algebraic-maps/"
+    },
+    {
+      "filename": "2026-08-07-adjoint-foliated-k-stability.md",
+      "title": "Singularity criteria for K-stability of adjoint foliated structures",
+      "authors": "Theodoros Stylianos Papazachariou",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.28140",
+      "legacy_url": "/papers/2026/08/07/adjoint-foliated-k-stability/"
+    },
+    {
+      "filename": "2026-08-07-arakelov-inequality-pairs.md",
+      "title": "Arakelov inequality for families of pairs",
+      "authors": "Junchao Shentu",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.24323",
+      "legacy_url": "/papers/2026/08/07/arakelov-inequality-pairs/"
+    },
+    {
+      "filename": "2026-08-07-balanced-lck-holomorphic-sectional-curvature.md",
+      "title": "Compact balanced threefolds and LCK manifolds with constant holomorphic sectional curvature",
+      "authors": "Shuwen Chen, Junpeng Li",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.05598",
+      "legacy_url": "/papers/2026/08/07/balanced-lck-holomorphic-sectional-curvature/"
+    },
+    {
+      "filename": "2026-08-07-bergman-metric-exponentially-flat.md",
+      "title": "On the Bergman Metric near Exponentially Flat Infinite Type Boundary Points",
+      "authors": "Ravi Shankar Jaiswal",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2607.24444",
+      "legacy_url": "/papers/2026/08/07/bergman-metric-exponentially-flat/"
+    },
+    {
+      "filename": "2026-08-07-foliations-dm-stack-positivity.md",
+      "title": "Foliations, slope stability, and positivity of log canonical bundles on Deligne-Mumford stacks",
+      "authors": "Sebastian Casalaina-Martin, Shend Zhjeqi",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.26443",
+      "legacy_url": "/papers/2026/08/07/foliations-dm-stack-positivity/"
+    },
+    {
+      "filename": "2026-08-07-gma-dhym-boundary-weak-solutions.md",
+      "title": "Weak solutions of the generalized Monge-Amp\\`ere equation and the supercritical deformed Hermitian-Yang-Mills equation: boundary cases",
+      "authors": "Rei Murakami",
+      "topic": "differential-geometry",
+      "arxiv_id": "2605.29258",
+      "legacy_url": "/papers/2026/08/07/gma-dhym-boundary-weak-solutions/"
+    },
+    {
+      "filename": "2026-08-07-higgs-grassmannians.md",
+      "title": "Higgs Grassmannians",
+      "authors": "Ugo Bruzzo, Michele Graffeo, Beatriz Graña Otero",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.29147",
+      "legacy_url": "/papers/2026/08/07/higgs-grassmannians/"
+    },
+    {
+      "filename": "2026-08-07-higgs-seshadri-constants.md",
+      "title": "Seshadri constants of Higgs Vector bundles",
+      "authors": "Krishna Hanumanthu, Snehajit Misra, Nabanita Ray",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.25776",
+      "legacy_url": "/papers/2026/08/07/higgs-seshadri-constants/"
+    },
+    {
+      "filename": "2026-08-07-ind-banach-analytification.md",
+      "title": "Analytification for Complex Geometry Revisited",
+      "authors": "Yuto Yamada",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2605.27961",
+      "legacy_url": "/papers/2026/08/07/ind-banach-analytification/"
+    },
+    {
+      "filename": "2026-08-07-lck-levi-civita-bismut-curvature.md",
+      "title": "Locally conformally Kähler manifolds with constant Levi-Civita or Bismut holomorphic sectional curvature",
+      "authors": "Shuwen Chen, Fangyang Zheng",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.01893",
+      "legacy_url": "/papers/2026/08/07/lck-levi-civita-bismut-curvature/"
+    },
+    {
+      "filename": "2026-08-07-minimal-rational-curve-neighborhoods.md",
+      "title": "Geometry of Neighborhoods of Minimal Rational Curves",
+      "authors": "Jun-Muk Hwang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.24303",
+      "legacy_url": "/papers/2026/08/07/minimal-rational-curve-neighborhoods/"
+    },
+    {
+      "filename": "2026-08-07-positivity-higgs-vector-bundles.md",
+      "title": "Positivity of Higgs Vector Bundles",
+      "authors": "Indranil Biswas, Snehajit Misra, Nabanita Ray",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.22402",
+      "legacy_url": "/papers/2026/08/07/positivity-higgs-vector-bundles/"
+    },
+    {
+      "filename": "2026-08-07-singular-kahler-ricci-shrinkers.md",
+      "title": "Singular Kähler-Ricci Shrinkers are Complex Analytic",
+      "authors": "Max Hallgren, Junsheng Zhang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2605.25213",
+      "legacy_url": "/papers/2026/08/07/singular-kahler-ricci-shrinkers/"
+    },
+    {
+      "filename": "2026-08-07-skoda-division-singular-metrics.md",
+      "title": "Skoda division theorem on compact Kähler manifolds for line bundles with singular hermitian metrics",
+      "authors": "Jaehoon Jeong",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2607.29669",
+      "legacy_url": "/papers/2026/08/07/skoda-division-singular-metrics/"
+    },
+    {
+      "filename": "2026-08-07-slope-unstable-homogeneous-projectivization.md",
+      "title": "A slope-unstable bundle on a surface with 1-homogeneous projectivization",
+      "authors": "Jihao Liu",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2607.04376",
+      "legacy_url": "/papers/2026/08/07/slope-unstable-homogeneous-projectivization/"
+    },
+    {
+      "filename": "2026-08-07-stability-kernel-bundles-projective-bundles.md",
+      "title": "Stability of kernel bundles on projective bundles over curves",
+      "authors": "Abel Castorena, George H. Hitching",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.06365",
+      "legacy_url": "/papers/2026/08/07/stability-kernel-bundles-projective-bundles/"
+    },
+    {
+      "filename": "2026-08-10-chern-classes-laughlin-bundles.md",
+      "title": "Chern classes of Laughlin bundles on the quasihole moduli space",
+      "authors": "Florent Dupont, Semyon Klevtsov",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.18089",
+      "legacy_url": "/papers/2026/08/10/chern-classes-laughlin-bundles/"
+    },
+    {
+      "filename": "2026-08-10-enumerative-geometry-ksba.md",
+      "title": "Enumerative Geometry on KSBA moduli spaces",
+      "authors": "Yunfeng Jiang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.19923",
+      "legacy_url": "/papers/2026/08/10/enumerative-geometry-ksba/"
+    },
+    {
+      "filename": "2026-08-10-holomorphic-maps-riemann-surfaces.md",
+      "title": "Improved bounds on the number of holomorphic maps between compact Riemann surfaces",
+      "authors": "Masaharu Tanabe",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2605.21137",
+      "legacy_url": "/papers/2026/08/10/holomorphic-maps-riemann-surfaces/"
+    },
+    {
+      "filename": "2026-08-10-kahler-stability-calabi-yau.md",
+      "title": "Degenerations and Stability of Kähler Structures on Calabi--Yau Manifolds",
+      "authors": "Kefeng Liu, Yang Shen",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.18065",
+      "legacy_url": "/papers/2026/08/10/kahler-stability-calabi-yau/"
+    },
+    {
+      "filename": "2026-08-10-optimal-bend-break-foliations.md",
+      "title": "Optimal bend-and-break for foliations",
+      "authors": "Jihao Liu, Zeming Sun, Jiedong Jiang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.20754",
+      "legacy_url": "/papers/2026/08/10/optimal-bend-break-foliations/"
+    },
+    {
+      "filename": "2026-08-11-almost-kahler-chi-y-genus.md",
+      "title": "Hirzebruch $χ_{y}$-genus of compact almost Kähler manifold with negative sectional curvature",
+      "authors": "Teng Huang, Pan Zhang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2604.27423",
+      "legacy_url": "/papers/2026/08/11/almost-kahler-chi-y-genus/"
+    },
+    {
+      "filename": "2026-08-11-bertini-chevalley.md",
+      "title": "Theorems of Bertini and Chevalley",
+      "authors": "János Kollár",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.03115",
+      "legacy_url": "/papers/2026/08/11/bertini-chevalley/"
+    },
+    {
+      "filename": "2026-08-11-condensed-complex-geometry.md",
+      "title": "Condensed Mathematics and Complex Geometry",
+      "authors": "Dustin Clausen, Peter Scholze",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2605.11731",
+      "legacy_url": "/papers/2026/08/11/condensed-complex-geometry/"
+    },
+    {
+      "filename": "2026-08-11-cr-singularity-normal-forms-survey.md",
+      "title": "A survey on normal forms of real submanifolds with CR singularity",
+      "authors": "Xianghong Gong, Laurent Stolovitch",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2605.13157",
+      "legacy_url": "/papers/2026/08/11/cr-singularity-normal-forms-survey/"
+    },
+    {
+      "filename": "2026-08-11-effective-foliations-complete-intersection-surfaces.md",
+      "title": "Effective Results about Foliations on Smooth Projective Complete Intersection Surfaces",
+      "authors": "Jorge Olivares, Daniel Posada-Buriticá",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.09877",
+      "legacy_url": "/papers/2026/08/11/effective-foliations-complete-intersection-surfaces/"
+    },
+    {
+      "filename": "2026-08-11-essential-p-dimension-chern-numbers.md",
+      "title": "Essential p-dimension and Chern numbers",
+      "authors": "Olivier Haution",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.08877",
+      "legacy_url": "/papers/2026/08/11/essential-p-dimension-chern-numbers/"
+    },
+    {
+      "filename": "2026-08-11-fino-vezzoni-homogeneous.md",
+      "title": "The Fino--Vezzoni conjecture on homogeneous spaces",
+      "authors": "Joseph Kwong",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.08665",
+      "legacy_url": "/papers/2026/08/11/fino-vezzoni-homogeneous/"
+    },
+    {
+      "filename": "2026-08-11-foliated-minimal-models-flops.md",
+      "title": "Foliated Minimal Models and Flops",
+      "authors": "Paolo Cascini, Roktim Mascharak, Calum Spicer",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.09663",
+      "legacy_url": "/papers/2026/08/11/foliated-minimal-models-flops/"
+    },
+    {
+      "filename": "2026-08-11-geometric-shafarevich-boundedness.md",
+      "title": "Geometric Shafarevich boundedness conjecture for families of polarized varieties",
+      "authors": "Junchao Shentu",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.09847",
+      "legacy_url": "/papers/2026/08/11/geometric-shafarevich-boundedness/"
+    },
+    {
+      "filename": "2026-08-11-grauert-tubes-affineness.md",
+      "title": "Revised Demailly's Affineness Criterion and Algebraization of Entire Grauert Tubes",
+      "authors": "Kyobeom Song",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2605.05582",
+      "legacy_url": "/papers/2026/08/11/grauert-tubes-affineness/"
+    },
+    {
+      "filename": "2026-08-11-k-stability-complete-intersections.md",
+      "title": "K-stability of complete intersections",
+      "authors": "Livia Campo, Kristin DeVleming, Tiago Duarte Guerreiro",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.09293",
+      "legacy_url": "/papers/2026/08/11/k-stability-complete-intersections/"
+    },
+    {
+      "filename": "2026-08-11-kahler-slc-abundance.md",
+      "title": "Failure of the semi log canonical Abundance for compact Kähler threefolds",
+      "authors": "Swapnajit Das",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.28085",
+      "legacy_url": "/papers/2026/08/11/kahler-slc-abundance/"
+    },
+    {
+      "filename": "2026-08-11-multiplier-submodule-sheaves.md",
+      "title": "Finite Gram Scalarization and Further Properties of Multiplier Submodule Sheaves",
+      "authors": "Jingcao Wu",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2608.08620",
+      "legacy_url": "/papers/2026/08/11/multiplier-submodule-sheaves/"
+    },
+    {
+      "filename": "2026-08-11-nef-non-semipositive-hopf.md",
+      "title": "Nef but Non-Semi-positive Line Bundles on Hopf Manifolds",
+      "authors": "Xiaojun Wu",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2608.09114",
+      "legacy_url": "/papers/2026/08/11/nef-non-semipositive-hopf/"
+    },
+    {
+      "filename": "2026-08-11-pseudo-hyperbolicity-horikawa.md",
+      "title": "Pseudo-hyperbolicity of Horikawa surfaces",
+      "authors": "Anibal Aravena, Jaime Negrete, Wern Yeong",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.08276",
+      "legacy_url": "/papers/2026/08/11/pseudo-hyperbolicity-horikawa/"
+    },
+    {
+      "filename": "2026-08-11-quasi-projective-klt-moduli.md",
+      "title": "Quasi-Projective Moduli for Polarized klt Good Minimal Models",
+      "authors": "Xiaowei Jiang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2605.09898",
+      "legacy_url": "/papers/2026/08/11/quasi-projective-klt-moduli/"
+    },
+    {
+      "filename": "2026-08-11-s-manifolds-transverse-ke.md",
+      "title": "The canonical submersion of $\\mathcal{S}$-manifolds and transverse Kähler-Einstein structures",
+      "authors": "Ioannis Chrysikos",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.08072",
+      "legacy_url": "/papers/2026/08/11/s-manifolds-transverse-ke/"
+    },
+    {
+      "filename": "2026-08-11-sharp-volume-gap-kahler.md",
+      "title": "The sharp volume gap for Kähler manifolds with positive Ricci curvature",
+      "authors": "Chi Li, Minghao Miao, Kewei Zhang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.08193",
+      "legacy_url": "/papers/2026/08/11/sharp-volume-gap-kahler/"
+    },
+    {
+      "filename": "2026-08-11-special-ulrich-bundles-burniat.md",
+      "title": "A no-go theorem for special Ulrich bundles, with a complement on primary Burniat surfaces",
+      "authors": "Cristian Anghel, Filip Chindea",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.09901",
+      "legacy_url": "/papers/2026/08/11/special-ulrich-bundles-burniat/"
+    },
+    {
+      "filename": "2026-08-11-torelli-hyperkahler-quotients.md",
+      "title": "A Torelli-type theorem for hyperkähler quotients",
+      "authors": "Ryota Kotani",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.08680",
+      "legacy_url": "/papers/2026/08/11/torelli-hyperkahler-quotients/"
+    },
+    {
+      "filename": "2026-08-11-weighted-extremal-kahler-metrics.md",
+      "title": "On weighted extremal Kähler metrics",
+      "authors": "Akito Futaki",
+      "topic": "differential-geometry",
+      "arxiv_id": "2605.08796",
+      "legacy_url": "/papers/2026/08/11/weighted-extremal-kahler-metrics/"
+    },
+    {
+      "filename": "2026-08-12-associated-bundles-weak-beauville-bogomolov.md",
+      "title": "A criterion for associated bundles and the weak Beauville--Bogomolov decomposition",
+      "authors": "Yang Zhang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.10219",
+      "legacy_url": "/papers/2026/08/12/associated-bundles-weak-beauville-bogomolov/"
+    },
+    {
+      "filename": "2026-08-12-birational-boundedness-stable-families.md",
+      "title": "Birational boundedness of stable families",
+      "authors": "Paolo Cascini, Jihao Liu, Calum Spicer, Roberto Svaldi",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.24106",
+      "legacy_url": "/papers/2026/08/12/birational-boundedness-stable-families/"
+    },
+    {
+      "filename": "2026-08-12-compact-kahler-contact-manifolds.md",
+      "title": "Compact Kähler contact manifolds",
+      "authors": "Jie Liu",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.26425",
+      "legacy_url": "/papers/2026/08/12/compact-kahler-contact-manifolds/"
+    },
+    {
+      "filename": "2026-08-12-compactness-rigidity-kahler-ricci-shrinkers.md",
+      "title": "Compactness and Rigidity of Complete Kähler Ricci Shrinkers",
+      "authors": "Tongxin Xu, Zhenlei Zhang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.10953",
+      "legacy_url": "/papers/2026/08/12/compactness-rigidity-kahler-ricci-shrinkers/"
+    },
+    {
+      "filename": "2026-08-12-diffeomorphism-mori-fibre-spaces.md",
+      "title": "Diffeomorphism types of simply connected $3$-dimensional Mori fibre spaces",
+      "authors": "Feng Hao, Yang Su, Jianqiang Yang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.23180",
+      "legacy_url": "/papers/2026/08/12/diffeomorphism-mori-fibre-spaces/"
+    },
+    {
+      "filename": "2026-08-12-hodge-k-stability-symmetric-hypersurfaces.md",
+      "title": "Hodge theory and K-stability of some very symmetric hypersurfaces",
+      "authors": "Hyunsuk Kim",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.27229",
+      "legacy_url": "/papers/2026/08/12/hodge-k-stability-symmetric-hypersurfaces/"
+    },
+    {
+      "filename": "2026-08-12-moduli-higgs-pairs.md",
+      "title": "The moduli space of Higgs pairs",
+      "authors": "Jun Sasaki",
+      "topic": "differential-geometry",
+      "arxiv_id": "2604.24400",
+      "legacy_url": "/papers/2026/08/12/moduli-higgs-pairs/"
+    },
+    {
+      "filename": "2026-08-13-canonical-extension-regulators.md",
+      "title": "Regulators of canonical extensions are torsion:the case of two transversally intersecting smooth divisors",
+      "authors": "Jaya NN Iyer, Carlos Simpson",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.11856",
+      "legacy_url": "/papers/2026/08/13/canonical-extension-regulators/"
+    },
+    {
+      "filename": "2026-08-13-frobenius-tschirnhausen-ampleness.md",
+      "title": "Frobenius--Tschirnhausen ampleness",
+      "authors": "Raymond Cheng, Emre Alp Özavcı",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.11304",
+      "legacy_url": "/papers/2026/08/13/frobenius-tschirnhausen-ampleness/"
+    },
+    {
+      "filename": "2026-08-13-symplectic-higgs-moduli.md",
+      "title": "On the symplectic forms of Groechenig's Higgs moduli over an elliptic curve",
+      "authors": "Zelin Jia",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.12093",
+      "legacy_url": "/papers/2026/08/13/symplectic-higgs-moduli/"
+    },
+    {
+      "filename": "2026-08-14-anticanonical-mmp-pklt.md",
+      "title": "Structure of the Anticanonical Minimal Model Program for Potentially klt Pairs",
+      "authors": "Donghyeon Kim, Dae-Won Lee",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.05369",
+      "legacy_url": "/papers/2026/08/14/anticanonical-mmp-pklt/"
+    },
+    {
+      "filename": "2026-08-14-btp-chern-holomorphic-curvature.md",
+      "title": "Bismut-Torsion-Parallel Hermitian Manifolds With Constant Chern Holomorphic Sectional Curvature",
+      "authors": "Haohao Wang",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.13386",
+      "legacy_url": "/papers/2026/08/14/btp-chern-holomorphic-curvature/"
+    },
+    {
+      "filename": "2026-08-14-calabi-yau-topological-obstructions.md",
+      "title": "Topological obstructions to geometric positivity and negativity on Calabi-Yau manifolds",
+      "authors": "Ping Li",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.12705",
+      "legacy_url": "/papers/2026/08/14/calabi-yau-topological-obstructions/"
+    },
+    {
+      "filename": "2026-08-14-dhym-large-scaling.md",
+      "title": "Notes on the deformed Hermitian-Yang-Mills equations and the large scaling limits of stability conditions",
+      "authors": "Yu-Wei Fan",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.22246",
+      "legacy_url": "/papers/2026/08/14/dhym-large-scaling/"
+    },
+    {
+      "filename": "2026-08-14-entropy-achirality-automorphisms.md",
+      "title": "Gap theorems and achirality for automorphisms of K3 surfaces and Enriques surfaces",
+      "authors": "Kohei Kikuta, Yuta Takada, Taiki Takatsu",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.04682",
+      "legacy_url": "/papers/2026/08/14/entropy-achirality-automorphisms/"
+    },
+    {
+      "filename": "2026-08-14-foliated-mmp-survey.md",
+      "title": "Recent progress on the Minimal Model Program for foliations",
+      "authors": "Paolo Cascini, Calum Spicer",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.09027",
+      "legacy_url": "/papers/2026/08/14/foliated-mmp-survey/"
+    },
+    {
+      "filename": "2026-08-14-harder-narasimhan-direct-images.md",
+      "title": "On the Harder-Narasimhan filtration of the direct image of the structure sheaf",
+      "authors": "Indranil Biswas, Manish Kumar, A. J. Parameswaran",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.22419",
+      "legacy_url": "/papers/2026/08/14/harder-narasimhan-direct-images/"
+    },
+    {
+      "filename": "2026-08-14-holomorphic-approximation-diffeomorphisms.md",
+      "title": "Holomorphic Approximation for Real Diffeomorphism Groups",
+      "authors": "Fusheng Deng, Gaofeng Huang, Frank Kutzschebauch, Erlend Fornæss Wold",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2608.12565",
+      "legacy_url": "/papers/2026/08/14/holomorphic-approximation-diffeomorphisms/"
+    },
+    {
+      "filename": "2026-08-14-lefschetz-higgs-elliptic-surfaces.md",
+      "title": "Lefschetz principle-type theorems for curve semistable Higgs sheaves and applications to elliptic surfaces",
+      "authors": "Armando Capasso",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2412.00439",
+      "legacy_url": "/papers/2026/08/14/lefschetz-higgs-elliptic-surfaces/"
+    },
+    {
+      "filename": "2026-08-14-log-conformal-projective-manifolds.md",
+      "title": "Log-Conformal Projective Manifolds",
+      "authors": "Maurício Corrêa, Alex Massarenti",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2604.16215",
+      "legacy_url": "/papers/2026/08/14/log-conformal-projective-manifolds/"
+    },
+    {
+      "filename": "2026-08-14-nonintegrable-kahler-einstein-deformations.md",
+      "title": "A negative Kähler-Einstein threefold with non-integrable infinitesimal Einstein deformations",
+      "authors": "Ari Krishna",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.13481",
+      "legacy_url": "/papers/2026/08/14/nonintegrable-kahler-einstein-deformations/"
+    },
+    {
+      "filename": "2026-08-14-prescribed-hym-higgs-ii.md",
+      "title": "Existence of Hermitian metrics with prescribed Hermitian-Yang-Mills tensors II",
+      "authors": "Jiaxuan Fan, Mingwei Wang, Xiaokui Yang, Shing-Tung Yau",
+      "topic": "differential-geometry",
+      "arxiv_id": "2604.02679",
+      "legacy_url": "/papers/2026/08/14/prescribed-hym-higgs-ii/"
+    },
+    {
+      "filename": "2026-08-14-products-fano-picard-one.md",
+      "title": "Classification of products of Fano varieties with Picard number one",
+      "authors": "Arijit Mukherjee",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.12076",
+      "legacy_url": "/papers/2026/08/14/products-fano-picard-one/"
+    },
+    {
+      "filename": "2026-08-14-ricci-forms-noncompact.md",
+      "title": "On Ricci forms of canonical metrics over noncompact complex manifolds",
+      "authors": "Hanzhang Yin",
+      "topic": "differential-geometry",
+      "arxiv_id": "2604.19225",
+      "legacy_url": "/papers/2026/08/14/ricci-forms-noncompact/"
+    },
+    {
+      "filename": "2026-08-14-uniform-weak-rc-positivity.md",
+      "title": "Uniform weak RC-positivity and rational connectedness",
+      "authors": "Kuang-Ru Wu",
+      "topic": "differential-geometry",
+      "arxiv_id": "2604.05981",
+      "legacy_url": "/papers/2026/08/14/uniform-weak-rc-positivity/"
+    },
+    {
+      "filename": "2026-08-14-uniformisation-positive-sectional-curvature.md",
+      "title": "Uniformisation of complete Kähler surfaces with positive sectional curvature",
+      "authors": "Ved Datar, Vamsi Pritham Pingali, Harish Seshadri",
+      "topic": "differential-geometry",
+      "arxiv_id": "2604.11220",
+      "legacy_url": "/papers/2026/08/14/uniformisation-positive-sectional-curvature/"
+    },
+    {
+      "filename": "2026-08-15-algebraic-cycles-fano-genus-7.md",
+      "title": "Algebraic cycles and Fano threefolds of genus 7",
+      "authors": "Robert Laterveer",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.12950",
+      "legacy_url": "/papers/2026/08/15/algebraic-cycles-fano-genus-7/"
+    },
+    {
+      "filename": "2026-08-15-ball-quotients-higher-chern.md",
+      "title": "Characterising Ball Quotients through their (higher) Chern Numbers",
+      "authors": "Niklas Müller",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2602.05509",
+      "legacy_url": "/papers/2026/08/15/ball-quotients-higher-chern/"
+    },
+    {
+      "filename": "2026-08-15-chi-y-chern-signature.md",
+      "title": "The $χ_y$-genus, Chern number inequalities and signature",
+      "authors": "Ping Li, Yibo Ren",
+      "topic": "differential-geometry",
+      "arxiv_id": "2603.27964",
+      "legacy_url": "/papers/2026/08/15/chi-y-chern-signature/"
+    },
+    {
+      "filename": "2026-08-15-fundamental-groups-nef-anticanonical.md",
+      "title": "Fundamental groups of compact Kahler varieties with nef anti canonical bundle",
+      "authors": "Xin Fu, Bin Guo, Jian Song, Juanyong Wang",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2602.07420",
+      "legacy_url": "/papers/2026/08/15/fundamental-groups-nef-anticanonical/"
+    },
+    {
+      "filename": "2026-08-15-hyperkahler-fibrations-sheaves-categories.md",
+      "title": "Hyper-Kähler varieties: Lagrangian fibrations, atomic sheaves, and categories",
+      "authors": "Alessio Bottini, Emanuele Macrì, Paolo Stellari",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2603.23033",
+      "legacy_url": "/papers/2026/08/15/hyperkahler-fibrations-sheaves-categories/"
+    },
+    {
+      "filename": "2026-08-15-kobayashi-hitchin-nef-big.md",
+      "title": "The Kobayashi-Hitchin correspondence for nef and big classes",
+      "authors": "Satoshi Jinnouchi",
+      "topic": "differential-geometry",
+      "arxiv_id": "2603.10312",
+      "legacy_url": "/papers/2026/08/15/kobayashi-hitchin-nef-big/"
+    },
+    {
+      "filename": "2026-08-15-kodaira-iitaka-multiplicity.md",
+      "title": "Kodaira-Iitaka dimension and multiplicity: an analytic perspective",
+      "authors": "Siarhei Finski",
+      "topic": "several-complex-variables",
+      "arxiv_id": "2603.22194",
+      "legacy_url": "/papers/2026/08/15/kodaira-iitaka-multiplicity/"
+    },
+    {
+      "filename": "2026-08-15-nonproper-hodge-shafarevich.md",
+      "title": "Non-abelian Hodge theory for non-proper varieties and the linear Shafarevich conjecture",
+      "authors": "Benjamin Bakker",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2603.23467",
+      "legacy_url": "/papers/2026/08/15/nonproper-hodge-shafarevich/"
+    },
+    {
+      "filename": "2026-08-15-simplicity-hodge-bundle.md",
+      "title": "The Simplicity of the Hodge Bundle",
+      "authors": "Anand Patel",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2603.19052",
+      "legacy_url": "/papers/2026/08/15/simplicity-hodge-bundle/"
+    },
+    {
+      "filename": "2026-08-15-spectral-simply-connectedness.md",
+      "title": "Simply connectedness of Kähler and Riemannian manifolds via spectral estimates (with an appendix by Shiyu Zhang)",
+      "authors": "Francesco Bei",
+      "topic": "differential-geometry",
+      "arxiv_id": "2602.11002",
+      "legacy_url": "/papers/2026/08/15/spectral-simply-connectedness/"
+    },
+    {
+      "filename": "2026-08-15-twisted-hyperholomorphic-sheaves.md",
+      "title": "Equivalences via twisted hyperholomorphic sheaves from transverse Lagrangian fibrations",
+      "authors": "Moritz Hartlieb, Saket Shah",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.13403",
+      "legacy_url": "/papers/2026/08/15/twisted-hyperholomorphic-sheaves/"
+    },
+    {
+      "filename": "2026-08-15-valuative-tangent-cones.md",
+      "title": "Optimal algebraic tangent cone of torsion-free sheaves via valuations",
+      "authors": "Yohei Hada",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2602.01112",
+      "legacy_url": "/papers/2026/08/15/valuative-tangent-cones/"
+    },
+    {
+      "filename": "2026-08-17-alpha-spectrum-toric-fano.md",
+      "title": "The alpha spectrum of K-polystable toric $\\mathbb{Q}$-Fano varieties",
+      "authors": "Xian Wu",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.14115",
+      "legacy_url": "/papers/2026/08/17/alpha-spectrum-toric-fano/"
+    },
+    {
+      "filename": "2026-08-17-cone-theorem-effective-fourfolds.md",
+      "title": "The cone theorem for effective fourfold pairs in characteristic $p>5$",
+      "authors": "Joe Waldron",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.14236",
+      "legacy_url": "/papers/2026/08/17/cone-theorem-effective-fourfolds/"
+    },
+    {
+      "filename": "2026-08-17-fino-vezzoni-balanced-btp.md",
+      "title": "The Fino-Vezzoni conjecture on balanced Bismut torsion-parallel manifolds",
+      "authors": "Shuwen Chen, Fangyang Zheng",
+      "topic": "differential-geometry",
+      "arxiv_id": "2608.13887",
+      "legacy_url": "/papers/2026/08/17/fino-vezzoni-balanced-btp/"
+    },
+    {
+      "filename": "2026-08-17-k-stability-singular-del-pezzo.md",
+      "title": "K-stability of del Pezzo surfaces with a single quotient singularity",
+      "authors": "In-Kyun Kim, Dae-Won Lee",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2507.13649",
+      "legacy_url": "/papers/2026/08/17/k-stability-singular-del-pezzo/"
+    },
+    {
+      "filename": "2026-08-17-rank-two-weak-fano-bundles-q4.md",
+      "title": "Rank-two weak Fano bundles on a four-dimensional quadric hypersurface $Q^4$",
+      "authors": "Yuta Takahashi",
+      "topic": "algebraic-geometry",
+      "arxiv_id": "2608.13916",
+      "legacy_url": "/papers/2026/08/17/rank-two-weak-fano-bundles-q4/"
+    }
+  ]
+}
