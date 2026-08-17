@@ -7,6 +7,10 @@ authors: "In-Kyun Kim, Dae-Won Lee"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  In this paper, we study the K-stability of del Pezzo surfaces with a single quotient singularity
+  whose minimal resolution admits exactly two exceptional curves \(E_1\) and \(E_2\) with
+  \(E_{1}^2=-n\), \(E_{2}^2=-m\) for \(n,m\geq 2\).
 topic: algebraic-geometry
 tags:
   - singularities

@@ -6,6 +6,13 @@ authors: "Jorge Mozo-Fernández, P. Rubí Pantaleón-Mondragón"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  The study of codimension-one holomorphic foliations on the projective plane $\mathbb{CP}^{2}$ with a
+  unique singular point has attracted increasing interest because of its connections with several
+  important problems. In this paper, we focus on holomorphic foliations of degree $d$ having a
+  singular point of maximal multiplicity $d$. We describe explicitly the foliations in this class and
+  characterize those having a unique singular point. We also state some results concerning
+  Hilbert-Mumford stability for these foliations.
 topic: algebraic-geometry
 tags:
   - singularities

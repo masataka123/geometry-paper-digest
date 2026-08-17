@@ -3,6 +3,10 @@ layout: paper
 title: "Steenbrink vanishing theorem for big line bundles"
 title_ja: "big 線束に対する Steenbrink 消滅定理"
 authors: "Yuta Watanabe"
+arxiv_abstract: >-
+  In this paper, we generalize the Steenbrink vanishing theorem for ample line bundles on complex
+  projective varieties by extending it to big line bundles on compact complex spaces with multiplier
+  ideal sheaves.
 topic: several-complex-variables
 tags:
   - positivity

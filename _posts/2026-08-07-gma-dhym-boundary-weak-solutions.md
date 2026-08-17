@@ -6,6 +6,12 @@ authors: "Rei Murakami"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  We prove the existence and uniqueness of weak solutions for the generalized Monge-Ampère equation
+  and the supercritical deformed Hermitian-Yang-Mills equation in cohomology classes lying on the
+  boundary of the solvable region. Moreover, we prove that the associated geometric flows converge to
+  the weak solutions in the sense of currents. The proof combines viscosity-theoretic and
+  pluripotential-theoretic techniques.
 topic: differential-geometry
 tags:
   - vector-bundles-sheaves

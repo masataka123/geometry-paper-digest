@@ -6,6 +6,14 @@ authors: "Jorge Olivares, Daniel Posada-Buriticá"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We study holomorphic foliations on projective spaces that leave smooth complete intersection
+  surfaces $M$ invariant. We determine precisely for which degrees such foliations on $M$ exist. As a
+  consequence, we obtain new bounds for the classical Poincaré problem for smooth projective complete
+  intersection surfaces and prove that previously known bounds for smooth hypersurfaces in
+  $\mathbb{P}^3$ are optimal. Furthermore, for a foliation $[s]$ on $M$ with isolated singularities
+  and for degrees beyond an explicit bound, we show that a section $s'$ has singular scheme containing
+  that of $s$ if and only if $s'=φ(s)$ for some global endomorphism $φ$ of the tangent bundle of $M$.
 topic: algebraic-geometry
 tags:
   - singularities

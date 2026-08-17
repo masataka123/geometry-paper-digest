@@ -3,6 +3,15 @@ layout: paper
 title: "Murphy's law in non-abelian Hodge theory"
 title_ja: "非可換 Hodge 理論における Murphy の法則"
 authors: "Gregorio Baldi, Yeuk Hay Joshua Lam"
+arxiv_abstract: >-
+  We construct explicit examples of non-integral variations of $\mathbb{Q}$-Hodge structures. Our
+  approach leverages Fenchel--Nielsen-type parameterizations, due to Kabaya and Maskit, of the
+  Teichmüller component of relative character varieties. Additionally, we discuss various Diophantine
+  results concerning the $\mathcal{O}_{K,S}$-integral points of such character varieties, and give a
+  new proof of Beauville's classical theorem on families of elliptic curves. We conclude by collecting
+  \emph{pathological behaviors} of the Hodge locus of non-integral $\mathbb{Q}$VHS, in particular the
+  failure of the Cattani--Deligne--Kaplan theorem and the André--Oort conjecture; our results indicate
+  that for $\mathbb{Q}$VHS which are not $\mathbb{Z}$VHS, what can go wrong must go wrong.
 topic: algebraic-geometry
 tags:
   - hodge-theory

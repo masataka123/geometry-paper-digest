@@ -6,6 +6,10 @@ authors: "Jaehoon Jeong"
 arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
+arxiv_abstract: >-
+  We prove a Skoda division theorem on a compact Kähler manifold for holomorphic sections of line
+  bundles with singular hermitian metrics. As a corollary, we prove a Siu-type division theorem on
+  compact Kähler manifolds for holomorphic line bundles endowed with singular hermitian metrics.
 topic: several-complex-variables
 tags:
   - curvature

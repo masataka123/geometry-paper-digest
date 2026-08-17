@@ -7,6 +7,18 @@ authors: "Ved Datar, Vamsi Pritham Pingali, Harish Seshadri"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  We prove that any complete non-compact Kähler surface with positive sectional curvature is
+  biholomorphic to $\mathbb{C}^2$, establishing the two dimensional case of the weaker form of Yau's
+  uniformisation conjecture. In contrast to all previous results, no assumptions are made on the
+  geometry at infinity. The proof introduces a new approach towards Yau-type uniformisation problems,
+  based on uniformly Lipschitz plurisubharmonic weight functions with finite Monge-Ampère mass, and
+  weighted $L^p$ holomorphic functions. A central difficulty is that these weights are neither smooth
+  nor proper. As a consequence of the method, we also obtain Bézout-type intersection and multiplicity
+  estimates in considerable generality. In a different direction, we also prove a new obstruction to
+  the existence of complete Kähler metrics with non-negative bisectional curvature on non-compact
+  Kähler manifolds, and use it to construct new examples admitting no such metrics. We conclude by
+  discussing possible extensions of our methods to higher dimensions and related open problems.
 topic: differential-geometry
 tags:
   - positivity

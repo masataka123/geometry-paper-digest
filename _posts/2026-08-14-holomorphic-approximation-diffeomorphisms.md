@@ -7,6 +7,14 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.DG
+arxiv_abstract: >-
+  We show that every diffeomorphism of $\mathbb{R}^n$ for $n \ge 2$ can be approximated by an
+  automorphism of $\mathbb{C}^n$ in the Whitney $C^k$-topology for any positive integer $k$ using the
+  notion of density property. More precisely we find sufficient conditions for this holomorphic
+  approximation of diffeomorphisms to hold and prove that the split real forms of most linear
+  algebraic groups satisfy these conditions. In the same manner we also show holomorphic
+  approximations of volume-preserving diffeomorphisms for the split real forms of linear algebraic
+  groups equipped with the left-invariant volume form.
 topic: several-complex-variables
 tags:
   - oka-theory

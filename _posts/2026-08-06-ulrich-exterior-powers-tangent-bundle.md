@@ -7,6 +7,12 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.AC
+arxiv_abstract: >-
+  We study smooth polarized projective varieties $(X,H)$ whose exterior powers of the tangent bundle
+  are Ulrich. We prove that if $\bigwedge^rT_X$ is $H$-Ulrich for some $0<r<\dim X$, then $X$ is Fano
+  and the intersection number $(-K_X)\cdot H^{n-1}$ is determined explicitly. We then classify the
+  Picard number one case: the only example is the Veronese surface $(\mathbb P^2,\mathcal O_{\mathbb
+  P^2}(2))$.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

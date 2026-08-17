@@ -21,6 +21,7 @@ export interface PaperMetadata {
   arxivUrl: string;
   arxivSubmitted: string;
   arxivUpdated: string;
+  arxivAbstract: string;
   summary: string;
   abstractEn: string;
   summaryEn: string;
@@ -86,6 +87,7 @@ async function normalizeMetadata(data: Record<string, unknown>, filename: string
     arxivUrl: stringValue(data, "arxiv_url"),
     arxivSubmitted: stringValue(data, "arxiv_submitted"),
     arxivUpdated: stringValue(data, "arxiv_updated"),
+    arxivAbstract: stringValue(data, "arxiv_abstract"),
     summary: stringValue(data, "summary"),
     abstractEn: stringValue(data, "abstract_en"),
     summaryEn: stringValue(data, "summary_en"),

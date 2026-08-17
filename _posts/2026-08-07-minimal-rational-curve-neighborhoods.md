@@ -7,6 +7,14 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DG
+arxiv_abstract: >-
+  This is a survey of recent works on the germ-equivalence problem of minimal rational curves on
+  uniruled projective manifolds. Our main interest is when the associated varieties of minimal
+  rational tangents form an isotrivial family of projective varieties. In this case, there is a
+  natural G-structure on a Zariski-open subset of the underlying uniruled projective manifold, which
+  leads to an interaction of algebraic geometry of minimal rational curves with differential geometry
+  of geometric structures. We also discuss the related question of the formal principle for the
+  germ-equivalence of minimal rational curves.
 topic: algebraic-geometry
 tags: []
 arxiv_id: "2605.24303v1"

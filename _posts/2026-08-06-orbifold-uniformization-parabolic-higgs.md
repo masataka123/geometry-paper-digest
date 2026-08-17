@@ -7,6 +7,21 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DG
+arxiv_abstract: >-
+  Let \(X\) be a smooth complex projective variety and let \(D=D^p+D^c\) be a simple normal crossing
+  divisor, where \(D^p\) is a cusp divisor and \(D^c\) is a compact divisor carrying rational
+  parabolic weights \(q_i/p_i\). We study the parabolic Higgs bundle \[ E_*=(Ω_X^1(\log
+  D^p)\oplus\mathcal O_X)_* \] whose only non-zero compact weights occur on the conormal lines of the
+  components of \(D^c\). The equality case of the parabolic Bogomolov--Gieseker inequality is
+  formulated intrinsically on the root stack \(X[\sqrt[p_i]{D_i^c}]\). We prove that equality produces
+  a flat trace-free adjoint harmonic bundle, a principal \(PU(n,1)\)-variation, and a period map to
+  the unit ball. In root coordinates \(z_i=w_i^{p_i}\) its normal form is \[ ξ_i=u_i(w)w_i^{p_i-q_i},
+  \qquad u_i(0)\neq0. \] Thus the general equality case gives a branched complex-hyperbolic structure;
+  it is an unramified orbifold ball uniformization exactly in the standard case \(q_i=p_i-1\).
+  Conversely, a branched complex-hyperbolic structure with this local normal form gives a mixed
+  Poincare--cone current representing \(c_1(K_X+Δ)\); this class is automatically big, nef, and
+  \(Δ\)-admissible. The induced Hodge metric gives parabolic polystability with respect to every
+  admissible big and nef class, and the parabolic Chern equality.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

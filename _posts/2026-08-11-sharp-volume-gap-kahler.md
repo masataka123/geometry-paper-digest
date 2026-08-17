@@ -8,6 +8,14 @@ arxiv_categories:
   - math.DG
   - math.AG
   - math.MG
+arxiv_abstract: >-
+  We prove a sharp volume gap estimate: if an $n$-dimensional compact Kähler manifold $(X, ω)$
+  satisfies $\mathrm{Ric}(ω)\ge (n+1)ω$ and $X\not\cong \mathbb{P}^n$, then $\mathrm{vol}(X, ω)\le
+  \frac{2n^n}{(n+1)^n}\mathrm{vol}(\mathbb{P}^n,ω_{\mathrm{FS}})=\frac{2^{n+1} \, π^n \,
+  n^n}{(n+1)^n}$. Moreover $\mathrm{vol}(X, ω)= \frac{2^{n+1} \, π^n \, n^n}{(n+1)^n}$ occurs if and
+  only if $(X, ω)$ is biholomorphically isometric to the Kähler-Einstein metric on the quadric
+  hypersurface $Q^n$ or on the product $\mathbb{P}^1\times \mathbb{P}^{n-1}$. We also obtain sharp
+  volume gap estimates for K-semistable toric log Fano pairs.
 topic: differential-geometry
 tags:
   - positivity

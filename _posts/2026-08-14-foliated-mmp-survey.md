@@ -6,6 +6,10 @@ authors: "Paolo Cascini, Calum Spicer"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We survey recent progress on the birational geometry of foliations on complex varieties. We focus on
+  the MMP viewpoint: singularities, adjunction and applications to the MMP for foliations on surfaces
+  and to the existence of flips on threefolds.
 topic: algebraic-geometry
 tags:
   - singularities

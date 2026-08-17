@@ -7,6 +7,10 @@ authors: "Joe Waldron"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  Assuming the log resolution conjecture for all log pairs birational to $X$, we prove the cone
+  theorem for projective log canonical, $\mathbb{Q}$-factorial fourfold pairs $(X,Δ)$ such that $K_X
+  +Δ\equiv M \geq 0$ over bases of positive and mixed characteristic $p > 5$.
 topic: algebraic-geometry
 tags:
   - singularities

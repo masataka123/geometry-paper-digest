@@ -7,6 +7,14 @@ authors: "Hyunsuk Kim"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We study some interesting hypersurfaces that naturally arise when studying the period map on the
+  moduli space of hypersurfaces, in the context of Sung Gi Park's recent work on studying the GIT
+  moduli space of hypersurfaces via the minimal exponent. We compute the Hodge structure on the
+  singular cohomology and the intersection cohomology of these hypersurfaces, and also show the
+  $K$-polystability of certain mildly singular degenerate hypersurfaces among them. In particular, the
+  following hypersurface is $K$-polystable for $l \geq 2$: $$ \{ x_{11}\cdots x_{1d} + \ldots + x_{ld}
+  \cdots x_{ld} = 0\} \subset \PP^{ld-1}.$$
 topic: algebraic-geometry
 tags:
   - moduli

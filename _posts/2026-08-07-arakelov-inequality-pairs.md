@@ -6,6 +6,11 @@ authors: "Junchao Shentu"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We establish an Arakelov-type inequality for a morphism $f \colon (X,Δ) \to S$, where $(X,Δ)$ is a
+  simple normal crossing semi-log canonical pair and $S$ is a smooth projective variety. As a
+  consequence, we derive a bound on the Iitaka volumes of algebraic fiber spaces whose geometric
+  generic fiber admits a good minimal model.
 topic: algebraic-geometry
 tags:
   - singularities

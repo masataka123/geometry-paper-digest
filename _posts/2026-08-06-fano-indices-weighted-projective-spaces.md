@@ -15,6 +15,16 @@ arxiv_updated: "2026-08-04"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  The Sylvester sequence is defined recursively by $s_1=2$ and $s_i=s_{1}\cdots s_{i-1}+1$. In this
+  paper, we prove that the Fano index of an $n$-dimensional well-formed weighted projective space with
+  canonical singularities is bounded above by \[ (s_n-1)(2s_n-3). \] This gives an affirmative answer
+  to a conjecture of Chengxi Wang for weighted projective spaces and $\mathbb Q$-factorial toric Fano
+  varieties with Picard number one. We also investigate the distribution of Fano indices among
+  $4$-dimensional weighted projective spaces. As the distribution of Fano indices of weighted
+  projective spaces coincides with that of indices of terminal Calabi--Yau varieties in dimension
+  $n\leq 3$, we expect this coincidence to persist also in dimension 4, and more generally, in all
+  dimensions.
 summary: >-
   標準的な特異 Fano 多様体である well-formed 重み付き射影空間について、標準特異点を仮定した Fano 指数の鋭い上界を与える論文である。得られた上界は Picard 数 1 の $\mathbb{Q}$-factorial トーリック Fano 多様体にも及び、4 次元での指数の分布も制約する。
 abstract_en: >-

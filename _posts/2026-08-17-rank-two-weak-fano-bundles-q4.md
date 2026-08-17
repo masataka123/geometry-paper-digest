@@ -7,6 +7,10 @@ authors: "Yuta Takahashi"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We classify rank $2$ weak Fano bundles on a four-dimensional smooth quadric hypersurface $Q^4$. Up
+  to twisting with a line bundle, such a bundle is either a split bundle, a spinor bundle, or one of
+  the stable bundles with Chern classes $c_1=-1$ and $c_2=(1,1)$ constructed in [APW94].
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

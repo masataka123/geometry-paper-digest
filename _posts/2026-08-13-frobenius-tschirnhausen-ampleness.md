@@ -7,6 +7,15 @@ authors: "Raymond Cheng, Emre Alp Özavcı"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We study smooth projective varieties whose Frobenius-trace kernel, also known as the Tschirnhausen
+  bundle associated with the Frobenius morphism, is ample. We show that any non-constant morphism out
+  of such a variety must be finite onto its image, providing strong evidence that these varieties must
+  be Fano varieties of Picard rank 1. Using infinitesimal representation theory and by constructing
+  special Frobenius splittings, we show that generalized Grassmannian of classical type and type
+  $\mathrm{G}_2$ have ample Frobenius-trace kernel, with the exception of certain low characteristic
+  examples which are explained by the existence of exotic isogenies of the associated algebraic
+  groups.
 topic: algebraic-geometry
 tags:
   - positivity

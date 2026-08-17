@@ -8,6 +8,17 @@ arxiv_categories:
   - math.AG
   - math.DG
   - math.SG
+arxiv_abstract: >-
+  We study whether the topology underlying a Calabi-Yau manifold can support natural geometric
+  positivity or negativity structures. In even complex dimension $n \geq 4$ (assuming $b_2=1$ when $n
+  \geq 6$), we strengthen a theorem of Oguiso-Peternell by proving that a Calabi-Yau manifold is not
+  homeomorphic to a weak Fano $n$-fold. The same obstruction applies to Kähler manifolds with
+  quasi-positive holomorphic sectional curvature. A transformation-group analogue excludes, in
+  particular, symplectic manifolds admitting Hamiltonian circle actions with isolated fixed points. On
+  the negative side, we show that the fundamental group of a Calabi-Yau manifold is not isomorphic to
+  that of a Kähler hyperbolic manifold. Taken together, these results exhibit a common topological
+  rigidity separating Calabi-Yau manifolds from several fundamental classes governed by geometric
+  positivity or negativity.
 topic: algebraic-geometry
 tags:
   - positivity

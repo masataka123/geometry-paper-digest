@@ -5,6 +5,15 @@ title_ja: "指定Hermitian--Yang--Mills flow I"
 authors: "Zhiyao Xiong, Xaokui Yang, Shing-Tung Yau"
 arxiv_primary_category: "math.DG"
 arxiv_categories: [math.DG]
+arxiv_abstract: >-
+  In this paper, we introduce a broad class of flows, including the prescribed Hermitian-Yang-Mills
+  flow: $$\frac{\partial h}{\partial t}=-Λ_{ω_g}\left(\sqrt R^h\right)+P$$ where
+  $P\inΓ(M,E^*\otimes\bar{E}^*)$ is a prescribed Hermitian tensor associated with a holomorphic vector
+  bundle $E$ over a Kähler (or Hermitian) manifold $(M,ω_g)$. We establish the long-time convergence
+  of the flow to a limiting metric $h_{\infty}$ and use it to solve the prescribed
+  Hermitian-Yang-Mills tensor equation $$Λ_{ω_g}\left(\sqrt R^{h_\infty}\right)=P, $$ for a general
+  class of prescribed Hermitian tensors $P$. The crucial uniform $C^0$-estimate of $\{h(t)\}$ along
+  the flow is obtained via a parabolic comparison principle.
 topic: differential-geometry
 tags:
   - vector-bundles-sheaves

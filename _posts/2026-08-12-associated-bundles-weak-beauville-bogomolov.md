@@ -7,6 +7,11 @@ authors: "Yang Zhang"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We give a criterion for a fibration to be an associated fibre bundle. As an application, we show
+  that, under suitable singularity and Cartier-index assumptions, any surjective fibration $X
+  \rightarrow Y$ with nef $-K_{X/Y}$ is an associated fibre bundle. From this, we also deduce a weak
+  Beauville--Bogomolov decomposition for varieties with nef anticanonical divisor.
 topic: algebraic-geometry
 tags:
   - positivity

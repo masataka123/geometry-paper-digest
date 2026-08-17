@@ -9,6 +9,11 @@ arxiv_categories:
   - math.AP
   - math.CV
   - math.SP
+arxiv_abstract: >-
+  The CR Paneitz operator is closely related to several important problems in CR geometry. In this
+  paper, we study the CR Paneitz operator on non-embeddable three-dimensional tori. Under mild
+  assumptions, we show that it possesses infinitely many negative eigenvalues. We also provide
+  concrete examples satisfying the assumptions.
 topic: differential-geometry
 tags:
   - curvature

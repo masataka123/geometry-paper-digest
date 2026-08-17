@@ -6,6 +6,17 @@ authors: "Artan Sheshmani, Jianping Wang, Xiaopeng Xia"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  In this article, we study the image of the Hitchin morphism for some classical groups over an
+  algebraic surface. The Hitchin morphism is a map from the moduli stack of $G$-Higgs bundles
+  $\mathscr{M}_{X,G}$ to the Hitchin base $\mathscr{A}_{X,G}$, where $X$ is a smooth projective
+  variety. In general, this morphism is not surjective when the dimension of $X$ is greater than one.
+  Chen and Ng{ô} showed that the Hitchin morphism factors through a closed subscheme
+  $\mathscr{B}_{X,G}$ of the Hitchin base, which is called the spectral base. They conjectured that
+  the image of the Hitchin morphism is exactly the spectral base. When $X$ is a smooth projective
+  surface, we prove that this conjecture holds for the special linear algebraic group of odd rank. We
+  also confirm this conjecture for the classical groups ${\rm SL}_n$ and ${\rm Sp}_{2n}$ when $X$ is a
+  product of smooth curves.
 topic: algebraic-geometry
 tags:
   - symplectic-contact-geometry

@@ -8,6 +8,22 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DS
+arxiv_abstract: >-
+  We prove that normal projective stable families of maximal variation, of fixed dimension, and with
+  bounded adjoint volume are birationally bounded. This is a consequence of a substantially stronger
+  statement, formulated a priori independently of stable families: algebraically integrable foliations
+  of fixed dimension and bounded adjoint volume are log birationally bounded. In this way, the
+  birational geometry of foliations provides a systematic framework for approaching classical
+  boundedness problems for fibrations. A key input is our proof of M\textsuperscript{c}Kernan's ACC
+  conjecture for interpolated log canonical thresholds of algebraically integrable foliations. This
+  may be viewed as the foliated analogue of Shokurov's ACC conjecture for log canonical thresholds,
+  proved in the classical setting by Hacon--M\textsuperscript{c}Kernan--Xu. As applications, we
+  establish two boundedness criteria for Fano algebraically integrable adjoint foliated structures:
+  Birkar's criterion for exceptional Fanos, and Jiang's criterion for Fanos for which both Tian's
+  $α$-invariant and the anti-canonical volume are bounded away from zero. We also obtain several
+  results on the birational geometry of algebraically integrable adjoint foliated structures,
+  including lower bounds for adjoint volumes, boundedness of automorphism groups, and ACC theorems for
+  pseudo-effective thresholds, $\mathbb{R}$-complementary thresholds, and the Fano spectrum.
 topic: algebraic-geometry
 tags:
   - singularities

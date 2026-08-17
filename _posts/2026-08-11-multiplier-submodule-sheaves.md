@@ -7,6 +7,16 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.AG
+arxiv_abstract: >-
+  Let $(E,h)$ be a singular Hermitian vector bundle on a complex manifold $X$, and let \[ \mathcal
+  E(h)_x=\{F\in\mathcal O(E)_x:|F|_h^2\in L^1_{\mathrm{loc},x}\} \] be its multiplier submodule sheaf.
+  We introduce a finite plurisubharmonic Gram scalarization condition under which the higher-rank
+  integrability problem reduces to finitely many scalar multiplier ideals. This reduction yields
+  coherence and strong openness without imposing a general positivity hypothesis. When the scalar
+  weights and the varying weight have analytic singularities, it also gives a theory of module jumping
+  numbers, including a simultaneous-residue criterion for actual jumps. Finally, we study the induced
+  Skoda filtration: Artin--Rees yields eventual periodicity, Tor controls whether periodicity starts
+  at the scalar threshold, and a direct-image quotient measures the obstruction to descent.
 topic: several-complex-variables
 tags:
   - singularities

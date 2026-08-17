@@ -6,6 +6,15 @@ authors: "Jiaxuan Fan, Mingwei Wang, Xiaokui Yang, Shing-Tung Yau"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  In this paper, we solve the prescribed Hermitian-Yang-Mills tensor problem for Higgs bundles over
+  compact complex manifolds. Let $ (E,θ) $ be a Higgs bundle over a compact Hermitian manifold
+  $(M,ω_g) $. Suppose that there exists a smooth Hermitian metric $ h_0 $ on $E$ such that the
+  Hermitian-Yang-Mills tensor $ Λ_{ω_g}\left(\sqrt{-1} R^{D^{h_0}}\right) $ of the Higgs connection is
+  positive definite. Then for any Hermitian positive definite tensor $ P\in Γ\left(M,E^*\otimes \bar
+  E^*\right) $, there exists a unique smooth Hermitian metric $ h $ on $E$ such that $$Λ_{ω_g}
+  \left(\sqrt{-1} R^{D^h}\right)=P.$$ We also establish quantitative Chern number inequalities for
+  Higgs bundles.
 topic: differential-geometry
 tags:
   - vector-bundles-sheaves

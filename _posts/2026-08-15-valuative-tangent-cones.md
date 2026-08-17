@@ -7,6 +7,13 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DG
+arxiv_abstract: >-
+  We develop a valuation-theoretic framework for studying tangent cones of torsion-free sheaves on
+  algebraic varieties. To analyze these objects, we introduce a slope stability theory, including the
+  Harder-Narasimhan filtrations, for finitely generated $\mathbb{R}$-graded modules over finitely
+  generated $\mathbb{R}_{\geq 0}$-graded algebras. Using it, we show that there is a canonically
+  determined tangent cone of torsion-free sheaves, up to the expected equivalence ambiguity, for
+  quasi-regular valuations, which generalize Chen-Sun [3].
 topic: algebraic-geometry
 tags:
   - singularities

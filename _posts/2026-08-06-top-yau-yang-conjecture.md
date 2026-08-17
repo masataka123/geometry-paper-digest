@@ -7,6 +7,12 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.CV
+arxiv_abstract: >-
+  We prove that the top wedge power of the Ricci form of a complete non-compact Kähler manifold with
+  positive sectional curvature has finite integral. Using a result of Chen-Zhu, an immediate
+  consequence is the quasiprojectivity of such manifolds under the assumption of bounded sectional
+  curvature. A key new idea to prove Bézout estimates along with a Lipschitz weight with finite
+  Monge-Ampère mass is used in the proof of the main result.
 topic: differential-geometry
 tags:
   - positivity

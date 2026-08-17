@@ -6,6 +6,16 @@ authors: "Arijit Mukherjee"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  Given a partition $(n_1,\ldots,n_r)$ of a positive integer $n$, one has the associated
+  $n$-dimensional multiprojective space $\mathbb{P}^{n_1}\times \cdots \times \mathbb{P}^{n_r}$. We
+  show that distinct partitions of $n$ yield non-isomorphic multiprojective spaces, giving a new proof
+  via the extremal contractions of their closed cone of curves. In contrast to the earlier approaches,
+  the argument here is uniform across all partitions, and extends beyond multiprojective spaces. In
+  fact, we further extend it to a more general setting, namely to products of Fano varieties of Picard
+  number one: we prove that a fixed such factor in each dimension makes the products attached to
+  distinct partitions pairwise non-isomorphic. As a consequence, a complete classification of products
+  of smooth quadrics, of dimension $\geq 3$, has been obtained.
 topic: algebraic-geometry
 tags:
   - fano-varieties

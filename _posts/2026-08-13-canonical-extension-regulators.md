@@ -7,6 +7,18 @@ authors: "Jaya NN Iyer, Carlos Simpson"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  This note extends the main result of \cite{IS} 2007 --- torsion of the extended Chern--Simons
+  (regulator) classes of the Deligne canonical extension of a flat bundle with unipotent monodromy at
+  infinity --- from the case of a smooth irreducible boundary divisor to the case of a boundary
+  divisor $D = D_1\cup D_2$ with two smooth irreducible components meeting transversally along a
+  smooth center $Z=D_1\cap D_2$. Let $X$ be a smooth projective variety defined over $\mathbb{C}$, and
+  $U:=X-D$. Given a flat bundle $(E,\nabla)$ on $U$ with unipotent monodromy around the components of
+  $D$ consider Deligne's canonical extension $(\overline{E},\overline{\nabla})$ on $X$. Then the
+  extended Chern-Simons classes $$ c_p(\overline{E},\overline{\nabla})\in
+  H^{2p-1}(X,\mathbb{C}/\mathbb{Z}) $$ are torsion, for $p\geq 2$. These notes were prepared in
+  2009-2010, and the preprint \cite[2026]{IS2} treats the full normal crossing case via a different
+  approach.
 topic: algebraic-geometry
 tags:
   - algebraic-cycles-enumerative

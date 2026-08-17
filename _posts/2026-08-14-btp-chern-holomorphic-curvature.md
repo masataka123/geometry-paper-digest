@@ -6,6 +6,16 @@ authors: "Haohao Wang"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  A well-known conjecture in complex geometry states that a compact Hermitian manifold with constant
+  Chern holomorphic sectional curvature must be Kähler when the constant is nonzero and Chern flat
+  when the constant is zero. The conjecture is known in complex dimension two and in several special
+  classes in higher dimensions. For Hermitian metrics with Bismut-parallel torsion, the non-balanced
+  case and the balanced threefold case were established by Chen--Zheng, while the balanced fourfold
+  case was settled recently by Wang--Zheng. In this article, we prove the nonzero case for balanced
+  Bismut-torsion-parallel Hermitian manifolds in every complex dimension. As a corollary, we confirm
+  that a compact BTP Hermitian manifold with Chern holomorphic sectional curvature is a nonzero
+  constant, then $g$ is Kähler.
 topic: differential-geometry
 tags:
   - curvature

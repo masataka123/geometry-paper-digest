@@ -9,6 +9,16 @@ arxiv_categories:
   - math.AG
   - math.DG
   - math.FA
+arxiv_abstract: >-
+  We express the Kodaira-Iitaka dimension and the multiplicity of graded linear series in terms of the
+  intersection theory of the plurisubharmonic envelope associated with the linear series, and obtain
+  two refined versions of these formulas at the pointwise and at the metric levels. At the pointwise
+  level, we focus on the weak convergence of the partial Bergman kernel associated with the linear
+  series and a Bernstein-Markov measure. At the metric level, we compute the asymptotic ratio of the
+  volumes of unit balls defined by the sup-norms on the linear series. Based on our findings, we
+  introduce a non-pluripolar version of the numerical Kodaira-Iitaka dimension for a line bundle, show
+  that this invariant dominates the classical Kodaira-Iitaka dimension and is, in turn, bounded above
+  by the numerical versions proposed so far.
 topic: several-complex-variables
 tags: []
 arxiv_id: "2603.22194v1"

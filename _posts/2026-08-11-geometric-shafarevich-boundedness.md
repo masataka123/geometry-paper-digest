@@ -7,6 +7,9 @@ authors: "Junchao Shentu"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We establish the geometric Shafarevich boundedness conjecture for the moduli stack of stable minimal
+  models, including in particular the moduli stack of KSB pairs.
 topic: algebraic-geometry
 tags:
   - minimal-model-program

@@ -7,6 +7,13 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.CV
+arxiv_abstract: >-
+  In this paper, we show that if the holomorphic tangent bundle $TX$ of a compact Kähler manifold $X$
+  is uniformly weakly RC-positive, then $X$ is projective and rationally connected. This result is
+  previously established by Xiaokui Yang under the stronger assumption that $TX$ is uniformly
+  RC-positive. The result we obtain is, in fact, more general. If a holomorphic vector bundle $E$ is
+  uniformly weakly RC-positive, then $E$ admits a Hermitian metric whose mean curvature is positive. A
+  quasi-positive version is also proved in this paper.
 topic: differential-geometry
 tags:
   - positivity

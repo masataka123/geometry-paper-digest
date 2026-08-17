@@ -6,6 +6,11 @@ authors: "Livia Campo, Kristin DeVleming, Tiago Duarte Guerreiro"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We prove the K-polystability of the general Fano complete intersection of arbitrary multidegree and
+  dimension, and the K-stability of the general Fano complete intersection that is not isomorphic to
+  projective space or a quadric hypersurface. We prove analogous results for certain smooth weighted
+  complete intersections.
 topic: algebraic-geometry
 tags:
   - k-stability

@@ -6,6 +6,10 @@ authors: "Benjamin Bakker"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We survey recent advances in non-abelian Hodge theory in the "mixed" setting of non-proper algebraic
+  varieties. We then describe how these tools are used to construct algebraic Shafarevich morphisms
+  and prove a version of the linear Shafarevich conjecture for any algebraic variety.
 topic: algebraic-geometry
 tags:
   - hodge-theory

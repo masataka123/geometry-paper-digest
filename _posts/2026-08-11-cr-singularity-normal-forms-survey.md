@@ -8,6 +8,9 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.DS
+arxiv_abstract: >-
+  We survey results dating back from the seminal works of Bishop and Moser-Webster as well as more
+  recent advances.
 topic: several-complex-variables
 tags:
   - singularities

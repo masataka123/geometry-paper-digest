@@ -8,6 +8,17 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.CV
+arxiv_abstract: >-
+  We construct a family of $\mathbb{R}/\mathbb{Z}$-valued CR invariants for compact strictly
+  pseudoconvex CR manifolds admitting pseudo-Einstein contact forms. We define these invariants by
+  applying the theory of Cheeger--Simons differential characters to a globally defined modification of
+  the normal tractor connection. When the CR holomorphic tangent bundle is trivial, their natural
+  $\mathbb{R}$-valued lifts agree with the generalized Burns--Epstein invariants. For CR manifolds
+  arising as boundaries of relatively compact strictly pseudoconvex domains, we identify these
+  differential characters with those determined by the renormalized connection and derive
+  bulk--boundary formulas involving renormalized characteristic numbers and residues of Chern classes.
+  These formulas recover and extend the results of Burns--Epstein and Marugame. We also obtain
+  obstructions to CR embeddings into complex Euclidean space.
 topic: differential-geometry
 tags:
   - chern-classes

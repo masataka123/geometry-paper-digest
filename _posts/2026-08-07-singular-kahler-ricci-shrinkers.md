@@ -7,6 +7,13 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.CV
+arxiv_abstract: >-
+  We prove that any singular Kähler--Ricci shrinker $X$ arising as a noncollapsed limit of
+  Kähler--Ricci flows admits a natural structure of a locally algebraic complex-analytic variety with
+  log terminal singularities. We then derive several geometric consequences: $X$ is simply connected,
+  has a unique end, has unique tangent cones at every point, and is a smooth orbifold outside a subset
+  of complex codimension at least three. As a further application, we prove a new long-time
+  pseudolocality theorem for almost-selfsimilar Kähler--Ricci flows.
 topic: differential-geometry
 tags:
   - singularities

@@ -6,6 +6,11 @@ authors: "Wenqi Li"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We study the behavior of asymptotic cohomological functions on proper schemes over a field. We prove
+  a formula for how asymptotic cohomological functions behave under perturbation by an object in the
+  bounded derived category. Using the same method, we also prove that the volume of a line bundle on
+  any proper scheme over a field always exists as a limit.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

@@ -7,6 +7,17 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.SG
+arxiv_abstract: >-
+  Bondal's conjecture in Poisson geometry gives lower bounds on the degeneracy loci of Poisson Fano
+  manifolds, where the rank of the Poisson structure drops. By work of several authors, it was
+  previously known to hold for Fano manifolds of dimension at most four. We give the first proof of
+  this conjecture for Fano manifolds of dimension five, and partial results for Fano manifolds of all
+  odd dimensions. The proof uses: (i) an algebraic integrability criterion for codimension-one
+  foliations on weak Fano manifolds, extending a previous result of the first author; (ii) the
+  "modular residues" of Poisson structures introduced by Gualtieri and the third author; and (iii) a
+  cohomological constraint on invariant subvarieties for Pfaff fields, extending earlier results of
+  Esteves--Kleiman to the case in which the Pfaff distribution on the subvariety admits a closed
+  strongly directed positive current.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

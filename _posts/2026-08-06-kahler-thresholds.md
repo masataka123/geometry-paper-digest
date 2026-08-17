@@ -8,6 +8,16 @@ arxiv_categories:
   - math.AG
   - math.CV
   - math.DG
+arxiv_abstract: >-
+  The topology of Kähler manifolds is largely determined by the geometry due to its rigidity. In
+  particular, the cohomology and Hodge theory of compact Kähler manifolds is quite restricted. We
+  prove that within a certain threshold, the odd Betti numbers of any compact almost-hermitian
+  manifold satisfying a degenerate Kähler condition are even, and the even Betti numbers are strictly
+  positive. We call this new type of degenerated Kähler manifold acK. Our approach to proving these
+  results makes use of a compactness theorem for acK manifolds, and a new version of Hodge theory for
+  compact manifolds endowed with a Sobolev regular Kähler strucutre. In addition, we lay out a program
+  to pursue the study of acK geometry that accommodates not only the classical viewpoint, but also
+  constructive and finitary proofs, as well as formalization with proof assistants.
 topic: algebraic-geometry
 tags:
   - hodge-theory

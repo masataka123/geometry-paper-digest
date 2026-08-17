@@ -17,6 +17,15 @@ arxiv_categories:
   - math.AG
   - math.AP
   - math.CV
+arxiv_abstract: >-
+  We prove a conjecture of Datar-Mete-Song \cite{DMS} characterizing $J$-slope semi-stability by the
+  minimal $J$-slope. More precisely, for a semi-stable pair of Kähler classes $(α,β)$ on a compact
+  Kähler manifold $X$, every big and nef birational test class has slope at least the topological
+  $J$-slope, whereas an unstable pair admits a test class with strictly smaller slope. We also
+  introduce the $J$-null locus of a semi-stable pair and prove that it is an analytic subset of $X$ if
+  $X$ is a compact Kähler surface or a compact toric Kähler manifold. In the toric invariant case, we
+  show that Murakami's \cite{Murakami} weak solution to the $J$-equation is smooth and Kähler on the
+  dense big torus $(\mathbb{C}^*)^n$ of $X$.
 summary: >-
   コンパクト Kähler 多様体上の二つの Kähler 類について、$J$-slope 半安定性が双有理テスト類で定義される最小 $J$-slope と位相的 slope の一致と同値であるという Datar--Mete--Song 予想を証明する。さらに半安定なトーリック Kähler 多様体では最適不安定化部分多様体の集合が解析的であり、不変な場合の弱解が大トーラス上で滑らかになることを示す。
 abstract_en: ""

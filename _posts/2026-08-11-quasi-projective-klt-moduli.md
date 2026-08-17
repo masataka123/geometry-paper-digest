@@ -7,6 +7,11 @@ authors: "Xiaowei Jiang"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We prove the weak positivity of direct images for locally stable families of klt good minimal models
+  over reduced quasi-projective bases using Gabber's Extension Theorem. As an application, we apply
+  Viehweg's ampleness criterion to show that the normalization of the moduli space of polarized klt
+  good minimal models of arbitrary Kodaira dimension, constructed in [Jia23], is quasi-projective.
 topic: algebraic-geometry
 tags:
   - singularities

@@ -7,6 +7,22 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.GT
+arxiv_abstract: >-
+  We study holomorphic and formal first integrals for germs of codimension-one holomorphic foliations
+  on normal complex analytic spaces. In dimension two, under the assumption that the dual graph of the
+  exceptional divisor of a resolution is a tree, we prove that the foliation admits a holomorphic
+  first integral if and only if its leaves are closed outside the singular point and only finitely
+  many leaves accumulate at that point. This extends a classical integrability theorem of Mattei and
+  Moussu to singular ambient spaces. We also prove a holomorphic prolongation theorem for normal
+  quotient germs admitting a smooth quasi-étale cover and a smooth connected lift of a generic
+  two-dimensional section. We record, in addition, a conditional formal prolongation statement under
+  depth assumptions on the conormal powers and an injectivity condition for the corresponding
+  differential-form obstruction modules. Under the quotient-prolongation hypothesis, and with a
+  reduced tangent cone where formal restriction must be detected, the higher-dimensional integrability
+  results follow from their surface counterparts. We give a reduced nonnormal example satisfying both
+  dynamical conditions but admitting no holomorphic first integral, showing that normality is
+  essential. Our arguments combine resolution of singularities, holonomy techniques, formal
+  completion, and extension properties of holomorphic functions on normal analytic spaces.
 topic: several-complex-variables
 tags:
   - vector-bundles-sheaves

@@ -7,6 +7,14 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.DG
+arxiv_abstract: >-
+  This paper investigates the Kähler hyperbolicity modulus on complete Kähler manifolds, with a
+  particular focus on hyperconvex domains and bounded strongly pseudoconvex domains. Our main result
+  establishes a lower bound for the Kähler hyperbolicity modulus in terms of the boundary behavior of
+  the gradient length of a plurisubharmonic function. As applications, we compute the Kähler
+  hyperbolicity modulus for bounded symmetric domains. Furthermore, we obtain lower bounds for the
+  Kähler hyperbolicity modulus on bounded strongly pseudoconvex domains equipped with Kähler-Einstein
+  metrics or Bergman metrics.
 topic: several-complex-variables
 tags:
   - hyperbolicity

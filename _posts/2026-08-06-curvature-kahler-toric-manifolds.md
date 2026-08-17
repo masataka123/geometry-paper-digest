@@ -6,6 +6,15 @@ authors: "Xingluan Wang"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  We extend the application of the Guillemin--Abreu formalism to holomorphic sectional and bisectional
+  curvature on $\mathbb C^n$, $\mathcal O(-\ell)$, and Hirzebruch manifolds $M_{n,\ell}$, and further
+  apply it to the total spaces of certain higher-rank vector bundles. The resulting formulas recover
+  known positivity criteria and we show that, when the slope is sufficiently close to $1$, the
+  extremal metrics on $M_{n,\ell}$ have positive holomorphic sectional curvature. We construct
+  complete scalar-flat Kähler metrics on $ \operatorname{Tot}\bigl(\mathcal O(-k)\oplus\mathcal
+  O(-k)\to\mathbb{CP}^n\bigr), $ and identify the Ricci-flat case, which occurs precisely when
+  $2k=n+1$.
 topic: differential-geometry
 tags:
   - vector-bundles-sheaves

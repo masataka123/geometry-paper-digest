@@ -7,6 +7,10 @@ authors: "Shuwen Chen, Fangyang Zheng"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  We study the Fino-Vezzoni conjecture on compact complex manifolds carrying a balanced Bismut
+  torsion-parallel Hermitian metric. We prove that if such a manifold also admits a pluriclosed
+  Hermitian metric, then it admits a Kähler metric.
 topic: differential-geometry
 tags:
   - curvature

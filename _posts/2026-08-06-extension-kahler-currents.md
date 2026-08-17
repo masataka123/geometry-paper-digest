@@ -13,6 +13,11 @@ arxiv_updated: "2026-08-02"
 arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
+arxiv_abstract: >-
+  Let $(X,ω)$ be a compact Kähler manifold and let $V\subset X$ be a closed complex submanifold.
+  Coman-Guedj-Zeriahi proposed the problem: is every $ω|_V$-plurisubharmonic function on $V$ the
+  restriction of an $ω$-plurisubharmonic function on $X$? In this paper, we solve this problem
+  affirmatively, even for a compact Hermitian manifold.
 summary: >-
   コンパクト Hermitian 多様体の閉複素部分多様体上の任意の $\omega|_V$-plurisubharmonic 関数が、全空間の $\omega$-plurisubharmonic 関数へ延長できることを証明する。狭義版も成り立つため、Kähler 類の current は同じ ambient class の Kähler current の制限として実現される。
 abstract_en: ""

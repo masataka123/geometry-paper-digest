@@ -6,6 +6,12 @@ authors: "Yunfeng Jiang"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We survey two new compactification methods for the KSBA moduli space of general type surfaces so
+  that both of them admit a perfect obstruction theory. Virtual fundamental classes exist on these two
+  moduli spaces, and tautological invariants can be defined on KSBA moduli spaces. This is the
+  starting point to do enumerative geometry on KSBA moduli spaces, and we include some discussions in
+  this direction.
 topic: algebraic-geometry
 tags:
   - moduli

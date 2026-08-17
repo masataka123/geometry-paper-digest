@@ -6,6 +6,13 @@ authors: "Indranil Biswas, Snehajit Misra, Nabanita Ray"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  In \cite{BCO25}, Bruzzo, Capasso and Otero extended the notion of ampleness of vector bundles to the
+  more general context of Higgs bundles. But the ampleness of Higgs bundles did not coincide with the
+  ampleness of vector bundles when the Higgs field is zero. We modify the definition of ample Higgs
+  bundles that results in removal of this discrepancy. Invoking this definition, we study various
+  properties of Higgs ample vector bundles. In particular, we prove a Barton-Kleimann type criterion
+  to characterize the Higgs ample vector bundles.
 topic: algebraic-geometry
 tags:
   - positivity

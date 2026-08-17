@@ -6,6 +6,24 @@ authors: "Ioannis Chrysikos"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  This paper is devoted to the study of the holonomy properties of $(2n+s)$-dimensional
+  $\mathcal{S}$-manifolds equipped with their characteristic connection. These structures generalize
+  Sasakian geometry to higher CR-codimensions and, when viewed as geometries with parallel
+  skew-torsion, share many holonomy features with the Sasakian case. We show that
+  $\mathcal{S}$-manifolds of arbitrary CR-codimension $s\geq 1$ provide examples of geometries with
+  parallel skew-torsion whose holonomy is reducible, indecomposable, and of special type. We also
+  deduce that any $\mathcal{S}$-manifold admits a locally defined Riemannian submersion over a Kähler
+  manifold. We describe the corresponding curvature relations and establish a bijective correspondence
+  between the Kähler-Einstein condition on the base space and a generalized $η$-Einstein condition on
+  the total space. As every $\mathcal{S}$-manifold comes with a characteristic foliation whose
+  transverse geometry is Kähler, it is natural to relate the $η$-Einstein condition to the transverse
+  metric, leading to a bijection between $η$-Einstein $\mathcal{S}$-manifolds and transverse
+  Kähler-Einstein metrics, extending the classical Sasakian correspondence to arbitrary
+  CR-codimensions. As an application to Ricci-flat metric connections with parallel skew-torsion, we
+  prove that an $\mathcal{S}$-manifold is ${\rm Ric}^{\nabla}$-flat if and only if it is transverse
+  Kähler-Einstein with Einstein constant $λ=4s$. An illustration of this characterization is presented
+  by a Sasakian example.
 topic: differential-geometry
 tags:
   - kahler-einstein-metrics

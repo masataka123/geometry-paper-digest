@@ -23,6 +23,7 @@ arxiv_submitted: "2026-08-01"
 arxiv_updated: "2026-08-02"
 arxiv_categories:
   - math.AG
+arxiv_abstract: "The official arXiv metadata abstract."
 summary: "問題と結果を説明する日本語要約です。"
 abstract_en: "An English abstract."
 summary_en: ""

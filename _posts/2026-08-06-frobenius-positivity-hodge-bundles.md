@@ -6,6 +6,16 @@ authors: "Hao Max Sun"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We define two new Frobenius type positivity notions, $F^t$-ampleness and $F^tGG$-ampleness, for
+  coherent sheaves, show that they are stronger than ordinary ampleness and establish some of their
+  basic properties. The analogous Frobenius type semipositivity notions have also been established. We
+  prove the $F^1GG$-semipositivity of Hodge bundles for semistable morphisms of varieties. This
+  strengthens and generalizes various previous semipositivity results of Fujita, Kawamata, Kollár,
+  Viehweg, Fujino and others. As a consequence we obtain the positivity of top Chern characters of
+  Hodge bundles and Kawamata-Viehweg-Kollár type vanishing theorems for some semistable morphisms. Our
+  results are also applied to study the images of Fano varieties under semistable morphisms and the
+  slope inequality.
 topic: algebraic-geometry
 tags:
   - positivity

@@ -8,6 +8,12 @@ arxiv_categories:
   - math.DG
   - math.AG
   - math.CV
+arxiv_abstract: >-
+  We show that the Gromov--Hausdorff convergence of non-collapsed polarized constant scalar curvature
+  Kähler (cscK) surfaces can be realized as convergence in a Hilbert scheme. We also derive uniform
+  estimates of Bergman kernels on the effective regular set. As an application, we establish the
+  Zariski openness of cscK metrics for certain smooth polarized families, following the approach of
+  Donaldson.
 topic: differential-geometry
 tags:
   - moduli

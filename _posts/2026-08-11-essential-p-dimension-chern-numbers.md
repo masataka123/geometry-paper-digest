@@ -6,6 +6,19 @@ authors: "Olivier Haution"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  Let $X$ be a smooth, projective, geometrically connected variety over a field $k$ containing a root
+  of unity of order $p$. If $X$ has a Chern number prime to $p$, we show that every action of a finite
+  $p$-group on $X$ factors through a subgroup of $\operatorname{GL}_n(k)$, where $n=\dim X$. This
+  allows one to transfer properties of representations of finite $p$-groups to their actions on $X$.
+  We deduce a fixed-point theorem which, unlike previously known results of this kind, is sensitive to
+  the arithmetic of the base field. We also obtain a bound on the orders of cyclic $p$-subgroups of
+  the Cremona groups: for instance $\operatorname{Cr}_n(\mathbb{Q})$ contains no element of order
+  $p^2$ when $p \ge n+2$. The method is based on the following observation, of independent interest.
+  For an affine algebraic group $G$ over a field of characteristic zero, $\operatorname{ed}_p(G) +
+  \dim G$ is the least dimension of a smooth projective variety $Y$ with a generically free $G$-action
+  such that the degree map $\operatorname{CH}_G(Y) \to \mathbb{F}_p$ is nonzero. A key input for our
+  result is Karpenko and Merkurjev's computation of the essential $p$-dimension of $p$-groups.
 topic: algebraic-geometry
 tags:
   - chern-classes

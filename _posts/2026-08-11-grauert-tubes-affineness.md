@@ -9,6 +9,11 @@ arxiv_categories:
   - math.CV
   - math.AG
   - math.DG
+arxiv_abstract: >-
+  We provide a partial answer to Burns' 1982 conjecture on the affineness of entire Grauert tubes: the
+  complement of a codimension-one subset of an entire Grauert tube is affine. This result is obtained
+  by establishing a generalized version of Demailly's criterion for affineness of Stein manifolds,
+  which may be of independent interest.
 topic: several-complex-variables
 tags:
   - curvature

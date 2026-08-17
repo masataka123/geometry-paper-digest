@@ -6,6 +6,11 @@ authors: "Joseph Kwong"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  We prove that a compact discrete quotient of a complex homogeneous space with compact isotropy is
+  Kähler whenever it admits both a balanced metric and a pluriclosed metric. Moreover, if its real
+  first Chern class vanishes, then the pluriclosed flow starting from any invariant pluriclosed metric
+  exists for all time and converges smoothly to a flat Kähler metric.
 topic: differential-geometry
 tags: []
 arxiv_id: "2608.08665v1"

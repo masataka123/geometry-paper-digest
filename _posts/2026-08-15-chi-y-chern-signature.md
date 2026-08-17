@@ -7,6 +7,14 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.SG
+arxiv_abstract: >-
+  This article has two parts. In the first part we introduce two positivity conditions for the
+  modified $χ_y$-genus on almost-complex manifolds and show that each of them implies a family of
+  optimal Chern number inequalities. It turns out that many important Kähler and symplectic manifolds
+  satisfy either of the two positivity conditions, and hence these Chern number inequalities hold true
+  on them. In the second part we focus on the signature, a special value of the $χ_y$-genus, of
+  symplectic manifolds equipped with symplectic circle actions and give applications. Our results in
+  this part unify and generalize various related results in the existing literature.
 topic: differential-geometry
 tags:
   - positivity

@@ -6,6 +6,12 @@ authors: "Ljudmila Kamenova, Abhinav Kumar"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  In this note, we explore the connection between hyperkähler manifolds with large Picard numbers and
+  abelian varieties. In particular, we are interested in Morrison's solution to the (modified) Oda's
+  conjecture: every K3 surface whose Picard group is large enough (in a certain precise sense) must be
+  related via an algebraic correspondence to an abelian surface. We generalize this theorem to the
+  case of known examples of hyperkähler manifolds such as pointed Hilbert schemes on K3 surfaces.
 topic: algebraic-geometry
 tags:
   - hyperkahler-geometry

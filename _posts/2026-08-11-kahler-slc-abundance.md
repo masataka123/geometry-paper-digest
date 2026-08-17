@@ -8,6 +8,16 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.CV
+arxiv_abstract: >-
+  In this article we show that the semi log canonical abundance for compact Kähler varieties fails in
+  dimension $3$. More specifically we construct a counterexample of a compact Kähler (irreducible) slc
+  threefold $(X, 0)$ such that $K_X$ is nef and $κ(\tilde X, K_{\tilde X}+\tilde D)=0$, where
+  $μ:(\tilde X, \tilde D)\to X$ is the normalization morphism, but $K_X$ is not semiample. On the
+  other hand, we show that if we start with a compact Kähler semi-dlt pair, then the abundance does
+  hold, i.e., if $(X, Δ)$ is a compact Kähler sdlt pair of dimension $3$ such that $K_X+Δ$ is nef,
+  then it is semiample. We also show that if $(X, Δ)$ is a compact Kähler slc pair of dimension $3$,
+  $K_X+Δ$ is nef, and $κ(X'_i, Δ'_i+D'_i)>0$ for all $i$, where $μ:\sqcup(X'_i, Δ'_i+D'_i)\to (X,Δ)$
+  is the normalization, then $K_X+Δ$ is semiample.
 topic: algebraic-geometry
 tags:
   - singularities

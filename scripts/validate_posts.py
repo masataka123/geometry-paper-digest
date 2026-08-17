@@ -27,6 +27,7 @@ REQUIRED_FIELDS = (
     "arxiv_submitted",
     "arxiv_updated",
     "arxiv_categories",
+    "arxiv_abstract",
     "summary",
     "abstract_en",
     "summary_en",
@@ -226,7 +227,7 @@ def validate_post(path: Path, topics: set[str]) -> tuple[list[ValidationError], 
         state = "両方に文章があります" if abstract_used else "両方が空です"
         errors.append(ValidationError(path, "英語欄の排他性", f"`abstract_en` と `summary_en` の{state}"))
 
-    for field in ("summary", "abstract_ja"):
+    for field in ("arxiv_abstract", "summary", "abstract_ja"):
         if field in metadata and not nonempty_text(metadata[field]):
             errors.append(ValidationError(path, "必須文章", f"`{field}` に空白ではない文章が必要です"))
 

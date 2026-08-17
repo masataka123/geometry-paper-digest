@@ -6,6 +6,16 @@ authors: "Jiabin Du, Feng Hao, Haoyuan Li, Zichang Wang"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  In this article, we show that any morphism $f$ from a smooth projective variety $X$ to a simple
+  abelian variety $A$ is smooth, if and only if there exists a holomorphic 1-form $ω$ on $A$ such that
+  $f^*ω$ has no zero. As the key ingredient in the proof, we show any $\mathbb{Z}$-homology fibre
+  bundle morphism is without blow-up in codimension 0 in the sense of Sabbah. Furthermore, we
+  investigate the structure of the spaces of holomorphic 1-forms with zeros, and show that they are
+  linear for large classes of varieties. Also, we construct a delicate example of a smooth projective
+  subvariety of an abelian variety for which the holomorphic 1-forms with positive dimensional zero
+  loci do not form a linear subset. Finally, we study algebraic surfaces admitting holomorphic 1-forms
+  that have zeros and do not arise from cohomology jump loci.
 topic: algebraic-geometry
 tags: []
 arxiv_id: "2606.08185v1"
