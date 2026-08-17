@@ -1,0 +1,53 @@
+---
+import Abstracts from "../../../../../../components/Abstracts.astro";
+import TopicNav from "../../../../../../components/TopicNav.astro";
+import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
+import { getPapers, type Paper } from "../../../../../../lib/posts";
+import { getTopics, type Topic } from "../../../../../../lib/topics";
+import { withBase } from "../../../../../../lib/urls";
+
+interface Props {
+  paper: Paper;
+  topics: Topic[];
+}
+
+export async function getStaticPaths() {
+  const [papers, topics] = await Promise.all([getPapers(), getTopics()]);
+  return papers.map((paper) => ({
+    params: {
+      year: paper.route.year,
+      month: paper.route.month,
+      day: paper.route.day,
+      slug: paper.route.slug,
+    },
+    props: { paper, topics },
+  }));
+}
+
+const { paper, topics } = Astro.props;
+const topic = topics.find((candidate) => candidate.slug === paper.metadata.topic);
+if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.filename}`);
+---
+
+<BaseLayout title={paper.metadata.title} description={paper.metadata.summary}>
+  <TopicNav topics={topics} paperTopic={paper.metadata.topic} />
+  <article class="paper-page">
+    <header class="paper-header">
+      <p class="eyebrow">{topic.title} · {paper.date}</p>
+      <h1>{paper.metadata.title}</h1>
+      <p class="authors">{paper.metadata.authors}</p>
+      <Abstracts metadata={paper.metadata} />
+      <dl class="paper-meta">
+        <div><dt>arXiv</dt><dd><a href={paper.metadata.arxivUrl}>{paper.metadata.arxivId}</a></dd></div>
+        {paper.metadata.arxivSubmitted && <div><dt>初回投稿日</dt><dd>{paper.metadata.arxivSubmitted}</dd></div>}
+        {paper.metadata.licenseName && <div><dt>原論文のライセンス</dt><dd>{paper.metadata.licenseUrl ? <a href={paper.metadata.licenseUrl}>{paper.metadata.licenseName}</a> : paper.metadata.licenseName}</dd></div>}
+        {paper.metadata.articleMode && <div><dt>掲載形式</dt><dd>{paper.metadata.articleMode}</dd></div>}
+      </dl>
+      <p class="links paper-links">
+        <a href={paper.metadata.arxivUrl}>原論文を開く</a>
+        {paper.metadata.digestPdf && <a href={withBase(paper.metadata.digestPdf)}>PDF版</a>}
+      </p>
+    </header>
+    <div class="paper-content" set:html={paper.bodyHtml} />
+  </article>
+</BaseLayout>

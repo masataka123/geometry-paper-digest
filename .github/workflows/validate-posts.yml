@@ -32,3 +32,24 @@ jobs:
 
       - name: Validate all posts
         run: python scripts/validate_posts.py
+
+      - name: Verify Phase 0 compatibility baseline
+        run: python scripts/site_baseline.py
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install Astro dependencies
+        run: npm ci
+
+      - name: Check Astro compatibility layer
+        run: npm run check
+
+      - name: Build Astro compatibility site
+        run: npm run build
+
+      - name: Validate Astro legacy URLs and content
+        run: npm run test:build

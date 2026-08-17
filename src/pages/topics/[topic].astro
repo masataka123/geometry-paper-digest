@@ -1,0 +1,72 @@
+---
+import Abstracts from "../../components/Abstracts.astro";
+import TopicNav from "../../components/TopicNav.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPapers, type Paper } from "../../lib/posts";
+import { getTopics, type Topic } from "../../lib/topics";
+import { withBase } from "../../lib/urls";
+
+interface Props {
+  topic?: Topic;
+  topics: Topic[];
+  papers?: Paper[];
+  legacyNotice?: boolean;
+}
+
+export async function getStaticPaths() {
+  const [allPapers, topics] = await Promise.all([getPapers(), getTopics()]);
+  const topicPages = topics.map((topic) => ({
+    params: { topic: `${topic.slug}.html` },
+    props: {
+      topic,
+      topics,
+      papers: allPapers
+        .filter((paper) => paper.metadata.topic === topic.slug)
+        .sort((left, right) => right.metadata.arxivSubmitted.localeCompare(left.metadata.arxivSubmitted)),
+    },
+  }));
+  return [
+    ...topicPages,
+    { params: { topic: "complex-geometry.html" }, props: { topics, legacyNotice: true } },
+  ];
+}
+
+const { topic, topics, papers = [], legacyNotice = false } = Astro.props;
+---
+
+{legacyNotice ? (
+  <BaseLayout title="分類変更のお知らせ">
+    <p>この分類は廃止されました。</p>
+    <p>arXivのprimary categoryがmath.DGである論文は、今後「微分幾何学」に分類されます。</p>
+    <p><a href={withBase("/topics/differential-geometry.html")}>微分幾何学の記事を見る</a></p>
+  </BaseLayout>
+) : topic ? (
+  <BaseLayout title={topic.title}>
+    <TopicNav topics={topics} current={topic.slug} />
+    <header class="site-header">
+      <p class="eyebrow">{topic.arxivCategory}</p>
+      <h1>{topic.title}</h1>
+      <p class="topic-english heading-subtitle">{topic.english}</p>
+      <p>{topic.description}</p>
+    </header>
+    <section class="digest-list" aria-label={`${topic.title}の記事一覧`}>
+      {papers.length === 0 && <p class="empty">まだ記事はありません。</p>}
+      {papers.map((paper) => (
+        <article class="digest">
+          <dl class="dates">
+            <div><dt>公開日</dt><dd>{paper.date}</dd></div>
+            {paper.metadata.arxivSubmitted && <div><dt>arXiv初回投稿日</dt><dd>{paper.metadata.arxivSubmitted}</dd></div>}
+          </dl>
+          <h2><a class="title-link" href={withBase(paper.route.pathname)}>{paper.metadata.title}</a></h2>
+          <p class="authors">{paper.metadata.authors}</p>
+          <Abstracts metadata={paper.metadata} headingLevel="h3" />
+          <p class="links">
+            <a href={withBase(paper.route.pathname)}>日本語記事</a>
+            <a href={paper.metadata.arxivUrl} rel="noopener">原論文</a>
+            {paper.metadata.digestPdf && <a href={withBase(paper.metadata.digestPdf)}>PDF版</a>}
+          </p>
+        </article>
+      ))}
+    </section>
+  </BaseLayout>
+) : null}
