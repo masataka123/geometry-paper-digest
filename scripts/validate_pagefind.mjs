@@ -4,6 +4,7 @@ import { readFile, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 
 import matter from "gray-matter";
+import { normalizeSearchQuery } from "../src/lib/paper-filters.mjs";
 
 const root = new URL("../", import.meta.url);
 const nativeFetch = globalThis.fetch;
@@ -28,7 +29,7 @@ const posts = await Promise.all(filenames.map(async (filename) => {
 }));
 
 async function results(query) {
-  const response = await pagefind.search(query, { match: "all" });
+  const response = await pagefind.search(query === null ? null : normalizeSearchQuery(query), { match: "all" });
   return Promise.all(response.results.map((result) => result.data()));
 }
 
@@ -62,6 +63,21 @@ for (const [label, query, pathname] of cases) {
   const matches = await results(query);
   assert(matches.some((match) => match.meta.pathname === pathname), `${label} query ${JSON.stringify(query)} missed ${pathname}`);
 }
+
+const aliasCases = [
+  ["chern-classes", ["Chern class", "Chern classes", "Chern number", "Chern numbers"]],
+  ["kahler-einstein-metrics", ["Kähler Einstein", "Kahler Einstein"]],
+  ["hermite-einstein-metrics", ["Hermite Einstein", "Hermite-Einstein"]],
+  ["monge-ampere-equations", ["Monge Ampere", "Monge–Ampère"]],
+];
+for (const [tag, queries] of aliasCases) {
+  const expectedPaths = new Set(posts.filter((post) => (post.data.tags ?? []).includes(tag)).map((post) => post.pathname));
+  assert(expectedPaths.size > 0, `${tag}: no representative paper exists`);
+  for (const query of queries) {
+    const matches = await results(query);
+    assert(matches.some((match) => expectedPaths.has(match.meta.pathname)), `${tag} query ${JSON.stringify(query)} missed every tagged paper`);
+  }
+}
 assert.equal((await results("龘靐齉")).length, 0, "nonexistent query returned results");
 
-console.log(`Pagefind indexed ${posts.length} papers as one result per paper; ${cases.length} real-content searches and the zero-result case passed.`);
+console.log(`Pagefind indexed ${posts.length} papers as one result per paper; ${cases.length} real-content searches, ${aliasCases.flatMap(([, queries]) => queries).length} normalized/alias searches, and the zero-result case passed.`);

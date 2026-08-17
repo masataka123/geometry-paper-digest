@@ -11,6 +11,7 @@ export interface Tag {
   name: string;
   nameJa: string;
   description: string;
+  searchAliases: string[];
 }
 
 export interface TagWithPapers extends Tag {
@@ -44,6 +45,7 @@ export function getTags(): Promise<Tag[]> {
           name: requiredText(data.name, "name", id),
           nameJa: requiredText(data.name_ja, "name_ja", id),
           description: requiredText(data.description, "description", id),
+          searchAliases: Array.isArray(data.search_aliases) ? data.search_aliases.map((alias) => requiredText(alias, "search_aliases", id)) : [],
         };
       });
       if (tags.length !== 37) throw new Error(`Expected 37 tags, found ${tags.length}`);
