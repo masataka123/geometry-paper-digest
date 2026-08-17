@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import TopicNav from "../../components/TopicNav.astro";
 import FilterBar from "../../components/FilterBar.astro";
 import PaperList from "../../components/PaperList.astro";
 import { getPapers } from "../../lib/posts";
@@ -10,6 +11,7 @@ const [papers, topics, tags, authorIndex] = await Promise.all([getPapers(), getT
 const years = [...new Set(papers.map((paper) => paper.metadata.arxivSubmitted.slice(0, 4)).filter(Boolean))].sort().reverse();
 ---
 <BaseLayout title="論文一覧">
+<TopicNav topics={topics} />
   <header class="site-header"><p class="eyebrow">PAPERS</p><h1>論文一覧</h1><p>AbstractとIntroductionを中心に紹介した論文を一覧できます。</p></header>
   <FilterBar topics={topics} tags={tags} years={years} authors={authorIndex.authors} />
   <PaperList papers={papers} topics={topics} authorsByPaper={authorIndex.byPaper} />
