@@ -5,7 +5,8 @@
   "scripts": {
     "check": "astro check",
     "build": "astro build",
-    "test:build": "python scripts/validate_astro_build.py"
+    "test:build": "python scripts/validate_astro_build.py",
+    "test:js": "node --test tests/js/*.test.mjs"
   },
   "dependencies": {
     "astro": "5.13.2",

@@ -1,5 +1,6 @@
 ---
 import "../../assets/css/style.css";
+import "../styles/phase2.css";
 
 interface Props {
   title?: string;
@@ -42,3 +43,45 @@ const siteTitle = "Geometry Paper Digest";
     </main>
   </body>
 </html>
+
+<script>
+  import { filterAndSortPapers, readFilterState, stateToSearch } from "../lib/paper-filters.mjs";
+
+  function updatePaperList() {
+    const form = document.querySelector("[data-filter-bar]");
+    const list = document.querySelector("[data-paper-list]");
+    if (!(form instanceof HTMLFormElement) || !(list instanceof HTMLElement)) return;
+    const cards = [...list.querySelectorAll<HTMLElement>("[data-paper]")];
+    const topicControl = form.elements.namedItem("topic");
+    const yearControl = form.elements.namedItem("year");
+    const topics = topicControl instanceof HTMLSelectElement ? [...topicControl.options].map((option) => option.value) : ["all"];
+    const years = yearControl instanceof HTMLSelectElement ? [...yearControl.options].map((option) => option.value) : ["all"];
+    const state = readFilterState(location.search, topics, years);
+    const fixedTopic = list.dataset.fixedTopic;
+    if (fixedTopic) state.topic = fixedTopic;
+    for (const [key, value] of Object.entries(state)) {
+      const control = form.elements.namedItem(key);
+      if (control instanceof HTMLSelectElement) control.value = value ?? "all";
+    }
+    const records = cards.map((element) => ({
+      element, topic: element.dataset.topic ?? "", arxivSubmitted: element.dataset.arxivSubmitted ?? "", siteDate: element.dataset.siteDate ?? "",
+    }));
+    const visible = filterAndSortPapers(records, state);
+    cards.forEach((card) => { card.hidden = !visible.some((paper) => paper.element === card); });
+    const container = list.querySelector("[data-paper-items]");
+    visible.forEach((paper) => container?.append(paper.element));
+    const count = list.querySelector("[data-paper-count]");
+    if (count) count.textContent = String(visible.length);
+    const empty = list.querySelector("[data-paper-empty]");
+    if (empty instanceof HTMLElement) empty.hidden = visible.length !== 0;
+  }
+  document.addEventListener("change", (event) => {
+    const form = (event.target instanceof Element) ? event.target.closest("[data-filter-bar]") : null;
+    if (!(form instanceof HTMLFormElement)) return;
+    const data = new FormData(form);
+    history.pushState({}, "", `${location.pathname}${stateToSearch({ topic: String(data.get("topic") ?? "all"), year: String(data.get("year") ?? "all"), sort: String(data.get("sort") ?? "arxiv-newest") })}`);
+    updatePaperList();
+  });
+  addEventListener("popstate", updatePaperList);
+  updatePaperList();
+</script>
