@@ -4,6 +4,9 @@ name: Deploy Astro site to Pages
 # cutover deployment has passed the production smoke test.
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 concurrency:
   group: pages
