@@ -36,6 +36,12 @@ const [papers, topics] = await Promise.all([getPapers(), getTopics()]);
 
   <section class="notice-card" aria-label="このサイトについて">
     <h2>このサイトについて</h2>
-    <p>arXivの新着論文から岩井の関心分野に近いものを選び、AbstractとIntroductionを中心に、研究背景、問題設定、主要結果を日本語で紹介します。<a href="https://yoaskay.github.io/daily-math-paper-digest-pages/index.html">松澤陽介さんのページ</a>を完全に真似して作りました。記事はAI支援により作成されているため、正確な内容は必ず原論文をご確認ください。</p>
+    <p>arXivの新着論文から岩井の関心分野に近いものを選び、AbstractとIntroductionを中心に、研究背景、問題設定、主要結果を日本語で紹介します。<a href="https://yoaskay.github.io/daily-math-paper-digest-pages/index.html">松澤陽介さんのページ</a>を完全に真似して作りました。</p>
   </section>
+<section class="notice-card" aria-label="注意点">
+  <h2>注意点</h2>
+  <p>
+    本サイトの記事はAI支援(chatGPT)だけで作成されているため、正確な内容は必ず原論文をご確認ください。またタグ付けもAI支援(chatGPT)が勝手につけているので、岩井の意図に関係ないタグが付けられている可能性があります。岩井は日本語要約など記事作成に全く関与してないので、数学的内容にはご注意ください。
+  </p>
+</section>
 </BaseLayout>
