@@ -7,6 +7,9 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
+  - foliations
 arxiv_id: "2605.20754v1"
 arxiv_url: "https://arxiv.org/abs/2605.20754v1"
 arxiv_submitted: "2026-05-20"

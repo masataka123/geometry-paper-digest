@@ -7,6 +7,10 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
 topic: several-complex-variables
+tags:
+  - curvature
+  - l2-methods
+  - multiplier-ideals-extension
 arxiv_id: "2607.29669v2"
 arxiv_url: "https://arxiv.org/abs/2607.29669"
 arxiv_submitted: "2026-07-31"

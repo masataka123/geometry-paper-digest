@@ -9,6 +9,9 @@ arxiv_categories:
   - math.CV
   - math.DG
 topic: algebraic-geometry
+tags:
+  - positivity
+  - k-stability
 arxiv_id: "2605.30063v1"
 arxiv_url: "https://arxiv.org/abs/2605.30063v1"
 arxiv_submitted: "2026-05-28"

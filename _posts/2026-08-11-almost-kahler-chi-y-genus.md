@@ -8,6 +8,9 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags:
+  - curvature
+  - symplectic-contact-geometry
 arxiv_id: "2604.27423v1"
 arxiv_url: "https://arxiv.org/abs/2604.27423"
 arxiv_submitted: "2026-04-30"

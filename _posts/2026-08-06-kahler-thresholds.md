@@ -9,6 +9,8 @@ arxiv_categories:
   - math.CV
   - math.DG
 topic: algebraic-geometry
+tags:
+  - hodge-theory
 arxiv_id: "2606.08224v1"
 arxiv_url: "https://arxiv.org/abs/2606.08224v1"
 arxiv_submitted: "2026-06-06"

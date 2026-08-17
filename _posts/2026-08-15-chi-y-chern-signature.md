@@ -8,6 +8,10 @@ arxiv_categories:
   - math.DG
   - math.SG
 topic: differential-geometry
+tags:
+  - positivity
+  - chern-classes
+  - symplectic-contact-geometry
 arxiv_id: "2603.27964v1"
 arxiv_url: "https://arxiv.org/abs/2603.27964"
 arxiv_submitted: "2026-03-30"

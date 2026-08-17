@@ -7,3 +7,7 @@
 ## primary categoryによる分類
 
 候補論文ごとにarXiv公式メタデータのprimary categoryを確認し、primary categoryが `math.AG`、`math.DG`、`math.CV` のいずれかである論文だけを記事化してください。topicは `math.AG` → `algebraic-geometry`、`math.DG` → `differential-geometry`、`math.CV` → `several-complex-variables` の対応だけで設定し、副分類、タイトル、内容、既存topicから変更しないでください。front matterには `arxiv_primary_category` と、primary categoryおよび全secondary categoryを重複のないYAMLリストとして `arxiv_categories` に記録してください。cross-listされた同一論文には一つのtopicだけを設定してください。
+
+## controlled vocabularyによるtags
+
+記事作成前に `_data/tags.yml` を読み、各記事の `tags` をcanonical IDのYAMLリストとして必ず明示してください。tagsはtopicとは別の検索軸で、AbstractまたはIntroductionにおいて主要な対象・問題・結論・手法であると明確に確認できるものだけを0〜5個選びます。タイトルだけで決めず、著者やtopicから推測・機械付与せず、関連概念を自動併記しないでください。該当tagが不明なら `tags: []` とします。通常の記事追加中に新tagを作ってはならず、taxonomy変更は別レビューとします。

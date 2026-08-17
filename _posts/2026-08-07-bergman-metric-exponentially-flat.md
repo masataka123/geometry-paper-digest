@@ -7,6 +7,8 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
 topic: several-complex-variables
+tags:
+  - curvature
 arxiv_id: "2607.24444v2"
 arxiv_url: "https://arxiv.org/abs/2607.24444"
 arxiv_submitted: "2026-07-27"

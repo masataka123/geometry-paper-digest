@@ -9,6 +9,12 @@ arxiv_categories:
   - math.AG
   - math.CV
 topic: differential-geometry
+tags:
+  - positivity
+  - vector-bundles-sheaves
+  - stability
+  - hermite-einstein-metrics
+  - higgs-nonabelian-hodge
 arxiv_id: "2603.10312v1"
 arxiv_url: "https://arxiv.org/abs/2603.10312v1"
 arxiv_submitted: "2026-03-11"

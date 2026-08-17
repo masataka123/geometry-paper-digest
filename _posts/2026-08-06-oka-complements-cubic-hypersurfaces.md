@@ -9,6 +9,8 @@ arxiv_categories:
   - math.AG
   - math.CV
 topic: algebraic-geometry
+tags:
+  - oka-theory
 arxiv_id: "2608.02413v1"
 arxiv_url: "https://arxiv.org/abs/2608.02413"
 arxiv_submitted: "2026-08-03"

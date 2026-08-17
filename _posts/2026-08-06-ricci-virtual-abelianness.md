@@ -7,6 +7,9 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags:
+  - curvature
+  - fundamental-groups
 arxiv_id: "2606.27724v1"
 arxiv_url: "https://arxiv.org/abs/2606.27724v1"
 arxiv_submitted: "2026-06-26"

@@ -8,6 +8,10 @@ arxiv_categories:
   - math.AG
   - math.DG
 topic: algebraic-geometry
+tags:
+  - moduli
+  - hyperkahler-geometry
+  - toric-geometry
 arxiv_id: "2608.08680v1"
 arxiv_url: "https://arxiv.org/abs/2608.08680"
 arxiv_submitted: "2026-08-09"

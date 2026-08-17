@@ -9,7 +9,8 @@
     "test:build": "python scripts/validate_astro_build.py",
     "test:authors": "node scripts/validate_authors.mjs",
     "test:js": "node --test tests/js/*.test.mjs",
-    "test:search": "node scripts/validate_pagefind.mjs"
+    "test:search": "node scripts/validate_pagefind.mjs",
+    "test:tags": "node scripts/validate_tags.mjs"
   },
   "dependencies": {
     "astro": "5.13.2",

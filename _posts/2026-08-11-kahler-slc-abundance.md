@@ -9,6 +9,9 @@ arxiv_categories:
   - math.AG
   - math.CV
 topic: algebraic-geometry
+tags:
+  - singularities
+  - positivity
 arxiv_id: "2604.28085v1"
 arxiv_url: "https://arxiv.org/abs/2604.28085"
 arxiv_submitted: "2026-04-30"

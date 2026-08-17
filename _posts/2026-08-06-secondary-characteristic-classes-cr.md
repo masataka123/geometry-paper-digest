@@ -9,6 +9,9 @@ arxiv_categories:
   - math.DG
   - math.CV
 topic: differential-geometry
+tags:
+  - chern-classes
+  - cr-geometry
 arxiv_id: "2608.01859v1"
 arxiv_url: "https://arxiv.org/abs/2608.01859"
 arxiv_submitted: "2026-08-03"

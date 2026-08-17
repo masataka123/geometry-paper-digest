@@ -9,6 +9,9 @@ arxiv_categories:
   - math.AG
   - math.DG
 topic: algebraic-geometry
+tags:
+  - k-stability
+  - fano-varieties
 arxiv_id: "2608.00000v1"
 arxiv_url: "https://arxiv.org/abs/2608.00000"
 arxiv_submitted: "2026-08-01"
@@ -35,6 +38,8 @@ published: true
 検査規則:
 - topicは論文内容、タイトル、著者、既存topicから推測せず、arXiv公式メタデータのprimary categoryだけで決定する。
 - secondary categoryはtopic決定に使用せず、一つの記事にtopicは一つだけ設定する。
+- tagsは`_data/tags.yml`のcanonical IDだけから0〜5個をYAMLリストで指定する。topicとは別軸であり、Abstract・Introductionに明確な根拠があるtagだけを選ぶ。
+- titleだけでtagを決めず、著者やtopicから推測・機械付与しない。新tagを記事追加時に作らず、taxonomy変更は別レビューとする。不明なら`tags: []`を明示する。
 - arxiv_primary_categoryを必ず保存し、primary categoryと全secondary categoryをarxiv_categoriesの重複のないYAMLリストとして保存する。
 - arxiv_primary_categoryがarxiv_categoriesに含まれ、math.AG → algebraic-geometry、math.DG → differential-geometry、math.CV → several-complex-variablesの対応になっていることを公開前に検査する。
 - titleにはarXivの正確な英語原題を使用する。

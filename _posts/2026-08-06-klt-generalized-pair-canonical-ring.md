@@ -4,6 +4,9 @@ title: "A klt generalized pair with infinitely generated canonical ring"
 title_ja: "有限生成でない標準環をもつ klt generalized pair"
 authors: "Jihao Liu, Yanze Wang"
 topic: algebraic-geometry
+tags:
+  - singularities
+  - positivity
 arxiv_id: "2608.03258v1"
 arxiv_url: "https://arxiv.org/abs/2608.03258"
 arxiv_submitted: "2026-08-04"

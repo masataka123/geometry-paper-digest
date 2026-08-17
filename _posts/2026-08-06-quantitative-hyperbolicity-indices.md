@@ -8,6 +8,9 @@ arxiv_categories:
   - math.CV
   - math.AG
 topic: several-complex-variables
+tags:
+  - positivity
+  - hyperbolicity
 arxiv_id: "2607.07054v1"
 arxiv_url: "https://arxiv.org/abs/2607.07054v1"
 arxiv_submitted: "2026-07-08"

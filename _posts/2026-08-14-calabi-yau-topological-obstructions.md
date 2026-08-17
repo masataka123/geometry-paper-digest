@@ -9,6 +9,12 @@ arxiv_categories:
   - math.DG
   - math.SG
 topic: algebraic-geometry
+tags:
+  - positivity
+  - curvature
+  - fano-varieties
+  - calabi-yau-geometry
+  - hyperbolicity
 arxiv_id: "2608.12705v1"
 arxiv_url: "https://arxiv.org/abs/2608.12705"
 arxiv_submitted: "2026-08-13"

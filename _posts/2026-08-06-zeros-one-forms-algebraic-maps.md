@@ -8,6 +8,7 @@ arxiv_categories:
   - math.AG
   - math.CV
 topic: algebraic-geometry
+tags: []
 arxiv_id: "2607.15102v1"
 arxiv_url: "https://arxiv.org/abs/2607.15102v1"
 arxiv_submitted: "2026-07-16"

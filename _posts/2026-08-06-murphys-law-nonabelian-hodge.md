@@ -4,6 +4,8 @@ title: "Murphy's law in non-abelian Hodge theory"
 title_ja: "非可換 Hodge 理論における Murphy の法則"
 authors: "Gregorio Baldi, Yeuk Hay Joshua Lam"
 topic: algebraic-geometry
+tags:
+  - hodge-theory
 arxiv_id: "2608.02875v1"
 arxiv_url: "https://arxiv.org/abs/2608.02875"
 arxiv_submitted: "2026-08-03"

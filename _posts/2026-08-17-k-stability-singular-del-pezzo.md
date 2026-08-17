@@ -8,6 +8,9 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - singularities
+  - k-stability
 arxiv_id: "2507.13649v2"
 arxiv_url: "https://arxiv.org/abs/2507.13649"
 arxiv_submitted: "2025-07-18"

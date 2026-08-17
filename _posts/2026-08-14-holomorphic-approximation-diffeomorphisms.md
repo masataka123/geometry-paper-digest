@@ -8,6 +8,8 @@ arxiv_categories:
   - math.CV
   - math.DG
 topic: several-complex-variables
+tags:
+  - oka-theory
 arxiv_id: "2608.12565v1"
 arxiv_url: "https://arxiv.org/abs/2608.12565"
 arxiv_submitted: "2026-08-12"

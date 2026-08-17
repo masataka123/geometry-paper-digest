@@ -8,6 +8,11 @@ arxiv_categories:
   - math.DG
   - math.AG
 topic: differential-geometry
+tags:
+  - singularities
+  - vector-bundles-sheaves
+  - moduli
+  - chern-classes
 arxiv_id: "2607.01402v1"
 arxiv_url: "https://arxiv.org/abs/2607.01402v1"
 arxiv_submitted: "2026-07-01"

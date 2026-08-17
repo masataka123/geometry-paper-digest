@@ -4,6 +4,10 @@ title: "On Fano indices of weighted projective spaces"
 title_ja: "重み付き射影空間の Fano 指数について"
 authors: "Haidong Liu"
 topic: algebraic-geometry
+tags:
+  - singularities
+  - fano-varieties
+  - toric-geometry
 arxiv_id: "2608.03434v1"
 arxiv_url: "https://arxiv.org/abs/2608.03434"
 arxiv_submitted: "2026-08-04"

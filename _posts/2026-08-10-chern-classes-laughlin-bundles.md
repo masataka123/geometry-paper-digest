@@ -9,6 +9,11 @@ arxiv_categories:
   - cond-mat.str-el
   - math-ph
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
+  - moduli
+  - curvature
+  - chern-classes
 arxiv_id: "2605.18089v1"
 arxiv_url: "https://arxiv.org/abs/2605.18089v1"
 arxiv_submitted: "2026-05-18"

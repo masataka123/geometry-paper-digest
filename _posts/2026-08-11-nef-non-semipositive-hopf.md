@@ -8,6 +8,9 @@ arxiv_categories:
   - math.CV
   - math.AG
 topic: several-complex-variables
+tags:
+  - positivity
+  - curvature
 arxiv_id: "2608.09114v1"
 arxiv_url: "https://arxiv.org/abs/2608.09114"
 arxiv_submitted: "2026-08-10"

@@ -7,6 +7,9 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - moduli
+  - hodge-theory
 arxiv_id: "2603.19052v3"
 arxiv_url: "https://arxiv.org/abs/2603.19052"
 arxiv_submitted: "2026-03-19"

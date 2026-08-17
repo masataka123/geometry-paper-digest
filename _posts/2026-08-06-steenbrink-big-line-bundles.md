@@ -4,6 +4,9 @@ title: "Steenbrink vanishing theorem for big line bundles"
 title_ja: "big 線束に対する Steenbrink 消滅定理"
 authors: "Yuta Watanabe"
 topic: several-complex-variables
+tags:
+  - positivity
+  - vector-bundles-sheaves
 arxiv_id: "2608.01519v1"
 arxiv_url: "https://arxiv.org/abs/2608.01519"
 arxiv_submitted: "2026-08-02"

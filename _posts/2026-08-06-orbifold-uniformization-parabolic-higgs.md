@@ -8,6 +8,12 @@ arxiv_categories:
   - math.AG
   - math.DG
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
+  - hodge-theory
+  - higgs-nonabelian-hodge
+  - hyperbolicity
+  - uniformization
 arxiv_id: "2606.06778v1"
 arxiv_url: "https://arxiv.org/abs/2606.06778v1"
 arxiv_submitted: "2026-06-04"

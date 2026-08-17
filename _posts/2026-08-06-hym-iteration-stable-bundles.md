@@ -6,6 +6,11 @@ authors: "Huai-Dong Cao, Xiaofeng Sun, Shing-Tung Yau, Yingying Zhang"
 arxiv_primary_category: "math.DG"
 arxiv_categories: [math.DG]
 topic: differential-geometry
+tags:
+  - vector-bundles-sheaves
+  - stability
+  - hermite-einstein-metrics
+  - higgs-nonabelian-hodge
 arxiv_id: "2606.20307v1"
 arxiv_url: "https://arxiv.org/abs/2606.20307v1"
 arxiv_submitted: "2026-06-18"

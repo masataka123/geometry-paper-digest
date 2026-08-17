@@ -8,6 +8,7 @@ arxiv_categories:
   - math.CV
   - math.AG
 topic: several-complex-variables
+tags: []
 arxiv_id: "2605.21137v1"
 arxiv_url: "https://arxiv.org/abs/2605.21137v1"
 arxiv_submitted: "2026-05-20"

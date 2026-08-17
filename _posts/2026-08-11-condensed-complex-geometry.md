@@ -11,6 +11,8 @@ arxiv_categories:
   - math.FA
   - math.KT
 topic: several-complex-variables
+tags:
+  - complex-analytic-spaces
 arxiv_id: "2605.11731v1"
 arxiv_url: "https://arxiv.org/abs/2605.11731"
 arxiv_submitted: "2026-05-12"

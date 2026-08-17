@@ -7,6 +7,9 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - fano-varieties
+  - algebraic-cycles-enumerative
 arxiv_id: "2608.12950v1"
 arxiv_url: "https://arxiv.org/abs/2608.12950"
 arxiv_submitted: "2026-08-13"

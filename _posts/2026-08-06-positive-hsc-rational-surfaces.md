@@ -9,6 +9,10 @@ arxiv_categories:
   - math.AG
   - math.CV
 topic: differential-geometry
+tags:
+  - positivity
+  - curvature
+  - toric-geometry
 arxiv_id: "2606.23333v1"
 arxiv_url: "https://arxiv.org/abs/2606.23333v1"
 arxiv_submitted: "2026-06-22"

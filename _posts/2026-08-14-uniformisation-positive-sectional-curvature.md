@@ -8,6 +8,10 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags:
+  - positivity
+  - curvature
+  - uniformization
 arxiv_id: "2604.11220v1"
 arxiv_url: "https://arxiv.org/abs/2604.11220"
 arxiv_submitted: "2026-04-13"

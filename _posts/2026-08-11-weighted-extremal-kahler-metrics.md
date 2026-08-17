@@ -9,6 +9,10 @@ arxiv_categories:
   - math.DG
   - math.CV
 topic: differential-geometry
+tags:
+  - csck-extremal-kahler-metrics
+  - kahler-ricci-flow-solitons
+  - curvature
 arxiv_id: "2605.08796v1"
 arxiv_url: "https://arxiv.org/abs/2605.08796"
 arxiv_submitted: "2026-05-09"

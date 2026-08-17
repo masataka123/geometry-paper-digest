@@ -8,6 +8,12 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags:
+  - kahler-ricci-flow-solitons
+  - curvature
+  - noncompact-kahler-geometry
+  - fano-varieties
+  - toric-geometry
 arxiv_id: "2608.10953v1"
 arxiv_url: "https://arxiv.org/abs/2608.10953"
 arxiv_submitted: "2026-08-11"

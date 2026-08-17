@@ -10,6 +10,9 @@ arxiv_categories:
   - math.AG
   - math.DG
 topic: several-complex-variables
+tags:
+  - curvature
+  - stein-geometry
 arxiv_id: "2605.05582v1"
 arxiv_url: "https://arxiv.org/abs/2605.05582"
 arxiv_submitted: "2026-05-07"

@@ -7,6 +7,10 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags:
+  - positivity
+  - kahler-ricci-flow-solitons
+  - curvature
 arxiv_id: "2606.17402v1"
 arxiv_url: "https://arxiv.org/abs/2606.17402v1"
 arxiv_submitted: "2026-06-16"

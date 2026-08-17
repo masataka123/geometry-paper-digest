@@ -9,6 +9,11 @@ arxiv_categories:
   - math.AG
   - math.CV
 topic: differential-geometry
+tags:
+  - moduli
+  - csck-extremal-kahler-metrics
+  - curvature
+  - metric-limits
 arxiv_id: "2606.02816v1"
 arxiv_url: "https://arxiv.org/abs/2606.02816v1"
 arxiv_submitted: "2026-06-01"

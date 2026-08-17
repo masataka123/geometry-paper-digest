@@ -4,6 +4,10 @@ title: "A characterization of ball quotient stacks"
 title_ja: "球商スタックの特徴づけ"
 authors: "Chirantan Chowdhury, Matteo Costantini, Aryaman Patel"
 topic: algebraic-geometry
+tags:
+  - stability
+  - higgs-nonabelian-hodge
+  - uniformization
 arxiv_id: "2608.04688v1"
 arxiv_url: "https://arxiv.org/abs/2608.04688"
 arxiv_submitted: "2026-08-05"

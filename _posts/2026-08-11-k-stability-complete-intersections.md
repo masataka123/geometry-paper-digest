@@ -7,6 +7,9 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - k-stability
+  - fano-varieties
 arxiv_id: "2608.09293v1"
 arxiv_url: "https://arxiv.org/abs/2608.09293"
 arxiv_submitted: "2026-08-10"

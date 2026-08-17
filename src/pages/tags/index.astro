@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPapers } from "../../lib/posts";
+import { buildTagIndex, tagUrl } from "../../lib/tags";
+
+const tags = await buildTagIndex(await getPapers());
+---
+
+<BaseLayout title="タグ一覧">
+  <header class="site-header"><p class="eyebrow">TAGS</p><h1>タグ一覧</h1><p>数学的な対象・テーマ・手法から論文を探せます。</p></header>
+  <ul class="tag-index">
+    {tags.map((tag) => <li class="tag-index__item" data-tag-id={tag.id}>
+      <h2><a href={tagUrl(tag.id)}>{tag.nameJa}</a></h2>
+      <p lang="en">{tag.name}</p><p>{tag.description}</p><p>{tag.paperCount}件</p>
+    </li>)}
+  </ul>
+</BaseLayout>

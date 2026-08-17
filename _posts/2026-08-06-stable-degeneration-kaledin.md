@@ -9,6 +9,9 @@ arxiv_categories:
   - math.DG
   - math.RT
 topic: algebraic-geometry
+tags:
+  - singularities
+  - symplectic-contact-geometry
 arxiv_id: "2606.02401v1"
 arxiv_url: "https://arxiv.org/abs/2606.02401v1"
 arxiv_submitted: "2026-06-01"

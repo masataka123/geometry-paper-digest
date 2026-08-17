@@ -8,6 +8,10 @@ arxiv_categories:
   - math.DG
   - math.CV
 topic: differential-geometry
+tags:
+  - positivity
+  - curvature
+  - fundamental-groups
 arxiv_id: "2602.11002v2"
 arxiv_url: "https://arxiv.org/abs/2602.11002v2"
 arxiv_submitted: "2026-02-11"

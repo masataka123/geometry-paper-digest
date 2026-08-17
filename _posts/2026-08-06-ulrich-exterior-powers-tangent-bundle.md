@@ -8,6 +8,9 @@ arxiv_categories:
   - math.AG
   - math.AC
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
+  - fano-varieties
 arxiv_id: "2606.27851v1"
 arxiv_url: "https://arxiv.org/abs/2606.27851v1"
 arxiv_submitted: "2026-06-26"

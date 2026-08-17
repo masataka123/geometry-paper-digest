@@ -7,6 +7,11 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - singularities
+  - vector-bundles-sheaves
+  - k-stability
+  - fano-varieties
 arxiv_id: "2605.28140v1"
 arxiv_url: "https://arxiv.org/abs/2605.28140v1"
 arxiv_submitted: "2026-05-27"

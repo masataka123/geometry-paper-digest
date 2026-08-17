@@ -7,6 +7,8 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - fano-varieties
 arxiv_id: "2608.12076v1"
 arxiv_url: "https://arxiv.org/abs/2608.12076"
 arxiv_submitted: "2026-08-12"

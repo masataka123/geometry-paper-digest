@@ -8,6 +8,12 @@ arxiv_categories:
   - math.AG
   - math.DS
 topic: algebraic-geometry
+tags:
+  - singularities
+  - birational-geometry
+  - minimal-model-program
+  - vector-bundles-sheaves
+  - foliations
 arxiv_id: "2608.09663v1"
 arxiv_url: "https://arxiv.org/abs/2608.09663"
 arxiv_submitted: "2026-08-10"
