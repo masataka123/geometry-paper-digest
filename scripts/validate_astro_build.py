@@ -157,12 +157,12 @@ def validate_build(root: Path, dist: Path) -> list[str]:
         for forbidden in ("abstract_en", "summary_en", "abstract_ja", "paper-content", "paper-card__title-ja"):
             if forbidden in papers_source:
                 errors.append(f"papers index exposes non-compact content marker {forbidden!r}")
-        if "arXiv Abstract" not in papers_source:
-            errors.append("papers index is missing arXiv Abstract cards")
+        if "arXiv Abstract" in papers_source:
+            errors.append("papers index unexpectedly renders arXiv Abstract cards")
         if "日本語要約" not in papers_source:
             errors.append("papers index is missing Japanese summary headings")
-        if "paper-card__abstract" not in papers_source:
-            errors.append("papers index is missing full arXiv Abstract card content")
+        if "paper-card__abstract" in papers_source:
+            errors.append("papers index unexpectedly contains full arXiv Abstract card content")
         for forbidden_heading in ("English Abstract", "English Summary", "Arxiv Abstract"):
             if forbidden_heading in papers_source:
                 errors.append(f"papers index uses forbidden heading {forbidden_heading!r}")
@@ -177,12 +177,13 @@ def validate_build(root: Path, dist: Path) -> list[str]:
                 errors.append(f"papers index is missing representative card {pathname}")
                 continue
             card_source = papers_source[card_start:card_end]
-            abstract_heading = card_source.find("arXiv Abstract")
+            tags = card_source.find("tag-chips")
             japanese_heading = card_source.find("日本語要約")
-            if abstract_heading < 0 or japanese_heading < 0:
-                errors.append(f"representative card {pathname} is missing required headings")
-            elif abstract_heading > japanese_heading:
-                errors.append(f"representative card {pathname} has headings in the wrong order")
+            links = card_source.find("paper-card__links")
+            if japanese_heading < 0:
+                errors.append(f"representative card {pathname} is missing its Japanese summary heading")
+            elif tags >= 0 and not tags < japanese_heading < links:
+                errors.append(f"representative card {pathname} does not order tags, Japanese summary, and links correctly")
 
     legacy_notice = output_path(dist, LEGACY_TOPIC_URL)
     if legacy_notice.is_file():
@@ -192,9 +193,10 @@ def validate_build(root: Path, dist: Path) -> list[str]:
             errors.append(f"legacy complex-geometry notice is missing link {expected}")
 
     representative_checks = {
-        "/papers/2026/08/06/analytic-bertini-local/": ("Abstract", "<h2"),
+        "/papers/2026/08/06/analytic-bertini-local/": ("arXiv Abstract", "日本語要約", "<h2"),
         "/papers/2026/08/17/alpha-spectrum-toric-fano/": (
-            "English summary",
+            "arXiv Abstract",
+            "日本語要約",
             r"\mathbb{Q}",
             "<ul>",
             "背景と問題設定",
@@ -208,6 +210,9 @@ def validate_build(root: Path, dist: Path) -> list[str]:
         for needle in needles:
             if needle not in source:
                 errors.append(f"representative page {url} is missing {needle!r}")
+        for forbidden in ("English summary", "Original abstract on arXiv", ">Abstract</h2>"):
+            if forbidden in source:
+                errors.append(f"representative page {url} still renders obsolete abstract UI {forbidden!r}")
 
     visible_title_checks = {
         "/papers/2026/08/06/analytic-bertini-local/": "解析的Bertini定理",
