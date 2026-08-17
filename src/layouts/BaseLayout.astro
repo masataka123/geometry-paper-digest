@@ -15,7 +15,7 @@ const siteTitle = "Geometry Paper Digest";
 ---
 
 <!doctype html>
-<html lang="ja">
+<html lang="ja" data-base-url={import.meta.env.BASE_URL}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -37,7 +37,7 @@ const siteTitle = "Geometry Paper Digest";
   <body>
     <main>
       <slot />
-      <footer class="site-footer">
+      <footer class="site-footer" data-pagefind-ignore="all">
         <p>本サイトは岩井が楽をしたいという非営利目的で作られました。原論文、Abstract、図表等の著作権は各著者・権利者に帰属します。Github リポジトリは<a href="https://github.com/masataka123/geometry-paper-digest">こちら</a>です。</p>
       </footer>
     </main>
@@ -46,6 +46,14 @@ const siteTitle = "Geometry Paper Digest";
 
 <script>
   import { filterAndSortPapers, readFilterState, stateToSearch } from "../lib/paper-filters.mjs";
+
+  let matchedPathnames: Set<string> | null = null;
+  let searchSequence = 0;
+
+  function controls(form: HTMLFormElement) {
+    const data = new FormData(form);
+    return { q: String(data.get("q") ?? ""), topic: String(data.get("topic") ?? "all"), year: String(data.get("year") ?? "all"), sort: String(data.get("sort") ?? "arxiv-newest") };
+  }
 
   function updatePaperList() {
     const form = document.querySelector("[data-filter-bar]");
@@ -61,12 +69,12 @@ const siteTitle = "Geometry Paper Digest";
     if (fixedTopic) state.topic = fixedTopic;
     for (const [key, value] of Object.entries(state)) {
       const control = form.elements.namedItem(key);
-      if (control instanceof HTMLSelectElement) control.value = value ?? "all";
+      if (control instanceof HTMLSelectElement || control instanceof HTMLInputElement) control.value = value ?? "";
     }
     const records = cards.map((element) => ({
-      element, topic: element.dataset.topic ?? "", arxivSubmitted: element.dataset.arxivSubmitted ?? "", siteDate: element.dataset.siteDate ?? "",
+      element, pathname: element.dataset.pathname ?? "", topic: element.dataset.topic ?? "", arxivSubmitted: element.dataset.arxivSubmitted ?? "", siteDate: element.dataset.siteDate ?? "",
     }));
-    const visible = filterAndSortPapers(records, state);
+    const visible = filterAndSortPapers(records, state, state.q ? matchedPathnames : null);
     cards.forEach((card) => { card.hidden = !visible.some((paper) => paper.element === card); });
     const container = list.querySelector("[data-paper-items]");
     visible.forEach((paper) => container?.append(paper.element));
@@ -75,13 +83,56 @@ const siteTitle = "Geometry Paper Digest";
     const empty = list.querySelector("[data-paper-empty]");
     if (empty instanceof HTMLElement) empty.hidden = visible.length !== 0;
   }
+
+  async function search(query: string, sequence = ++searchSequence) {
+    const status = document.querySelector("[data-search-status]");
+    if (!query.trim()) {
+      matchedPathnames = null;
+      if (status) status.textContent = "検索語を入力すると全文検索できます。";
+      updatePaperList();
+      return;
+    }
+    if (status) status.textContent = "検索中…";
+    try {
+      const base = document.documentElement.dataset.baseUrl ?? "/";
+      const pagefind = await import(/* @vite-ignore */ `${base}pagefind/pagefind.js`);
+      await pagefind.options({ baseUrl: base });
+      await pagefind.init();
+      const response = await pagefind.search(query.trim());
+      const results = await Promise.all(response.results.map((result: { data: () => Promise<{ meta?: Record<string, string> }> }) => result.data()));
+      if (sequence !== searchSequence) return;
+      matchedPathnames = new Set(results.map((result) => result.meta?.pathname).filter((value): value is string => Boolean(value)));
+      if (status) status.textContent = matchedPathnames.size ? `${matchedPathnames.size}件の論文が全文検索に一致しました。` : "全文検索に一致する論文はありません。";
+    } catch (error) {
+      if (sequence !== searchSequence) return;
+      matchedPathnames = null;
+      if (status) status.textContent = "全文検索を読み込めませんでした。絞り込み一覧と各論文へのリンクは引き続き利用できます。";
+      console.error("Pagefind search failed", error);
+    }
+    updatePaperList();
+  }
+  let debounceTimer: number | undefined;
   document.addEventListener("change", (event) => {
     const form = (event.target instanceof Element) ? event.target.closest("[data-filter-bar]") : null;
     if (!(form instanceof HTMLFormElement)) return;
-    const data = new FormData(form);
-    history.pushState({}, "", `${location.pathname}${stateToSearch({ topic: String(data.get("topic") ?? "all"), year: String(data.get("year") ?? "all"), sort: String(data.get("sort") ?? "arxiv-newest") })}`);
+    history.pushState({}, "", `${location.pathname}${stateToSearch(controls(form))}`);
     updatePaperList();
   });
-  addEventListener("popstate", updatePaperList);
+  document.addEventListener("input", (event) => {
+    if (!(event.target instanceof HTMLInputElement) || event.target.name !== "q") return;
+    const input = event.target;
+    const form = input.closest("[data-filter-bar]");
+    if (!(form instanceof HTMLFormElement)) return;
+    clearTimeout(debounceTimer);
+    const sequence = ++searchSequence;
+    const query = input.value;
+    debounceTimer = window.setTimeout(() => {
+      history.pushState({}, "", `${location.pathname}${stateToSearch(controls(form))}`);
+      void search(query, sequence);
+    }, 180);
+  });
+  addEventListener("popstate", () => { updatePaperList(); const state = readFilterState(location.search, [], []); void search(state.q); });
   updatePaperList();
+  const initialQuery = new URLSearchParams(location.search).get("q") ?? "";
+  if (initialQuery) void search(initialQuery);
 </script>

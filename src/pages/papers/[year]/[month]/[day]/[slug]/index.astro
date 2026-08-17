@@ -31,18 +31,22 @@ if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.fi
 
 <BaseLayout title={paper.metadata.title} description={paper.metadata.summary}>
   <TopicNav topics={topics} paperTopic={paper.metadata.topic} />
-  <article class="paper-page">
+  <article class="paper-page" data-pagefind-body data-pagefind-meta={`pathname:${paper.route.pathname}`}>
     <header class="paper-header">
       <p class="eyebrow">{topic.title} · {paper.date}</p>
-      <h1>{paper.metadata.title}</h1>
-      <p class="authors">{paper.metadata.authors}</p>
+      <h1 data-pagefind-meta="title">{paper.metadata.title}</h1>
+      {paper.metadata.titleJa && <p class="paper-title-ja" data-pagefind-meta="title_ja">{paper.metadata.titleJa}</p>}
+      <p class="authors" data-pagefind-meta="authors">{paper.metadata.authors}</p>
       <Abstracts metadata={paper.metadata} />
+      <p class="pagefind-only">{paper.metadata.summary}</p>
       <dl class="paper-meta">
-        <div><dt>arXiv</dt><dd><a href={paper.metadata.arxivUrl}>{paper.metadata.arxivId}</a></dd></div>
+        <div><dt>arXiv</dt><dd><a href={paper.metadata.arxivUrl} data-pagefind-meta="arxiv_id">{paper.metadata.arxivId}</a></dd></div>
         {paper.metadata.arxivSubmitted && <div><dt>初回投稿日</dt><dd>{paper.metadata.arxivSubmitted}</dd></div>}
         {paper.metadata.licenseName && <div><dt>原論文のライセンス</dt><dd>{paper.metadata.licenseUrl ? <a href={paper.metadata.licenseUrl}>{paper.metadata.licenseName}</a> : paper.metadata.licenseName}</dd></div>}
         {paper.metadata.articleMode && <div><dt>掲載形式</dt><dd>{paper.metadata.articleMode}</dd></div>}
       </dl>
+      <span class="pagefind-only" data-pagefind-meta="topic">{paper.metadata.topic}</span>
+      <span class="pagefind-only" data-pagefind-meta="year">{paper.route.year}</span>
       <p class="links paper-links">
         <a href={paper.metadata.arxivUrl}>原論文を開く</a>
         {paper.metadata.digestPdf && <a href={withBase(paper.metadata.digestPdf)}>PDF版</a>}
