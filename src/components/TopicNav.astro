@@ -1,0 +1,22 @@
+---
+import type { Topic } from "../lib/topics";
+import { topicPath, withBase } from "../lib/urls";
+
+interface Props {
+  topics: Topic[];
+  current?: string;
+  paperTopic?: string;
+}
+
+const { topics, current = "", paperTopic = "" } = Astro.props;
+const paperTopicData = topics.find((topic) => topic.slug === paperTopic);
+---
+
+<nav class="topic-nav" aria-label={paperTopic ? "パンくず" : "論文分野"}>
+  <a href={withBase("/")}>全分野</a>
+  {paperTopicData ? (
+    <a href={withBase(topicPath(paperTopicData.slug))}>{paperTopicData.title}</a>
+  ) : topics.map((topic) => (
+    <a href={withBase(topicPath(topic.slug))} aria-current={topic.slug === current ? "page" : undefined}>{topic.title}</a>
+  ))}
+</nav>

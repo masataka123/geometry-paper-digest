@@ -1,0 +1,49 @@
+---
+import type { PaperMetadata } from "../lib/posts";
+
+interface Props {
+  metadata: PaperMetadata;
+  headingLevel?: "h2" | "h3";
+}
+
+const { metadata, headingLevel = "h2" } = Astro.props;
+const Heading = headingLevel;
+---
+
+{metadata.abstractEn ? (
+  <div class="abstracts">
+    <section class="abstract abstract-en">
+      <Heading>Abstract</Heading>
+      <p lang="en">{metadata.abstractEn}</p>
+    </section>
+    <section class="abstract abstract-ja">
+      <Heading>日本語要約</Heading>
+      {metadata.abstractJa && <p>{metadata.abstractJa}</p>}
+    </section>
+  </div>
+) : metadata.summaryEn ? (
+  <div class="abstracts">
+    <section class="abstract abstract-en english-summary">
+      <Heading>English summary</Heading>
+      <p lang="en">{metadata.summaryEn}</p>
+      <p class="abstract-source"><a href={metadata.abstractSourceUrl || metadata.arxivUrl} rel="noopener">Original abstract on arXiv</a></p>
+    </section>
+    <section class="abstract abstract-ja">
+      <Heading>日本語要約</Heading>
+      {metadata.abstractJa && <p>{metadata.abstractJa}</p>}
+    </section>
+  </div>
+) : metadata.abstractJa ? (
+  <div class="abstracts">
+    <section class="abstract abstract-en">
+      <Heading>Abstract</Heading>
+      <p lang="en"><a href={metadata.arxivUrl} rel="noopener">Abstract on arXiv</a></p>
+    </section>
+    <section class="abstract abstract-ja">
+      <Heading>日本語要約</Heading>
+      <p>{metadata.abstractJa}</p>
+    </section>
+  </div>
+) : (
+  <p class="paper-summary">{metadata.summary}</p>
+)}
