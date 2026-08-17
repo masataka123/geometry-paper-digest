@@ -16,6 +16,7 @@ title: "A valid paper"
 authors: "Alice Author"
 arxiv_primary_category: "math.AG"
 topic: algebraic-geometry
+tags: []
 arxiv_id: "2608.01234v1"
 arxiv_url: "https://arxiv.org/abs/2608.01234"
 arxiv_submitted: "2026-08-01"
@@ -88,6 +89,14 @@ class ValidatePostsTests(unittest.TestCase):
     def test_missing_required_field_fails(self) -> None:
         self.repo.add_post(metadata=self.replace('authors: "Alice Author"\n', ""))
         self.assertTrue(any("`authors` がありません" in message for message in self.messages()))
+
+    def test_missing_tags_fails(self) -> None:
+        self.repo.add_post(metadata=self.replace("tags: []\n", ""))
+        self.assertTrue(any("`tags` がありません" in message for message in self.messages()))
+
+    def test_tags_must_be_a_list(self) -> None:
+        self.repo.add_post(metadata=self.replace("tags: []", "tags: chern-classes"))
+        self.assertTrue(any("tags: YAMLリスト" in message for message in self.messages()))
 
     def test_arxiv_id_and_url_mismatch_fails(self) -> None:
         self.repo.add_post(

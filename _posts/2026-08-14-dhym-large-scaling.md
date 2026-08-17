@@ -9,6 +9,10 @@ arxiv_categories:
   - math.AG
   - math.DG
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
+  - stability
+  - toric-geometry
 arxiv_id: "2604.22246v1"
 arxiv_url: "https://arxiv.org/abs/2604.22246"
 arxiv_submitted: "2026-04-24"

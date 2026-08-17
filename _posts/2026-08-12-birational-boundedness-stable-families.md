@@ -9,6 +9,11 @@ arxiv_categories:
   - math.AG
   - math.DS
 topic: algebraic-geometry
+tags:
+  - singularities
+  - birational-geometry
+  - vector-bundles-sheaves
+  - foliations
 arxiv_id: "2604.24106v1"
 arxiv_url: "https://arxiv.org/abs/2604.24106"
 arxiv_submitted: "2026-04-27"

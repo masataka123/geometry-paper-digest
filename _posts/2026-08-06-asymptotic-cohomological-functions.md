@@ -7,6 +7,8 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
 arxiv_id: "2607.09021v1"
 arxiv_url: "https://arxiv.org/abs/2607.09021v1"
 arxiv_submitted: "2026-07-10"

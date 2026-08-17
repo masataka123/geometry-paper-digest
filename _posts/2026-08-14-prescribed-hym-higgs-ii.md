@@ -7,6 +7,11 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags:
+  - vector-bundles-sheaves
+  - hermite-einstein-metrics
+  - curvature
+  - higgs-nonabelian-hodge
 arxiv_id: "2604.02679v1"
 arxiv_url: "https://arxiv.org/abs/2604.02679"
 arxiv_submitted: "2026-04-03"

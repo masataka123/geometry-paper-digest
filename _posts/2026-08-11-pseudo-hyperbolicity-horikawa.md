@@ -7,6 +7,8 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - hyperbolicity
 arxiv_id: "2608.08276v1"
 arxiv_url: "https://arxiv.org/abs/2608.08276"
 arxiv_submitted: "2026-08-08"

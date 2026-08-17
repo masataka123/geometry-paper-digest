@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PaperList from "../../components/PaperList.astro";
+import { getPapers } from "../../lib/posts";
+import { getTopics, type Topic } from "../../lib/topics";
+import { getAuthorIndex, type PaperAuthor } from "../../lib/authors";
+import { buildTagIndex, type TagWithPapers } from "../../lib/tags";
+
+interface Props { tag: TagWithPapers; topics: Topic[]; authorsByPaper: Map<string, PaperAuthor[]>; }
+export async function getStaticPaths() {
+  const [papers, topics, authorIndex] = await Promise.all([getPapers(), getTopics(), getAuthorIndex()]);
+  return (await buildTagIndex(papers)).map((tag) => ({ params: { tag: tag.id }, props: { tag, topics, authorsByPaper: authorIndex.byPaper } }));
+}
+const { tag, topics, authorsByPaper } = Astro.props;
+---
+
+<BaseLayout title={tag.nameJa}>
+  <header class="site-header"><p class="eyebrow">TAG</p><h1>{tag.nameJa}</h1><p class="heading-subtitle" lang="en">{tag.name}</p><p>{tag.description}</p><p>{tag.paperCount}件の論文</p></header>
+  <PaperList papers={tag.papers} topics={topics} authorsByPaper={authorsByPaper} />
+</BaseLayout>

@@ -8,6 +8,12 @@ arxiv_categories:
   - math.CV
   - math.AG
 topic: several-complex-variables
+tags:
+  - singularities
+  - positivity
+  - vector-bundles-sheaves
+  - l2-methods
+  - multiplier-ideals-extension
 arxiv_id: "2608.08620v1"
 arxiv_url: "https://arxiv.org/abs/2608.08620"
 arxiv_submitted: "2026-08-09"

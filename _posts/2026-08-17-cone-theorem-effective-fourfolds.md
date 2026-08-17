@@ -8,6 +8,10 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - singularities
+  - birational-geometry
+  - positivity
 arxiv_id: "2608.14236v1"
 arxiv_url: "https://arxiv.org/abs/2608.14236"
 arxiv_submitted: "2026-08-14"

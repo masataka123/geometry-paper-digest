@@ -38,7 +38,7 @@ const siteTitle = "Geometry Paper Digest";
     <main>
       <slot />
       <footer class="site-footer" data-pagefind-ignore="all">
-        <p><a href={`${import.meta.env.BASE_URL}authors/`}>著者一覧</a></p>
+        <p><a href={`${import.meta.env.BASE_URL}authors/`}>著者一覧</a> · <a href={`${import.meta.env.BASE_URL}tags/`}>タグ一覧</a></p>
         <p>本サイトは岩井が楽をしたいという非営利目的で作られました。原論文、Abstract、図表等の著作権は各著者・権利者に帰属します。Github リポジトリは<a href="https://github.com/masataka123/geometry-paper-digest">こちら</a>です。</p>
       </footer>
     </main>
@@ -53,7 +53,7 @@ const siteTitle = "Geometry Paper Digest";
 
   function controls(form: HTMLFormElement) {
     const data = new FormData(form);
-    return { q: String(data.get("q") ?? ""), author: String(data.get("author") ?? "all"), topic: String(data.get("topic") ?? "all"), year: String(data.get("year") ?? "all"), sort: String(data.get("sort") ?? "arxiv-newest") };
+    return { q: String(data.get("q") ?? ""), author: String(data.get("author") ?? "all"), tag: String(data.get("tag") ?? "all"), topic: String(data.get("topic") ?? "all"), year: String(data.get("year") ?? "all"), sort: String(data.get("sort") ?? "arxiv-newest") };
   }
 
   function updatePaperList() {
@@ -65,9 +65,11 @@ const siteTitle = "Geometry Paper Digest";
     const yearControl = form.elements.namedItem("year");
     const topics = topicControl instanceof HTMLSelectElement ? [...topicControl.options].map((option) => option.value) : ["all"];
     const years = yearControl instanceof HTMLSelectElement ? [...yearControl.options].map((option) => option.value) : ["all"];
+    const tagControl = form.elements.namedItem("tag");
+    const tags = tagControl instanceof HTMLSelectElement ? [...tagControl.options].map((option) => option.value) : ["all"];
     const authorOptions = [...form.querySelectorAll<HTMLOptionElement>("#author-options option")];
     const authors = ["all", ...authorOptions.map((option) => option.dataset.authorId ?? "")];
-    const state = readFilterState(location.search, topics, years, authors);
+    const state = readFilterState(location.search, topics, years, authors, tags);
     const authorName = form.elements.namedItem("authorName");
     if (authorName instanceof HTMLInputElement) authorName.value = authorOptions.find((option) => option.dataset.authorId === state.author)?.value ?? "";
     const fixedTopic = list.dataset.fixedTopic;
@@ -77,7 +79,7 @@ const siteTitle = "Geometry Paper Digest";
       if (control instanceof HTMLSelectElement || control instanceof HTMLInputElement) control.value = value ?? "";
     }
     const records = cards.map((element) => ({
-      element, pathname: element.dataset.pathname ?? "", authorIds: (element.dataset.authorIds ?? "").split(" ").filter(Boolean), topic: element.dataset.topic ?? "", arxivSubmitted: element.dataset.arxivSubmitted ?? "", siteDate: element.dataset.siteDate ?? "",
+      element, pathname: element.dataset.pathname ?? "", authorIds: (element.dataset.authorIds ?? "").split(" ").filter(Boolean), tags: (element.dataset.tags ?? "").split(" ").filter(Boolean), topic: element.dataset.topic ?? "", arxivSubmitted: element.dataset.arxivSubmitted ?? "", siteDate: element.dataset.siteDate ?? "",
     }));
     const visible = filterAndSortPapers(records, state, state.q ? matchedPathnames : null);
     cards.forEach((card) => { card.hidden = !visible.some((paper) => paper.element === card); });

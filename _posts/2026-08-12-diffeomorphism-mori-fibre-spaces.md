@@ -10,6 +10,9 @@ arxiv_categories:
   - math.AT
   - math.GT
 topic: algebraic-geometry
+tags:
+  - birational-geometry
+  - fundamental-groups
 arxiv_id: "2604.23180v1"
 arxiv_url: "https://arxiv.org/abs/2604.23180"
 arxiv_submitted: "2026-04-25"

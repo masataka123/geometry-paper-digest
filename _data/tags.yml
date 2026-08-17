@@ -1,0 +1,168 @@
+- id: singularities
+  name: Singularities
+  name_ja: 特異点・特異性
+  description: Singular spaces, pairs, or maps and their singularity classes, local invariants, resolutions, or degenerations
+    are central.
+- id: birational-geometry
+  name: Birational geometry
+  name_ja: 双有理幾何
+  description: Birational models, maps, boundedness, contractions, flops, or birational invariants are central.
+- id: minimal-model-program
+  name: Minimal model program
+  name_ja: 極小モデル・プログラム
+  description: MMP operations or its cone, contraction, abundance, or termination framework drive the result.
+- id: positivity
+  name: Positivity
+  name_ja: 正値性
+  description: Positivity of line/vector bundles, sheaves, divisors, currents, or cohomology classes (ample, nef, big, pseudo-effective,
+    Nakano/Griffiths positivity) is a main question or criterion.
+- id: positive-characteristic
+  name: Positive characteristic
+  name_ja: 正標数
+  description: Positive characteristic, Frobenius methods, F-singularities, F-splitting, or reduction mod $p$ is a central
+    setting or method.
+- id: vector-bundles-sheaves
+  name: Vector bundles and sheaves
+  name_ja: ベクトル束・層
+  description: Bundles, coherent/reflexive sheaves, their moduli/invariants, or bundle-valued equations are principal objects.
+- id: moduli
+  name: Moduli and families
+  name_ja: モジュライ・族
+  description: Construction, geometry, compactification, boundedness, deformation, or variation of moduli spaces/families
+    is central.
+- id: stability
+  name: Stability of bundles and sheaves
+  name_ja: 束・層の安定性
+  description: Slope, Gieseker, Higgs-sheaf, or related stability and Harder–Narasimhan structures are central.
+- id: k-stability
+  name: K-stability
+  name_ja: K安定性
+  description: K-, Ding-, or valuative stability of polarized/log/Fano objects is a main notion or conclusion.
+- id: hermite-einstein-metrics
+  name: Hermite–Einstein metrics
+  name_ja: Hermite–Einstein計量
+  description: Hermite–Einstein/Hermitian–Einstein metrics, HYM equations/flows, or the Kobayashi–Hitchin correspondence are
+    central objects or conclusions.
+- id: kahler-einstein-metrics
+  name: Kähler–Einstein metrics
+  name_ja: ケーラー・アインシュタイン計量
+  description: Existence, uniqueness, degeneration, deformation, or geometry of Kähler–Einstein metrics is central.
+- id: csck-extremal-kahler-metrics
+  name: cscK and extremal Kähler metrics
+  name_ja: cscK・extremal Kähler計量
+  description: Constant-scalar-curvature Kähler, extremal Kähler, weighted cscK/extremal metrics, or their existence, limits,
+    and moduli are central.
+- id: kahler-ricci-flow-solitons
+  name: Kähler–Ricci flow and solitons
+  name_ja: ケーラー・リッチ流・ソリトン
+  description: Include flow-only papers when evolution or long-time behavior is central; soliton-only papers for shrinking,
+    steady, or expanding Kähler–Ricci solitons; and papers centrally relating flow limits to solitons.
+- id: curvature
+  name: Curvature geometry
+  name_ja: 曲率幾何
+  description: Riemannian/Hermitian curvature, Ricci/scalar/sectional curvature, or curvature connections are central hypotheses
+    or conclusions.
+- id: noncompact-kahler-geometry
+  name: Noncompact Kähler geometry
+  name_ja: 非コンパクトKähler幾何
+  description: Completeness, geometry at infinity, volume growth, exhaustion functions, splitting/structure theory, or function
+    theory on a complete noncompact Kähler manifold is essential to the main hypotheses or conclusions.
+- id: metric-limits
+  name: Metric limits and Gromov–Hausdorff geometry
+  name_ja: 距離空間極限・Gromov–Hausdorff幾何
+  description: Gromov–Hausdorff/measured convergence, Ricci limit spaces, metric degeneration or compactness, tangent cones,
+    or Cheeger–Colding-type theory is a central structure.
+- id: fano-varieties
+  name: Fano varieties
+  name_ja: ファノ多様体
+  description: Fano, weak Fano, log Fano, or del Pezzo geometry is a principal object.
+- id: calabi-yau-geometry
+  name: Calabi–Yau geometry
+  name_ja: カラビ・ヤウ幾何
+  description: Calabi–Yau varieties/manifolds, pairs, fibrations, or their defining trivial-canonical geometry are central.
+- id: hyperkahler-geometry
+  name: Hyperkähler geometry
+  name_ja: ハイパーケーラー幾何
+  description: Hyperkähler/irreducible holomorphic symplectic manifolds, fibrations, sheaves, or Torelli phenomena are central.
+- id: hodge-theory
+  name: Hodge theory
+  name_ja: ホッジ理論
+  description: Hodge structures, variations, period/Torelli maps, Hodge bundles, or Hodge-theoretic invariants are central.
+- id: higgs-nonabelian-hodge
+  name: Higgs bundles and nonabelian Hodge theory
+  name_ja: ヒッグス束・非可換ホッジ理論
+  description: Higgs bundles/pairs, Hitchin systems, harmonic bundles, or nonabelian Hodge correspondences are central.
+- id: foliations
+  name: Foliations
+  name_ja: 葉層構造
+  description: Algebraic, holomorphic, or transverse foliations and their singularities/MMP/curvature are principal objects.
+- id: pluripotential-theory
+  name: Pluripotential theory
+  name_ja: 多重ポテンシャル論
+  description: Plurisubharmonic/quasi-psh potentials, non-pluripolar products, complex Monge–Ampère/Hessian equations, or
+    weak positive-current methods are central objects or frameworks.
+- id: monge-ampere-equations
+  name: Complex Monge–Ampère equations
+  name_ja: 複素Monge–Ampère方程式
+  description: Existence, uniqueness, regularity, degeneracy, or Monge–Ampère measures for complex Monge–Ampère equations—or
+    genuinely allied complex Hessian equations—is central, including when solving the equation drives a geometric construction.
+- id: l2-methods
+  name: L² methods
+  name_ja: L²法
+  description: Hörmander-type $L^2$ estimates, $L^2$ solutions of $\bar\partial$, Ohsawa–Takegoshi-type extension, or $L^2$
+    Hodge theory are principal proof methods.
+- id: multiplier-ideals-extension
+  name: Multiplier ideals and extension theorems
+  name_ja: 乗数イデアル・拡張定理
+  description: Multiplier/adjoint ideals, Nadel-type techniques, Ohsawa–Takegoshi extension, extension of pluricanonical sections,
+    or Siu/Takayama/Păun-type extension is a main result or principal proof method.
+- id: complex-analytic-spaces
+  name: Complex analytic spaces
+  name_ja: 複素解析空間
+  description: Complex/normal/singular analytic spaces, modifications, exceptional sets, or coherent analytic sheaves are
+    central objects.
+- id: stein-geometry
+  name: Stein geometry and the Levi problem
+  name_ja: Stein幾何・Levi問題
+  description: Stein manifolds/spaces, the Levi problem, holomorphic convexity, pseudoconvex exhaustion, weakly 1-complete
+    or $q$-complete spaces, Remmert reduction, exceptional sets in a 1-convex setting, or Steinness criteria are central.
+- id: oka-theory
+  name: Oka theory
+  name_ja: Oka理論
+  description: Oka manifolds/principles, ellipticity or subellipticity, holomorphic flexibility, or Oka-type approximation/interpolation
+    are central.
+- id: hyperbolicity
+  name: Hyperbolicity
+  name_ja: 双曲性
+  description: Kobayashi/Brody/Kähler hyperbolicity, hyperbolicity indices, or algebraic/pseudo-hyperbolicity is central.
+- id: fundamental-groups
+  name: Fundamental groups
+  name_ja: 基本群
+  description: Fundamental groups, their algebraic/analytic structure, virtual properties, simple connectedness, or Shafarevich-type
+    constructions are central.
+- id: uniformization
+  name: Uniformization
+  name_ja: 一意化
+  description: A ball/locally symmetric quotient characterization, uniformization theorem, or geometric classification by
+    a universal model is central.
+- id: chern-classes
+  name: Chern classes and Chern numbers
+  name_ja: Chern類・Chern数
+  description: Chern classes/numbers, first or second Chern classes, Miyaoka–Yau-type Chern-number inequalities, orbifold/Q-Chern
+    classes, or a geometric characterization by Chern classes are central invariants or conclusions.
+- id: algebraic-cycles-enumerative
+  name: Algebraic cycles and enumerative geometry
+  name_ja: 代数的サイクル・数え上げ幾何
+  description: Chow/cycle groups, regulators, enumerative invariants, or counting problems are central.
+- id: symplectic-contact-geometry
+  name: Symplectic and contact geometry
+  name_ja: シンプレクティック・接触幾何
+  description: Symplectic/almost-Kähler structures, holomorphic symplectic moduli, or contact manifolds are principal objects.
+- id: cr-geometry
+  name: CR geometry
+  name_ja: CR幾何
+  description: CR structures, invariants, embeddings, normal forms, or pseudohermitian geometry are central.
+- id: toric-geometry
+  name: Toric geometry
+  name_ja: トーリック幾何
+  description: Toric varieties/manifolds, polytopes, fans, or torus-equivariant structures drive the result.

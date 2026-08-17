@@ -7,6 +7,9 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - hodge-theory
+  - fundamental-groups
 arxiv_id: "2603.23467v1"
 arxiv_url: "https://arxiv.org/abs/2603.23467"
 arxiv_submitted: "2026-03-24"

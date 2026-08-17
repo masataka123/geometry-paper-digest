@@ -4,6 +4,10 @@ title: "CscK metrics on birational models of projective varieties"
 title_ja: "射影多様体の双有理モデル上の cscK 計量"
 authors: "Zakarias Sjöström Dyrefelt"
 topic: differential-geometry
+tags:
+  - birational-geometry
+  - csck-extremal-kahler-metrics
+  - curvature
 arxiv_id: "2608.03572v1"
 arxiv_url: "https://arxiv.org/abs/2608.03572"
 arxiv_submitted: "2026-08-04"

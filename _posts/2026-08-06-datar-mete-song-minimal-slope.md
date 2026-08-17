@@ -4,6 +4,10 @@ title: "On the Datar-Mete-Song minimal slope conjecture"
 title_ja: "Datar--Mete--Song の最小 slope 予想について"
 authors: "Xin Fu"
 topic: algebraic-geometry
+tags:
+  - birational-geometry
+  - stability
+  - toric-geometry
 arxiv_id: "2608.01198v2"
 arxiv_url: "https://arxiv.org/abs/2608.01198"
 arxiv_submitted: "2026-08-02"

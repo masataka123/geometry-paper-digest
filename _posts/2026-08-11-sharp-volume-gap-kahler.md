@@ -9,6 +9,10 @@ arxiv_categories:
   - math.AG
   - math.MG
 topic: differential-geometry
+tags:
+  - positivity
+  - curvature
+  - fano-varieties
 arxiv_id: "2608.08193v1"
 arxiv_url: "https://arxiv.org/abs/2608.08193"
 arxiv_submitted: "2026-08-08"

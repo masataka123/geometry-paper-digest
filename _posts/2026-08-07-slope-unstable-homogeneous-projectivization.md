@@ -7,6 +7,9 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
+  - stability
 arxiv_id: "2607.04376v2"
 arxiv_url: "https://arxiv.org/abs/2607.04376"
 arxiv_submitted: "2026-07-05"

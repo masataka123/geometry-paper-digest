@@ -6,6 +6,7 @@ import { load, JSON_SCHEMA } from "js-yaml";
 import MarkdownIt from "markdown-it";
 
 import { paperRouteFromFilename, type PaperRoute } from "./urls";
+import { getTags } from "./tags";
 
 export interface PaperMetadata {
   layout: string;
@@ -15,6 +16,7 @@ export interface PaperMetadata {
   arxivPrimaryCategory: string;
   arxivCategories: string[];
   topic: string;
+  tags: string[];
   arxivId: string;
   arxivUrl: string;
   arxivSubmitted: string;
@@ -60,7 +62,17 @@ function stringList(data: Record<string, unknown>, key: string): string[] {
   return value.map((item) => (item instanceof Date ? item.toISOString().slice(0, 10) : String(item)));
 }
 
-function normalizeMetadata(data: Record<string, unknown>): PaperMetadata {
+async function normalizeMetadata(data: Record<string, unknown>, filename: string): Promise<PaperMetadata> {
+  if (!Object.hasOwn(data, "tags") || !Array.isArray(data.tags)) {
+    throw new Error(`${filename}: tags must be an explicit YAML list`);
+  }
+  const tags = stringList(data, "tags");
+  if (tags.some((tag) => !tag.trim())) throw new Error(`${filename}: tags must contain non-empty strings`);
+  if (tags.length > 5) throw new Error(`${filename}: at most five tags are allowed`);
+  if (new Set(tags).size !== tags.length) throw new Error(`${filename}: duplicate tag ID`);
+  const knownTags = new Set((await getTags()).map((tag) => tag.id));
+  const unknown = tags.filter((tag) => !knownTags.has(tag));
+  if (unknown.length) throw new Error(`${filename}: unknown tag ID(s): ${unknown.join(", ")}`);
   return {
     layout: stringValue(data, "layout"),
     title: stringValue(data, "title"),
@@ -69,6 +81,7 @@ function normalizeMetadata(data: Record<string, unknown>): PaperMetadata {
     arxivPrimaryCategory: stringValue(data, "arxiv_primary_category"),
     arxivCategories: stringList(data, "arxiv_categories"),
     topic: stringValue(data, "topic"),
+    tags,
     arxivId: stringValue(data, "arxiv_id"),
     arxivUrl: stringValue(data, "arxiv_url"),
     arxivSubmitted: stringValue(data, "arxiv_submitted"),
@@ -99,7 +112,7 @@ async function readPaper(postsDirectory: string, filename: string): Promise<Pape
     filename,
     route,
     date: `${route.year}-${route.month}-${route.day}`,
-    metadata: normalizeMetadata(parsed.data),
+    metadata: await normalizeMetadata(parsed.data, filename),
     bodyMarkdown: parsed.content,
     bodyHtml: markdown.render(parsed.content),
   };

@@ -4,6 +4,9 @@ title: "A numerical criterion for complex Hessian type equations on projective m
 title_ja: "射影多様体上の複素 Hessian 型方程式に対する数値的判定法"
 authors: "Gao Chen, Sijie Nie, Yulun Xu"
 topic: differential-geometry
+tags:
+  - pluripotential-theory
+  - monge-ampere-equations
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG

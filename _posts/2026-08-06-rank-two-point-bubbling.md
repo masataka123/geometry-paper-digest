@@ -8,6 +8,10 @@ arxiv_categories:
   - math.DG
   - math.AG
 topic: differential-geometry
+tags:
+  - singularities
+  - vector-bundles-sheaves
+  - hermite-einstein-metrics
 arxiv_id: "2606.25110v1"
 arxiv_url: "https://arxiv.org/abs/2606.25110v1"
 arxiv_submitted: "2026-06-23"

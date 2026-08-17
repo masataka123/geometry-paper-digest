@@ -8,6 +8,12 @@ arxiv_categories:
   - math.DG
   - math.CV
 topic: differential-geometry
+tags:
+  - singularities
+  - kahler-ricci-flow-solitons
+  - curvature
+  - metric-limits
+  - complex-analytic-spaces
 arxiv_id: "2605.25213v1"
 arxiv_url: "https://arxiv.org/abs/2605.25213"
 arxiv_submitted: "2026-05-24"

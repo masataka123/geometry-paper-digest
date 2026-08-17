@@ -9,6 +9,9 @@ arxiv_categories:
   - math.CV
   - math.DG
 topic: algebraic-geometry
+tags:
+  - l2-methods
+  - complex-analytic-spaces
 arxiv_id: "2607.25230v1"
 arxiv_url: "https://arxiv.org/abs/2607.25230v1"
 arxiv_submitted: "2026-07-28"

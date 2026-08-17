@@ -7,6 +7,10 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - positivity
+  - vector-bundles-sheaves
+  - higgs-nonabelian-hodge
 arxiv_id: "2605.22402v1"
 arxiv_url: "https://arxiv.org/abs/2605.22402"
 arxiv_submitted: "2026-05-21"

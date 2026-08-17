@@ -7,6 +7,11 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - singularities
+  - birational-geometry
+  - minimal-model-program
+  - positivity
 arxiv_id: "2607.24986v1"
 arxiv_url: "https://arxiv.org/abs/2607.24986v1"
 arxiv_submitted: "2026-07-27"

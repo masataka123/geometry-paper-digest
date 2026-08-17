@@ -21,6 +21,7 @@ REQUIRED_FIELDS = (
     "authors",
     "arxiv_primary_category",
     "topic",
+    "tags",
     "arxiv_id",
     "arxiv_url",
     "arxiv_submitted",
@@ -240,6 +241,9 @@ def validate_post(path: Path, topics: set[str]) -> tuple[list[ValidationError], 
         errors.append(ValidationError(path, "topic", "一つのtopicを文字列で指定する必要があります"))
     elif "topic" in metadata and topic not in topics:
         errors.append(ValidationError(path, "topic", f"未定義のトピック `{topic}` が指定されています"))
+
+    if "tags" in metadata and not isinstance(metadata["tags"], list):
+        errors.append(ValidationError(path, "tags", "YAMLリストである必要があります"))
 
     primary = metadata.get("arxiv_primary_category")
     if "arxiv_primary_category" in metadata:

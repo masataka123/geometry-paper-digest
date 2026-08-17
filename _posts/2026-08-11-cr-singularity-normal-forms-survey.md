@@ -9,6 +9,9 @@ arxiv_categories:
   - math.CV
   - math.DS
 topic: several-complex-variables
+tags:
+  - singularities
+  - cr-geometry
 arxiv_id: "2605.13157v1"
 arxiv_url: "https://arxiv.org/abs/2605.13157"
 arxiv_submitted: "2026-05-13"

@@ -7,6 +7,11 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - birational-geometry
+  - positivity
+  - uniformization
+  - chern-classes
 arxiv_id: "2602.05509v3"
 arxiv_url: "https://arxiv.org/abs/2602.05509v3"
 arxiv_submitted: "2026-02-05"

@@ -60,5 +60,8 @@ jobs:
       - name: Validate author index and links
         run: npm run test:authors
 
+      - name: Validate tag taxonomy, migration, and pages
+        run: npm run test:tags
+
       - name: Validate Pagefind search index
         run: npm run test:search

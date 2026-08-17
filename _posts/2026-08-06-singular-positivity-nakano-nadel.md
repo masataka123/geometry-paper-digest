@@ -7,6 +7,11 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
 topic: several-complex-variables
+tags:
+  - positivity
+  - vector-bundles-sheaves
+  - l2-methods
+  - multiplier-ideals-extension
 arxiv_id: "2606.16275v1"
 arxiv_url: "https://arxiv.org/abs/2606.16275v1"
 arxiv_submitted: "2026-06-15"

@@ -8,6 +8,8 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags:
+  - kahler-einstein-metrics
 arxiv_id: "2608.13481v1"
 arxiv_url: "https://arxiv.org/abs/2608.13481"
 arxiv_submitted: "2026-08-13"

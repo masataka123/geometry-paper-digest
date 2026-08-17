@@ -18,6 +18,12 @@ Maintain a Japanese research-paper digest site for algebraic geometry, complex g
 7. Obtain the primary category from official arXiv metadata. Do not infer `topic` from content, title, authors, an existing topic, or secondary categories. Reject papers whose primary category is outside `math.AG`, `math.DG`, and `math.CV`, even when they are cross-listed in an allowed category.
 8. Assign exactly one topic from the primary category: `math.AG` → `algebraic-geometry`, `math.DG` → `differential-geometry`, and `math.CV` → `several-complex-variables`. Never list one cross-listed paper in multiple topics.
 
+## Controlled tags
+1. `topic` and `tags` are different axes: topic is exactly one value determined only by the arXiv primary category, while tags are zero to five content descriptors selected only from `_data/tags.yml`.
+2. Every article must explicitly store `tags` as a YAML list; use `tags: []` when no controlled tag is clearly supported.
+3. Select tags only when the Abstract or Introduction clearly establishes the concept as a principal object, problem, result, hypothesis, or method. Never infer tags from the title alone, author, topic, or arXiv category, and never mechanically add related tags.
+4. Do not create a tag during DAILY/BACKLOG article authoring. Taxonomy changes require a separate review against `docs/tag-taxonomy-proposal.md`.
+
 ## Reading and writing each selected paper
 1. Inspect the arXiv Abstract page, exact English title, ordered authors, identifier and version, first-submission and update dates, primary and secondary categories, displayed license, and the PDF's Abstract and Introduction.
 2. Focus on the Introduction's background, prior work, open questions, claimed main results and hypotheses, novelty, applications, and paper organization. Normally do not read the whole paper, proofs, later technical sections, every lemma/theorem/formula/reference, or the full TeX source. Consult only the minimum necessary TeX when the PDF does not make the Introduction boundary, notation, formula, or cited theorem number clear. Never compile or execute downloaded material.

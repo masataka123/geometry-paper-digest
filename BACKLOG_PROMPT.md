@@ -11,6 +11,7 @@
 - `AGENTS.md`
 - `ARTICLE_TEMPLATE.md`
 - `_data/topics.yml`
+- `_data/tags.yml`
 - `scripts/validate_posts.py`
 
 この運用では直近96時間という検索期間を使用しません。`selection-profile.yml` を使った候補探索や、新しい候補論文の検索も行わず、`paper-backlog.yml` に記載されたarXiv番号だけを処理してください。バックログ項目の並び順を変更してはいけません。
@@ -81,6 +82,10 @@ status: skipped
 processed_at: "YYYY-MM-DD"
 note: "対象外のprimary category: math.XX"
 ```
+
+### controlled vocabularyによるtags
+
+各新規記事の `tags` は `_data/tags.yml` のcanonical IDだけから0〜5個選び、YAMLリストとして必ず明示します。tagsはtopicとは別軸です。AbstractまたはIntroductionに主要な対象・問題・結論・手法として明確な根拠がある場合だけ付与し、タイトル、著者、topicから推測・機械付与しません。新tagを通常のバックログ運用で作らず、判断できなければ `tags: []` とします。taxonomy変更は別レビューです。
 
 ## 7. 状態更新
 

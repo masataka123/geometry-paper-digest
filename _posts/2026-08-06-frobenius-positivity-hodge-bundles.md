@@ -7,6 +7,12 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - positivity
+  - positive-characteristic
+  - vector-bundles-sheaves
+  - fano-varieties
+  - hodge-theory
 arxiv_id: "2606.23203v1"
 arxiv_url: "https://arxiv.org/abs/2606.23203v1"
 arxiv_submitted: "2026-06-22"

@@ -7,6 +7,10 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags:
+  - vector-bundles-sheaves
+  - pluripotential-theory
+  - monge-ampere-equations
 arxiv_id: "2605.29258v1"
 arxiv_url: "https://arxiv.org/abs/2605.29258v1"
 arxiv_submitted: "2026-05-28"

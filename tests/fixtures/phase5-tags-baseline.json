@@ -1,0 +1,1060 @@
+{
+  "version": 1,
+  "taxonomy_ids": [
+    "singularities",
+    "birational-geometry",
+    "minimal-model-program",
+    "positivity",
+    "positive-characteristic",
+    "vector-bundles-sheaves",
+    "moduli",
+    "stability",
+    "k-stability",
+    "hermite-einstein-metrics",
+    "kahler-einstein-metrics",
+    "csck-extremal-kahler-metrics",
+    "kahler-ricci-flow-solitons",
+    "curvature",
+    "noncompact-kahler-geometry",
+    "metric-limits",
+    "fano-varieties",
+    "calabi-yau-geometry",
+    "hyperkahler-geometry",
+    "hodge-theory",
+    "higgs-nonabelian-hodge",
+    "foliations",
+    "pluripotential-theory",
+    "monge-ampere-equations",
+    "l2-methods",
+    "multiplier-ideals-extension",
+    "complex-analytic-spaces",
+    "stein-geometry",
+    "oka-theory",
+    "hyperbolicity",
+    "fundamental-groups",
+    "uniformization",
+    "chern-classes",
+    "algebraic-cycles-enumerative",
+    "symplectic-contact-geometry",
+    "cr-geometry",
+    "toric-geometry"
+  ],
+  "articles": [
+    {
+      "filename": "2026-08-06-analytic-bertini-local.md",
+      "tags": [
+        "complex-analytic-spaces",
+        "l2-methods"
+      ]
+    },
+    {
+      "filename": "2026-08-06-asymptotic-cohomological-functions.md",
+      "tags": [
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-ball-quotient-stacks.md",
+      "tags": [
+        "higgs-nonabelian-hodge",
+        "stability",
+        "uniformization"
+      ]
+    },
+    {
+      "filename": "2026-08-06-bondal-conjecture-dimension-five.md",
+      "tags": [
+        "fano-varieties",
+        "foliations",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-correspondences-hyperkahler-large-picard.md",
+      "tags": [
+        "hodge-theory",
+        "hyperkahler-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-06-csck-birational-models.md",
+      "tags": [
+        "birational-geometry",
+        "csck-extremal-kahler-metrics",
+        "curvature"
+      ]
+    },
+    {
+      "filename": "2026-08-06-curvature-kahler-toric-manifolds.md",
+      "tags": [
+        "csck-extremal-kahler-metrics",
+        "curvature",
+        "toric-geometry",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-datar-mete-song-minimal-slope.md",
+      "tags": [
+        "birational-geometry",
+        "stability",
+        "toric-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-06-extension-kahler-currents.md",
+      "tags": [
+        "pluripotential-theory"
+      ]
+    },
+    {
+      "filename": "2026-08-06-fano-indices-weighted-projective-spaces.md",
+      "tags": [
+        "fano-varieties",
+        "singularities",
+        "toric-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-06-first-integrals-complex-analytic-germs.md",
+      "tags": [
+        "complex-analytic-spaces",
+        "foliations",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-frobenius-positivity-hodge-bundles.md",
+      "tags": [
+        "fano-varieties",
+        "hodge-theory",
+        "positive-characteristic",
+        "positivity",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-hitchin-morphism-classical-groups.md",
+      "tags": [
+        "symplectic-contact-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-06-holomorphic-one-forms-geometry.md",
+      "tags": []
+    },
+    {
+      "filename": "2026-08-06-hym-iteration-stable-bundles.md",
+      "tags": [
+        "hermite-einstein-metrics",
+        "higgs-nonabelian-hodge",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-intermediate-pseudoconvexity.md",
+      "tags": [
+        "stein-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-06-kahler-hyperbolicity-modulus.md",
+      "tags": [
+        "hyperbolicity"
+      ]
+    },
+    {
+      "filename": "2026-08-06-kahler-mmp-base-point-free.md",
+      "tags": [
+        "birational-geometry",
+        "minimal-model-program",
+        "positivity",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-06-kahler-thresholds.md",
+      "tags": [
+        "hodge-theory"
+      ]
+    },
+    {
+      "filename": "2026-08-06-klt-generalized-pair-canonical-ring.md",
+      "tags": [
+        "positivity",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-06-linearisation-finite-etale-cover.md",
+      "tags": []
+    },
+    {
+      "filename": "2026-08-06-local-third-chern-classes.md",
+      "tags": [
+        "chern-classes",
+        "moduli",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-log-calabi-yau-fibration-moduli.md",
+      "tags": [
+        "moduli",
+        "singularities",
+        "stability"
+      ]
+    },
+    {
+      "filename": "2026-08-06-murphys-law-nonabelian-hodge.md",
+      "tags": [
+        "hodge-theory"
+      ]
+    },
+    {
+      "filename": "2026-08-06-noncollapsed-csck-surfaces.md",
+      "tags": [
+        "csck-extremal-kahler-metrics",
+        "curvature",
+        "metric-limits",
+        "moduli"
+      ]
+    },
+    {
+      "filename": "2026-08-06-nonembeddable-torus-paneitz.md",
+      "tags": [
+        "cr-geometry",
+        "curvature"
+      ]
+    },
+    {
+      "filename": "2026-08-06-numerical-criterion-complex-hessian.md",
+      "tags": [
+        "monge-ampere-equations",
+        "pluripotential-theory"
+      ]
+    },
+    {
+      "filename": "2026-08-06-oka-complements-cubic-hypersurfaces.md",
+      "tags": [
+        "oka-theory"
+      ]
+    },
+    {
+      "filename": "2026-08-06-orbifold-uniformization-parabolic-higgs.md",
+      "tags": [
+        "higgs-nonabelian-hodge",
+        "hodge-theory",
+        "hyperbolicity",
+        "uniformization",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-positive-hsc-rational-surfaces.md",
+      "tags": [
+        "curvature",
+        "positivity",
+        "toric-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-06-prescribed-hym-flow-i.md",
+      "tags": [
+        "hermite-einstein-metrics",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-prescribed-hym-flow-ii.md",
+      "tags": [
+        "curvature",
+        "fano-varieties",
+        "hermite-einstein-metrics",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-projective-foliations-unique-singular-point.md",
+      "tags": [
+        "foliations",
+        "singularities",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-quantitative-hyperbolicity-indices.md",
+      "tags": [
+        "hyperbolicity",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-06-rank-two-point-bubbling.md",
+      "tags": [
+        "hermite-einstein-metrics",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-ricci-virtual-abelianness.md",
+      "tags": [
+        "curvature",
+        "fundamental-groups"
+      ]
+    },
+    {
+      "filename": "2026-08-06-scalar-curvature-kahler-ricci-flow.md",
+      "tags": [
+        "curvature",
+        "kahler-ricci-flow-solitons",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-06-secondary-characteristic-classes-cr.md",
+      "tags": [
+        "chern-classes",
+        "cr-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-06-singular-positivity-nakano-nadel.md",
+      "tags": [
+        "l2-methods",
+        "multiplier-ideals-extension",
+        "positivity",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-special-fujita-ytd.md",
+      "tags": [
+        "k-stability",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-06-stable-degeneration-kaledin.md",
+      "tags": [
+        "singularities",
+        "symplectic-contact-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-06-steenbrink-big-line-bundles.md",
+      "tags": [
+        "positivity",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-top-yau-yang-conjecture.md",
+      "tags": [
+        "curvature",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-06-twisted-hermitian-einstein.md",
+      "tags": [
+        "hermite-einstein-metrics",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-ulrich-exterior-powers-tangent-bundle.md",
+      "tags": [
+        "fano-varieties",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-06-zeros-one-forms-algebraic-maps.md",
+      "tags": []
+    },
+    {
+      "filename": "2026-08-07-adjoint-foliated-k-stability.md",
+      "tags": [
+        "fano-varieties",
+        "k-stability",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-07-arakelov-inequality-pairs.md",
+      "tags": [
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-07-balanced-lck-holomorphic-sectional-curvature.md",
+      "tags": [
+        "curvature"
+      ]
+    },
+    {
+      "filename": "2026-08-07-bergman-metric-exponentially-flat.md",
+      "tags": [
+        "curvature"
+      ]
+    },
+    {
+      "filename": "2026-08-07-foliations-dm-stack-positivity.md",
+      "tags": [
+        "moduli",
+        "positivity",
+        "singularities",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-07-gma-dhym-boundary-weak-solutions.md",
+      "tags": [
+        "monge-ampere-equations",
+        "pluripotential-theory",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-07-higgs-grassmannians.md",
+      "tags": [
+        "higgs-nonabelian-hodge",
+        "stability"
+      ]
+    },
+    {
+      "filename": "2026-08-07-higgs-seshadri-constants.md",
+      "tags": [
+        "higgs-nonabelian-hodge",
+        "positivity",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-07-ind-banach-analytification.md",
+      "tags": [
+        "complex-analytic-spaces"
+      ]
+    },
+    {
+      "filename": "2026-08-07-lck-levi-civita-bismut-curvature.md",
+      "tags": [
+        "curvature"
+      ]
+    },
+    {
+      "filename": "2026-08-07-minimal-rational-curve-neighborhoods.md",
+      "tags": []
+    },
+    {
+      "filename": "2026-08-07-positivity-higgs-vector-bundles.md",
+      "tags": [
+        "higgs-nonabelian-hodge",
+        "positivity",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-07-singular-kahler-ricci-shrinkers.md",
+      "tags": [
+        "complex-analytic-spaces",
+        "curvature",
+        "kahler-ricci-flow-solitons",
+        "metric-limits",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-07-skoda-division-singular-metrics.md",
+      "tags": [
+        "curvature",
+        "l2-methods",
+        "multiplier-ideals-extension"
+      ]
+    },
+    {
+      "filename": "2026-08-07-slope-unstable-homogeneous-projectivization.md",
+      "tags": [
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-07-stability-kernel-bundles-projective-bundles.md",
+      "tags": [
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-10-chern-classes-laughlin-bundles.md",
+      "tags": [
+        "chern-classes",
+        "curvature",
+        "moduli",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-10-enumerative-geometry-ksba.md",
+      "tags": [
+        "algebraic-cycles-enumerative",
+        "moduli"
+      ]
+    },
+    {
+      "filename": "2026-08-10-holomorphic-maps-riemann-surfaces.md",
+      "tags": []
+    },
+    {
+      "filename": "2026-08-10-kahler-stability-calabi-yau.md",
+      "tags": [
+        "calabi-yau-geometry",
+        "hyperkahler-geometry",
+        "moduli",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-10-optimal-bend-break-foliations.md",
+      "tags": [
+        "foliations",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-11-almost-kahler-chi-y-genus.md",
+      "tags": [
+        "curvature",
+        "symplectic-contact-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-11-bertini-chevalley.md",
+      "tags": []
+    },
+    {
+      "filename": "2026-08-11-condensed-complex-geometry.md",
+      "tags": [
+        "complex-analytic-spaces"
+      ]
+    },
+    {
+      "filename": "2026-08-11-cr-singularity-normal-forms-survey.md",
+      "tags": [
+        "cr-geometry",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-11-effective-foliations-complete-intersection-surfaces.md",
+      "tags": [
+        "foliations",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-11-essential-p-dimension-chern-numbers.md",
+      "tags": [
+        "chern-classes"
+      ]
+    },
+    {
+      "filename": "2026-08-11-fino-vezzoni-homogeneous.md",
+      "tags": []
+    },
+    {
+      "filename": "2026-08-11-foliated-minimal-models-flops.md",
+      "tags": [
+        "birational-geometry",
+        "foliations",
+        "minimal-model-program",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-11-geometric-shafarevich-boundedness.md",
+      "tags": [
+        "fundamental-groups",
+        "higgs-nonabelian-hodge",
+        "minimal-model-program",
+        "moduli",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-11-grauert-tubes-affineness.md",
+      "tags": [
+        "curvature",
+        "stein-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-11-k-stability-complete-intersections.md",
+      "tags": [
+        "fano-varieties",
+        "k-stability"
+      ]
+    },
+    {
+      "filename": "2026-08-11-kahler-slc-abundance.md",
+      "tags": [
+        "positivity",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-11-multiplier-submodule-sheaves.md",
+      "tags": [
+        "l2-methods",
+        "multiplier-ideals-extension",
+        "positivity",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-11-nef-non-semipositive-hopf.md",
+      "tags": [
+        "curvature",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-11-pseudo-hyperbolicity-horikawa.md",
+      "tags": [
+        "hyperbolicity"
+      ]
+    },
+    {
+      "filename": "2026-08-11-quasi-projective-klt-moduli.md",
+      "tags": [
+        "minimal-model-program",
+        "moduli",
+        "positivity",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-11-s-manifolds-transverse-ke.md",
+      "tags": [
+        "curvature",
+        "kahler-einstein-metrics"
+      ]
+    },
+    {
+      "filename": "2026-08-11-sharp-volume-gap-kahler.md",
+      "tags": [
+        "curvature",
+        "fano-varieties",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-11-special-ulrich-bundles-burniat.md",
+      "tags": [
+        "positivity",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-11-torelli-hyperkahler-quotients.md",
+      "tags": [
+        "hyperkahler-geometry",
+        "moduli",
+        "toric-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-11-weighted-extremal-kahler-metrics.md",
+      "tags": [
+        "csck-extremal-kahler-metrics",
+        "curvature",
+        "kahler-ricci-flow-solitons"
+      ]
+    },
+    {
+      "filename": "2026-08-12-associated-bundles-weak-beauville-bogomolov.md",
+      "tags": [
+        "positivity",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-12-birational-boundedness-stable-families.md",
+      "tags": [
+        "birational-geometry",
+        "foliations",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-12-compact-kahler-contact-manifolds.md",
+      "tags": [
+        "symplectic-contact-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-12-compactness-rigidity-kahler-ricci-shrinkers.md",
+      "tags": [
+        "curvature",
+        "fano-varieties",
+        "kahler-ricci-flow-solitons",
+        "noncompact-kahler-geometry",
+        "toric-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-12-diffeomorphism-mori-fibre-spaces.md",
+      "tags": [
+        "birational-geometry",
+        "fundamental-groups"
+      ]
+    },
+    {
+      "filename": "2026-08-12-hodge-k-stability-symmetric-hypersurfaces.md",
+      "tags": [
+        "hodge-theory",
+        "k-stability",
+        "moduli"
+      ]
+    },
+    {
+      "filename": "2026-08-12-moduli-higgs-pairs.md",
+      "tags": [
+        "higgs-nonabelian-hodge",
+        "moduli",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-13-canonical-extension-regulators.md",
+      "tags": [
+        "algebraic-cycles-enumerative"
+      ]
+    },
+    {
+      "filename": "2026-08-13-frobenius-tschirnhausen-ampleness.md",
+      "tags": [
+        "positive-characteristic",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-13-symplectic-higgs-moduli.md",
+      "tags": [
+        "higgs-nonabelian-hodge",
+        "moduli",
+        "symplectic-contact-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-14-anticanonical-mmp-pklt.md",
+      "tags": [
+        "birational-geometry",
+        "minimal-model-program",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-14-btp-chern-holomorphic-curvature.md",
+      "tags": [
+        "chern-classes",
+        "curvature"
+      ]
+    },
+    {
+      "filename": "2026-08-14-calabi-yau-topological-obstructions.md",
+      "tags": [
+        "calabi-yau-geometry",
+        "curvature",
+        "fano-varieties",
+        "hyperbolicity",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-14-dhym-large-scaling.md",
+      "tags": [
+        "stability",
+        "toric-geometry",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-14-entropy-achirality-automorphisms.md",
+      "tags": [
+        "symplectic-contact-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-14-foliated-mmp-survey.md",
+      "tags": [
+        "foliations",
+        "minimal-model-program",
+        "positivity",
+        "singularities",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-14-harder-narasimhan-direct-images.md",
+      "tags": [
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-14-holomorphic-approximation-diffeomorphisms.md",
+      "tags": [
+        "oka-theory"
+      ]
+    },
+    {
+      "filename": "2026-08-14-lefschetz-higgs-elliptic-surfaces.md",
+      "tags": [
+        "higgs-nonabelian-hodge",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-14-log-conformal-projective-manifolds.md",
+      "tags": [
+        "birational-geometry",
+        "positivity",
+        "uniformization"
+      ]
+    },
+    {
+      "filename": "2026-08-14-nonintegrable-kahler-einstein-deformations.md",
+      "tags": [
+        "kahler-einstein-metrics"
+      ]
+    },
+    {
+      "filename": "2026-08-14-prescribed-hym-higgs-ii.md",
+      "tags": [
+        "curvature",
+        "hermite-einstein-metrics",
+        "higgs-nonabelian-hodge",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-14-products-fano-picard-one.md",
+      "tags": [
+        "fano-varieties"
+      ]
+    },
+    {
+      "filename": "2026-08-14-ricci-forms-noncompact.md",
+      "tags": [
+        "curvature",
+        "kahler-einstein-metrics",
+        "noncompact-kahler-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-14-uniform-weak-rc-positivity.md",
+      "tags": [
+        "curvature",
+        "positivity",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-14-uniformisation-positive-sectional-curvature.md",
+      "tags": [
+        "curvature",
+        "positivity",
+        "uniformization"
+      ]
+    },
+    {
+      "filename": "2026-08-15-algebraic-cycles-fano-genus-7.md",
+      "tags": [
+        "algebraic-cycles-enumerative",
+        "fano-varieties"
+      ]
+    },
+    {
+      "filename": "2026-08-15-ball-quotients-higher-chern.md",
+      "tags": [
+        "birational-geometry",
+        "chern-classes",
+        "positivity",
+        "uniformization"
+      ]
+    },
+    {
+      "filename": "2026-08-15-chi-y-chern-signature.md",
+      "tags": [
+        "chern-classes",
+        "positivity",
+        "symplectic-contact-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-15-fundamental-groups-nef-anticanonical.md",
+      "tags": [
+        "fundamental-groups",
+        "positivity",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-15-hyperkahler-fibrations-sheaves-categories.md",
+      "tags": [
+        "moduli",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-15-kobayashi-hitchin-nef-big.md",
+      "tags": [
+        "hermite-einstein-metrics",
+        "higgs-nonabelian-hodge",
+        "positivity",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-15-kodaira-iitaka-multiplicity.md",
+      "tags": []
+    },
+    {
+      "filename": "2026-08-15-nonproper-hodge-shafarevich.md",
+      "tags": [
+        "fundamental-groups",
+        "hodge-theory"
+      ]
+    },
+    {
+      "filename": "2026-08-15-simplicity-hodge-bundle.md",
+      "tags": [
+        "hodge-theory",
+        "moduli"
+      ]
+    },
+    {
+      "filename": "2026-08-15-spectral-simply-connectedness.md",
+      "tags": [
+        "curvature",
+        "fundamental-groups",
+        "positivity"
+      ]
+    },
+    {
+      "filename": "2026-08-15-twisted-hyperholomorphic-sheaves.md",
+      "tags": [
+        "birational-geometry",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-15-valuative-tangent-cones.md",
+      "tags": [
+        "singularities",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    },
+    {
+      "filename": "2026-08-17-alpha-spectrum-toric-fano.md",
+      "tags": [
+        "fano-varieties",
+        "toric-geometry"
+      ]
+    },
+    {
+      "filename": "2026-08-17-cone-theorem-effective-fourfolds.md",
+      "tags": [
+        "birational-geometry",
+        "positivity",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-17-fino-vezzoni-balanced-btp.md",
+      "tags": [
+        "curvature"
+      ]
+    },
+    {
+      "filename": "2026-08-17-k-stability-singular-del-pezzo.md",
+      "tags": [
+        "k-stability",
+        "singularities"
+      ]
+    },
+    {
+      "filename": "2026-08-17-rank-two-weak-fano-bundles-q4.md",
+      "tags": [
+        "fano-varieties",
+        "stability",
+        "vector-bundles-sheaves"
+      ]
+    }
+  ],
+  "summary": {
+    "article_count": 131,
+    "zero_tag_count": 8,
+    "total_assignments": 325,
+    "tag_frequencies": {
+      "singularities": 25,
+      "birational-geometry": 11,
+      "minimal-model-program": 6,
+      "positivity": 32,
+      "positive-characteristic": 2,
+      "vector-bundles-sheaves": 47,
+      "moduli": 15,
+      "stability": 18,
+      "k-stability": 5,
+      "hermite-einstein-metrics": 7,
+      "kahler-einstein-metrics": 3,
+      "csck-extremal-kahler-metrics": 4,
+      "kahler-ricci-flow-solitons": 4,
+      "curvature": 30,
+      "noncompact-kahler-geometry": 2,
+      "metric-limits": 2,
+      "fano-varieties": 14,
+      "calabi-yau-geometry": 2,
+      "hyperkahler-geometry": 3,
+      "hodge-theory": 8,
+      "higgs-nonabelian-hodge": 12,
+      "foliations": 8,
+      "pluripotential-theory": 3,
+      "monge-ampere-equations": 2,
+      "l2-methods": 4,
+      "multiplier-ideals-extension": 3,
+      "complex-analytic-spaces": 5,
+      "stein-geometry": 2,
+      "oka-theory": 2,
+      "hyperbolicity": 5,
+      "fundamental-groups": 6,
+      "uniformization": 5,
+      "chern-classes": 7,
+      "algebraic-cycles-enumerative": 3,
+      "symplectic-contact-geometry": 7,
+      "cr-geometry": 3,
+      "toric-geometry": 8
+    }
+  }
+}

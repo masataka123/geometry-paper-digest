@@ -4,6 +4,8 @@ title: "On the extension of Kähler currents on compact complex manifolds"
 title_ja: "コンパクト複素多様体上の Kähler current の延長について"
 authors: "Jiafu Ning, Kai Pang, Haoyuan Sun, Zhiwei Wang, Xiangyu Zhou"
 topic: several-complex-variables
+tags:
+  - pluripotential-theory
 arxiv_id: "2608.01330v1"
 arxiv_url: "https://arxiv.org/abs/2608.01330"
 arxiv_submitted: "2026-08-02"

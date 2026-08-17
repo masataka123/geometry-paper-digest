@@ -7,6 +7,7 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
 topic: differential-geometry
+tags: []
 arxiv_id: "2608.08665v1"
 arxiv_url: "https://arxiv.org/abs/2608.08665"
 arxiv_submitted: "2026-08-09"

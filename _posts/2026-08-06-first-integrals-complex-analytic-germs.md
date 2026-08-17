@@ -8,6 +8,10 @@ arxiv_categories:
   - math.CV
   - math.GT
 topic: several-complex-variables
+tags:
+  - vector-bundles-sheaves
+  - foliations
+  - complex-analytic-spaces
 arxiv_id: "2608.06491v1"
 arxiv_url: "https://arxiv.org/abs/2608.06491v1"
 arxiv_submitted: "2026-08-06"

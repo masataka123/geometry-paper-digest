@@ -32,12 +32,18 @@ async function results(query) {
   return Promise.all(response.results.map((result) => result.data()));
 }
 
+const allResults = await results(null);
+assert.equal(allResults.length, posts.length, "Pagefind must contain exactly one result per paper and no tag/author/list pages");
+assert.deepEqual(new Set(allResults.map((result) => result.meta.pathname)), new Set(posts.map((post) => post.pathname)), "Pagefind result paths differ from paper paths");
+
 for (const post of posts) {
   const matches = await results(String(post.data.arxiv_id).replace(/v\d+$/, ""));
   const paths = matches.map((match) => match.meta.pathname);
   assert(paths.includes(post.pathname), `${post.filename}: arXiv ID did not find its paper`);
   assert.equal(paths.filter((path) => path === post.pathname).length, 1, `${post.filename}: paper is duplicated in results`);
   assert(matches.some((match) => match.url === `${baseUrl.replace(/\/$/, "")}${post.pathname}`), `${post.filename}: result URL is not base-aware`);
+  const ownResult = matches.find((match) => match.meta.pathname === post.pathname);
+  assert.equal(ownResult?.meta.tag_ids ?? "", (post.data.tags ?? []).join(" "), `${post.filename}: Pagefind tag_ids metadata mismatch`);
 }
 
 const cases = [
@@ -49,6 +55,8 @@ const cases = [
   ["Japanese summary", "多重劣調和関数の乗数イデアル", "/papers/2026/08/06/analytic-bertini-local/"],
   ["Japanese Markdown body", "例外パラメータ", "/papers/2026/08/06/analytic-bertini-local/"],
   ["arXiv ID", "2608.14115", "/papers/2026/08/17/alpha-spectrum-toric-fano/"],
+  ["tag display name", "Chern類・Chern数", "/papers/2026/08/06/local-third-chern-classes/"],
+  ["English tag display name", "Chern classes and Chern numbers", "/papers/2026/08/06/local-third-chern-classes/"],
 ];
 for (const [label, query, pathname] of cases) {
   const matches = await results(query);

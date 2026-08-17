@@ -9,6 +9,10 @@ arxiv_categories:
   - math.CV
   - math.DG
 topic: algebraic-geometry
+tags:
+  - singularities
+  - positivity
+  - fundamental-groups
 arxiv_id: "2602.07420v1"
 arxiv_url: "https://arxiv.org/abs/2602.07420v1"
 arxiv_submitted: "2026-02-07"

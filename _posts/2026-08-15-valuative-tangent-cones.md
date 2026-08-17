@@ -8,6 +8,10 @@ arxiv_categories:
   - math.AG
   - math.DG
 topic: algebraic-geometry
+tags:
+  - singularities
+  - vector-bundles-sheaves
+  - stability
 arxiv_id: "2602.01112v1"
 arxiv_url: "https://arxiv.org/abs/2602.01112v1"
 arxiv_submitted: "2026-02-01"

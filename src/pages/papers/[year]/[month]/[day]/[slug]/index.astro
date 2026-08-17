@@ -6,27 +6,29 @@ import { getPapers, type Paper } from "../../../../../../lib/posts";
 import { getTopics, type Topic } from "../../../../../../lib/topics";
 import { withBase } from "../../../../../../lib/urls";
 import { getAuthorIndex, type PaperAuthor } from "../../../../../../lib/authors";
+import { resolveTagIds, tagUrl, type Tag } from "../../../../../../lib/tags";
 
 interface Props {
   paper: Paper;
   topics: Topic[];
   authors: PaperAuthor[];
+  tags: Tag[];
 }
 
 export async function getStaticPaths() {
   const [papers, topics, authorIndex] = await Promise.all([getPapers(), getTopics(), getAuthorIndex()]);
-  return papers.map((paper) => ({
+  return Promise.all(papers.map(async (paper) => ({
     params: {
       year: paper.route.year,
       month: paper.route.month,
       day: paper.route.day,
       slug: paper.route.slug,
     },
-    props: { paper, topics, authors: authorIndex.byPaper.get(paper.filename) ?? [] },
-  }));
+    props: { paper, topics, authors: authorIndex.byPaper.get(paper.filename) ?? [], tags: await resolveTagIds(paper.metadata.tags) },
+  })));
 }
 
-const { paper, topics, authors } = Astro.props;
+const { paper, topics, authors, tags } = Astro.props;
 const topic = topics.find((candidate) => candidate.slug === paper.metadata.topic);
 if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.filename}`);
 ---
@@ -41,6 +43,8 @@ if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.fi
       <p class="authors" data-pagefind-meta="authors">{authors.map((author, index) => <>{index > 0 && ", "}<a href={withBase(`/authors/${author.id}/`)}>{author.displayName}</a></>)}</p>
       <span hidden>{paper.metadata.authors}</span>
       <span class="pagefind-only" data-pagefind-meta="author_ids">{authors.map(({id}) => id).join(" ")}</span>
+      <span class="pagefind-only" data-pagefind-meta="tag_ids">{paper.metadata.tags.join(" ")}</span>
+      <span class="pagefind-only">{tags.flatMap((tag) => [tag.name, tag.nameJa]).join(" ")}</span>
       <Abstracts metadata={paper.metadata} />
       <p class="pagefind-only">{paper.metadata.summary}</p>
       <dl class="paper-meta">
@@ -48,6 +52,7 @@ if (!topic) throw new Error(`Unknown topic ${paper.metadata.topic} in ${paper.fi
         {paper.metadata.arxivSubmitted && <div><dt>初回投稿日</dt><dd>{paper.metadata.arxivSubmitted}</dd></div>}
         {paper.metadata.licenseName && <div><dt>原論文のライセンス</dt><dd>{paper.metadata.licenseUrl ? <a href={paper.metadata.licenseUrl}>{paper.metadata.licenseName}</a> : paper.metadata.licenseName}</dd></div>}
         {paper.metadata.articleMode && <div><dt>掲載形式</dt><dd>{paper.metadata.articleMode}</dd></div>}
+        {tags.length > 0 && <div><dt>タグ</dt><dd><ul class="tag-chips">{tags.map((tag) => <li><a href={tagUrl(tag.id)}>{tag.nameJa}</a></li>)}</ul></dd></div>}
       </dl>
       <span class="pagefind-only" data-pagefind-meta="topic">{paper.metadata.topic}</span>
       <span class="pagefind-only" data-pagefind-meta="year">{paper.route.year}</span>

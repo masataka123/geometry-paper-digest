@@ -9,6 +9,10 @@ arxiv_categories:
   - math.AG
   - math.SG
 topic: algebraic-geometry
+tags:
+  - moduli
+  - higgs-nonabelian-hodge
+  - symplectic-contact-geometry
 arxiv_id: "2608.12093v1"
 arxiv_url: "https://arxiv.org/abs/2608.12093"
 arxiv_submitted: "2026-08-12"

@@ -7,6 +7,12 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
+  - moduli
+  - stability
+  - calabi-yau-geometry
+  - hyperkahler-geometry
 arxiv_id: "2605.18065v1"
 arxiv_url: "https://arxiv.org/abs/2605.18065v1"
 arxiv_submitted: "2026-05-18"

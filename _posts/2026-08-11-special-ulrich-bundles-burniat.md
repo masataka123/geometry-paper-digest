@@ -8,6 +8,9 @@ arxiv_categories:
   - math.AG
   - math.AC
 topic: algebraic-geometry
+tags:
+  - positivity
+  - vector-bundles-sheaves
 arxiv_id: "2608.09901v1"
 arxiv_url: "https://arxiv.org/abs/2608.09901"
 arxiv_submitted: "2026-08-10"

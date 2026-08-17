@@ -8,6 +8,8 @@ arxiv_categories:
   - math.CV
   - math.DG
 topic: several-complex-variables
+tags:
+  - stein-geometry
 arxiv_id: "2606.15533v1"
 arxiv_url: "https://arxiv.org/abs/2606.15533v1"
 arxiv_submitted: "2026-06-14"

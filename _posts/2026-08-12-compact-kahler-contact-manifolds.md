@@ -9,6 +9,8 @@ arxiv_categories:
   - math.AG
   - math.CV
 topic: algebraic-geometry
+tags:
+  - symplectic-contact-geometry
 arxiv_id: "2604.26425v1"
 arxiv_url: "https://arxiv.org/abs/2604.26425"
 arxiv_submitted: "2026-04-29"

@@ -7,6 +7,10 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
 topic: algebraic-geometry
+tags:
+  - vector-bundles-sheaves
+  - stability
+  - higgs-nonabelian-hodge
 arxiv_id: "2412.00439v4"
 arxiv_url: "https://arxiv.org/abs/2412.00439"
 arxiv_submitted: "2024-11-30"

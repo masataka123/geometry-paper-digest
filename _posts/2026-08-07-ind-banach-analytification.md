@@ -7,6 +7,8 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
 topic: several-complex-variables
+tags:
+  - complex-analytic-spaces
 arxiv_id: "2605.27961v1"
 arxiv_url: "https://arxiv.org/abs/2605.27961v1"
 arxiv_submitted: "2026-05-27"
