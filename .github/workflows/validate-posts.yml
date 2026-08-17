@@ -48,8 +48,14 @@ jobs:
       - name: Check Astro compatibility layer
         run: npm run check
 
+      - name: Run JavaScript unit tests
+        run: npm run test:js
+
       - name: Build Astro compatibility site
-        run: npm run build
+        run: npm run build:search
 
       - name: Validate Astro legacy URLs and content
         run: npm run test:build
+
+      - name: Validate Pagefind search index
+        run: npm run test:search

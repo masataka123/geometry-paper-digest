@@ -24,6 +24,7 @@ exclude:
   - package-lock.json
   - astro.config.mjs
   - tsconfig.json
+  - pagefind.yml
   - node_modules
   - .astro
   - dist

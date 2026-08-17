@@ -6,7 +6,7 @@ import { withBase } from "../lib/urls";
 interface Props { paper: Paper; topic?: Topic; }
 const { paper, topic } = Astro.props;
 ---
-<article class="paper-card" data-paper data-topic={paper.metadata.topic} data-arxiv-submitted={paper.metadata.arxivSubmitted} data-site-date={paper.date}>
+<article class="paper-card" data-paper data-pathname={paper.route.pathname} data-topic={paper.metadata.topic} data-arxiv-submitted={paper.metadata.arxivSubmitted} data-site-date={paper.date}>
   <div class="paper-card__meta">
     <span>{paper.metadata.arxivSubmitted}</span>
     <span>{topic?.title ?? paper.metadata.topic}</span>
