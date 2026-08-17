@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PaperList from "../../components/PaperList.astro";
+import { getAuthorIndex, type Author, type PaperAuthor } from "../../lib/authors";
+import { getTopics, type Topic } from "../../lib/topics";
+interface Props { author: Author; topics: Topic[]; byPaper: Map<string, PaperAuthor[]>; }
+export async function getStaticPaths() {
+  const [{ authors, byPaper }, topics] = await Promise.all([getAuthorIndex(), getTopics()]);
+  return authors.map((author) => ({ params: { author: author.id }, props: { author, topics, byPaper } }));
+}
+const { author, topics, byPaper } = Astro.props;
+const papers = author.papers.toSorted((a, b) => b.metadata.arxivSubmitted.localeCompare(a.metadata.arxivSubmitted));
+---
+<BaseLayout title={author.displayName}>
+  <header class="site-header"><p class="eyebrow">AUTHOR</p><h1>{author.displayName}</h1><p>{author.paperCount}件の論文</p></header>
+  <PaperList papers={papers} topics={topics} authorsByPaper={byPaper} />
+</BaseLayout>

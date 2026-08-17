@@ -1,10 +1,12 @@
 ---
 import type { Topic } from "../lib/topics";
-interface Props { topics: Topic[]; years: string[]; showTopic?: boolean; }
-const { topics, years, showTopic = true } = Astro.props;
+import type { Author } from "../lib/authors";
+interface Props { topics: Topic[]; years: string[]; authors?: Author[]; showTopic?: boolean; showAuthor?: boolean; }
+const { topics, years, authors = [], showTopic = true, showAuthor = true } = Astro.props;
 ---
 <form class="filter-bar" data-filter-bar aria-label="論文一覧の絞り込み">
   <label class="filter-bar__search">論文を検索<input type="search" name="q" placeholder="タイトル、著者、研究内容、arXiv ID" autocomplete="off" /></label>
+  {showAuthor && <label>著者<input type="search" name="authorName" list="author-options" placeholder="著者名を入力" autocomplete="off" /><input type="hidden" name="author" value="all" /><datalist id="author-options">{authors.map((author) => <option value={author.displayName} data-author-id={author.id} />)}</datalist></label>}
   {showTopic && <label>分野<select name="topic"><option value="all">すべて</option>{topics.map((topic) => <option value={topic.slug}>{topic.title}</option>)}</select></label>}
   <label>年<select name="year"><option value="all">すべて</option>{years.map((year) => <option value={year}>{year}</option>)}</select></label>
   <label>並び順<select name="sort"><option value="arxiv-newest">arXiv 新しい順</option><option value="arxiv-oldest">arXiv 古い順</option><option value="site-newest">サイト追加 新しい順</option></select></label>

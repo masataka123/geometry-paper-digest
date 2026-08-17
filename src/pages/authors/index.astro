@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getAuthorIndex } from "../../lib/authors";
+import { withBase } from "../../lib/urls";
+const { authors } = await getAuthorIndex();
+---
+<BaseLayout title="著者一覧">
+  <header class="site-header"><p class="eyebrow">AUTHORS</p><h1>著者一覧</h1><p>{authors.length}人の著者から論文を探せます。</p></header>
+  <label class="author-search">著者名を検索<input type="search" data-author-search autocomplete="off" placeholder="著者名を入力" /></label>
+  <p><span data-author-count>{authors.length}</span> 人</p>
+  <ul class="author-list" data-author-list>{authors.map((author) => <li data-author-name={author.displayName.toLocaleLowerCase()}><a href={withBase(`/authors/${author.id}/`)}>{author.displayName}</a> <span>（{author.paperCount}件）</span></li>)}</ul>
+</BaseLayout>
+<script>
+  const input = document.querySelector("[data-author-search]");
+  input?.addEventListener("input", () => {
+    if (!(input instanceof HTMLInputElement)) return;
+    const query = input.value.normalize("NFC").trim().toLocaleLowerCase(); let count = 0;
+    document.querySelectorAll<HTMLElement>("[data-author-name]").forEach((item) => { item.hidden = !item.dataset.authorName?.includes(query); if (!item.hidden) count++; });
+    const output = document.querySelector("[data-author-count]"); if (output) output.textContent = String(count);
+  });
+</script>
