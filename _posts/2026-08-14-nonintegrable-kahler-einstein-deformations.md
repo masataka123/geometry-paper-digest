@@ -7,6 +7,14 @@ authors: "Ari Krishna"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  We construct a smooth canonically polarized threefold, not biholomorphic to a product of
+  positive-dimensional varieties, whose normalized Kähler-Einstein metric admits a non-integrable
+  infinitesimal Einstein deformation. The same tangent direction is non-integrable as an infinitesimal
+  complex deformation. In fact, the space of infinitesimal Einstein deformations in our example has
+  real dimension 8, its integrable directions form a real 6-dimensional subspace, and every direction
+  outside that subspace is obstructed. This answers both parts of a suitably generalized version of a
+  question posed by Dai, Wang, and Wei in real dimension 6.
 topic: differential-geometry
 tags:
   - kahler-einstein-metrics

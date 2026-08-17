@@ -8,6 +8,12 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DG
+arxiv_abstract: >-
+  In this short note, we show that, assuming a conjecture of Arcara and Miles, a line bundle on a
+  smooth complex projective surface admits a deformed Hermitian-Yang-Mills metric if and only if it is
+  stable in the ``large scaling limit" with respect to a generic Kähler form. The same statement for
+  toric surfaces was recently proved by Stoppa. The purpose of this note is to remark that this
+  equivalence holds for arbitrary smooth projective surfaces.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

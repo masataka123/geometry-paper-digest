@@ -18,18 +18,14 @@ const tags = await resolveTagIds(paper.metadata.tags);
   <h2><a href={withBase(paper.route.pathname)}>{paper.metadata.title}</a></h2>
   <p class="paper-card__authors">{authors.map((author, index) => <>{index > 0 && ", "}<a href={withBase(`/authors/${author.id}/`)}>{author.displayName}</a></>)}</p>
   {tags.length > 0 && <ul class="tag-chips" aria-label="タグ">{tags.map((tag) => <li><a href={tagUrl(tag.id)}>{tag.nameJa}</a></li>)}</ul>}
-  <p class="paper-card__summary">{paper.metadata.summary}</p>
-  {paper.metadata.abstractEn ? (
-    <section class="paper-card__english" lang="en">
-      <h3>English Abstract</h3>
-      <p>{paper.metadata.abstractEn}</p>
-    </section>
-  ) : paper.metadata.summaryEn ? (
-    <section class="paper-card__english" lang="en">
-      <h3>English Summary</h3>
-      <p>{paper.metadata.summaryEn}</p>
-    </section>
-  ) : null}
+  <section class="paper-card__abstract" lang="en">
+    <h3>arXiv Abstract</h3>
+    <p>{paper.metadata.arxivAbstract}</p>
+  </section>
+  <section class="paper-card__japanese-summary">
+    <h3>日本語要約</h3>
+    <p>{paper.metadata.summary}</p>
+  </section>
   <p class="paper-card__links">
     <a href={withBase(paper.route.pathname)}>日本語記事</a>
     <a href={paper.metadata.arxivUrl} rel="noopener">arXiv</a>

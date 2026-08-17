@@ -7,6 +7,14 @@ authors: "Hanzhang Yin"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  In this paper, we study several types of geometric problems related to the Ricci curvature on
+  noncompact complex manifolds, such as the existence of Kähler-Einstein metrics on complete Kähler
+  manifolds with negative Ricci curvature, which can be seen as an improvement of the main theorem in
+  Cheng-Yau [4]; the existence of canonical Hermitian metrics with prescribed Ricci curvature on
+  complete Hermitian manifolds, which can be regarded as noncompact versions of the Gauduchon
+  conjecture on certain complete complex surfaces. Our method can also be used to construct
+  Hesse-Einstein metrics in affine differential geometry.
 topic: differential-geometry
 tags:
   - kahler-einstein-metrics

@@ -6,6 +6,10 @@ authors: "Niklas Müller"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  In this short note we provide a characterisation of ball quotients among all minimal smooth
+  projective varieties of general type purely in terms of their characteristic numbers. This
+  generalises earlier work of Miyaoka, Yau and Greb--Kebekus--Peternell--Taji.
 topic: algebraic-geometry
 tags:
   - birational-geometry

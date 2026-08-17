@@ -8,6 +8,11 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.CV
+arxiv_abstract: >-
+  The notion of weighted extremal Kähler metrics extends the classical notion of Calabi's extremal
+  Kähler metrics, but includes many well-studied objects in Kähler geometry such as Kähler-Ricci
+  solitons and Sasaki-Einstein metrics. In this paper, after explaining how this notion grew out, we
+  will try to survey recent works concerning the YTD conjecture on weighted extremal Kähler metrics.
 topic: differential-geometry
 tags:
   - csck-extremal-kahler-metrics

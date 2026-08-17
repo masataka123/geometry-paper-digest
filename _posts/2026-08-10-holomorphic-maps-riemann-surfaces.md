@@ -7,6 +7,11 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.AG
+arxiv_abstract: >-
+  We give new upper bounds for the number of nonconstant holomorphic maps depending only on the genus.
+  Our estimates improve previously known bounds. The proof is based on the study of pullbacks of
+  holomorphic differentials, together with techniques from the geometry of numbers and the theory of
+  Jacobian varieties.
 topic: several-complex-variables
 tags: []
 arxiv_id: "2605.21137v1"

@@ -6,6 +6,10 @@ authors: "Jihao Liu"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We answer affirmatively a question of Fulger and Langer on the interplay between slope semistability
+  and positivity for projective bundles with vanishing discriminant. The main result of this paper was
+  obtained by Chatgpt 5.5 pro, and the Danus system based on the Rethlas system.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

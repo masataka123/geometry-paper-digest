@@ -7,6 +7,9 @@ authors: "Indranil Biswas, Manish Kumar, A. J. Parameswaran"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We compute the Harder-Narasimhan filtration of vector bundles $f_*\mathcal O_Y$ for certain finite
+  morphisms $f\,:\,Y\,\longrightarrow\, X$ and in some other cases.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

@@ -8,6 +8,19 @@ arxiv_categories:
   - math.AG
   - cond-mat.str-el
   - math-ph
+arxiv_abstract: >-
+  We study fractional quantum Hall states with quasihole excitations, on Riemann surfaces of arbitrary
+  genus. For configurations with $m$ quasiholes we construct a vector bundle above the $m$-th
+  symmetric power of the curve so that the fiber at a point $\lbrace w_1,\dots,w_m \rbrace$
+  corresponds to the state with quasiholes localized at these positions. We determine the Chern
+  character of this bundle via the Grothendieck-Riemann-Roch theorem and show that in the completely
+  filled state, i.e. when the number of particles is maximal, the vector bundle is compatible with the
+  condition of projective flatness. Furthermore, we obtain a generalization of this result to the case
+  of multiple layers and multiple quasihole types. In genus zero and one, we construct explicit
+  wave-functions and verify that the curvature of the associated Chern connection reproduces the
+  predicted Chern classes. The Chern classes obtained match, term by term, the predicted decomposition
+  of the Berry phase under quasihole exchange, into an extensive Aharonov--Bohm contribution and a
+  fractional statistical contribution.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

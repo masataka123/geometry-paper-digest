@@ -6,6 +6,12 @@ authors: "Sebastian Casalaina-Martin, Shend Zhjeqi"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We generalize some results of Campana-Păun regarding foliations, slope stability, and positivity of
+  log canonical bundles on smooth projective varieties to the case of smooth proper DM stacks
+  admitting projective coarse moduli spaces. This paper is the third in a series aiming to generalize
+  results of Popa-Schnell and Wei-Wu on Viehweg hyperbolicity to the setting of DM stacks, and in
+  particular, to certain KSBA moduli spaces.
 topic: algebraic-geometry
 tags:
   - singularities

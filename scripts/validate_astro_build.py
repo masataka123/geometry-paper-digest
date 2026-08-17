@@ -157,27 +157,32 @@ def validate_build(root: Path, dist: Path) -> list[str]:
         for forbidden in ("abstract_en", "summary_en", "abstract_ja", "paper-content", "paper-card__title-ja"):
             if forbidden in papers_source:
                 errors.append(f"papers index exposes non-compact content marker {forbidden!r}")
-        if "English Abstract" not in papers_source:
-            errors.append("papers index is missing English Abstract cards")
-        if "English Summary" not in papers_source:
-            errors.append("papers index is missing English Summary cards")
-        if "paper-card__english" not in papers_source:
-            errors.append("papers index is missing full English card content")
-        card_heading_checks = {
-            "/papers/2026/08/06/analytic-bertini-local/": ("English Abstract", "English Summary"),
-            "/papers/2026/08/17/alpha-spectrum-toric-fano/": ("English Summary", "English Abstract"),
-        }
-        for pathname, (expected_heading, wrong_heading) in card_heading_checks.items():
+        if "arXiv Abstract" not in papers_source:
+            errors.append("papers index is missing arXiv Abstract cards")
+        if "日本語要約" not in papers_source:
+            errors.append("papers index is missing Japanese summary headings")
+        if "paper-card__abstract" not in papers_source:
+            errors.append("papers index is missing full arXiv Abstract card content")
+        for forbidden_heading in ("English Abstract", "English Summary", "Arxiv Abstract"):
+            if forbidden_heading in papers_source:
+                errors.append(f"papers index uses forbidden heading {forbidden_heading!r}")
+        card_heading_checks = (
+            "/papers/2026/08/06/analytic-bertini-local/",
+            "/papers/2026/08/17/alpha-spectrum-toric-fano/",
+        )
+        for pathname in card_heading_checks:
             card_start = papers_source.find(f'data-pathname="{pathname}"')
             card_end = papers_source.find("</article>", card_start)
             if card_start < 0 or card_end < 0:
                 errors.append(f"papers index is missing representative card {pathname}")
                 continue
             card_source = papers_source[card_start:card_end]
-            if expected_heading not in card_source:
-                errors.append(f"representative card {pathname} is missing {expected_heading}")
-            if wrong_heading in card_source:
-                errors.append(f"representative card {pathname} is incorrectly labeled {wrong_heading}")
+            abstract_heading = card_source.find("arXiv Abstract")
+            japanese_heading = card_source.find("日本語要約")
+            if abstract_heading < 0 or japanese_heading < 0:
+                errors.append(f"representative card {pathname} is missing required headings")
+            elif abstract_heading > japanese_heading:
+                errors.append(f"representative card {pathname} has headings in the wrong order")
 
     legacy_notice = output_path(dist, LEGACY_TOPIC_URL)
     if legacy_notice.is_file():

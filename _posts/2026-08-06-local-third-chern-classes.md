@@ -7,6 +7,18 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.AG
+arxiv_abstract: >-
+  In this paper, motivated by singularity formation in gauge theory, we study the local third Chern
+  class contribution carried by isolated point singularities of rank-two torsion-free sheaves on
+  complex threefolds. In the local rank-two setting considered here, the invariant is defined in terms
+  of finite-length local algebraic data at the singular point. We prove that it can be computed from
+  data on the total family; in particular, it is deformation invariant. We also prove that its parity
+  recovers a topological invariant of the underlying smooth complex rank-two vector bundle on the
+  boundary sphere. We then give a relative K-theoretic interpretation: a self-dual complex naturally
+  associated with the sheaf defines a local $K$-theoretic charge, and this charge is equal to the
+  local third Chern class. For rank-two reflexive sheaves, we relate the same invariant to several
+  classical algebraic quantities, including the Fitting scheme and the Buchsbaum-Rim multiplicity. We
+  also discuss applications to the boundary of moduli spaces of Hermitian-Yang-Mills connections.
 topic: differential-geometry
 tags:
   - singularities

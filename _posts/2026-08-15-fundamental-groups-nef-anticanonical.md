@@ -8,6 +8,20 @@ arxiv_categories:
   - math.AG
   - math.CV
   - math.DG
+arxiv_abstract: >-
+  It is proved by M. Paun (1997, 2017) that the fundamental group of a compact Kahler manifold X is
+  almost Abelian if the anti-canonical bundle -KX is nef. In this paper, we apply the recent geometric
+  analytic theory of Kahler spaces developed by Guo-Phong-Song-Sturm to study fundamental groups of
+  mildly singular compact Kahler varieties. We first extend Paun's result to log canonical pairs
+  (X,Delta) with smooth X and nef -(KX+Delta) as well as to compact Kahler manifolds X with
+  pseudo-effective -KX under a suitable assumption on the singularities of c1(-KX). We further prove
+  that, for a 3-dimensional log canonical pair (X,Δ) with X being klt, pi 1(X) is almost Abelian if
+  -(KX+Δ) is nef. Moreover, as one of the main ingredients for the proof of these results, we
+  establish the surjectivity of the Albanese maps of compact normal complex varieties X in Fujiki
+  class C that admits an effective R-divisor Δsuch that the pair (X,Δ) is log canonical with nef
+  anti-log canonical divisor -(KX+Δ).This generalizes the corresponding theorems for projective
+  varieties (Zhang, 2005), for klt pairs (Matsumura-Wang-Wu-Zhang, 2025) and for log smooth case
+  (Fu-Han-Zou, 2025)
 topic: algebraic-geometry
 tags:
   - singularities

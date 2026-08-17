@@ -7,6 +7,16 @@ authors: "Teng Huang, Pan Zhang"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  Let \((X,J,ω)\) be a closed \(2n\)-dimensional almost Kähler manifold with negative sectional
+  curvature. We prove that if the Nijenhuis tensor of the almost complex structure is sufficiently
+  small, then the components of the Hirzebruch \(χ_{y}\)-genus satisfy the inequality
+  \((-1)^{n-p}χ_{p}(X)\geq 1\) for all \(p=0,1,\cdots,n\). In particular, this result implies the Hopf
+  conjecture in this setting, namely that the Euler number satisfies \((-1)^{n}χ(X)\geq n+1\). The
+  proof is based on new \(L^{2}\)-estimates for harmonic forms on the universal covering, combined
+  with a refined vanishing theorem for the operator \(\bar{\partial}+\bar{\partial}^{*}\) and Atiyah's
+  \(L^{2}\)-index theorem. This work extends the classical result of Gromov [J. Differential Geom.,
+  1991] from the Kähler to the almost Kähler setting under the stated smallness condition.
 topic: differential-geometry
 tags:
   - curvature

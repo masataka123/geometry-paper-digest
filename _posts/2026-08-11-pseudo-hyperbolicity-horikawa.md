@@ -6,6 +6,12 @@ authors: "Anibal Aravena, Jaime Negrete, Wern Yeong"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  Horikawa surfaces are minimal complex algebraic surfaces of general type with minimal Chern slope,
+  satisfying either $c_2=5c^2_1+36$ if $c_1^2$ is even, or $c_2=5c^2_1+30$ if $c_1^2$ is odd. We prove
+  that very general Horikawa surfaces with $p_g\ge 5$ contain only finitely many rational or elliptic
+  curves. Moreover, we provide an explicit characterization and count of these curves. Our results
+  also apply to very general Horikawa surfaces of the first kind with $p_g\in \{3,4\}.$
 topic: algebraic-geometry
 tags:
   - hyperbolicity

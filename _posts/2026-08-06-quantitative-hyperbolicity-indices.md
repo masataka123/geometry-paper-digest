@@ -7,6 +7,15 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.AG
+arxiv_abstract: >-
+  We introduce numerical invariants called hyperbolic indices, which measure the hyperbolicity of
+  compact Kähler manifolds using directed positive closed currents. We prove that if a manifold $X$
+  has positive hyperbolic indices, then $X$ is Kobayashi hyperbolic; and if $X$ satisfies Demailly's
+  condition of negative jet curvature, then it has positive hyperbolic indices. In particular, by
+  combining the method of jet differentials and density currents, we can prove that for a general
+  hypersurface $X_d$ of degree $d$ in $\mathbb{P}^{n+1}$, the hyperbolic indices of $X_d$ grows to
+  $\infty$ with at least linear growth in $d$. Finally, we discuss an analytic approach to the
+  Kobayashi conjecture.
 topic: several-complex-variables
 tags:
   - positivity

@@ -8,6 +8,19 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.CV
+arxiv_abstract: >-
+  We classify complements of cubic hypersurfaces in complex projective spaces of dimension at least
+  two, including reducible and nonreduced cubics. The complement is Oka unless the cubic is the union
+  of three distinct hyperplanes containing a common projective subspace of codimension two; this
+  exceptional complement is not Oka. For a smooth cubic, we pass to an unramified cyclic triple cover
+  of the complement and construct complement-preserving sprays along residual affine conics. On cubic
+  surfaces the twenty-seven lines give a finite dominating family. In higher dimensions we rescale the
+  sprays so that they descend from blowups along lines, and use the tangent-transfer geometry of
+  Kaliman--Zaidenberg to make their tangent directions span at every point. For an irreducible
+  singular cubic, projection from a singular point, Kusakabe's localization theorem, and Hanysz's
+  theorem on meromorphic-graph complements yield an induction on dimension. Reducible cubics reduce to
+  complements of affine hypersurfaces defined by polynomials of degree at most two; explicit complete
+  vector fields and elementary normal forms isolate the exceptional configuration.
 topic: algebraic-geometry
 tags:
   - oka-theory

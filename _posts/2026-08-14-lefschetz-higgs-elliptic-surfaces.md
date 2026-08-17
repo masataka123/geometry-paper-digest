@@ -6,6 +6,18 @@ authors: "Armando Capasso"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  I prove ``Lefschetz principle''-type theorems for slope semistable and curve semistable Higgs
+  sheaves on smooth projective varieties, defined over an algebraically closed field of characteristic
+  $0$. These theorems are applied to reduce a conjecture, about curve semistable Higgs bundles, from
+  the previous general setting to the complex case. This conjecture is equivalent to triviality of
+  Chern classes of H-nflat Higgs bundles, which are particular curve semistable Higgs bundles. Where
+  the base variety is a (complex) Jacobian elliptic surfaces, we prove that H-nflat Higgs bundles
+  determine a well-defined subset of moduli spaces of Higgs sheaves: the ``H-nflat locus''. We prove
+  that this is set-wise fixed by a natural action, and at ``limits'' one finds nilpotent, H-nflat
+  Higgs bundles. As consequence, the conjecture for Jacobian elliptic surfaces is reduced to consider
+  nilpotent, H-nflat Higgs bundles; moreover, their Higgs fields vanish, hence the conjecture holds
+  (also) for Jacobian elliptic surfaces.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

@@ -15,6 +15,14 @@ arxiv_updated: "2026-08-05"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We characterize smooth proper Deligne-Mumford stacks $\mathscr{X}$ that arise as compactifications
+  of ball quotient stacks $[\mathbb{B}^d/Γ]$. Moreover, we show that every ball quotient admits a
+  compactification whose boundary divisor $\mathscr{D}:=\mathscr{X}-[\mathbb{B}^d/Γ]$ is a disjoint
+  union of quotient stacks $[A/G]$, where $A$ is an abelian variety and $G$ is a finite group. This
+  generalizes a result of Deng-Cadorel. Our strategy combines Simpson's non-abelian Hodge
+  correspondence for smooth proper DM-stacks, Mochizuki's generalization of the classical Simpson's
+  correspondence to the log setting, and the uniformization results of Deng-Cadorel.
 summary: >-
   対数 Higgs 束の多重安定性と Chern 類等式から、滑らかで固有な Deligne--Mumford スタックの開部分が複素単位球の商になることを特徴づける。逆に任意の球商スタックについて、境界が有限群による Abel 多様体の商の非交和となる滑らかな固有コンパクト化を構成する。
 abstract_en: >-

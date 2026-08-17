@@ -7,6 +7,13 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DG
+arxiv_abstract: >-
+  In this paper, we investigate the moduli space of algebraic asymptotic hyperkähler structures on
+  hyperkähler quotients arising from a quaternionic vector space $\mathbb{H}^n$. We consider the
+  period map on this moduli space, and prove a Torelli-type theorem (i.e., the bijectivity of the
+  period map) assuming the surjectivity of the Kirwan map. This work provides an algebro-geometric
+  generalization of the Torelli-type theorem for ALE gravitational instantons by Kronheimer (1989). In
+  particular, this theorem applies to toric hyperkähler varieties and Nakajima quiver varieties.
 topic: algebraic-geometry
 tags:
   - moduli

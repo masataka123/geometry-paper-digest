@@ -6,6 +6,13 @@ authors: "Krishna Hanumanthu, Snehajit Misra, Nabanita Ray"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We define Seshadri constants for Higgs bundles on smooth projective varieties over algebraically
+  closed fields of characteristic zero. This definition is inspired by and analogous to the notion of
+  Seshadri constants for ordinary vector bundles. We prove a series of properties of Higgs Seshadri
+  constants which are analogous to the corresponding properties in the case of ordinary Seshadri
+  constants. In particular, we prove a Seshadri criterion for Higgs ampleness and prove that Higgs
+  Seshadri constants can be computed by restriction to curves.
 topic: algebraic-geometry
 tags:
   - positivity

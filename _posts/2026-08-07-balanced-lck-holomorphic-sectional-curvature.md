@@ -6,6 +6,15 @@ authors: "Shuwen Chen, Junpeng Li"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  A long-standing conjecture in Hermitian geometry says that a compact Hermitian manifold with
+  constant Chern holomorphic sectional curvature $c$ is Kähler for $c\neq 0$ and Chern flat for $c=0$.
+  Although the conjecture has been established in complex dimension two, it remains open in general in
+  higher dimensions. We verify the conjecture for compact balanced threefolds when $c\leq 0$. For
+  compact locally conformally Kähler manifolds, Chen, Chen, and Nie established the case $c\leq 0$,
+  while Huang and Wan recently settled the remaining case. Inspired by the approach of Huang and Wan,
+  we investigate a generalization of the conjecture for canonical metric connections and establish it
+  for connected compact locally conformally Kähler manifolds.
 topic: differential-geometry
 tags:
   - curvature

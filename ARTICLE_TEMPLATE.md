@@ -8,6 +8,8 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DG
+arxiv_abstract: >-
+  arXiv公式metadataに掲載されているAbstract原文全文。
 topic: algebraic-geometry
 tags:
   - k-stability
@@ -43,6 +45,7 @@ published: true
 - arxiv_primary_categoryを必ず保存し、primary categoryと全secondary categoryをarxiv_categoriesの重複のないYAMLリストとして保存する。
 - arxiv_primary_categoryがarxiv_categoriesに含まれ、math.AG → algebraic-geometry、math.DG → differential-geometry、math.CV → several-complex-variablesの対応になっていることを公開前に検査する。
 - titleにはarXivの正確な英語原題を使用する。
+- arXiv公式Abstractページまたは公式APIのmetadataからAbstract原文全文を取得し、独自に要約・改変せず`arxiv_abstract`へ保存する。`arxiv_abstract`は`abstract_en`および`summary_en`とは別の必須fieldである。
 - abstract_enとsummary_enを同時に埋めず、両方を空にもしない。
 - abstract_enは原文全文を掲載できるライセンスの場合だけ使用する。
 - summary_enは原文をコピー・軽微に言い換えず独自に書いた3〜6文の英語要約とし、Abstractとは表示しない。

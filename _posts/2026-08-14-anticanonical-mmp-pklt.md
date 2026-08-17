@@ -6,6 +6,12 @@ authors: "Donghyeon Kim, Dae-Won Lee"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We give an alternative proof of the existence of the anticanonical minimal model program for
+  potentially klt pairs, assuming the anticanonical divisor admits a birational Zariski decomposition.
+  Moreover, we establish a structure theorem showing that any partial anticanonical MMP starting from
+  a potentially klt pair can be lifted to a compatible sequence of nonpositive maps between the
+  $\mathbb{Q}$-factorial terminalizations of its successive steps.
 topic: algebraic-geometry
 tags:
   - singularities

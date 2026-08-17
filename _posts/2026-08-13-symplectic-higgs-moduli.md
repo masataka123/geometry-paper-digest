@@ -8,6 +8,13 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.SG
+arxiv_abstract: >-
+  Gorsky, Nekrasov, and Rubtsov introduced the moduli space of marked Higgs bundles over an elliptic
+  curve $E$ and identified it with the Hilbert scheme of points on the cotangent bundle. Later,
+  Groechenig constructed four analogous isomorphisms on marked rational curves, of affine Dynkin types
+  $\wt D_4$, $\wt E_6$, $\wt E_7$, and $\wt E_8$, for the $Γ$-Hilbert schemes of $T^*E$ for cyclic
+  groups $Γ$ with $|Γ|\in\{2,3,4,6\}$. We prove that the isomorphisms in all five cases are
+  holomorphic symplectomorphisms.
 topic: algebraic-geometry
 tags:
   - moduli

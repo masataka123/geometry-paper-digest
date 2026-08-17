@@ -8,6 +8,15 @@ arxiv_categories:
   - math.AG
   - math.DG
   - math.RT
+arxiv_abstract: >-
+  We prove that stable degeneration, the canonical degeneration associated to the normalized volume
+  minimizer of a Kawamata log terminal (klt) singularity, preserves non-degenerate reflexive
+  differential forms. In particular, the stable degeneration of a symplectic singularity is again
+  symplectic. Combining this with a deformation-theoretic rigidity result for symplectic
+  degenerations, we confirm Kaledin's conjecture that the formal completion of any symplectic
+  singularity is conical. As applications, we show that the natural base of any normalized nilpotent
+  orbit closure is a K-semistable Fano variety, and that the normalized volume minimizer of a
+  hypertoric singularity is induced by the standard dilation.
 topic: algebraic-geometry
 tags:
   - singularities

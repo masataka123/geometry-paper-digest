@@ -7,6 +7,13 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.DG
+arxiv_abstract: >-
+  In this paper, we investigate the pseudoconvexity of locally trivial holomorphic ball bundles over
+  compact Riemann surfaces of genus $\geq 2$, as well as the intermediate pseudoconvexity of their
+  complements in the associated projective space bundles. Inspired by Brunella's work, we prove that
+  any such ball bundle is $1$-convex, while its complement is $n$-convex, where $n$ denotes the
+  dimension of the ball fiber, provided that the bundle admits a harmonic section with a regular
+  point.
 topic: several-complex-variables
 tags:
   - stein-geometry

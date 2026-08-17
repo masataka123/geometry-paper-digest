@@ -6,6 +6,13 @@ authors: "Yuta Watanabe"
 arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
+arxiv_abstract: >-
+  In this paper, in order to develop a more general $L^2$-theory for the
+  $\overline{\partial}$-operator on complex spaces, we introduce appropriate notions of singular
+  Griffiths/Nakano positivity on complex spaces and establish various properties of these notions. By
+  applying these results, we provide $L^2$-Dolbeault fine resolutions and cohomological isomorphisms,
+  and $L^2$-existence theorems. As an application, we obtain Nakano-Nadel vanishing theorems on weakly
+  pseudoconvex complex spaces.
 topic: several-complex-variables
 tags:
   - positivity

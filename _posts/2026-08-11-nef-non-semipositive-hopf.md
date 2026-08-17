@@ -7,6 +7,12 @@ arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
   - math.AG
+arxiv_abstract: >-
+  We give a complete characterization of the nef, effective, pseudo-effective, and semi-positive cones
+  on Hopf manifolds. In particular, by computing the Ueda classes on non-diagonal Hopf surfaces, we
+  show that the invariant elliptic curve is nef but not semi-positive. Via Bott--Chern cohomology
+  calculations, we construct new examples of nef but non-semi-positive line bundles on Hopf manifolds
+  of arbitrary dimension.
 topic: several-complex-variables
 tags:
   - positivity

@@ -7,6 +7,10 @@ authors: "János Kollár"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We give a short proof of Chevalley's theorem that every algebraic group is an extension of an
+  Abelian variety by a linear algebraic group. Along the way we treat Bertini's irreducibility
+  theorem.
 topic: algebraic-geometry
 tags: []
 arxiv_id: "2605.03115v1"

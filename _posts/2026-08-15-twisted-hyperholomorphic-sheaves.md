@@ -6,6 +6,11 @@ authors: "Moritz Hartlieb, Saket Shah"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  Following ideas of Kapustka-Kapustka, we use Lagrangian fibrations to construct twisted
+  hyperholomorphic sheaves on products of hyperkähler manifolds of K3$^{[n]}$- and OG10-type. As
+  applications, we prove the Lefschetz standard conjecture and the D-equivalence conjecture for
+  hyperkähler manifolds of OG10-type.
 topic: algebraic-geometry
 tags:
   - birational-geometry

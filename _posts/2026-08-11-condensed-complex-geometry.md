@@ -10,6 +10,14 @@ arxiv_categories:
   - math.AG
   - math.FA
   - math.KT
+arxiv_abstract: >-
+  This is a slightly revised version of lectures notes for a course in Summer 2022 joint between Bonn
+  and Copenhagen, intended as a stable citable version. The goal of this course is to make our general
+  approach to analytic geometry via condensed mathematics more concrete by concentrating on the case
+  of complex-analytic geometry. Instead of trying to develop new kinds of geometry, here we only try
+  to redevelop the classical theory from a different point of view. More precisely, we reprove some
+  important theorems for compact complex manifolds, including finiteness of coherent cohomology, Serre
+  duality, GAGA and (Grothendieck--)Hirzebruch--Riemann--Roch.
 topic: several-complex-variables
 tags:
   - complex-analytic-spaces

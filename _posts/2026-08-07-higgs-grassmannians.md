@@ -6,6 +6,18 @@ authors: "Ugo Bruzzo, Michele Graffeo, Beatriz Graña Otero"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We review and study the notion of Higgs Grassmannians, which are schemes parametrizing the Higgs
+  subbundles of a given Higgs bundle over a smooth variety. We write their equations as closed
+  subschemes of the usual Grassmann bundles and investigate their geometry. Often the Higgs
+  Grassmannians generically have 0-dimensional fibers over the base variety, thus implying that Higgs
+  subbundles are "scarce." We characterize the structure of the Higgs Grassmannians by analyzing the
+  local Jordan type of the Higgs field. A refined analysis of the rank 2 case is also provided in
+  terms of the discriminant of the characteristic polynomial. We apply our characterizations to the
+  Simpson system of a smooth variety to provide a streamlined proof of its semistability, and we
+  establish a structural relationship between the rank 1 Higgs Grassmannian and the spectral cover of
+  the Higgs bundle. Finally, we introduce the schemes of flags of Higgs subbundles of a given Higgs
+  bundle, and the Quot schemes parametrizing Higgs quotients; we conclude with some examples.
 topic: algebraic-geometry
 tags:
   - stability

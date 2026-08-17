@@ -5,6 +5,13 @@ title_ja: "安定束上のHermitian--Yang--Mills反復"
 authors: "Huai-Dong Cao, Xiaofeng Sun, Shing-Tung Yau, Yingying Zhang"
 arxiv_primary_category: "math.DG"
 arxiv_categories: [math.DG]
+arxiv_abstract: >-
+  In this paper, based on recent results for the prescribed Hermitian-Yang-Mills (HYM) tensor and its
+  twisted variants by Fan-Wang-Yang-Yau, we provide a dynamical construction of Hermitian-Einstein
+  metrics on stable holomorphic vector bundles and its extension to Higgs bundles. Additionally, in
+  the appendix, we use the heat flow method to give a new proof of the existence and uniqueness of
+  solutions to the twisted prescribed HYM tensor equation, as well as its generalization to Higgs
+  bundles.
 topic: differential-geometry
 tags:
   - vector-bundles-sheaves

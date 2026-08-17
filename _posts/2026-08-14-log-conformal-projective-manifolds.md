@@ -8,6 +8,16 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DG
+arxiv_abstract: >-
+  Let $(X,Δ)$ be a smooth complex projective simple normal crossing pair of dimension $n\geq 3$
+  endowed with an everywhere nondegenerate logarithmic conformal tensor. If $K_X+Δ$ is not nef, then
+  precisely one of the following mutually exclusive alternatives occurs: either $Δ=\varnothing$ and
+  $X\simeq Q^n$; or $X\simeq \mathbb{P}^n$ and $Δ$ is a hyperplane; or $n=2m$ is even and $(X,Δ)$
+  admits a rational maximal isotropic fibration whose geometric generic fibre is the log pair
+  $(\mathbb{P}^m,H)$. If $K_X+Δ\equiv 0$, then, under a Bochner extension principle and an
+  irreducibility assumption on the restricted holonomy of a complete Ricci-flat Kähler metric on
+  $M:=X\setminus Δ$, the existence of a logarithmic conformal tensor with trivial conformal line
+  bundle forces $M$ to be semi-abelian and $(X,Δ)$ to be its toroidal compactification.
 topic: algebraic-geometry
 tags:
   - birational-geometry

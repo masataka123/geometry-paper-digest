@@ -8,6 +8,10 @@ arxiv_categories:
   - math.AG
   - math.GR
   - math.GT
+arxiv_abstract: >-
+  We prove gap theorems for entropy norms on automorphism groups of K3 surfaces, Enriques surfaces,
+  and irreducible holomorphic symplectic manifolds. We also study the achirality of automorphisms of
+  K3 surfaces and Enriques surfaces in terms of genus-one fibrations.
 topic: algebraic-geometry
 tags:
   - symplectic-contact-geometry

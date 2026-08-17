@@ -8,6 +8,8 @@ arxiv_categories:
   - math.AG
   - math.CV
   - math.DG
+arxiv_abstract: >-
+  We prove the local analytic Bertini theorem, confirming a conjecture of Boucksom in full generality.
 topic: algebraic-geometry
 tags:
   - l2-methods

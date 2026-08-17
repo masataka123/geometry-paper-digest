@@ -7,6 +7,20 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.AG
+arxiv_abstract: >-
+  We study one-parameter degenerations of rank-two vector bundles on complex threefolds to a rank-two
+  torsion-free sheaf with an isolated point singularity. We prove a rigidity identity: the algebraic
+  bubbling multiplicity of the central fiber equals one half of the Ext-length of the singularity of
+  its reflexive hull. Furthermore, bubbling is forced when a family develops such an isolated point
+  singularity. We use this identity to obtain smoothability obstructions and construct sharp local
+  smoothings. We realize the local example from earlier joint work with Sun as a global degeneration
+  of smooth Hermitian-Yang-Mills connections. Rescaling this degeneration produces a smooth non-flat
+  Hermitian-Yang-Mills connection on $\mathbb C^3$ with density one at infinity, whose tangent cone at
+  infinity has flat connection part and a multiplicity-one line as the blow-up cycle. We also
+  construct smoothings of elementary modifications of projective-cone singularities with explicit
+  algebraic bubbles. These examples give local models for Hermitian-Yang-Mills point bubbling in
+  complex dimension three and distinguish this phenomenon from bubbling along complex codimension-two
+  loci.
 topic: differential-geometry
 tags:
   - singularities

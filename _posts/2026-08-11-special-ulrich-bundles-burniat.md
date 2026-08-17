@@ -7,6 +7,20 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.AC
+arxiv_abstract: >-
+  Let $X$ be a smooth projective surface with $p_g=0$, and let $H$ be an ample divisor with
+  $h^0(\mathcal{O}_X(H))\neq0$, $χ(\mathcal{O}_X(H))\ge q$, and $h^1(\mathcal{O}_X(H))\neq0$. We prove
+  that no rank two bundle $\mathcal{E}$ with $c_1(\mathcal{E})=3H+K_X$, with the Ulrich value of
+  $c_2(\mathcal{E})$, and satisfying $h^0(\mathcal{E}(-H))=0$, can arise from an extension $0 \to
+  \mathcal{O}_X(H+K_X) \to \mathcal{E} \to \mathcal{O}_X(2H)\otimes\mathcal{I}_Z \to 0$. Thus, for
+  this natural Cayley-Bacharach construction, non-speciality of the polarization is necessary rather
+  than merely convenient. We then study primary Burniat surfaces. We show that every ample and base
+  point free divisor is non-special; consequently, every polarization carries a stable special Ulrich
+  bundle of rank two, and the surface is strictly Ulrich wild with respect to every polarization. We
+  also locate the special ample classes on three numerical rays through $K_X$, compute explicit
+  families on these rays, and analyze a twisted-kernel variant of the construction. The degree bound
+  underlying the non-speciality result overlaps with recent work of Y. Cho, while the global
+  consequences and the no-go theorem are independent.
 topic: algebraic-geometry
 tags:
   - positivity

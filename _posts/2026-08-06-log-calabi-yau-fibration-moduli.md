@@ -6,6 +6,10 @@ authors: "Giovanni Inchiostro, Junyan Zhao"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We introduce a new stability condition for log Calabi--Yau fibrations over curves. We prove that it
+  gives rise to a proper Deligne--Mumford stack with a projective coarse moduli space, whose boundary
+  still parametrizes flat fibrations over curves.
 topic: algebraic-geometry
 tags:
   - singularities

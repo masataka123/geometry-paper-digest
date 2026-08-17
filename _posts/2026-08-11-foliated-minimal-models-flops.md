@@ -7,6 +7,15 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.DS
+arxiv_abstract: >-
+  We study minimal models and flops for foliations. We show that if $\mathcal F$ is a rank one
+  foliation with canonical singularities on a normal projective $\mathbb Q$-factorial variety and
+  $K_{\mathcal F}$ is pseudo-effective, then any two outputs of the $K_{\mathcal F}$-MMP are
+  isomorphic. For co-rank one foliations on threefolds, we prove existence results for $D$-flops in
+  the klt setting and, under additional hypotheses, in the F-dlt setting. By contrast, we construct
+  examples showing that rank one foliations display pathologies absent from the classical MMP:
+  flopping contractions need not admit $D$-flops, and nef and big canonical divisors need not give
+  rise to canonical models, even in the category of algebraic spaces.
 topic: algebraic-geometry
 tags:
   - singularities

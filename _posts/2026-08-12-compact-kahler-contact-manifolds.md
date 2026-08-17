@@ -8,6 +8,9 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.CV
+arxiv_abstract: >-
+  We prove that a non-projective compact Kähler contact manifold is of the form $\mathbb{P} T_Y$,
+  where $Y$ is a compact Kähler manifold.
 topic: algebraic-geometry
 tags:
   - symplectic-contact-geometry

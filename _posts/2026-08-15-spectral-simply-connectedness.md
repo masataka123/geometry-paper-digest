@@ -7,6 +7,14 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.CV
+arxiv_abstract: >-
+  Let $(M,h)$ be a compact Kähler manifold. Under a rather weak spectral positivity assumption we
+  prove that $M$ is rationally connected and thus simply connected, projective with $h^{p,0}(M)=\{0\}$
+  for each $p>0$. Then, in the second part of this paper, we focus on Riemannian manifolds and we
+  provide an appropriate spectral positivity assumption which guarantees that a compact and oriented
+  even dimensional Riemannian manifold $(M,g)$ is a simply connected real homology sphere. Finally, in
+  the appendix, a characterization of the rational dimension of compact Kähler manifolds in terms of
+  the positivity of the minimal slope of the tangent bundle is given.
 topic: differential-geometry
 tags:
   - positivity

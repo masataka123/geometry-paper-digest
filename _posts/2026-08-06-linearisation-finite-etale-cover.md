@@ -8,6 +8,10 @@ arxiv_categories:
   - math.CV
   - math.AG
   - math.DS
+arxiv_abstract: >-
+  In this article, we study the (full or vertical) linearisation problem under a finite Galois étale
+  cover. As an application, we give sufficient conditions for full linearisation near Hopf manifolds
+  and for vertical or full linearisation near hyperelliptic manifolds.
 topic: several-complex-variables
 tags: []
 arxiv_id: "2606.03039v1"

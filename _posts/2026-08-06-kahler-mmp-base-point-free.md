@@ -6,6 +6,9 @@ authors: "Christopher Hacon, Lingyao Xie"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  In this article, we establish the minimal model program for big gklt Kähler pairs, and in particular
+  we prove Tosatti's transcendental base-point-free conjecture.
 topic: algebraic-geometry
 tags:
   - singularities

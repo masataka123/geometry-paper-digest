@@ -8,6 +8,27 @@ arxiv_categories:
   - math.DG
   - math.AG
   - math.CV
+arxiv_abstract: >-
+  This paper provides a complete proof of the Kobayashi-Hitchin correspondence for nef and big
+  classes. We introduce the notion of an adapted closed positive $(1,1)$-current $T$ lying in a nef
+  and big class $α$, and that of a $T$-adapted Hermitian-Yang-Mills metric of a holomorphic vector
+  bundle. Then we prove that a holomorphic vector bundle $E$ over a compact Kähler manifold $X$ is
+  slope polystable with respect to a nef and big class $α$ if and only if $E$ admits a $T$-adapted
+  Hermitian-Yang-Mills metric for every adapted current $T$ in $α$. Furthermore, we also establish the
+  uniqueness of a $T$-adapted Hermitian-Yang-Mills metric on $E$ when it exists. Our main theorem
+  above immediately implies that the Kobayashi-Hitchin correspondence holds even in singular settings.
+  In particular, this singular Kobayashi-Hitchin correspondence applies to reflexive sheaves over
+  compact normal Kähler varieties with log terminal singularities endowed with singular
+  Kähler-Einstein metrics. Furthermore, the singular Kobayashi-Hitchin correspondence proves that the
+  graded sheaf associated to a Jordan-H${\rm \ddot{o}}$lder filtration of a semistable sheaf for a nef
+  and big class $α$ admits a $T$-adapted Hermitian-Yang-Mills metric. As an application of the
+  Kobayashi-Hitchin correspondence, we show that if a holomorphic vector bundle ${E}$ is slope
+  polystable with respect to a nef and big class $α$ and $E$ attains the equality of the
+  Bogomolov-Gieseker inequality with respect to $α$, then ${E}$ is projectively flat on the ample
+  locus of $α$. All these results are new even if compact Kähler manifolds are projective and nef and
+  big classes are the 1st Chern class of nef and big line bundles. One of key features of our approach
+  is that the adapted current $T$ need not be strictly positive and its singularities need not be
+  described explicitly.
 topic: differential-geometry
 tags:
   - positivity

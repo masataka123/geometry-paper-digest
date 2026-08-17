@@ -7,6 +7,16 @@ arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
   - math.CV
+arxiv_abstract: >-
+  We construct a smooth complex projective variety whose Albanese morphism is a homotopy fiber bundle
+  but not a submersion. The same variety fibers smoothly over the circle, although every holomorphic
+  one-form on it has a zero. A second construction yields smooth complex projective varieties $X$ such
+  that the Aomoto complex of every nonzero holomorphic one-form on every connected finite étale cover
+  of $X$ is exact, while $X$ admits no real closed one-form without zeros. The two constructions
+  build, respectively, on a homology fiber bundle of Corrêa--Kollár that is not a homotopy fiber
+  bundle and on a rational cohomology torus constructed by Debarre--Jiang--Lahoz. Consequently, we
+  disprove Kotschick's conjecture, the remaining implication in the Bobadilla--Kollár conjecture, and
+  a conjecture of the first-named author.
 topic: algebraic-geometry
 tags: []
 arxiv_id: "2607.15102v1"

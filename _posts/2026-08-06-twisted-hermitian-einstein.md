@@ -6,6 +6,17 @@ authors: "Mingwei Wang, Xiaokui Yang, Shing-Tung Yau"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  In this paper, we demonstrate that twisted Hermitian-Einstein metrics on holomorphic vector bundles
+  exist without obstruction. More precisely, for an arbitrary holomorphic vector bundle $E$ over a
+  compact Kähler manifold $(M,ω_g)$, we prove that the twisted Hermitian-Einstein equation
+  $$Λ_{ω_g}\left(\sqrt{-1}R^h\right) = λh + P$$ admits a unique smooth solution $h$, provided that
+  $P\inΓ(M,E^*\otimes\bar{E}^*)$ is positive-definite and $λ<λ_E^-$. The constant $λ_E^-$ is
+  intrinsically associated with the stability constant of $E$. This result extends the classical
+  Donaldson-Uhlenbeck-Yau (DUY) theorem for stable bundles and, in the limit $P\rightarrow0$, gives a
+  new proof of the DUY theorem. As an application, we obtain an intrinsic Chern number inequality for
+  unstable vector bundles: $$\int_M \left((r-1)c_1(E)^2 - 2rc_2(E)\right) \wedge ω_g^{n-2} \leq
+  \Bigl\lfloor \frac{r^2}{4} \Bigr\rfloor \frac{(λ_E^+-λ_E^-)^2}{4π^2 n^2} \int_M ω_g^n.$$
 topic: differential-geometry
 tags:
   - vector-bundles-sheaves

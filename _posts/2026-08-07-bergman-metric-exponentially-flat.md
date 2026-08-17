@@ -6,6 +6,10 @@ authors: "Ravi Shankar Jaiswal"
 arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
+arxiv_abstract: >-
+  We prove that the Bergman metric of a (possibly unbounded) pseudoconvex domain with an exponentially
+  flat infinite type boundary point cannot be Einstein. Our result provides further evidence in
+  support of the Cheng--Yau conjecture beyond the finite type setting.
 topic: several-complex-variables
 tags:
   - curvature

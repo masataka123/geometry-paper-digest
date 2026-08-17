@@ -6,6 +6,12 @@ authors: "Abel Castorena, George H. Hitching"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  Let $X$ be a projective bundle over a smooth curve $C$ of genus $g \ge 3$, and consider the relative
+  hyperplane bundle ${\mathcal O}_X (1) \to X$. Let $V \subseteq H^0 ( X , {\mathcal O}_X (1) )$ be a
+  generating subspace. We prove that when $C$, $X$ and $V$ are general in moduli and ${\mathcal O}_X
+  (1)$ is sufficiently ample, the kernel bundle of the system $({\mathcal O}_X (1) , V)$ is ${\mathcal
+  O}_X (1)$-stable.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

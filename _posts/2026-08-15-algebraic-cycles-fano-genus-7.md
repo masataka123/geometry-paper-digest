@@ -6,6 +6,12 @@ authors: "Robert Laterveer"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  Let $Y$ be a very general prime Fano threefold of genus 7. We exhibit an explicit 2-cycle on
+  $Y\times Y$ that is Abel-Jacobi trivial but non-torsion in the Chow group $A^4(Y\times Y)$. As a
+  consequence, $Y$ does not admit a multiplicative Chow-Künneth decomposition, in the sense of
+  Shen-Vial. We also show that any Fano threefold has a multiplicative Chow-Künneth decomposition
+  modulo algebraic equivalence.
 topic: algebraic-geometry
 tags:
   - fano-varieties

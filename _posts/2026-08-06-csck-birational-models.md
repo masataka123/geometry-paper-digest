@@ -16,6 +16,14 @@ arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
   - math.AG
+arxiv_abstract: >-
+  We prove that every complex projective variety is birational to a smooth projective manifold
+  admitting a constant scalar curvature Kähler (cscK) metric. For any smooth projective variety, a
+  birational cscK model is obtained by resolving the codimension two base locus of a general Lefschetz
+  pencil in a sufficiently positive linear system. The cscK polarization is given explicitly,
+  producing a cscK model also when the initial variety is unstable. In dimension two this proves the
+  folklore conjecture that the blowup of any complex projective surface in enough points admits cscK
+  metrics.
 summary: >-
   任意の複素射影多様体が定スカラー曲率 Kähler 計量をもつ滑らかな射影多様体と双有理であることを証明する。滑らかな場合には十分正な Lefschetz pencil の余次元 2 基点を一度 blowup し、明示的な断熱的 Kähler 類に cscK 計量を構成する。
 abstract_en: ""

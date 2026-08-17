@@ -9,6 +9,9 @@ arxiv_categories:
   - math.AG
   - math.AT
   - math.GT
+arxiv_abstract: >-
+  In this article, we find finitely many numerical invariants to classify the diffeomorphism types of
+  three dimensional simply connected Mori fibre spaces with torsion free homology groups.
 topic: algebraic-geometry
 tags:
   - birational-geometry

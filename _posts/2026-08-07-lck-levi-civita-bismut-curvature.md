@@ -6,6 +6,16 @@ authors: "Shuwen Chen, Fangyang Zheng"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  An old conjecture in non-Kähler geometry states that any compact Hermitian manifold with constant
+  Chern holomorphic sectional curvature must be either Kähler or Chern flat. The conjecture is known
+  to be true in dimension 2 but still open in dimensions 3 or higher, except for several special
+  classes of Hermitian manifolds. For the important class of locally conformally Kähler manifolds, the
+  conjecture was proved by H. Chen, L. Chen, and Nie in 2021 when the constant holomorphic sectional
+  curvature is non-positive and the remaining case was solved recently by Huang and Wan using the
+  result of Kamishima on Bochner-Kähler manifolds. In this article, we use their technique to answers
+  similar questions for locally conformally Kähler manifolds with constant Levi-Civita or Bismut
+  holomorphic sectional curvature.
 topic: differential-geometry
 tags:
   - curvature

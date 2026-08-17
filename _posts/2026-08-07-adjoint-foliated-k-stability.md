@@ -6,6 +6,14 @@ authors: "Theodoros Stylianos Papazachariou"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We prove singularity criteria for the $t$-K-stability of adjoint foliated structures. We first show
+  that K-semistability of adjoint foliated structures implies log canonicity by extending Odaka's flag
+  ideal characterisation of the mixed Donaldson--Futaki invariant to the adjoint foliated setting. We
+  then prove that adjoint Calabi--Yau foliated structures are K-semistable, and klt ones are K-stable,
+  while log canonical adjoint general type foliated structures are K-stable with respect to the
+  canonical polarisation. We also show that K-semistable adjoint Fano foliated structures are klt. In
+  particular, their ambient varieties are potentially klt and of Fano type.
 topic: algebraic-geometry
 tags:
   - singularities

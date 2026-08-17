@@ -6,6 +6,11 @@ authors: "Alessio Bottini, Emanuele Macrì, Paolo Stellari"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We review recent developments in the theory of compact hyper-Kähler varieties, from the viewpoint of
+  Lagrangian fibrations, moduli spaces of stable sheaves, and derived categories. These notes
+  originated from the lecture by the second named author at the 2025 Summer Institute in Algebraic
+  Geometry, Colorado State University, Fort Collins (USA), July 14 - August 1, 2025.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

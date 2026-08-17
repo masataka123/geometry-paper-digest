@@ -6,6 +6,13 @@ authors: "Dimitri Navarro, Jiayin Pan, Xingyu Zhu"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  For any complete Riemannian manifold $M^n$ with nonnegative Ricci curvature and sublinear diameter
+  growth, we establish a dimensional constraint $n\ge 4s(s-1)+k+1$ if the fundamental group $π_1(M)$
+  contains a torsion-free nilpotent subgroup of rank $k$ and step $s\ge 2$. As a consequence, if such
+  a manifold $M$ has dimension $n<12$, then $π_1(M)$ is almost abelian. The proof is based on a
+  dimensional estimate for $\mathrm{RCD}(0,N)$ spaces admitting $\mathbb{R}$-orbits of large Hausdorff
+  dimension.
 topic: differential-geometry
 tags:
   - curvature

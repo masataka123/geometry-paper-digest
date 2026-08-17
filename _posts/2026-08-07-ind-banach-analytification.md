@@ -6,6 +6,11 @@ authors: "Yuto Yamada"
 arxiv_primary_category: "math.CV"
 arxiv_categories:
   - math.CV
+arxiv_abstract: >-
+  We develop an ind-Banach framework for revisiting analytification in complex geometry, inspired by
+  Bambozzi-Chiarellotto-Vanni's work on tempered cohomology. We define several ind-Banach rings of
+  overconvergent and holomorphic power series to endow $\mathbb{C}$-algebras with analytic structures.
+  As an application, we obtain an abstract GAGA-type comparison in this setting.
 topic: several-complex-variables
 tags:
   - complex-analytic-spaces

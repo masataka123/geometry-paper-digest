@@ -6,6 +6,17 @@ authors: "Kefeng Liu, Yang Shen"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  In this paper, we study the degeneration and stability of Kähler structures on Calabi--Yau
+  manifolds, namely compact Kähler manifolds with trivial canonical bundles, from the viewpoint of
+  deformation theory and Hodge theory. Using the global deformation theory of Calabi--Yau manifolds
+  together with estimates relating the Weil--Petersson distance and Beltrami differentials, we prove
+  that certain limits of Calabi--Yau manifolds remain Kähler. As applications, we give a new proof of
+  Siu's theorem on the Kählerness of K3 surfaces. We further prove that deformation limits of
+  hyperkähler manifolds with bounded periods remain Kähler, which gives a complete and stronger
+  solution to the conjecture of Soldatenkov--Verbitsky. Finally, we prove that the moduli spaces of
+  stable sheaves on K3 surfaces are hyperkähler manifolds, which gives a complete solution to the
+  conjecture of Perego.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

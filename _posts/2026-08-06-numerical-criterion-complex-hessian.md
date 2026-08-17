@@ -3,6 +3,11 @@ layout: paper
 title: "A numerical criterion for complex Hessian type equations on projective manifolds"
 title_ja: "射影多様体上の複素 Hessian 型方程式に対する数値的判定法"
 authors: "Gao Chen, Sijie Nie, Yulun Xu"
+arxiv_abstract: >-
+  We prove a Nakai-Moishezon-type criterion for complex Hessian-type equations on projective manifolds
+  whose associated degree-$n$ polynomials are strongly strictly right-Noetherian. For strictly
+  right-Noetherian polynomials of arbitrary degree, we prove a uniform Nakai-Moishezon-type criterion.
+  This class includes the complex Hessian and Hessian quotient equations.
 topic: differential-geometry
 tags:
   - pluripotential-theory

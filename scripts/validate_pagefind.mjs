@@ -52,7 +52,7 @@ const cases = [
   ["Japanese title", "解析的Bertini定理", "/papers/2026/08/06/analytic-bertini-local/"],
   ["author", "Mingchen Xia", "/papers/2026/08/06/analytic-bertini-local/"],
   ["English abstract", "confirming a conjecture of Boucksom", "/papers/2026/08/06/analytic-bertini-local/"],
-  ["English summary", "fixed-dimensional K-polystable toric", "/papers/2026/08/17/alpha-spectrum-toric-fano/"],
+  ["arXiv abstract", "complete toric realization theorem", "/papers/2026/08/17/alpha-spectrum-toric-fano/"],
   ["Japanese summary", "多重劣調和関数の乗数イデアル", "/papers/2026/08/06/analytic-bertini-local/"],
   ["Japanese Markdown body", "例外パラメータ", "/papers/2026/08/06/analytic-bertini-local/"],
   ["arXiv ID", "2608.14115", "/papers/2026/08/17/alpha-spectrum-toric-fano/"],

@@ -7,6 +7,13 @@ authors: "Xian Wu"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We explicitly determine the numerical spectrum of the ordinary, non-equivariant $α$-invariant for
+  $n$-dimensional K-polystable toric $\mathbb{Q}$-Fano varieties. Specifically, we prove that
+  $\left\{α(X)\mid X\text{ is an }n\text{-dimensional K-polystable toric }\mathbb{Q}\text{-Fano
+  variety}\right\}=\mathbb{Q}\cap\left[\frac{1}{n+1},\frac{1}{2}\right].$ This result establishes a
+  complete toric realization theorem, which strengthens a question raised by Liu and Zhuang and
+  refines the recent construction results of Liu and Zhu.
 topic: algebraic-geometry
 tags:
   - fano-varieties

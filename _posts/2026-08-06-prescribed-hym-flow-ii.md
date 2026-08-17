@@ -6,6 +6,20 @@ authors: "Zhiyao Xiong, Xiaokui Yang, Shing-Tung Yau"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  We prove an analogue of the classical Donaldson-Uhlenbeck-Yau theorem by using the prescribed
+  Hermitian-Yang-Mills flow. Let $E$ be a holomorphic vector bundle over a compact Kähler manifold
+  $(M,ω_g)$. Suppose that for every proper coherent subsheaf $F\subset E$, the following inequality
+  holds: $$ deg_{ω_g}(F)<deg_{ω_g}(E). $$ Then, for any initial Hermitian metric $h_0$ on $E$ and any
+  positive-definite Hermitian tensor $P\in Γ(M,E^*\otimes \overline E^*)$, the prescribed
+  Hermitian-Yang-Mills flow $$ \ \frac{\partial h}{\partial t} = -Λ_{ω_g}\left(\sqrt{-1}\, R^h\right)
+  + P, $$ admits a global smooth solution on $[0,\infty)$. Moreover, as $t\rightarrow\infty$, the flow
+  converges smoothly to a Hermitian metric $h_\infty$ on $E$ satisfying $$ Λ_{ω_g}\left(\sqrt{-1}\,
+  R^{h_\infty}\right) = P. $$ As an application, we establish that on a Fano manifold $M$, for any
+  Hermitian metric form $ω$ and any positive-definite Hermitian tensor $P\inΓ(M,T^{*1,0}M\otimes
+  T^{*0,1}M)$, there exists a unique Hermitian metric tensor $h$ on $T^{1,0}M$ such that $$
+  Λ_ω\left(\sqrt R^h\right)=P.$$ This may be viewed as an analogue of the Calabi-Yau theorem for Fano
+  manifolds.
 topic: differential-geometry
 tags:
   - vector-bundles-sheaves

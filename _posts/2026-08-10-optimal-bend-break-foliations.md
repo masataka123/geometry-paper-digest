@@ -6,6 +6,12 @@ authors: "Jihao Liu, Zeming Sun, Jiedong Jiang"
 arxiv_primary_category: "math.AG"
 arxiv_categories:
   - math.AG
+arxiv_abstract: >-
+  We show that for every foliation $\mathcal{F}$ of rank $r$ on a normal projective variety, the
+  optimal constant in the bend-and-break inequality for tangent rational curves is $r+1$. The proof
+  combines the method of Bogomolov--McQuillan and the bend-and-shatter method developed by
+  Jovinelly--Lehmann--Riedl. The proof of the main result of this paper substantially uses generative
+  AI, particularly the Rethlas system.
 topic: algebraic-geometry
 tags:
   - vector-bundles-sheaves

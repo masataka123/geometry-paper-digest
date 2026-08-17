@@ -7,6 +7,9 @@ authors: "Tongxin Xu, Zhenlei Zhang"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  In this paper, we study compactness, rigidity, and related geometric properties of complete Kähler
+  Ricci shrinkers through the polarized Fano fibration structure.
 topic: differential-geometry
 tags:
   - kahler-ricci-flow-solitons

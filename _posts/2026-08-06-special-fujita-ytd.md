@@ -8,6 +8,15 @@ arxiv_categories:
   - math.AG
   - math.CV
   - math.DG
+arxiv_abstract: >-
+  We show that any big line bundle on a smooth projective variety admits a special Fujita
+  approximation: the volume and the first Riemann-Roch coefficient are both approximated by those of
+  ample $\mathbb{Q}$-line bundles on higher models. Exploiting previous works by Boucksom, Jonsson and
+  Li, we solve the Boucksom-Jonsson Regularization Conjecture on the Non-Archimedean entropy
+  functional. As a main consequence, we obtain a solution to the (uniform version of the)
+  Yau-Tian-Donaldson Conjecture: a polarized smooth projective variety $(X,L)$ admits a cscK metric if
+  and only if it is $\mathrm{Aut}^\circ(X,L)$-uniformly $K$-stable. This extends the known
+  Yau-Tian-Donaldson correspondence for smooth Fano varieties.
 topic: algebraic-geometry
 tags:
   - positivity

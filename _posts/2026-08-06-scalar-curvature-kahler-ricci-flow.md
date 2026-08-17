@@ -6,6 +6,12 @@ authors: "Lei Zhang, Zhenlei Zhang"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  This paper is concerned with a class of the long time Kähler-Ricci flow on a compact Kähler
+  manifold. It is shown that the uniform $μ$-entropy or uniform Sobolev inequality along the
+  normalized Kähler-Ricci flow with semiample canonical bundle. As a consequence, we prove that the
+  scalar curvature of the Kähler metrics along the normalized Kähler-Ricci flow converge to negative
+  Kodaira dimension of the compact Kähler manifold.
 topic: differential-geometry
 tags:
   - positivity

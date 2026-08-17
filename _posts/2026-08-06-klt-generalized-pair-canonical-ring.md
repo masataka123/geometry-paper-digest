@@ -3,6 +3,10 @@ layout: paper
 title: "A klt generalized pair with infinitely generated canonical ring"
 title_ja: "有限生成でない標準環をもつ klt generalized pair"
 authors: "Jihao Liu, Yanze Wang"
+arxiv_abstract: >-
+  We construct a projective klt generalized pair over the complex numbers whose generalized log
+  canonical ring is not finitely generated. The main result of this paper is obtained by generative
+  AI, particularly GPT-5.6-sol-ultra, Fable 5, and the Danus system.
 topic: algebraic-geometry
 tags:
   - singularities

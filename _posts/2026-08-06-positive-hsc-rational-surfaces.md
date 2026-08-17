@@ -8,6 +8,19 @@ arxiv_categories:
   - math.DG
   - math.AG
   - math.CV
+arxiv_abstract: >-
+  In 1975, Hitchin proved that any compact complex surface admitting a Kähler metric with positive
+  holomorphic sectional curvature $HSC>0$ is rational. Conversely, he constructed such metrics on all
+  Hirzebruch surfaces $\mathbb{F}_k$, as a first step towards characterizing rational surfaces by the
+  existence of a Kähler metric with suitable curvature positivity. In this paper, we prove that every
+  projective manifold $X$ obtained from a projective toric manifold by a finite sequence of blow-ups
+  at points admits a Kähler metric with $HSC>0$. This statement applies to all rational surfaces and
+  therefore completes Hitchin's result, resolving the complex surface case of a problem of Yau listed
+  in "Open Problems in Geometry". The proof has two main ingredients. First, we prove that the toric
+  Kähler metric on a projective toric manifold arising from Delzant's construction has $HSC>0$.
+  Second, via a one-parameter degeneration, we construct, for any such $X$, a smooth projective family
+  $π:\mathcal X\to\mathbb C$ such that $\mathcal X_t\simeq X$ for $t\ne0$, while $\mathcal X_0$ is a
+  projective toric manifold.
 topic: differential-geometry
 tags:
   - positivity

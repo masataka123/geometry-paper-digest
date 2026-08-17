@@ -7,6 +7,17 @@ authors: "Jun Sasaki"
 arxiv_primary_category: "math.DG"
 arxiv_categories:
   - math.DG
+arxiv_abstract: >-
+  In this paper, we study the moduli space of Higgs pairs, which can be considered as a generalization
+  of holomorphic pairs. Higgs pairs are an example of quiver bundles. We introduce the notion of
+  $τ$-stability of Higgs pairs for $τ\in\mathbb{R}$ and establish the Kobayashi-Hitchin correspondence
+  for Higgs pairs. The differential-geometric objects corresponding to stable Higgs pairs is called
+  the vortex equations for Higgs bundles. We analyze the moduli space of stable Higgs pairs when the
+  base space of vector bundle is a compact Riemann surface and obtaine the following results. Firstly,
+  we prove that the moduli space is non-singular complex manifold for a suitable choice of $τ$.
+  Secondly, we determine the Poincaré polynomial of the moduli space for rank 2 bundle. Lastly, we
+  construct a map from the moduli space of stable Higgs pairs to the moduli space of stable Higgs
+  bundles and proved that the map is a fibration under suitable assumptions.
 topic: differential-geometry
 tags:
   - vector-bundles-sheaves
