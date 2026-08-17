@@ -65,3 +65,6 @@ jobs:
 
       - name: Validate Pagefind search index
         run: npm run test:search
+
+      - name: Validate GitHub Pages cutover artifact
+        run: npm run test:pages-cutover
