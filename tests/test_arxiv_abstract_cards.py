@@ -19,18 +19,33 @@ class ArxivAbstractCardTests(unittest.TestCase):
             self.assertIsInstance(abstract, str, post.name)
             self.assertTrue(abstract.strip(), post.name)
 
-    def test_card_uses_only_dedicated_english_metadata(self) -> None:
+    def test_card_uses_only_listing_summary(self) -> None:
         card = (ROOT / "src/components/PaperCard.astro").read_text(encoding="utf-8")
-        self.assertIn("paper.metadata.arxivAbstract", card)
+        self.assertIn("paper.metadata.summary", card)
+        self.assertNotIn("paper.metadata.arxivAbstract", card)
         self.assertNotIn("paper.metadata.abstractEn", card)
         self.assertNotIn("paper.metadata.summaryEn", card)
-        self.assertNotIn("English Summary", card)
+        self.assertNotIn("arXiv Abstract", card)
 
-    def test_card_orders_abstract_before_japanese_summary(self) -> None:
+    def test_card_orders_tags_summary_and_links(self) -> None:
         card = (ROOT / "src/components/PaperCard.astro").read_text(encoding="utf-8")
-        abstract_heading = card.index("arXiv Abstract")
+        tags = card.index("tag-chips")
         japanese_heading = card.index("日本語要約")
         japanese_summary = card.index("paper.metadata.summary")
-        self.assertLess(abstract_heading, japanese_heading)
+        links = card.index("paper-card__links")
+        self.assertLess(tags, japanese_heading)
         self.assertLess(japanese_heading, japanese_summary)
+        self.assertLess(japanese_summary, links)
         self.assertNotIn("titleJa", card)
+
+    def test_individual_abstracts_use_official_and_japanese_metadata(self) -> None:
+        abstracts = (ROOT / "src/components/Abstracts.astro").read_text(encoding="utf-8")
+        official_heading = abstracts.index("arXiv Abstract")
+        official_source = abstracts.index("metadata.arxivAbstract")
+        japanese_heading = abstracts.index("日本語要約")
+        japanese_source = abstracts.index("metadata.abstractJa")
+        self.assertLess(official_heading, official_source)
+        self.assertLess(official_source, japanese_heading)
+        self.assertLess(japanese_heading, japanese_source)
+        for removed in ("metadata.abstractEn", "metadata.summaryEn", "English summary", "Original abstract on arXiv"):
+            self.assertNotIn(removed, abstracts)
