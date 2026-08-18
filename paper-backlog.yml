@@ -543,24 +543,34 @@ papers:
     processed_at: "2026-08-15"
   - arxiv_id: "2601.18526"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-18-slope-unstable-fano-varieties.md"
+    processed_at: "2026-08-18"
   - arxiv_id: "2601.13127"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-18-topology-moduli-differentials.md"
+    processed_at: "2026-08-18"
   - arxiv_id: "2510.13679"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-18-rationality-hypersurfaces.md"
+    processed_at: "2026-08-18"
   - arxiv_id: "2510.04663"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-18-generalized-bogomolov-inequalities.md"
+    processed_at: "2026-08-18"
   - arxiv_id: "2509.07508"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-18-log-calabi-yau-manifolds.md"
+    processed_at: "2026-08-18"
   - arxiv_id: "2505.01773"
     requested_version: ""
     status: pending
