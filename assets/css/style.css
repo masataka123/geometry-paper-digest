@@ -56,8 +56,16 @@ p { line-height: 1.75; }
 .topic-open { color: var(--link); font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; font-weight: 700; }
 .heading-subtitle { color: var(--muted); font-style: italic; margin: -6px 0 6px; }
 
-.notice-card { background: rgba(255,255,255,.55); border-top: 1px solid var(--line); margin-top: 34px; padding: 24px 2px 0; }
-.notice-card h2 { margin-bottom: 4px; }
+.notice-card {
+  background: rgba(255,255,255,.55);
+  border-top: 1px solid var(--line);
+  margin-top: 34px;
+  padding: 16px 2px 0;
+}
+
+.notice-card h2 {
+  margin: 0 0 4px;
+}
 
 .topic-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 30px; }
 .topic-nav a {
