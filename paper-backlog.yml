@@ -603,16 +603,22 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2403.08620"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-19-demailly-lelong-numbers-complex-spaces.md"
+    processed_at: "2026-08-19"
   - arxiv_id: "2205.12305"
     requested_version: "v4"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-19-admissible-hym-normal-varieties.md"
+    processed_at: "2026-08-19"
   - arxiv_id: "2108.10041"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-19-algebraic-fischer-grauert.md"
+    processed_at: "2026-08-19"
 
 unresolved_items:
   - "arXiv-2606...Hneyangxu（番号が画像内で省略）"
