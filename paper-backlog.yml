@@ -1,6 +1,6 @@
 version: 1
 sort_order: "newest-arxiv-id-first"
-paper_count: 172
+paper_count: 173
 
 papers:
   - arxiv_id: "2608.10849"
@@ -206,6 +206,10 @@ papers:
     note: ""
     article_path: "_posts/2026-08-06-curvature-kahler-toric-manifolds.md"
     processed_at: "2026-08-06"
+  - arxiv_id: "2606.10443"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2606.08224"
     requested_version: "v1"
     status: published
@@ -896,7 +900,3 @@ papers:
     requested_version: ""
     status: pending
     note: ""
-unresolved_items:
-  - "arXiv-2606...Hneyangxu（番号が画像内で省略）"
-  - "arXiv-2606... sun survey（番号が画像内で省略）"
-  - "25m1805813.pdf（標準的なarXiv番号形式ではない）"
