@@ -573,24 +573,34 @@ papers:
     processed_at: "2026-08-18"
   - arxiv_id: "2505.01773"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-19-second-chern-forms-degenerating-ke-surfaces.md"
+    processed_at: "2026-08-19"
   - arxiv_id: "2504.15195"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-19-csck-condition-very-general.md"
+    processed_at: "2026-08-19"
   - arxiv_id: "2503.07548"
     requested_version: "v3"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-19-fujiki-kahler-local-moishezon-projective.md"
+    processed_at: "2026-08-19"
   - arxiv_id: "2408.15153"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-19-bounded-noncanonical-polarized-families.md"
+    processed_at: "2026-08-19"
   - arxiv_id: "2405.06883"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-19-asymptotic-chow-stability-toric.md"
+    processed_at: "2026-08-19"
   - arxiv_id: "2403.08620"
     requested_version: "v2"
     status: pending
