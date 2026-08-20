@@ -1,6 +1,6 @@
 version: 1
 sort_order: "newest-arxiv-id-first"
-paper_count: 173
+paper_count: 283
 
 papers:
   - arxiv_id: "2608.10849"
@@ -71,6 +71,10 @@ papers:
     note: ""
     article_path: "_posts/2026-08-06-zeros-one-forms-algebraic-maps.md"
     processed_at: "2026-08-06"
+  - arxiv_id: "2607.10375"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2607.09622"
     requested_version: "v1"
     status: published
@@ -336,6 +340,10 @@ papers:
     note: ""
     article_path: "_posts/2026-08-10-enumerative-geometry-ksba.md"
     processed_at: "2026-08-10"
+  - arxiv_id: "2605.19713"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2605.18089"
     requested_version: "v1"
     status: published
@@ -455,6 +463,10 @@ papers:
     note: ""
     article_path: "_posts/2026-08-14-ricci-forms-noncompact.md"
     processed_at: "2026-08-14"
+  - arxiv_id: "2604.19207"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2604.16215"
     requested_version: "v1"
     status: published
@@ -527,6 +539,14 @@ papers:
     note: ""
     article_path: "_posts/2026-08-15-simplicity-hodge-bundle.md"
     processed_at: "2026-08-15"
+  - arxiv_id: "2603.17485"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2603.14539"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2603.10312"
     requested_version: "v1"
     status: published
@@ -569,7 +589,19 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2602.19415"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2602.16945"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2602.15427"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2602.14826"
     requested_version: ""
     status: pending
     note: ""
@@ -583,6 +615,10 @@ papers:
     note: ""
     article_path: "_posts/2026-08-15-spectral-simply-connectedness.md"
     processed_at: "2026-08-15"
+  - arxiv_id: "2602.10800"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2602.07615"
     requested_version: ""
     status: pending
@@ -645,7 +681,39 @@ papers:
     note: ""
     article_path: "_posts/2026-08-18-topology-moduli-differentials.md"
     processed_at: "2026-08-18"
+  - arxiv_id: "2601.13071"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2601.09645"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2601.08627"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2601.07318"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2512.24458"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2512.22273"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2512.20708"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2512.20360"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2512.15367"
     requested_version: ""
     status: pending
     note: ""
@@ -661,25 +729,89 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2511.06773"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2511.04405"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2511.03530"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2510.27031"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2510.13679"
     requested_version: "v2"
     status: published
     note: ""
     article_path: "_posts/2026-08-18-rationality-hypersurfaces.md"
     processed_at: "2026-08-18"
+  - arxiv_id: "2510.10239"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2510.06856"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2510.04663"
     requested_version: "v2"
     status: published
     note: ""
     article_path: "_posts/2026-08-18-generalized-bogomolov-inequalities.md"
     processed_at: "2026-08-18"
+  - arxiv_id: "2510.04419"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2509.25607"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2509.15173"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2509.15016"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2509.10053"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2509.09259"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2509.08065"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2509.07508"
     requested_version: "v1"
     status: published
     note: ""
     article_path: "_posts/2026-08-18-log-calabi-yau-manifolds.md"
     processed_at: "2026-08-18"
+  - arxiv_id: "2508.16364"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2508.14634"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2508.04135"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2506.17420"
     requested_version: ""
     status: pending
     note: ""
@@ -691,12 +823,32 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2506.09907"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2506.04177"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2505.14939"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2505.05250"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2505.01773"
     requested_version: ""
     status: published
     note: ""
     article_path: "_posts/2026-08-19-second-chern-forms-degenerating-ke-surfaces.md"
     processed_at: "2026-08-19"
+  - arxiv_id: "2504.16829"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2504.15195"
     requested_version: "v2"
     status: published
@@ -707,12 +859,24 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2503.13365"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2503.08865"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2503.07548"
     requested_version: "v3"
     status: published
     note: ""
     article_path: "_posts/2026-08-19-fujiki-kahler-local-moishezon-projective.md"
     processed_at: "2026-08-19"
+  - arxiv_id: "2502.02183"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2502.01072"
     requested_version: ""
     status: pending
@@ -721,7 +885,23 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2501.18088"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2501.16632"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2501.08833"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2411.09573"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2411.08806"
     requested_version: ""
     status: pending
     note: ""
@@ -737,17 +917,85 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2410.01245"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2410.00405"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2409.11399"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2409.10275"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2409.07264"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2408.17120"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2408.16441"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2408.15153"
     requested_version: ""
     status: published
     note: ""
     article_path: "_posts/2026-08-19-bounded-noncanonical-polarized-families.md"
     processed_at: "2026-08-19"
+  - arxiv_id: "2408.10747"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2408.03799"
     requested_version: ""
     status: pending
     note: ""
   - arxiv_id: "2407.13485"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2407.10668"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2407.09210"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2407.01105"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2406.19003"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2406.08284"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2406.04991"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2406.01734"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2406.01090"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2405.12012"
     requested_version: ""
     status: pending
     note: ""
@@ -757,13 +1005,41 @@ papers:
     note: ""
     article_path: "_posts/2026-08-19-asymptotic-chow-stability-toric.md"
     processed_at: "2026-08-19"
+  - arxiv_id: "2404.13927"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2404.12007"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2403.16199"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2403.08620"
     requested_version: "v2"
     status: published
     note: ""
     article_path: "_posts/2026-08-19-demailly-lelong-numbers-complex-spaces.md"
     processed_at: "2026-08-19"
+  - arxiv_id: "2403.05250"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2402.06658"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2401.15852"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2401.07273"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2401.03311"
     requested_version: ""
     status: pending
     note: ""
@@ -771,7 +1047,31 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2310.18934"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2310.14871"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2309.14121"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2309.12888"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2309.07584"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2309.00580"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2308.10553"
     requested_version: ""
     status: pending
     note: ""
@@ -779,7 +1079,23 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2306.07900"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2306.03070"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2303.16239"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2302.14032"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2302.07220"
     requested_version: ""
     status: pending
     note: ""
@@ -787,7 +1103,23 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2301.06473"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2211.11261"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2211.03469"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2210.15342"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2210.02758"
     requested_version: ""
     status: pending
     note: ""
@@ -795,7 +1127,19 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2208.08324"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2207.05412"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2207.03283"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2206.09745"
     requested_version: ""
     status: pending
     note: ""
@@ -805,11 +1149,31 @@ papers:
     note: ""
     article_path: "_posts/2026-08-19-admissible-hym-normal-varieties.md"
     processed_at: "2026-08-19"
+  - arxiv_id: "2205.12205"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2204.04096"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2203.04266"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2203.03273"
     requested_version: ""
     status: pending
     note: ""
   - arxiv_id: "2202.13816"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2202.02825"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2201.04821"
     requested_version: ""
     status: pending
     note: ""
@@ -821,6 +1185,14 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2110.14971"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2108.13318"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2108.10041"
     requested_version: "v1"
     status: published
@@ -828,11 +1200,43 @@ papers:
     article_path: "_posts/2026-08-19-algebraic-fischer-grauert.md"
     processed_at: "2026-08-19"
 
+  - arxiv_id: "2107.07550"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2107.02088"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2106.05486"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2102.12641"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2102.02438"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2010.10925"
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "2008.04685"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "2007.09678"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2006.16178"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "2006.00756"
     requested_version: ""
     status: pending
     note: ""
@@ -852,11 +1256,23 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "1905.02795"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "1905.01104"
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "1812.04506"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "1810.00025"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "1809.02398"
     requested_version: ""
     status: pending
     note: ""
@@ -868,11 +1284,31 @@ papers:
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "1806.01666"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "1805.07877"
     requested_version: ""
     status: pending
     note: ""
+  - arxiv_id: "1707.08495"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "1704.00484"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "1703.07279"
+    requested_version: ""
+    status: pending
+    note: ""
   - arxiv_id: "1702.01701"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "1512.06623"
     requested_version: ""
     status: pending
     note: ""
@@ -893,6 +1329,10 @@ papers:
     status: pending
     note: ""
   - arxiv_id: "1303.2480"
+    requested_version: ""
+    status: pending
+    note: ""
+  - arxiv_id: "1204.6443"
     requested_version: ""
     status: pending
     note: ""
