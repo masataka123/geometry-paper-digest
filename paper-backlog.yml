@@ -5,8 +5,10 @@ paper_count: 283
 papers:
   - arxiv_id: "2608.10849"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-affine-toric-projective-bundles.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2608.03572"
     requested_version: "v1"
     status: already-published
@@ -63,8 +65,10 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2607.20272"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-quasi-f-split-k-trivial.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2607.15102"
     requested_version: "v1"
     status: published
@@ -73,8 +77,10 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2607.10375"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-holomorphic-symplectic-elliptic-surfaces.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2607.09622"
     requested_version: "v1"
     status: published
@@ -106,8 +112,10 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2606.31666"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-quasi-f-singularities-survey.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2606.27851"
     requested_version: "v1"
     status: published
@@ -212,8 +220,10 @@ papers:
     processed_at: "2026-08-06"
   - arxiv_id: "2606.10443"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-gravitational-instantons-geometry.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2606.08224"
     requested_version: "v1"
     status: published
