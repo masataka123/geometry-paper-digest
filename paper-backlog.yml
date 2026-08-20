@@ -352,8 +352,10 @@ papers:
     processed_at: "2026-08-10"
   - arxiv_id: "2605.19713"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-bogomolov-algebraic-dimension-zero.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2605.18089"
     requested_version: "v1"
     status: published
@@ -475,8 +477,10 @@ papers:
     processed_at: "2026-08-14"
   - arxiv_id: "2604.19207"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-generalized-morse-hasse-schmidt.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2604.16215"
     requested_version: "v1"
     status: published
@@ -551,12 +555,16 @@ papers:
     processed_at: "2026-08-15"
   - arxiv_id: "2603.17485"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-analytic-canonical-bundle-formula.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2603.14539"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-two-step-nilpotent-monodromy.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2603.10312"
     requested_version: "v1"
     status: published
@@ -565,8 +573,10 @@ papers:
     processed_at: "2026-08-15"
   - arxiv_id: "2603.07519"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-20-characterization-fano-type.md"
+    processed_at: "2026-08-20"
   - arxiv_id: "2603.06083"
     requested_version: ""
     status: pending
