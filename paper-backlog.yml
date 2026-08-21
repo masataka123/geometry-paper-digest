@@ -609,24 +609,34 @@ papers:
     processed_at: "2026-08-21"
   - arxiv_id: "2602.22192"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-projective-space-extremal-rays.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2602.20027"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-albanese-torus-log-calabi-yau.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2602.19913"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-gh-limits-immortal-kahler-ricci-flows.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2602.19415"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-rational-chain-connectedness-analytic.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2602.16945"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-globally-plus-regular-rational-chains.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2602.15427"
     requested_version: ""
     status: pending
