@@ -579,24 +579,34 @@ papers:
     processed_at: "2026-08-20"
   - arxiv_id: "2603.06083"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-orbifold-base-map.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2603.04903"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-non-runge-fatou-bieberbach.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2603.02037"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-schur-positivity-dominance.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2603.01572"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-gromov-norm-bounded-domains.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2602.22947"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-21-fujino-sato-flips.md"
+    processed_at: "2026-08-21"
   - arxiv_id: "2602.22192"
     requested_version: ""
     status: pending
