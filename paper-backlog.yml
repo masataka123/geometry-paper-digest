@@ -639,16 +639,22 @@ papers:
     processed_at: "2026-08-21"
   - arxiv_id: "2602.15427"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-22-split-tangent-fano.md"
+    processed_at: "2026-08-22"
   - arxiv_id: "2602.14826"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-22-twisted-log-hodge-theory.md"
+    processed_at: "2026-08-22"
   - arxiv_id: "2602.12439"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-22-fujita-general-hyperkahler.md"
+    processed_at: "2026-08-22"
   - arxiv_id: "2602.11002"
     requested_version: "v2"
     status: published
@@ -657,12 +663,16 @@ papers:
     processed_at: "2026-08-15"
   - arxiv_id: "2602.10800"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-22-complex-nonarchimedean-ytd.md"
+    processed_at: "2026-08-22"
   - arxiv_id: "2602.07615"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-22-smoothing-singular-fano-calabi-yau.md"
+    processed_at: "2026-08-22"
   - arxiv_id: "2602.07420"
     requested_version: "v1"
     status: published
