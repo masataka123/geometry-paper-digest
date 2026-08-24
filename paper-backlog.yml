@@ -722,8 +722,10 @@ papers:
     processed_at: "2026-08-24"
   - arxiv_id: "2601.19608"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-adapted-tangent-sheaves-ke-log-fano.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2601.18526"
     requested_version: ""
     status: published
@@ -732,8 +734,10 @@ papers:
     processed_at: "2026-08-18"
   - arxiv_id: "2601.15138"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-miyaoka-yau-intermediate-kodaira.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2601.13127"
     requested_version: "v1"
     status: published
@@ -742,16 +746,22 @@ papers:
     processed_at: "2026-08-18"
   - arxiv_id: "2601.13071"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-nonabelian-hodge-singular-kahler.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2601.09645"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-hartogs-line-bundles-q-convex.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2601.08627"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-orbifold-chern-classes-analytic.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2601.07318"
     requested_version: ""
     status: pending
