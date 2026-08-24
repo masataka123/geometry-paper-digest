@@ -764,24 +764,34 @@ papers:
     processed_at: "2026-08-24"
   - arxiv_id: "2601.07318"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-irregularities-special-c-pairs.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2512.24458"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-topology-hyperbolicity-shafarevich-survey.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2512.22273"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-orbifold-chern-bg.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2512.20708"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-orbifold-modifications-analytic-spaces.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2512.20360"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-hyperbolicity-fundamental-groups-applications.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2512.15367"
     requested_version: ""
     status: pending
