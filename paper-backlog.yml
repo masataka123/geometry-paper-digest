@@ -687,20 +687,27 @@ papers:
     processed_at: "2026-08-15"
   - arxiv_id: "2602.05192"
     requested_version: ""
-    status: pending
-    note: ""
+    status: skipped
+    note: "対象外のprimary category: cs.AI"
+    processed_at: "2026-08-24"
   - arxiv_id: "2602.04158"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-adjoint-volumes-kahler-families.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2602.03332"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-l2-dolbeault-nadel-complex-spaces.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2602.01980"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-mok-tensors-orbifold-quotients.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2602.01112"
     requested_version: "v1"
     status: published
@@ -709,8 +716,10 @@ papers:
     processed_at: "2026-08-15"
   - arxiv_id: "2601.22994"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-24-stability-conditions-smooth-projective.md"
+    processed_at: "2026-08-24"
   - arxiv_id: "2601.19608"
     requested_version: ""
     status: pending
