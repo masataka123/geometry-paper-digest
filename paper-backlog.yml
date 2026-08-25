@@ -794,24 +794,34 @@ papers:
     processed_at: "2026-08-24"
   - arxiv_id: "2512.15367"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-25-hyperbolicity-quasiprojective-nonabelian-hodge.md"
+    processed_at: "2026-08-25"
   - arxiv_id: "2512.13637"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-25-nef-complexity-products-projective-spaces.md"
+    processed_at: "2026-08-25"
   - arxiv_id: "2511.14580"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-25-quasi-albanese-lc-calabi-yau.md"
+    processed_at: "2026-08-25"
   - arxiv_id: "2511.13903"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-25-pluripotential-semipositive-divisors.md"
+    processed_at: "2026-08-25"
   - arxiv_id: "2511.06773"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-25-hodge-local-systems-support-loci.md"
+    processed_at: "2026-08-25"
   - arxiv_id: "2511.04405"
     requested_version: ""
     status: pending
