@@ -13,12 +13,9 @@
 - `_data/topics.yml`
 - `_data/tags.yml`
 - `package.json`
-- `scripts/validate_posts.py`
-- `scripts/site_baseline.py`
-- `scripts/validate_pagefind.mjs`
-- `scripts/validate_pages_cutover.mjs`
 
 現在のrepository implementation、`AGENTS.md`、`ARTICLE_TEMPLATE.md`をsource of truthとします。この運用では96時間の期間、`selection-profile.yml`による候補探索、新規候補検索を使わず、`paper-backlog.yml`のarXiv番号だけを処理します。backlogの並び順を変更しません。
+validator、test script、inventory scriptは通常は指定されたcommandを実行すればよく、開始時に実装コードそのものを毎回読む必要はありません。commandが失敗した場合の原因調査や変更が必要な場合にだけ、その実装を確認してください。
 
 ## 2. 処理対象と件数
 
@@ -31,7 +28,15 @@
 
 ## 3. 基本arXiv番号による重複防止
 
-処理前に `_posts/` 以下の全Markdown記事を読み、front matterの `arxiv_id`、`arxiv_url`、必要なら本文中のarXiv URLから基本arXiv番号と記事pathの対応表を作ります。`arXiv:`、`arxiv.org`または`export.arxiv.org`のURL接頭辞、`/abs/`または`/pdf/`、`.pdf`、末尾のversionを取り除きます。タイトルやfilenameではなく基本番号を主keyにし、たとえば `2608.03572v1` と `https://arxiv.org/pdf/2608.03572` は同じ `2608.03572` と扱います。
+処理対象を確認する前に、DAILY運用と同じ共通inventory commandを必ず実行します。
+
+```sh
+python scripts/arxiv_inventory.py
+```
+
+このcommandが現在の `_posts/*.md` から毎回freshに生成する基本arXiv番号と記事pathのinventoryを使用し、cacheや以前のrunの出力を再利用しません。Codex自身はduplicate確認のために既存記事本文を全件読みません。共通scriptがfront matterの`arxiv_id`と`arxiv_url`の整合性、正規化、legacy記事の本文URL fallback、duplicateを検査します。inventory生成が不一致、正規化不能、曖昧なfallback、duplicate、記事解析失敗その他の理由で非zero終了した場合はfail closedとし、`paper-backlog.yml`の項目を変更せずBACKLOG処理を中止してください。推測や別の正規化処理で続行しません。
+
+タイトルやfilenameではなく、inventoryとbacklog項目のversionを除いた基本番号を主keyにします。たとえば `2608.03572v1` と `https://arxiv.org/pdf/2608.03572` は同じ `2608.03572` と扱います。
 
 既存記事に同じ基本番号があれば記事を作らず、次のように更新します。
 
@@ -113,6 +118,7 @@ note: "再試行が必要な具体的理由"
 
 ```sh
 python -m unittest discover -s tests -v
+python scripts/arxiv_inventory.py
 python scripts/validate_posts.py
 python scripts/site_baseline.py
 
@@ -131,7 +137,7 @@ git diff --check
 
 artifact依存の `test:build`、`test:authors`、`test:tags`、`test:search`、`test:pages-cutover` は必ず `build:search` 後に実行します。現行validatorsでnew paper route、protected historical URLs、authors/author pages、tags/tag pages、Pagefindの1 paper = 1 resultと新規paper index、`title_ja`・`arxiv_abstract`・search aliasesの検索、`/geometry-paper-digest` base path、Pages static artifactが壊れていないことを確認します。現在のpaper/author/tag数を永久条件にしません。
 
-別途 `_posts/` 全体を再走査して基本番号を正規化し、existing vs existing、new vs existing、new vs newのduplicateがないことを確認します。duplicateがあれば全該当fileを報告しPRを準備しません。
+記事作成後にも `python scripts/arxiv_inventory.py` を再実行し、現在の `_posts/` 全体をfreshに走査して、existing vs existing、new vs existing、new vs newのduplicateがないことを確認します。これは処理開始前とは別のfresh scanです。inventory生成またはduplicate検査が失敗した場合は全該当fileを報告し、PRを準備しません。既存の `python scripts/validate_posts.py` による検査も上記の順序どおり維持します。
 
 新規記事ごとに `arxiv_id`、`arxiv_url`、`arxiv_abstract`、`arxiv_primary_category`、`arxiv_categories`、`arxiv_submitted`、`arxiv_updated`、`topic`、`tags`、`title`、`title_ja`、`authors`、`published: true`、`abstract_en` / `summary_en` の排他性がvalidator/template contractを満たし、一topicだけに属することを確認します。さらに `paper-backlog.yml`のYAML syntax、最初のpending最大5件だけを処理したこと、順序維持、許可範囲内の変更であることを確認します。
 
