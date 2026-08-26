@@ -866,24 +866,34 @@ papers:
     processed_at: "2026-08-18"
   - arxiv_id: "2510.04419"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-non-abundant-foliations.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2509.25607"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-ricci-flat-calabi-yau-degenerations.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2509.15173"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-ytd-kbeta-csck.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2509.15016"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-weighted-csck-ytd.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2509.10053"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-beauville-bogomolov-klt.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2509.09259"
     requested_version: ""
     status: pending
