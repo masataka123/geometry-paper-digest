@@ -15,16 +15,19 @@
 - `_data/topics.yml`
 - `_data/tags.yml`
 - `package.json`
-- `scripts/validate_posts.py`
-- `scripts/site_baseline.py`
-- `scripts/validate_pagefind.mjs`
-- `scripts/validate_pages_cutover.mjs`
 
 現在のリポジトリ実装、`AGENTS.md`、`ARTICLE_TEMPLATE.md`をsource of truthとし、古い移行段階の想定や現在の記事数・著者数・tag数などを固定条件にしないでください。
+validatorとtest scriptは通常は指定されたcommandを実行すればよく、開始時に実装コードそのものを毎回読む必要はありません。失敗時の原因調査や変更が必要な場合にだけ、その実装を確認してください。
 
 ## 2. 重複一覧と候補選定
 
-候補選定前に `_posts/` 以下の全Markdown記事を読み、front matterの `arxiv_id`、`arxiv_url`、必要なら本文中のarXiv URLから基本arXiv番号と記事パスの対応表を作ります。`arXiv:`、`arxiv.org`または`export.arxiv.org`のURL接頭辞、`/abs/`または`/pdf/`、`.pdf`、末尾の`v1`、`v2`などを除いて正規化してください。
+候補選定前に、必ず次を実行して、現在の `_posts/*.md` から基本arXiv番号と記事パスのinventoryを毎回新しく生成します。cacheや以前のrunの出力を再利用しません。
+
+```sh
+python scripts/arxiv_inventory.py
+```
+
+この決定論的なinventoryを既存記事一覧として使用し、Codex自身は重複確認のために既存 `_posts/` の本文を全件読みません。scriptはfront matterの`arxiv_id`と`arxiv_url`を共通の正規化処理で照合し、両方がないlegacy記事に限って本文中arXiv URLを機械的にfallback検索します。不一致、正規化不能、片方だけのmetadata、曖昧なfallback、duplicate、または記事を安全に解析できない状態が一つでもあれば非zeroで終了し、inventoryを使用せずDAILY runを中止してください。推測で候補選定へ進みません。
 
 直近96時間に新規投稿または更新された `math.AG`、`math.CV`、`math.DG` の全論文を固定上限なしで調査します。同じ基本arXiv番号のversionやcross-listは一論文として扱います。タイトル、著者、primary/secondary category、Abstract、arXiv番号、初回投稿日、最終更新日を用い、特にタイトル、category、Abstractを重視して `selection-profile.yml` との実質的な研究上の関連性を順位付けしてください。孤立したkeyword hitだけで判断せず、代数幾何における「numerical」を機械的に除外せず、preferred authorも関連性を代替する根拠にしません。
 
@@ -95,6 +98,7 @@ Introductionにない厳密化を推測しません。精密な定理を述べ�
 
 ```sh
 python -m unittest discover -s tests -v
+python scripts/arxiv_inventory.py
 python scripts/validate_posts.py
 python scripts/site_baseline.py
 
@@ -113,7 +117,7 @@ git diff --check
 
 artifactを使う `test:build`、`test:authors`、`test:tags`、`test:search`、`test:pages-cutover` は必ず `build:search` の後に実行します。現行validatorsにより、new paper route、protected historical URLs、authors/author pages、tags/tag pages、Pagefindの1 paper = 1 resultと新規記事のindex、`title_ja`・`arxiv_abstract`・search aliasesの検索、`/geometry-paper-digest` base path、Pages static artifactが壊れていないことを確認します。
 
-コマンド検査とは別に、作成後の `_posts/` 全体から基本arXiv番号を再抽出・正規化し、existing vs existing、new vs existing、new vs newのduplicateがないことを確認します。duplicateがあれば全該当ファイルを報告し、Pull Requestを準備しません。
+作成後にも `python scripts/arxiv_inventory.py` を再実行し、現在の `_posts/` 全体についてexisting vs existing、new vs existing、new vs newのduplicateがないことを確認します。これは候補選定前の実行とは別のfresh scanです。duplicateがあれば全該当fileを報告し、Pull Requestを準備しません。
 
 新規記事ごとに `arxiv_id`、`arxiv_url`、`arxiv_abstract`、`arxiv_primary_category`、`arxiv_categories`、`arxiv_submitted`、`arxiv_updated`、`topic`、`tags`、`title`、`title_ja`、`authors`、`published: true`、`abstract_en` / `summary_en` の排他性が現行validator/template contractを満たすこと、および各記事が一つだけのtopic pageに属することを確認します。
 

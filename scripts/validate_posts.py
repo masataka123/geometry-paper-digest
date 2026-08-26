@@ -10,9 +10,12 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 from typing import Any, Iterable
+import yaml
+
 from urllib.parse import urlparse
 
-import yaml
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from scripts.arxiv_inventory import ARXIV_HOSTS, ARXIV_PATH_RE, build_inventory, normalize_arxiv_id
 
 
 REQUIRED_FIELDS = (
@@ -40,13 +43,9 @@ REQUIRED_FIELDS = (
     "published",
 )
 
-ARXIV_NUMBER = r"(?P<base>\d{4}\.\d{4,5})(?:v\d+)?"
-ARXIV_ID_RE = re.compile(rf"^(?:arXiv:)?{ARXIV_NUMBER}$", re.IGNORECASE)
-ARXIV_PATH_RE = re.compile(rf"^/(?:abs|pdf)/{ARXIV_NUMBER}(?:\.pdf)?/?$", re.IGNORECASE)
 POST_FILENAME_RE = re.compile(
     r"^(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>[a-z0-9]+(?:-[a-z0-9]+)*)\.md$"
 )
-ARXIV_HOSTS = {"arxiv.org", "export.arxiv.org"}
 PRIMARY_CATEGORY_TOPIC = {
     "math.AG": "algebraic-geometry",
     "math.DG": "differential-geometry",
@@ -98,32 +97,6 @@ def nonempty_text(value: Any) -> bool:
     """値が空白以外を含む文字列なら真を返す。"""
 
     return isinstance(value, str) and bool(value.strip())
-
-
-def normalize_arxiv_id(value: Any) -> str | None:
-    """arXiv IDまたはarXiv URLからバージョンなしの基本番号を返す。"""
-
-    if not isinstance(value, str):
-        return None
-    candidate = value.strip()
-    match = ARXIV_ID_RE.fullmatch(candidate)
-    if match:
-        return match.group("base")
-
-    try:
-        parsed = urlparse(candidate)
-    except ValueError:
-        return None
-    if parsed.scheme.lower() not in {"http", "https"}:
-        return None
-    if parsed.hostname is None or parsed.hostname.lower() not in ARXIV_HOSTS:
-        return None
-    if parsed.username is not None or parsed.password is not None or parsed.port is not None:
-        return None
-    if parsed.query or parsed.fragment:
-        return None
-    match = ARXIV_PATH_RE.fullmatch(parsed.path)
-    return match.group("base") if match else None
 
 
 def is_arxiv_url(value: Any) -> bool:
@@ -299,29 +272,19 @@ def validate_repository(root: Path) -> ValidationResult:
     posts_directory = root / "_posts"
     posts = sorted(posts_directory.rglob("*.md"))
     topics, errors = load_topics(root / "_data" / "topics.yml")
-    identifiers: dict[str, list[Path]] = {}
+    inventory = build_inventory(posts_directory)
     for post in posts:
         if post.parent != posts_directory:
             errors.append(
                 ValidationError(post, "ファイル名", "記事は `_posts/` の直下に置く必要があります")
             )
-        post_errors, identifier = validate_post(post, topics)
+        post_errors, _ = validate_post(post, topics)
         errors.extend(post_errors)
-        if identifier is not None:
-            identifiers.setdefault(identifier, []).append(post)
-
-    for identifier, paths in sorted(identifiers.items()):
-        if len(paths) > 1:
-            names = ", ".join(path.name for path in paths)
-            for path in paths:
-                errors.append(
-                    ValidationError(
-                        path,
-                        "arXiv番号の重複",
-                        f"基本arXiv番号 `{identifier}` が複数の記事にあります: {names}",
-                    )
-                )
-    return ValidationResult(len(posts), len(identifiers), tuple(errors))
+    for error in inventory.errors:
+        # The inventory is the shared source of truth for consistency and duplicate checks.
+        if "重複" in error.message:
+            errors.append(ValidationError(error.path, "arXiv番号の重複", error.message))
+    return ValidationResult(len(posts), len(inventory.entries), tuple(errors))
 
 
 def build_parser() -> argparse.ArgumentParser:
