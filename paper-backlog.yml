@@ -824,16 +824,22 @@ papers:
     processed_at: "2026-08-25"
   - arxiv_id: "2511.04405"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-hyperbolicity-maximal-quasi-albanese.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2511.03530"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-orbifold-bogomolov-gieseker-equality.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2510.27031"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-free-curves-fundamental-groups.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2510.13679"
     requested_version: "v2"
     status: published
@@ -842,12 +848,16 @@ papers:
     processed_at: "2026-08-18"
   - arxiv_id: "2510.10239"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-hybrid-pluripotential-theory.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2510.06856"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-26-canonical-fano-degree-72.md"
+    processed_at: "2026-08-26"
   - arxiv_id: "2510.04663"
     requested_version: "v2"
     status: published
