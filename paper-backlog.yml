@@ -896,12 +896,16 @@ papers:
     processed_at: "2026-08-26"
   - arxiv_id: "2509.09259"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-27-orbifold-regularity-canonical-metrics.md"
+    processed_at: "2026-08-27"
   - arxiv_id: "2509.08065"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-27-optimal-bend-and-break.md"
+    processed_at: "2026-08-27"
   - arxiv_id: "2509.07508"
     requested_version: "v1"
     status: published
@@ -910,16 +914,22 @@ papers:
     processed_at: "2026-08-18"
   - arxiv_id: "2508.16364"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-27-canonical-fano-index-66.md"
+    processed_at: "2026-08-27"
   - arxiv_id: "2508.14634"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-27-nonvanishing-kahler-varieties.md"
+    processed_at: "2026-08-27"
   - arxiv_id: "2508.04135"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-27-lagrangian-fibrations-quotient-singularities.md"
+    processed_at: "2026-08-27"
   - arxiv_id: "2506.17420"
     requested_version: ""
     status: pending
