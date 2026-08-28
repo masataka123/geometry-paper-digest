@@ -932,24 +932,34 @@ papers:
     processed_at: "2026-08-27"
   - arxiv_id: "2506.17420"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-28-volume-k-semistable-fano.md"
+    processed_at: "2026-08-28"
   - arxiv_id: "2506.13637"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-28-valuative-anticanonical-mmp.md"
+    processed_at: "2026-08-28"
   - arxiv_id: "2506.10679"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-28-equivariant-cm-minimization.md"
+    processed_at: "2026-08-28"
   - arxiv_id: "2506.09907"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-28-kahler-topological-hyperbolicity.md"
+    processed_at: "2026-08-28"
   - arxiv_id: "2506.04177"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-28-numerical-invariants-hyperkahler.md"
+    processed_at: "2026-08-28"
   - arxiv_id: "2505.14939"
     requested_version: ""
     status: pending
