@@ -1004,8 +1004,10 @@ papers:
     processed_at: "2026-08-29"
   - arxiv_id: "2503.08865"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-rcd-singular-kahler-threefolds.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2503.07548"
     requested_version: "v3"
     status: published
@@ -1014,20 +1016,28 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2502.02183"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-relative-canonical-foliations-kahler.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2502.01072"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-homology-cell-compactifications.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2502.00790"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-potential-triples-mmp.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2501.18088"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-uniruled-compact-kahler.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2501.16632"
     requested_version: ""
     status: pending
