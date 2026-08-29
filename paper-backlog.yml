@@ -962,12 +962,16 @@ papers:
     processed_at: "2026-08-28"
   - arxiv_id: "2505.14939"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-collapsing-calabi-yau-limits.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2505.05250"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-numerical-dimension-one-abundance.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2505.01773"
     requested_version: ""
     status: published
@@ -976,8 +980,10 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2504.16829"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-frobenius-semipositivity-inequalities.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2504.15195"
     requested_version: "v2"
     status: published
@@ -986,12 +992,16 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2503.16766"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-quantized-fano-volume.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2503.13365"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-29-miyaoka-yau-kahler-klt.md"
+    processed_at: "2026-08-29"
   - arxiv_id: "2503.08865"
     requested_version: ""
     status: pending
