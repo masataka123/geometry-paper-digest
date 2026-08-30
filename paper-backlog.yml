@@ -1070,24 +1070,34 @@ papers:
     processed_at: "2026-08-30"
   - arxiv_id: "2410.06643"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-weakly-special-orbifold-mordell.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2410.05521"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-stein-spaces-algebras.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2410.01245"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-entire-curves-c-pairs.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2410.00405"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-albanese-c-pair.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2409.11399"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-l2-vanishing-kollar.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2409.10275"
     requested_version: ""
     status: pending
