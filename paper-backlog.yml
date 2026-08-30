@@ -1136,24 +1136,33 @@ papers:
     processed_at: "2026-08-30"
   - arxiv_id: "2408.03799"
     requested_version: ""
-    status: pending
-    note: ""
+    status: published
+    note: "v2の冒頭に主定理の証明を無効にするgapの告知があることを記事に明記"
+    article_path: "_posts/2026-08-30-fano-tangent-abundance.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2407.13485"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-slope-semistability-moduli-survey.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2407.10668"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-c-pairs-morphisms.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2407.09210"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-kodaira-dimension-smooth-morphisms.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2407.01105"
     requested_version: ""
-    status: pending
-    note: ""
+    status: skipped
+    note: "対象外のprimary category: math.NT"
+    processed_at: "2026-08-30"
   - arxiv_id: "2406.19003"
     requested_version: ""
     status: pending
