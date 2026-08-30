@@ -1040,24 +1040,34 @@ papers:
     processed_at: "2026-08-29"
   - arxiv_id: "2501.16632"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-optimal-canonical-fano-degree.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2501.08833"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-positive-vector-bundle-chern-numbers.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2411.09573"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-hyperplane-arrangement-miyaoka-yau.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2411.08806"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-numerically-flat-foliations-poisson.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2411.04628"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-anticanonical-asymptotic-base-loci.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2410.06643"
     requested_version: ""
     status: pending
