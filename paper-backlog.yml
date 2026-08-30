@@ -1165,24 +1165,34 @@ papers:
     processed_at: "2026-08-30"
   - arxiv_id: "2406.19003"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-generic-hypersurface-hyperbolicity.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2406.08284"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-csck-semistable-projective-bundles.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2406.04991"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-campana-weak-approximation.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2406.01734"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-weak-kahler-hyperbolicity-birational.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2406.01090"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-volumes-bott-chern-classes.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2405.12012"
     requested_version: ""
     status: pending
