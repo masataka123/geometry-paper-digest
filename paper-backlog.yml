@@ -1100,20 +1100,28 @@ papers:
     processed_at: "2026-08-30"
   - arxiv_id: "2409.10275"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-kahler-compactification-reeb.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2409.07264"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-symmetric-tensor-symplectic-singularities.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2408.17120"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-lc-ball-quotient-uniformization.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2408.16441"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-quasiprojective-linear-shafarevich.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2408.15153"
     requested_version: ""
     status: published
@@ -1122,8 +1130,10 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2408.10747"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-08-30-singular-ke-rcd-spaces.md"
+    processed_at: "2026-08-30"
   - arxiv_id: "2408.03799"
     requested_version: ""
     status: pending
