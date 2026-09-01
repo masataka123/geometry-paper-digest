@@ -1195,8 +1195,10 @@ papers:
     processed_at: "2026-08-30"
   - arxiv_id: "2405.12012"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-linear-chern-hopf-thurston.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2405.06883"
     requested_version: "v2"
     status: published
@@ -1205,16 +1207,22 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2404.13927"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-projectivity-criteria-kahler-morphisms.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2404.12007"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-canonical-bundle-generalized-kahler-pairs.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2403.16199"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-linear-shafarevich-positive-characteristic.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2403.08620"
     requested_version: "v2"
     status: published
@@ -1223,8 +1231,10 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2403.05250"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-klt-degenerations-projective-spaces.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2402.06658"
     requested_version: ""
     status: pending
