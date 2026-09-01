@@ -1237,24 +1237,34 @@ papers:
     processed_at: "2026-09-01"
   - arxiv_id: "2402.06658"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-omega-trace-griffiths-positivity.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2401.15852"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-spectral-base-bounded-symmetric-domains.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2401.07273"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-orbifold-modifications-analytic-varieties.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2401.03311"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-projectively-flat-foliations.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2311.07441"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-01-asymptotic-multiplier-ideals-potential-triples.md"
+    processed_at: "2026-09-01"
   - arxiv_id: "2310.18934"
     requested_version: ""
     status: pending
