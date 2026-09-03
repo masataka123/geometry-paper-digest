@@ -1297,24 +1297,34 @@ papers:
     processed_at: "2026-09-03"
   - arxiv_id: "2309.00580"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-semipositive-line-bundles-classes.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2308.10553"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-special-kahler-lagrangian-fibrations.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2308.05586"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-milnor-wood-klt-uniformization.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2306.07900"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-positive-ke-log-terminal-singularity.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2306.03070"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-reductive-shafarevich-conjecture.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2303.16239"
     requested_version: ""
     status: pending
