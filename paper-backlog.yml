@@ -1267,24 +1267,34 @@ papers:
     processed_at: "2026-09-01"
   - arxiv_id: "2310.18934"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-rank-two-higgs-spectral-variety.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2310.14871"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-oka-tubes-line-bundles.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2309.14121"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-klt-topological-characterization.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2309.12888"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-algebra-symmetric-tensors.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2309.07584"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-03-transcendental-okounkov-bodies.md"
+    processed_at: "2026-09-03"
   - arxiv_id: "2309.00580"
     requested_version: ""
     status: pending
