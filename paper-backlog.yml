@@ -1356,24 +1356,34 @@ papers:
     processed_at: "2026-09-04"
   - arxiv_id: "2211.11261"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-fano-threefolds-affine-canonical-extensions.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2211.03469"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-canonical-extensions-nef-tangent-bundle.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2210.15342"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-non-pluripolar-vector-bundles-chern-weil.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2210.02758"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-frobenius-integrability-singular-spaces.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2208.12493"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-kahler-geometry-toric-manifolds.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2208.08324"
     requested_version: ""
     status: pending
