@@ -1327,24 +1327,33 @@ papers:
     processed_at: "2026-09-03"
   - arxiv_id: "2303.16239"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-ddbar-lemmas-fujino.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2302.14032"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-l2-hodge-almost-kahler-hopf.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2302.07220"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-kahler-holomorphic-submersions.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2301.11232"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-04-nilpotent-quotients-quasi-albanese.md"
+    processed_at: "2026-09-04"
   - arxiv_id: "2301.06473"
     requested_version: ""
-    status: pending
-    note: ""
+    status: skipped
+    note: "対象外のprimary category: math.DS"
+    processed_at: "2026-09-04"
   - arxiv_id: "2211.11261"
     requested_version: ""
     status: pending
