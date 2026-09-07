@@ -1452,24 +1452,34 @@ papers:
     processed_at: "2026-09-07"
   - arxiv_id: "2201.04821"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-admissible-metrics-compact-kahler.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2111.03303"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-stein-complements-compact-kahler.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2111.02812"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-reductive-quotients-klt.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2110.14971"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-analytic-bertini-theorem.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2108.13318"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-degenerating-ke-cones.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2108.10041"
     requested_version: "v1"
     status: published
