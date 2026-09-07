@@ -1386,20 +1386,28 @@ papers:
     processed_at: "2026-09-04"
   - arxiv_id: "2208.08324"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-twisted-ke-big-classes.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2207.05412"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-kodaira-additivity-specialness.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2207.03283"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-hyperbolicity-large-local-systems.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2206.09745"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-closed-meromorphic-one-forms.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2205.12305"
     requested_version: "v4"
     status: published
@@ -1408,8 +1416,10 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2205.12205"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-kahler-fourfold-mmp.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2204.04096"
     requested_version: ""
     status: pending
