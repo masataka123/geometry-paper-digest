@@ -1422,24 +1422,34 @@ papers:
     processed_at: "2026-09-07"
   - arxiv_id: "2204.04096"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-weakly-kahler-hyperbolic-ggl.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2203.04266"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-complex-nilpotent-orbit.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2203.03273"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-cotangent-dimensions.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2202.13816"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-schur-hodge-riemann.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2202.02825"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-07-kodaira-dimension-smooth-morphisms.md"
+    processed_at: "2026-09-07"
   - arxiv_id: "2201.04821"
     requested_version: ""
     status: pending
