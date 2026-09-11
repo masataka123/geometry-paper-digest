@@ -1489,24 +1489,34 @@ papers:
 
   - arxiv_id: "2107.07550"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-picard-hyperbolicity-nilpotent-harmonic-bundles.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2107.02088"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-weighted-kahler-ricci-solitons-cones.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2106.05486"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-ke-isolated-log-canonical-singularity.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2102.12641"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-global-weinstein-splitting.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2102.02438"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-quantization-uniform-ytd.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2010.10925"
     requested_version: ""
     status: pending
