@@ -1519,24 +1519,34 @@ papers:
     processed_at: "2026-09-11"
   - arxiv_id: "2010.10925"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-metric-rigidity-almost-maximal-volume.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2008.04685"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-positive-rr-polynomials-hyperkahler.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2007.09678"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-projective-submanifolds-codimension.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2006.16178"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-quasiprojective-ball-uniformization.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2006.00756"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-11-stability-threefolds-vanishing-chern.md"
+    processed_at: "2026-09-11"
   - arxiv_id: "2004.09224"
     requested_version: ""
     status: pending
