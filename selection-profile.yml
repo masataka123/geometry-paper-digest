@@ -1,7 +1,7 @@
 version: 4
 language: ja
 lookback_hours: 96
-maximum_articles_per_run: 5
+maximum_articles_per_run: 10
 no_suitable_paper_message: "直近96時間には基準を満たす新着論文がありません"
 
 arxiv_categories:
