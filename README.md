@@ -15,11 +15,10 @@
 
 毎日これをcodexに命令してます
 
-- DAILY_PROMPT.mdに従って、毎日の通常運用を実行してください
-- BACKLOG_PROMPT.mdに従って、次のpending項目を最大10件確認してください。
-- DAILY_PROMPT.mdに従う通常運用を実行し、その必須検査の成功後にBACKLOG_PROMPT.mdに従うバックログ運用を同じタスク内で順番に実行してください。
+"DAILY_PROMPT.mdの通常運用（最大10本）→BACKLOG_PROMPT.mdのバックログ処理（pending最大10項目）の順に実行してください。各段階の重複確認・必須検査が成功した場合のみ次へ進み、最後にPRを1件にまとめてください。自動マージや手動deployは行わないでください。"
 
-DAILY_PROMPT.mdは毎日の運用（新規記事最大10本）, BACKLOG_PROMPT.mdは今までために貯めていた論文の消化用（記載順のpending確認最大10項目）です. 個別に実行できるほか、上の3番目の依頼文でDAILYの後にBACKLOGを順番にまとめて実行できます。その場合も各上限は維持され、新規記事は合計最大20本です。
+DAILY_PROMPT.mdは毎日の運用（新規記事最大10本）, BACKLOG_PROMPT.mdは今までために貯めていた論文の消化用（記載順のpending確認最大10項目）です.
+
 
 ## 自分用に使いたい場合
 
