@@ -1,6 +1,6 @@
 # バックログ記事化の標準指示
 
-`paper-backlog.yml` に指定された論文を、現在の記載順のまま少しずつ記事化する運用です。`DAILY_PROMPT.md`による新着運用とは別に実行します。この運用の責務は、論文確認、記事作成、検証、main向けPull Requestの準備までであり、deploymentは含みません。
+`paper-backlog.yml` に指定された論文を、現在の記載順のまま少しずつ記事化する運用です。個別実行を維持しつつ、ユーザーが両方を明示した場合は`DAILY_PROMPT.md`による新着運用の完了後に同じtask内で実行できます。この運用の責務は、論文確認、記事作成、検証、main向けPull Requestの準備までであり、deploymentは含みません。
 
 ## 1. 開始前に読むもの
 
@@ -19,9 +19,9 @@ validator、test script、inventory scriptは通常は指定されたcommandを�
 
 ## 2. 処理対象と件数
 
-`papers`を上から走査し、最初に現れる `status: pending` から最大5件だけを確認します。「最大5件」は記事作成数ではなく確認する項目数です。
+`papers`を上から走査し、最初に現れる `status: pending` から最大10件だけを確認します。「最大10件」は記事作成数ではなく確認する項目数です。
 
-- duplicate、対象外、取得失敗も5件に数え、補充のため6件目以降へ進まない。
+- duplicate、対象外、取得失敗も10件に数え、補充のため11件目以降へ進まない。
 - `published`、`already-published`、`skipped`、`retry`など`pending`以外は選択しない。
 - `unresolved_items`はarXiv番号が確定するまで処理しない。
 - 選択した各項目は処理後に必ず `published`、`already-published`、`skipped`、`retry` のいずれかにする。
@@ -110,7 +110,13 @@ note: "再試行が必要な具体的理由"
 
 ## 8. 通常のバックログ運用で変更できる範囲
 
-変更できるのは `paper-backlog.yml` と新しい `_posts/*.md` 最大5件だけです。既存記事、prompts、`selection-profile.yml`、`AGENTS.md`、`ARTICLE_TEMPLATE.md`、taxonomy、source、tests、workflows、UI、configを変更しません。特に `.github/workflows/deploy-pages.yml`を変更せず、automatic/manual deployment policyを記事PRへ混ぜません。site infrastructureの問題は別修正として報告してください。`dist/`、`node_modules/`などの生成物をcommitしません。
+変更できるのは `paper-backlog.yml` と新しい `_posts/*.md` 最大10件だけです。10件は確認項目数の上限でもあるため、duplicate、対象外、取得失敗があれば新規記事数は10件未満になります。既存記事、prompts、`selection-profile.yml`、`AGENTS.md`、`ARTICLE_TEMPLATE.md`、taxonomy、source、tests、workflows、UI、configを変更しません。特に `.github/workflows/deploy-pages.yml`を変更せず、automatic/manual deployment policyを記事PRへ混ぜません。site infrastructureの問題は別修正として報告してください。`dist/`、`node_modules/`などの生成物をcommitしません。
+
+### DAILYとのまとめ実行
+
+ユーザーが両運用を明示した場合だけ、同じ作業branchでDAILYを1回、その必須検査の成功後にBACKLOGを1回、順番に実行します。BACKLOG開始前に、直前のDAILYで作成した記事も含めて`python scripts/arxiv_inventory.py`をfreshに実行します。DAILYで記事化された論文が選択済みのpending項目にあれば、確認した10項目の一つとして数え、既存規則どおり`already-published`へ更新します。
+
+DAILYは新規記事最大10本、BACKLOGはpending確認最大10項目であり、まとめ実行の新規記事は合計最大20本です。各運用の開始前と記事作成後のinventory、および各運用の必須検査を省略しません。DAILYまたはその検査が失敗した場合はBACKLOGを開始しません。retry、未完了、検査失敗を成功扱いせず、途中の個別Pull Requestは作りません。両運用と全必須検査の正常完了後にだけ1件のmain向けPull Requestを準備し、自動merge、手動deploy、`workflow_dispatch`は行いません。
 
 ## 9. Pull Request前の検査
 
@@ -139,7 +145,7 @@ artifact依存の `test:build`、`test:authors`、`test:tags`、`test:search`、
 
 記事作成後にも `python scripts/arxiv_inventory.py` を再実行し、現在の `_posts/` 全体をfreshに走査して、existing vs existing、new vs existing、new vs newのduplicateがないことを確認します。これは処理開始前とは別のfresh scanです。inventory生成またはduplicate検査が失敗した場合は全該当fileを報告し、PRを準備しません。既存の `python scripts/validate_posts.py` による検査も上記の順序どおり維持します。
 
-新規記事ごとに `arxiv_id`、`arxiv_url`、`arxiv_abstract`、`arxiv_primary_category`、`arxiv_categories`、`arxiv_submitted`、`arxiv_updated`、`topic`、`tags`、`title`、`title_ja`、`authors`、`published: true`、`abstract_en` / `summary_en` の排他性がvalidator/template contractを満たし、一topicだけに属することを確認します。さらに `paper-backlog.yml`のYAML syntax、最初のpending最大5件だけを処理したこと、順序維持、許可範囲内の変更であることを確認します。
+新規記事ごとに `arxiv_id`、`arxiv_url`、`arxiv_abstract`、`arxiv_primary_category`、`arxiv_categories`、`arxiv_submitted`、`arxiv_updated`、`topic`、`tags`、`title`、`title_ja`、`authors`、`published: true`、`abstract_en` / `summary_en` の排他性がvalidator/template contractを満たし、一topicだけに属することを確認します。さらに `paper-backlog.yml`のYAML syntax、最初のpending最大10件だけを処理したこと、順序維持、許可範囲内の変更であることを確認します。
 
 duplicateなし、metadata/Python/Astro/JS/build/author/tag/Pagefind/Pages cutover/`git diff --check`の全検査成功、かつ変更範囲内の場合だけmain向けPull Requestを準備します。一つでも失敗したら準備せず原因を報告します。GitHub Pages deploy、`workflow_dispatch`実行、Pages settingsまたはdeployment trigger変更はこの運用の責務ではありません。
 

@@ -31,7 +31,7 @@ python scripts/arxiv_inventory.py
 
 直近96時間に新規投稿または更新された `math.AG`、`math.CV`、`math.DG` の全論文を固定上限なしで調査します。同じ基本arXiv番号のversionやcross-listは一論文として扱います。タイトル、著者、primary/secondary category、Abstract、arXiv番号、初回投稿日、最終更新日を用い、特にタイトル、category、Abstractを重視して `selection-profile.yml` との実質的な研究上の関連性を順位付けしてください。孤立したkeyword hitだけで判断せず、代数幾何における「numerical」を機械的に除外せず、preferred authorも関連性を代替する根拠にしません。
 
-既存記事と同じ基本番号は、新versionであっても記事化せず、`arXiv:XXXX.XXXXXは既に記事化されています` と報告します。既存記事のversion更新は明示的な別依頼です。十分に基準を満たす論文だけを最大5本選び、5本未満なら弱い候補で補いません。該当がなければ記事を作らず、`直近96時間には基準を満たす新着論文がありません` と報告してください。
+既存記事と同じ基本番号は、新versionであっても記事化せず、`arXiv:XXXX.XXXXXは既に記事化されています` と報告します。既存記事のversion更新は明示的な別依頼です。十分に基準を満たす論文だけを最大10本選び、10本未満ならその本数で終了し、弱い候補で補いません。該当がなければ記事を作らず、`直近96時間には基準を満たす新着論文がありません` と報告してください。
 
 ## 3. 公式情報と執筆範囲
 
@@ -90,7 +90,13 @@ Introductionにない厳密化を推測しません。精密な定理を述べ�
 
 ## 6. 通常の変更範囲
 
-通常のDAILY runで変更できるのは、新しく作成する `_posts/*.md` 0〜5件だけです。既存記事、`paper-backlog.yml`、taxonomy、prompts、source、tests、workflows、UI、configを変更しません。特に `.github/workflows/deploy-pages.yml` を変更せず、automatic/manual deployment policyの変更を記事PRへ混ぜません。site側の問題は別修正が必要と報告してください。`dist/`、`node_modules/`その他の生成物をcommitしません。
+通常のDAILY runで変更できるのは、新しく作成する `_posts/*.md` 0〜10件だけです。既存記事、`paper-backlog.yml`、taxonomy、prompts、source、tests、workflows、UI、configを変更しません。両運用のまとめ実行でも、DAILY段階では`paper-backlog.yml`を変更しません。特に `.github/workflows/deploy-pages.yml` を変更せず、automatic/manual deployment policyの変更を記事PRへ混ぜません。site側の問題は別修正が必要と報告してください。`dist/`、`node_modules/`その他の生成物をcommitしません。
+
+### BACKLOGとのまとめ実行
+
+ユーザーがDAILYとBACKLOGの両方を明示した場合は、同じ作業branchでこのDAILYを1回完了し、必須検査がすべて成功した後にBACKLOGを1回実行します。並列実行せず、DAILYの失敗時はBACKLOGへ進みません。DAILYは新規記事最大10本、BACKLOGはpending確認最大10項目であり、両運用による新規記事は合計最大20本です。
+
+DAILY開始前と記事作成後のfresh inventoryを省略しません。BACKLOG開始前には、DAILYで作成した記事を含むinventoryを改めて生成します。途中でPull Requestを作らず、両運用と全必須検査が正常に完了した後にだけ、まとめて1件のmain向けPull Requestを準備します。自動merge、手動deploy、`workflow_dispatch`は行いません。
 
 ## 7. Pull Request前の検査
 
