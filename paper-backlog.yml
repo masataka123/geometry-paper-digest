@@ -1549,44 +1549,64 @@ papers:
     processed_at: "2026-09-11"
   - arxiv_id: "2004.09224"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-chern-inequalities-nef-bundles.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "2001.04169"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-optimal-volume-positive-ricci.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1906.11317"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-subharmonic-direct-images.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1905.13636"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-hodge-riemann-schur-classes.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1905.02795"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-brauer-manin-orbifold-mordell.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1905.01104"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-dense-entire-curves-rationally-connected.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1812.04506"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-bounded-singular-fano-cremona.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1810.00025"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-hym-moduli-compactifications.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1809.02398"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-lang-conjecture-bounded-domains.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1807.05928"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-18-kahler-polarized-sheaf-moduli.md"
+    processed_at: "2026-09-18"
   - arxiv_id: "1807.01223"
     requested_version: ""
     status: pending
