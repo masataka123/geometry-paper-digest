@@ -1609,44 +1609,63 @@ papers:
     processed_at: "2026-09-18"
   - arxiv_id: "1807.01223"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-canonical-complex-extensions.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1806.01666"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-hyperbolicity-maximal-variation-bases.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1805.07877"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-kahler-hyperbolic-chern-inequalities.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1707.08495"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-semipositivity-higgs-bundles.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1704.00484"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-holonomy-quasiprojective-foliations.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1703.07279"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-ohsawa-takegoshi-direct-images.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1702.01701"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-nonnegative-hermitian-chern-numbers.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1512.06623"
     requested_version: ""
-    status: pending
-    note: ""
+    status: skipped
+    note: "対象外のprimary category: math.CA"
+    processed_at: "2026-09-19"
   - arxiv_id: "1510.07922"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-fundamental-group-pluridifferentials.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1412.8024"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-19-potentially-nonklt-locus.md"
+    processed_at: "2026-09-19"
   - arxiv_id: "1412.4381"
     requested_version: ""
     status: pending
