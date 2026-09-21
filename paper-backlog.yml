@@ -1668,21 +1668,30 @@ papers:
     processed_at: "2026-09-19"
   - arxiv_id: "1412.4381"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-21-rational-connectedness-meromorphic-maps.md"
+    processed_at: "2026-09-21"
   - arxiv_id: "1403.2147"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-21-integral-inequality-csck-kahler.md"
+    processed_at: "2026-09-21"
   - arxiv_id: "1303.2480"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-21-compact-moduli-slope-semistable-sheaves.md"
+    processed_at: "2026-09-21"
   - arxiv_id: "1204.6443"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-09-21-symmetric-differentials-fundamental-group.md"
+    processed_at: "2026-09-21"
   - arxiv_id: "math/0311164"
     requested_version: ""
-    status: pending
-    note: ""
+    status: skipped
+    note: "現行inventoryが旧形式arXiv番号を正規化対象外としているため記事metadataを検証できない"
+    processed_at: "2026-09-21"
