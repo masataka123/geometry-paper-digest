@@ -4,7 +4,7 @@
 
 > `DAILY_PROMPT.md` に従って、毎日の通常運用を実行してください。
 
-この運用の責務は、論文の調査、記事作成、検証、main向けPull Requestの準備までです。GitHub Pagesのdeploy、`workflow_dispatch`の実行、Pages設定またはdeployment triggerの変更は行いません。
+この運用の責務は、論文の調査、記事作成、検証、main向けPull Requestの作成、CI成功後のmerge、自動公開の確認、ローカルmainの同期までです。通常運用の依頼にはこの公開完了までの実行許可が含まれ、追加のmerge確認は不要です。ユーザーがdraft、PR作成のみ、merge禁止を明示した場合はその制限を優先します。手動deploy、`workflow_dispatch`の実行、Pages設定またはdeployment triggerの変更は行いません。公開手順の共通規則は`AGENTS.md`の`Publication completion`に従います。
 
 ## 1. 開始前に読むもの
 
@@ -96,7 +96,7 @@ Introductionにない厳密化を推測しません。精密な定理を述べ�
 
 ユーザーがDAILYとBACKLOGの両方を明示した場合は、同じ作業branchでこのDAILYを1回完了し、必須検査がすべて成功した後にBACKLOGを1回実行します。並列実行せず、DAILYの失敗時はBACKLOGへ進みません。DAILYは新規記事最大10本、BACKLOGはpending確認最大10項目であり、両運用による新規記事は合計最大20本です。
 
-DAILY開始前と記事作成後のfresh inventoryを省略しません。BACKLOG開始前には、DAILYで作成した記事を含むinventoryを改めて生成します。途中でPull Requestを作らず、両運用と全必須検査が正常に完了した後にだけ、まとめて1件のmain向けPull Requestを準備します。自動merge、手動deploy、`workflow_dispatch`は行いません。
+DAILY開始前と記事作成後のfresh inventoryを省略しません。BACKLOG開始前には、DAILYで作成した記事を含むinventoryを改めて生成します。途中でPull Requestを作らず、両運用と全必須検査が正常に完了した後にだけ、まとめて1件のmain向けPull Requestを作成します。そのPRのCI成功後にmergeし、自動公開の確認まで行います。手動deploy、`workflow_dispatch`は行いません。
 
 ## 7. Pull Request前の検査
 
@@ -127,9 +127,15 @@ artifactを使う `test:build`、`test:authors`、`test:tags`、`test:search`、
 
 新規記事ごとに `arxiv_id`、`arxiv_url`、`arxiv_abstract`、`arxiv_primary_category`、`arxiv_categories`、`arxiv_submitted`、`arxiv_updated`、`topic`、`tags`、`title`、`title_ja`、`authors`、`published: true`、`abstract_en` / `summary_en` の排他性が現行validator/template contractを満たすこと、および各記事が一つだけのtopic pageに属することを確認します。
 
-duplicateなし、metadata/Python/Astro/JS/build/author/tag/Pagefind/Pages cutover/`git diff --check`の全検査成功、かつ変更範囲内である場合だけmain向けPull Requestを準備します。一つでも失敗したらPRを準備せず、原因を報告してください。deployはこの運用の責務ではありません。
+duplicateなし、metadata/Python/Astro/JS/build/author/tag/Pagefind/Pages cutover/`git diff --check`の全検査成功、かつ変更範囲内である場合だけcommit・pushし、main向けPull Requestを作成します。一つでも失敗したらPRを作成せず、原因を報告してください。変更がなければPRは不要です。
 
-## 8. 最終報告
+## 8. merge・自動公開・ローカル同期
+
+`AGENTS.md`の`Publication completion`に従い、PR差分と最新headの全必須CI（`Validate posts`を含む）を確認します。成功したhead SHAを指定してmergeし、そのmerge commitに対するmain検査と`Deploy Astro site to Pages`の自動実行が成功するまで確認します。CI待機中のGitHub auto-merge設定、branch protectionの迂回、手動deployは行いません。
+
+公開後に`npm run smoke:production`を実行し、新規記事URLのtitle・本文と、数式がある場合は代表記事の表示を確認します。その後、ユーザーの未コミット変更やローカルcommitを保護し、ローカルmainをfast-forwardで同期します。CI・公開・本番確認・同期のどこかが未完了なら、その段階を明示します。draft・PR作成のみ・merge禁止の明示がある場合は、許可された段階までで止めます。
+
+## 9. 最終報告
 
 簡潔な最終報告に次を含めてください。
 
@@ -139,4 +145,5 @@ duplicateなし、metadata/Python/Astro/JS/build/author/tag/Pagefind/Pages cutov
 - duplicate再検査結果
 - 実行したvalidationとtest結果
 - 変更file一覧
-- Pull Request準備可否（不可なら原因）
+- Pull RequestのURLとmerge状況（未実行・不可なら理由）
+- 自動公開、本番smoke・新規記事表示確認、ローカルmain同期の結果
