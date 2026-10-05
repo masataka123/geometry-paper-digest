@@ -15,9 +15,11 @@
 
 毎日これをcodexに命令してます
 
-"DAILY_PROMPT.mdの通常運用（最大10本）→BACKLOG_PROMPT.mdのバックログ処理（pending最大10項目）の順に実行してください。各段階の重複確認・必須検査が成功した場合のみ次へ進み、最後にPRを1件にまとめてください。自動マージや手動deployは行わないでください。"
+"DAILY_PROMPT.mdの通常運用（最大10本）→BACKLOG_PROMPT.mdのバックログ処理（pending最大10項目）の順に実行してください。各段階の重複確認・必須検査が成功した場合のみ次へ進み、最後にPRを1件にまとめてください。PRのCI成功後にmergeし、自動公開と本番表示を確認して、ローカルmainの同期まで実行してください。手動deployやworkflow_dispatchは行わないでください。"
 
 DAILY_PROMPT.mdは毎日の運用（新規記事最大10本）, BACKLOG_PROMPT.mdは今までために貯めていた論文の消化用（記載順のpending確認最大10項目）です.
+
+通常運用は、検査済みPRのmergeと公開確認までCodexに任せます。PRは検査成功後に作成し、最新commitのCI成功を確認してからmergeします。mainへの反映で既存のGitHub Actionsが自動公開するため、GitHub Desktopでの手動merge・同期は通常不要です。確認だけにしたい日は「PR作成まで。mergeしないでください」と明示してください。変更がない日はPRを作りません。
 
 
 ## 自分用に使いたい場合

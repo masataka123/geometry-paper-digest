@@ -1,6 +1,6 @@
 # バックログ記事化の標準指示
 
-`paper-backlog.yml` に指定された論文を、現在の記載順のまま少しずつ記事化する運用です。個別実行を維持しつつ、ユーザーが両方を明示した場合は`DAILY_PROMPT.md`による新着運用の完了後に同じtask内で実行できます。この運用の責務は、論文確認、記事作成、検証、main向けPull Requestの準備までであり、deploymentは含みません。
+`paper-backlog.yml` に指定された論文を、現在の記載順のまま少しずつ記事化する運用です。個別実行を維持しつつ、ユーザーが両方を明示した場合は`DAILY_PROMPT.md`による新着運用の完了後に同じtask内で実行できます。この運用の責務は、論文確認、記事作成、検証、main向けPull Requestの作成、CI成功後のmerge、自動公開の確認、ローカルmainの同期までです。通常運用の依頼にはこの公開完了までの実行許可が含まれ、追加のmerge確認は不要です。ユーザーがdraft、PR作成のみ、merge禁止を明示した場合はその制限を優先します。手動deployと`workflow_dispatch`は行わず、公開手順の共通規則は`AGENTS.md`の`Publication completion`に従います。
 
 ## 1. 開始前に読むもの
 
@@ -116,7 +116,7 @@ note: "再試行が必要な具体的理由"
 
 ユーザーが両運用を明示した場合だけ、同じ作業branchでDAILYを1回、その必須検査の成功後にBACKLOGを1回、順番に実行します。BACKLOG開始前に、直前のDAILYで作成した記事も含めて`python scripts/arxiv_inventory.py`をfreshに実行します。DAILYで記事化された論文が選択済みのpending項目にあれば、確認した10項目の一つとして数え、既存規則どおり`already-published`へ更新します。
 
-DAILYは新規記事最大10本、BACKLOGはpending確認最大10項目であり、まとめ実行の新規記事は合計最大20本です。各運用の開始前と記事作成後のinventory、および各運用の必須検査を省略しません。DAILYまたはその検査が失敗した場合はBACKLOGを開始しません。retry、未完了、検査失敗を成功扱いせず、途中の個別Pull Requestは作りません。両運用と全必須検査の正常完了後にだけ1件のmain向けPull Requestを準備し、自動merge、手動deploy、`workflow_dispatch`は行いません。
+DAILYは新規記事最大10本、BACKLOGはpending確認最大10項目であり、まとめ実行の新規記事は合計最大20本です。各運用の開始前と記事作成後のinventory、および各運用の必須検査を省略しません。DAILYまたはその検査が失敗した場合はBACKLOGを開始しません。retry、未完了、検査失敗を成功扱いせず、途中の個別Pull Requestは作りません。両運用と全必須検査の正常完了後にだけ1件のmain向けPull Requestを作成し、そのPRのCI成功後にmergeして自動公開の確認まで行います。手動deployと`workflow_dispatch`は行いません。
 
 ## 9. Pull Request前の検査
 
@@ -147,9 +147,15 @@ artifact依存の `test:build`、`test:authors`、`test:tags`、`test:search`、
 
 新規記事ごとに `arxiv_id`、`arxiv_url`、`arxiv_abstract`、`arxiv_primary_category`、`arxiv_categories`、`arxiv_submitted`、`arxiv_updated`、`topic`、`tags`、`title`、`title_ja`、`authors`、`published: true`、`abstract_en` / `summary_en` の排他性がvalidator/template contractを満たし、一topicだけに属することを確認します。さらに `paper-backlog.yml`のYAML syntax、最初のpending最大10件だけを処理したこと、順序維持、許可範囲内の変更であることを確認します。
 
-duplicateなし、metadata/Python/Astro/JS/build/author/tag/Pagefind/Pages cutover/`git diff --check`の全検査成功、かつ変更範囲内の場合だけmain向けPull Requestを準備します。一つでも失敗したら準備せず原因を報告します。GitHub Pages deploy、`workflow_dispatch`実行、Pages settingsまたはdeployment trigger変更はこの運用の責務ではありません。
+duplicateなし、metadata/Python/Astro/JS/build/author/tag/Pagefind/Pages cutover/`git diff --check`の全検査成功、かつ変更範囲内の場合だけcommit・pushし、main向けPull Requestを作成します。一つでも失敗したら作成せず原因を報告します。変更がなければPRは不要です。手動deploy、`workflow_dispatch`実行、Pages settingsまたはdeployment trigger変更は行いません。
 
-## 10. 最終報告
+## 10. merge・自動公開・ローカル同期
+
+`AGENTS.md`の`Publication completion`に従い、PR差分と最新headの全必須CI（`Validate posts`を含む）を確認します。成功したhead SHAを指定してmergeし、そのmerge commitに対するmain検査と`Deploy Astro site to Pages`の自動実行が成功するまで確認します。CI待機中のGitHub auto-merge設定、branch protectionの迂回、手動deployは行いません。
+
+公開後に`npm run smoke:production`を実行し、新規記事がある場合はそのURLのtitle・本文と、数式がある場合は代表記事の表示を確認します。その後、ユーザーの未コミット変更やローカルcommitを保護し、ローカルmainをfast-forwardで同期します。CI・公開・本番確認・同期のどこかが未完了なら、その段階を明示します。draft・PR作成のみ・merge禁止の明示がある場合は、許可された段階までで止めます。
+
+## 11. 最終報告
 
 次を簡潔に報告してください。
 
@@ -160,4 +166,5 @@ duplicateなし、metadata/Python/Astro/JS/build/author/tag/Pagefind/Pages cutov
 - duplicate再検査結果
 - Astro/Pagefind/Pagesを含む実行validationとtest結果
 - 変更file一覧
-- Pull Request準備可否（不可なら原因）
+- Pull RequestのURLとmerge状況（未実行・不可なら理由）
+- 自動公開、本番smoke・新規記事表示確認、ローカルmain同期の結果
