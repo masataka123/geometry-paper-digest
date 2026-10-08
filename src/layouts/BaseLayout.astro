@@ -27,7 +27,11 @@ const siteTitle = "Geometry Paper Digest";
           inlineMath: [['$', '$'], ['\\(', '\\)']],
           displayMath: [['$$', '$$'], ['\\[', '\\]']],
           processEscapes: true,
-          tags: 'ams'
+          tags: 'ams',
+          macros: {
+            P: '\\mathbb{P}',
+            dbar: '\\bar{\\partial}'
+          }
         },
         svg: { fontCache: 'global' }
       };
