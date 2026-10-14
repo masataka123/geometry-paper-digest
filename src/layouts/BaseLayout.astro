@@ -29,6 +29,8 @@ const siteTitle = "Geometry Paper Digest";
           processEscapes: true,
           tags: 'ams',
           macros: {
+            // arXiv abstracts may place the TeX text umlaut inside math delimiters.
+            '"': ['\\ddot{\\mathrm{#1}}', 1],
             P: '\\mathbb{P}',
             PP: '\\mathbb{P}',
             OO: '\\mathcal{O}',
