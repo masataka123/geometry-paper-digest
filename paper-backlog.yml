@@ -5,19 +5,27 @@ paper_count: 335
 papers:
   - arxiv_id: "2610.22926"
     requested_version: "v1"
-    status: pending
+    status: published
+    article_path: "_posts/2026-10-26-normal-affine-toric-approximation-extension.md"
+    processed_at: "2026-10-26"
     note: ""
   - arxiv_id: "2610.00250"
     requested_version: "v1"
-    status: pending
-    note: ""
+    status: already-published
+    article_path: "_posts/2026-10-26-oka-geometry-complex-six-spheres.md"
+    processed_at: "2026-10-26"
+    note: "基本arXiv番号が既存記事と重複"
   - arxiv_id: "2609.10159"
     requested_version: "v1"
-    status: pending
+    status: published
+    article_path: "_posts/2026-10-26-chern-flat-hermitian-functions-uniformization-ii.md"
+    processed_at: "2026-10-26"
     note: ""
   - arxiv_id: "2609.08633"
     requested_version: "v1"
-    status: pending
+    status: published
+    article_path: "_posts/2026-10-26-singularities-totally-invariant-hypersurfaces.md"
+    processed_at: "2026-10-26"
     note: ""
   - arxiv_id: "2609.06642"
     requested_version: "v1"
