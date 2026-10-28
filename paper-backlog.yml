@@ -53,20 +53,28 @@ papers:
     processed_at: "2026-10-27"
   - arxiv_id: "2608.27696"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-10-28-large-rational-curve-families-bend-break.md"
+    processed_at: "2026-10-28"
   - arxiv_id: "2608.23778"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-10-28-calabi-curvature-projective-space.md"
+    processed_at: "2026-10-28"
   - arxiv_id: "2608.22410"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-10-28-scalar-curvature-blowups-submanifolds.md"
+    processed_at: "2026-10-28"
   - arxiv_id: "2608.20411"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-10-28-toric-fano-tangent-slope-stability.md"
+    processed_at: "2026-10-28"
   - arxiv_id: "2608.10849"
     requested_version: ""
     status: published
