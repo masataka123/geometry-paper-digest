@@ -913,8 +913,10 @@ papers:
     processed_at: "2026-08-25"
   - arxiv_id: "2511.07963"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-10-30-punctured-riemann-universal-family-stein.md"
+    processed_at: "2026-10-30"
   - arxiv_id: "2511.06773"
     requested_version: ""
     status: published
@@ -941,8 +943,10 @@ papers:
     processed_at: "2026-08-26"
   - arxiv_id: "2510.15039"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-10-30-slope-zero-tensors-singular-tube-uniformization.md"
+    processed_at: "2026-10-30"
   - arxiv_id: "2510.13679"
     requested_version: "v2"
     status: published
@@ -981,8 +985,10 @@ papers:
     processed_at: "2026-08-26"
   - arxiv_id: "2509.21197"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-10-30-stein-oka-h-principle-survey.md"
+    processed_at: "2026-10-30"
   - arxiv_id: "2509.15173"
     requested_version: ""
     status: published
@@ -1039,8 +1045,10 @@ papers:
     processed_at: "2026-08-27"
   - arxiv_id: "2507.17633"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-10-30-normal-horikawa-degenerations-smoothing-boundary.md"
+    processed_at: "2026-10-30"
   - arxiv_id: "2506.17420"
     requested_version: ""
     status: published
