@@ -1057,8 +1057,10 @@ papers:
     processed_at: "2026-08-28"
   - arxiv_id: "2506.14671"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-02-fano-fibrations-weighted-volumes-bubbling.md"
+    processed_at: "2026-11-02"
   - arxiv_id: "2506.13637"
     requested_version: ""
     status: published
@@ -1097,12 +1099,16 @@ papers:
     processed_at: "2026-08-29"
   - arxiv_id: "2505.03904"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-02-semispecial-tensors-singular-polydisc.md"
+    processed_at: "2026-11-02"
   - arxiv_id: "2505.01943"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-02-rough-singular-kahler-einstein-log-terminal.md"
+    processed_at: "2026-11-02"
   - arxiv_id: "2505.01773"
     requested_version: ""
     status: published
@@ -1111,8 +1117,10 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2504.21519"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-02-quasimaps-k-moduli-calabi-yau-fibrations.md"
+    processed_at: "2026-11-02"
   - arxiv_id: "2504.16829"
     requested_version: ""
     status: published
