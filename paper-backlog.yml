@@ -1237,7 +1237,9 @@ papers:
     processed_at: "2026-08-30"
   - arxiv_id: "2410.09661"
     requested_version: ""
-    status: pending
+    status: published
+    article_path: "_posts/2026-11-04-kahler-ricci-shrinkers-fano-fibrations.md"
+    processed_at: "2026-11-04"
     note: ""
   - arxiv_id: "2410.06643"
     requested_version: ""
@@ -1342,7 +1344,9 @@ papers:
     processed_at: "2026-08-30"
   - arxiv_id: "2406.14518"
     requested_version: ""
-    status: pending
+    status: published
+    article_path: "_posts/2026-11-04-algebraic-bubbling-kahler-metrics.md"
+    processed_at: "2026-11-04"
     note: ""
   - arxiv_id: "2406.08284"
     requested_version: ""
@@ -1394,7 +1398,9 @@ papers:
     processed_at: "2026-09-01"
   - arxiv_id: "2404.07401"
     requested_version: ""
-    status: pending
+    status: published
+    article_path: "_posts/2026-11-04-twisted-kawamata-generalized-canonical-rings.md"
+    processed_at: "2026-11-04"
     note: ""
   - arxiv_id: "2403.16199"
     requested_version: ""
@@ -1416,7 +1422,9 @@ papers:
     processed_at: "2026-09-01"
   - arxiv_id: "2402.09798"
     requested_version: ""
-    status: pending
+    status: published
+    article_path: "_posts/2026-11-04-oka-one-manifolds-examples-properties.md"
+    processed_at: "2026-11-04"
     note: ""
   - arxiv_id: "2402.06658"
     requested_version: ""
