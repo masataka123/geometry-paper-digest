@@ -1141,8 +1141,10 @@ papers:
     processed_at: "2026-08-29"
   - arxiv_id: "2503.15791"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-03-canonical-torus-symplectic-singularities.md"
+    processed_at: "2026-11-03"
   - arxiv_id: "2503.13365"
     requested_version: ""
     status: published
@@ -1163,16 +1165,22 @@ papers:
     processed_at: "2026-08-19"
   - arxiv_id: "2502.20998"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-03-almost-smooth-local-pi-rcd.md"
+    processed_at: "2026-11-03"
   - arxiv_id: "2502.20028"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-03-projective-oka-manifolds-elliptic.md"
+    processed_at: "2026-11-03"
   - arxiv_id: "2502.09825"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-03-kahler-einstein-currents-ricci-integrability.md"
+    processed_at: "2026-11-03"
   - arxiv_id: "2502.02183"
     requested_version: ""
     status: published
