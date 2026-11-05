@@ -1518,8 +1518,10 @@ papers:
     processed_at: "2026-09-03"
   - arxiv_id: "2305.01244"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-05-k-stable-calabi-yau-fibrations-moduli-curves.md"
+    processed_at: "2026-11-05"
   - arxiv_id: "2303.16239"
     requested_version: ""
     status: published
@@ -1528,12 +1530,16 @@ papers:
     processed_at: "2026-09-04"
   - arxiv_id: "2303.15855"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-05-oka-one-manifolds-holomorphic-curves.md"
+    processed_at: "2026-11-05"
   - arxiv_id: "2303.11309"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-05-kahler-einstein-bubble-trees-termination.md"
+    processed_at: "2026-11-05"
   - arxiv_id: "2302.14032"
     requested_version: ""
     status: published
@@ -1548,8 +1554,10 @@ papers:
     processed_at: "2026-09-04"
   - arxiv_id: "2301.11953"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-05-fano-fourfolds-large-picard-products.md"
+    processed_at: "2026-11-05"
   - arxiv_id: "2301.11232"
     requested_version: ""
     status: published
