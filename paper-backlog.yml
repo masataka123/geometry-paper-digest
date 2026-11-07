@@ -1566,8 +1566,10 @@ papers:
     processed_at: "2026-09-04"
   - arxiv_id: "2301.09784"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-07-kahler-ricci-shrinker-surfaces.md"
+    processed_at: "2026-11-07"
   - arxiv_id: "2301.06473"
     requested_version: ""
     status: skipped
@@ -1611,8 +1613,10 @@ papers:
     processed_at: "2026-09-07"
   - arxiv_id: "2208.06735"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-07-positivity-exterior-power-tangent-bundles.md"
+    processed_at: "2026-11-07"
   - arxiv_id: "2207.05412"
     requested_version: ""
     status: published
@@ -1651,8 +1655,10 @@ papers:
     processed_at: "2026-09-07"
   - arxiv_id: "2203.11460"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-07-k-stability-calabi-yau-fibrations.md"
+    processed_at: "2026-11-07"
   - arxiv_id: "2203.04266"
     requested_version: ""
     status: published
@@ -1746,8 +1752,10 @@ papers:
     processed_at: "2026-09-11"
   - arxiv_id: "2101.01351"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-07-kahler-einstein-pasquier-two-orbits.md"
+    processed_at: "2026-11-07"
   - arxiv_id: "2012.09419"
     requested_version: "v1"
     status: pending
