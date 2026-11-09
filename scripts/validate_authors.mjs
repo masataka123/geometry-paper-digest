@@ -4,6 +4,12 @@ import { readFile, readdir, stat } from "node:fs/promises";
 import matter from "gray-matter";
 import { buildCanonicalAuthors, parseAuthorNames } from "../src/lib/author-core.mjs";
 
+function escapeHtmlText(value) {
+  return value.replace(/[&<>"']/g, (character) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  })[character]);
+}
+
 const files = (await readdir("_posts")).filter((name) => name.endsWith(".md")).sort();
 const posts = await Promise.all(files.map(async (filename) => {
   const { data } = matter(await readFile(`_posts/${filename}`, "utf8"));
@@ -38,7 +44,7 @@ for (const [id, author] of [...authorPapers].sort((left, right) => left[1].name.
   assert(indexPosition > previousIndexPosition, `author index order is unstable near ${author.name}`);
   previousIndexPosition = indexPosition;
   const html = await readFile(`dist/authors/${id}/index.html`, "utf8");
-  assert(html.includes(author.name), `${id}: display name is missing`);
+  assert(html.includes(escapeHtmlText(author.name)), `${id}: display name is missing`);
   for (const pathname of author.files) assert(html.includes(`/geometry-paper-digest${pathname}`), `${id}: missing author-to-paper link ${pathname}`);
 }
 console.log(`Validated ${posts.length} papers and ${authorPapers.size} canonical author pages with bidirectional base-aware links.`);
