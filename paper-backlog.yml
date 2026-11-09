@@ -1758,12 +1758,15 @@ papers:
     processed_at: "2026-11-07"
   - arxiv_id: "2012.09419"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-09-nef-tangent-positive-characteristic.md"
+    processed_at: "2026-11-09"
   - arxiv_id: "2011.01472"
     requested_version: "v2"
-    status: pending
-    note: ""
+    status: skipped
+    note: "対象外のprimary category: cs.LG（指定v2は存在せず、公式v1の分類を確認）"
+    processed_at: "2026-11-09"
   - arxiv_id: "2010.10925"
     requested_version: ""
     status: published
@@ -1790,8 +1793,10 @@ papers:
     processed_at: "2026-09-11"
   - arxiv_id: "2006.07888"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-09-recent-developments-oka-manifolds.md"
+    processed_at: "2026-11-09"
   - arxiv_id: "2006.00756"
     requested_version: ""
     status: published
@@ -1800,8 +1805,10 @@ papers:
     processed_at: "2026-09-11"
   - arxiv_id: "2005.08247"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-09-oka-complements-holomorphically-convex.md"
+    processed_at: "2026-11-09"
   - arxiv_id: "2004.09224"
     requested_version: ""
     status: published
