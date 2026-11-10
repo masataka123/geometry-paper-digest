@@ -1823,12 +1823,16 @@ papers:
     processed_at: "2026-09-18"
   - arxiv_id: "1912.12617"
     requested_version: "v1"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-10-fano-tangent-stability-two-orbits.md"
+    processed_at: "2026-11-10"
   - arxiv_id: "1912.09561"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-10-reflexive-hym-analytic-tangent-cones.md"
+    processed_at: "2026-11-10"
   - arxiv_id: "1906.11317"
     requested_version: ""
     status: published
@@ -1855,8 +1859,10 @@ papers:
     processed_at: "2026-09-18"
   - arxiv_id: "1903.04390"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-10-kahler-ricci-lower-tangent-affine.md"
+    processed_at: "2026-11-10"
   - arxiv_id: "1812.04506"
     requested_version: ""
     status: published
@@ -1877,8 +1883,10 @@ papers:
     processed_at: "2026-09-18"
   - arxiv_id: "1808.02172"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-10-reflexive-optimal-algebraic-tangent-cones.md"
+    processed_at: "2026-11-10"
   - arxiv_id: "1807.05928"
     requested_version: ""
     status: published
