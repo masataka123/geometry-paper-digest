@@ -1901,8 +1901,10 @@ papers:
     processed_at: "2026-09-19"
   - arxiv_id: "1806.11247"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-11-hym-tangent-cones-bubbling-filtration.md"
+    processed_at: "2026-11-11"
   - arxiv_id: "1806.01666"
     requested_version: ""
     status: published
@@ -1917,12 +1919,16 @@ papers:
     processed_at: "2026-09-19"
   - arxiv_id: "1804.08870"
     requested_version: "v2"
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-11-stratified-spaces-synthetic-ricci-bounds.md"
+    processed_at: "2026-11-11"
   - arxiv_id: "1804.08567"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-11-kahler-ricci-lower-bound-projective-limits.md"
+    processed_at: "2026-11-11"
   - arxiv_id: "1707.08495"
     requested_version: ""
     status: published
@@ -1949,8 +1955,10 @@ papers:
     processed_at: "2026-09-19"
   - arxiv_id: "1512.07213"
     requested_version: ""
-    status: pending
+    status: published
     note: ""
+    article_path: "_posts/2026-11-11-sasaki-einstein-fano-cone-k-stability.md"
+    processed_at: "2026-11-11"
   - arxiv_id: "1512.06623"
     requested_version: ""
     status: skipped
