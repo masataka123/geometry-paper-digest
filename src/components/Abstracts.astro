@@ -1,4 +1,5 @@
 ---
+import { abstractTextParts } from "../lib/abstract-text.mjs";
 import type { PaperMetadata } from "../lib/posts";
 
 interface Props {
@@ -13,7 +14,7 @@ const Heading = headingLevel;
 <div class="abstracts">
   <section class="abstract abstract-en">
     <Heading>arXiv Abstract</Heading>
-    <p lang="en">{metadata.arxivAbstract}</p>
+    <p lang="en">{abstractTextParts(metadata.arxivAbstract).map(part => part.emphasis ? <em>{part.text}</em> : part.text)}</p>
   </section>
   <section class="abstract abstract-ja">
     <Heading>日本語要約</Heading>
