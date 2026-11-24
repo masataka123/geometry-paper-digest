@@ -1,1 +1,1 @@
-export function abstractTextParts(text: string): Array<{ text: string; emphasis: boolean }>;
+export function abstractTextParts(text: string, arxivId?: string): Array<{ text: string; emphasis: boolean }>;
